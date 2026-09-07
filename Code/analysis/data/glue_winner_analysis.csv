@@ -1,0 +1,8001 @@
+num_tasks,repetition,winner
+2,0,ERNIE
+2,1,Turing ULR v6
+2,2,ERNIE
+2,3,ERNIE
+2,4,DeBERTa / TuringNLRv4
+2,5,DeBERTa / TuringNLRv4
+2,6,DeBERTa / TuringNLRv4
+2,7,Vega v1
+2,8,DeBERTa / TuringNLRv4
+2,9,DeBERTa / TuringNLRv4
+2,10,Vega v1
+2,11,Turing NLR v5
+2,12,DeBERTa / TuringNLRv4
+2,13,GLUE Human Baselines
+2,14,Turing NLR v5
+2,15,Turing NLR v5
+2,16,Turing NLR v5
+2,17,Vega v1
+2,18,StructBERT + CLEVER
+2,19,DeBERTa / TuringNLRv4
+2,20,DeBERTa / TuringNLRv4
+2,21,Turing NLR v5
+2,22,Turing NLR v5
+2,23,Turing NLR v5
+2,24,Vega v1
+2,25,Vega v1
+2,26,DeBERTa / TuringNLRv4
+2,27,Vega v1
+2,28,DeBERTa / TuringNLRv4
+2,29,DeBERTa / TuringNLRv4
+2,30,Turing NLR v5
+2,31,Turing ULR v6
+2,32,DeBERTa / TuringNLRv4
+2,33,Turing NLR v5
+2,34,ERNIE
+2,35,DeBERTa / TuringNLRv4
+2,36,DeBERTa / TuringNLRv4
+2,37,DeBERTa / TuringNLRv4
+2,38,Turing NLR v5
+2,39,Vega v1
+2,40,DeBERTa / TuringNLRv4
+2,41,Turing NLR v5
+2,42,ERNIE
+2,43,Turing ULR v6
+2,44,ERNIE
+2,45,Turing ULR v6
+2,46,Vega v1
+2,47,Vega v1
+2,48,Turing ULR v6
+2,49,Turing NLR v5
+2,50,DeBERTa / TuringNLRv4
+2,51,Vega v1
+2,52,GLUE Human Baselines
+2,53,Turing ULR v6
+2,54,Turing ULR v6
+2,55,DeBERTa / TuringNLRv4
+2,56,ERNIE
+2,57,ERNIE
+2,58,Turing NLR v5
+2,59,Vega v1
+2,60,Turing NLR v5
+2,61,Turing NLR v5
+2,62,Vega v1
+2,63,DeBERTa / TuringNLRv4
+2,64,Turing NLR v5
+2,65,StructBERT + CLEVER
+2,66,Vega v1
+2,67,Turing NLR v5
+2,68,Vega v1
+2,69,Turing ULR v6
+2,70,DeBERTa / TuringNLRv4
+2,71,DeBERTa / TuringNLRv4
+2,72,Vega v1
+2,73,Turing NLR v5
+2,74,GLUE Human Baselines
+2,75,Turing ULR v6
+2,76,Vega v1
+2,77,ERNIE
+2,78,DeBERTa / TuringNLRv4
+2,79,Vega v1
+2,80,GLUE Human Baselines
+2,81,Turing ULR v6
+2,82,DeBERTa / TuringNLRv4
+2,83,ERNIE
+2,84,Vega v1
+2,85,DeBERTa / TuringNLRv4
+2,86,GLUE Human Baselines
+2,87,Vega v1
+2,88,Turing NLR v5
+2,89,Turing ULR v6
+2,90,ERNIE
+2,91,Turing NLR v5
+2,92,Turing NLR v5
+2,93,ERNIE
+2,94,Turing NLR v5
+2,95,Turing NLR v5
+2,96,Vega v1
+2,97,Vega v1
+2,98,Vega v1
+2,99,Vega v1
+2,100,Turing ULR v6
+2,101,Turing NLR v5
+2,102,Vega v1
+2,103,ERNIE
+2,104,ERNIE
+2,105,DeBERTa / TuringNLRv4
+2,106,DeBERTa / TuringNLRv4
+2,107,ERNIE
+2,108,Turing ULR v6
+2,109,ERNIE
+2,110,Turing NLR v5
+2,111,DeBERTa / TuringNLRv4
+2,112,Turing ULR v6
+2,113,Turing NLR v5
+2,114,Vega v1
+2,115,Vega v1
+2,116,Vega v1
+2,117,ERNIE
+2,118,Turing ULR v6
+2,119,ERNIE
+2,120,Turing ULR v6
+2,121,Turing NLR v5
+2,122,Vega v1
+2,123,DeBERTa / TuringNLRv4
+2,124,Turing ULR v6
+2,125,ERNIE
+2,126,Vega v1
+2,127,Turing ULR v6
+2,128,ERNIE
+2,129,Turing ULR v6
+2,130,GLUE Human Baselines
+2,131,DeBERTa / TuringNLRv4
+2,132,ERNIE
+2,133,Vega v1
+2,134,Vega v1
+2,135,Turing NLR v5
+2,136,ERNIE
+2,137,Vega v1
+2,138,ERNIE
+2,139,ERNIE
+2,140,DeBERTa / TuringNLRv4
+2,141,Turing NLR v5
+2,142,DeBERTa / TuringNLRv4
+2,143,ERNIE
+2,144,DeBERTa / TuringNLRv4
+2,145,ERNIE
+2,146,StructBERT + CLEVER
+2,147,Vega v1
+2,148,Turing NLR v5
+2,149,Turing NLR v5
+2,150,Turing ULR v6
+2,151,ERNIE
+2,152,GLUE Human Baselines
+2,153,ERNIE
+2,154,Turing NLR v5
+2,155,Turing NLR v5
+2,156,Vega v1
+2,157,DeBERTa / TuringNLRv4
+2,158,Turing NLR v5
+2,159,ERNIE
+2,160,Turing ULR v6
+2,161,DeBERTa / TuringNLRv4
+2,162,Vega v1
+2,163,Vega v1
+2,164,DeBERTa / TuringNLRv4
+2,165,Vega v1
+2,166,Turing NLR v5
+2,167,Turing ULR v6
+2,168,Vega v1
+2,169,Vega v1
+2,170,DeBERTa / TuringNLRv4
+2,171,Turing ULR v6
+2,172,ERNIE
+2,173,Turing NLR v5
+2,174,Turing NLR v5
+2,175,Vega v1
+2,176,Turing ULR v6
+2,177,Vega v1
+2,178,Vega v1
+2,179,ERNIE
+2,180,ERNIE
+2,181,Turing NLR v5
+2,182,Turing NLR v5
+2,183,Turing NLR v5
+2,184,DeBERTa / TuringNLRv4
+2,185,DeBERTa / TuringNLRv4
+2,186,DeBERTa / TuringNLRv4
+2,187,ERNIE
+2,188,Turing ULR v6
+2,189,GLUE Human Baselines
+2,190,Turing NLR v5
+2,191,Vega v1
+2,192,Turing NLR v5
+2,193,Vega v1
+2,194,Vega v1
+2,195,DeBERTa / TuringNLRv4
+2,196,DeBERTa / TuringNLRv4
+2,197,Turing ULR v6
+2,198,Turing ULR v6
+2,199,DeBERTa / TuringNLRv4
+2,200,Turing NLR v5
+2,201,Turing NLR v5
+2,202,Vega v1
+2,203,DeBERTa / TuringNLRv4
+2,204,DeBERTa / TuringNLRv4
+2,205,Turing ULR v6
+2,206,ERNIE
+2,207,Vega v1
+2,208,Vega v1
+2,209,Vega v1
+2,210,Turing ULR v6
+2,211,Vega v1
+2,212,Vega v1
+2,213,DeBERTa / TuringNLRv4
+2,214,DeBERTa / TuringNLRv4
+2,215,Vega v1
+2,216,Turing ULR v6
+2,217,GLUE Human Baselines
+2,218,Vega v1
+2,219,ERNIE
+2,220,DeBERTa / TuringNLRv4
+2,221,GLUE Human Baselines
+2,222,Turing NLR v5
+2,223,Vega v1
+2,224,ERNIE
+2,225,Turing ULR v6
+2,226,Vega v1
+2,227,Vega v1
+2,228,Turing NLR v5
+2,229,Vega v1
+2,230,Turing ULR v6
+2,231,ERNIE
+2,232,Turing ULR v6
+2,233,ERNIE
+2,234,Vega v1
+2,235,ERNIE
+2,236,Turing NLR v5
+2,237,DeBERTa / TuringNLRv4
+2,238,Turing ULR v6
+2,239,Vega v1
+2,240,Vega v1
+2,241,ERNIE
+2,242,ERNIE
+2,243,DeBERTa / TuringNLRv4
+2,244,DeBERTa / TuringNLRv4
+2,245,DeBERTa / TuringNLRv4
+2,246,Turing ULR v6
+2,247,DeBERTa / TuringNLRv4
+2,248,DeBERTa / TuringNLRv4
+2,249,Vega v1
+2,250,Turing NLR v5
+2,251,Turing NLR v5
+2,252,Turing NLR v5
+2,253,GLUE Human Baselines
+2,254,Turing ULR v6
+2,255,DeBERTa / TuringNLRv4
+2,256,Vega v1
+2,257,ERNIE
+2,258,Turing ULR v6
+2,259,ERNIE
+2,260,Turing NLR v5
+2,261,ERNIE
+2,262,ERNIE
+2,263,Vega v1
+2,264,Turing NLR v5
+2,265,Vega v1
+2,266,Vega v1
+2,267,Vega v1
+2,268,Turing NLR v5
+2,269,StructBERT + CLEVER
+2,270,ERNIE
+2,271,Turing ULR v6
+2,272,Vega v1
+2,273,ERNIE
+2,274,GLUE Human Baselines
+2,275,ERNIE
+2,276,ERNIE
+2,277,Vega v1
+2,278,Turing ULR v6
+2,279,ERNIE
+2,280,Turing ULR v6
+2,281,Vega v1
+2,282,ERNIE
+2,283,Vega v1
+2,284,Turing ULR v6
+2,285,DeBERTa / TuringNLRv4
+2,286,Turing NLR v5
+2,287,Turing NLR v5
+2,288,Turing ULR v6
+2,289,DeBERTa / TuringNLRv4
+2,290,Vega v1
+2,291,ERNIE
+2,292,DeBERTa / TuringNLRv4
+2,293,ERNIE
+2,294,Vega v1
+2,295,ERNIE
+2,296,ERNIE
+2,297,Turing NLR v5
+2,298,Turing ULR v6
+2,299,Vega v1
+2,300,Vega v1
+2,301,Turing NLR v5
+2,302,Vega v1
+2,303,ERNIE
+2,304,Turing ULR v6
+2,305,Turing NLR v5
+2,306,Turing ULR v6
+2,307,Vega v1
+2,308,Vega v1
+2,309,Vega v1
+2,310,DeBERTa / TuringNLRv4
+2,311,Turing NLR v5
+2,312,Vega v1
+2,313,DeBERTa / TuringNLRv4
+2,314,Turing NLR v5
+2,315,Vega v1
+2,316,Turing ULR v6
+2,317,Turing ULR v6
+2,318,DeBERTa / TuringNLRv4
+2,319,Turing ULR v6
+2,320,Vega v1
+2,321,Vega v1
+2,322,Vega v1
+2,323,ERNIE
+2,324,Turing NLR v5
+2,325,ERNIE
+2,326,Turing ULR v6
+2,327,Turing NLR v5
+2,328,Turing NLR v5
+2,329,Vega v1
+2,330,Vega v1
+2,331,Turing NLR v5
+2,332,Turing NLR v5
+2,333,Turing NLR v5
+2,334,Turing NLR v5
+2,335,Turing ULR v6
+2,336,Turing NLR v5
+2,337,DeBERTa / TuringNLRv4
+2,338,Turing NLR v5
+2,339,StructBERT + CLEVER
+2,340,Vega v1
+2,341,DeBERTa / TuringNLRv4
+2,342,ERNIE
+2,343,Vega v1
+2,344,Turing ULR v6
+2,345,Turing ULR v6
+2,346,Turing NLR v5
+2,347,DeBERTa / TuringNLRv4
+2,348,GLUE Human Baselines
+2,349,DeBERTa / TuringNLRv4
+2,350,Turing NLR v5
+2,351,ERNIE
+2,352,DeBERTa / TuringNLRv4
+2,353,DeBERTa / TuringNLRv4
+2,354,DeBERTa / TuringNLRv4
+2,355,Turing ULR v6
+2,356,ERNIE
+2,357,DeBERTa / TuringNLRv4
+2,358,Vega v1
+2,359,Vega v1
+2,360,Turing ULR v6
+2,361,Vega v1
+2,362,Turing ULR v6
+2,363,Vega v1
+2,364,DeBERTa / TuringNLRv4
+2,365,ERNIE
+2,366,StructBERT + CLEVER
+2,367,Turing ULR v6
+2,368,Vega v1
+2,369,Turing ULR v6
+2,370,Turing ULR v6
+2,371,Vega v1
+2,372,Turing NLR v5
+2,373,StructBERT + CLEVER
+2,374,Vega v1
+2,375,DeBERTa / TuringNLRv4
+2,376,Turing NLR v5
+2,377,Turing NLR v5
+2,378,ERNIE
+2,379,DeBERTa / TuringNLRv4
+2,380,Turing NLR v5
+2,381,DeBERTa / TuringNLRv4
+2,382,DeBERTa / TuringNLRv4
+2,383,DeBERTa / TuringNLRv4
+2,384,Turing ULR v6
+2,385,Vega v1
+2,386,Turing ULR v6
+2,387,Turing NLR v5
+2,388,ERNIE
+2,389,Turing ULR v6
+2,390,Turing ULR v6
+2,391,ERNIE
+2,392,Vega v1
+2,393,ERNIE
+2,394,Turing NLR v5
+2,395,Vega v1
+2,396,ERNIE
+2,397,Vega v1
+2,398,Turing NLR v5
+2,399,Turing ULR v6
+2,400,Turing NLR v5
+2,401,DeBERTa / TuringNLRv4
+2,402,DeBERTa / TuringNLRv4
+2,403,Turing NLR v5
+2,404,Turing NLR v5
+2,405,ERNIE
+2,406,DeBERTa / TuringNLRv4
+2,407,Vega v1
+2,408,Turing ULR v6
+2,409,Turing NLR v5
+2,410,Turing ULR v6
+2,411,Turing ULR v6
+2,412,ERNIE
+2,413,ERNIE
+2,414,Turing NLR v5
+2,415,Turing ULR v6
+2,416,Vega v1
+2,417,StructBERT + CLEVER
+2,418,ERNIE
+2,419,Vega v1
+2,420,Vega v1
+2,421,DeBERTa / TuringNLRv4
+2,422,StructBERT + CLEVER
+2,423,StructBERT + CLEVER
+2,424,DeBERTa / TuringNLRv4
+2,425,Turing ULR v6
+2,426,ERNIE
+2,427,Turing NLR v5
+2,428,StructBERT + CLEVER
+2,429,ERNIE
+2,430,Turing NLR v5
+2,431,Vega v1
+2,432,DeBERTa / TuringNLRv4
+2,433,ERNIE
+2,434,Turing ULR v6
+2,435,Turing ULR v6
+2,436,Turing NLR v5
+2,437,Turing ULR v6
+2,438,Turing ULR v6
+2,439,Vega v1
+2,440,ERNIE
+2,441,Turing ULR v6
+2,442,ERNIE
+2,443,Vega v1
+2,444,Turing NLR v5
+2,445,Turing NLR v5
+2,446,DeBERTa / TuringNLRv4
+2,447,Vega v1
+2,448,Vega v1
+2,449,DeBERTa / TuringNLRv4
+2,450,StructBERT + CLEVER
+2,451,Turing NLR v5
+2,452,Vega v1
+2,453,ERNIE
+2,454,Vega v1
+2,455,ERNIE
+2,456,Turing NLR v5
+2,457,Vega v1
+2,458,Turing ULR v6
+2,459,DeBERTa / TuringNLRv4
+2,460,Turing ULR v6
+2,461,Turing NLR v5
+2,462,Vega v1
+2,463,Turing ULR v6
+2,464,DeBERTa / TuringNLRv4
+2,465,Turing NLR v5
+2,466,ERNIE
+2,467,Vega v1
+2,468,Vega v1
+2,469,ERNIE
+2,470,ERNIE
+2,471,DeBERTa / TuringNLRv4
+2,472,Turing NLR v5
+2,473,Turing ULR v6
+2,474,DeBERTa / TuringNLRv4
+2,475,Turing ULR v6
+2,476,Turing ULR v6
+2,477,Vega v1
+2,478,ERNIE
+2,479,Turing ULR v6
+2,480,DeBERTa / TuringNLRv4
+2,481,Vega v1
+2,482,Turing ULR v6
+2,483,ERNIE
+2,484,ERNIE
+2,485,Vega v1
+2,486,Vega v1
+2,487,ERNIE
+2,488,DeBERTa / TuringNLRv4
+2,489,DeBERTa / TuringNLRv4
+2,490,DeBERTa / TuringNLRv4
+2,491,Vega v1
+2,492,Turing ULR v6
+2,493,Vega v1
+2,494,Vega v1
+2,495,DeBERTa / TuringNLRv4
+2,496,ERNIE
+2,497,StructBERT + CLEVER
+2,498,Turing ULR v6
+2,499,DeBERTa / TuringNLRv4
+2,500,Vega v1
+2,501,Turing ULR v6
+2,502,Turing NLR v5
+2,503,Turing NLR v5
+2,504,Turing ULR v6
+2,505,Turing NLR v5
+2,506,Turing NLR v5
+2,507,GLUE Human Baselines
+2,508,ERNIE
+2,509,ERNIE
+2,510,Vega v1
+2,511,Turing NLR v5
+2,512,ERNIE
+2,513,Vega v1
+2,514,ERNIE
+2,515,DeBERTa / TuringNLRv4
+2,516,StructBERT + CLEVER
+2,517,DeBERTa / TuringNLRv4
+2,518,Vega v1
+2,519,Turing ULR v6
+2,520,Vega v1
+2,521,Turing NLR v5
+2,522,Turing NLR v5
+2,523,ERNIE
+2,524,Turing NLR v5
+2,525,Vega v1
+2,526,ERNIE
+2,527,Vega v1
+2,528,Turing ULR v6
+2,529,ERNIE
+2,530,Turing NLR v5
+2,531,ERNIE
+2,532,DeBERTa / TuringNLRv4
+2,533,Turing ULR v6
+2,534,DeBERTa / TuringNLRv4
+2,535,Turing NLR v5
+2,536,Vega v1
+2,537,DeBERTa / TuringNLRv4
+2,538,ERNIE
+2,539,Vega v1
+2,540,ERNIE
+2,541,ERNIE
+2,542,Turing NLR v5
+2,543,GLUE Human Baselines
+2,544,ERNIE
+2,545,Vega v1
+2,546,Vega v1
+2,547,ERNIE
+2,548,Vega v1
+2,549,Turing ULR v6
+2,550,ERNIE
+2,551,Vega v1
+2,552,DeBERTa / TuringNLRv4
+2,553,Turing ULR v6
+2,554,Vega v1
+2,555,DeBERTa / TuringNLRv4
+2,556,DeBERTa / TuringNLRv4
+2,557,Vega v1
+2,558,Turing ULR v6
+2,559,Turing ULR v6
+2,560,ERNIE
+2,561,DeBERTa / TuringNLRv4
+2,562,Turing ULR v6
+2,563,ERNIE
+2,564,Turing NLR v5
+2,565,Turing NLR v5
+2,566,Vega v1
+2,567,DeBERTa / TuringNLRv4
+2,568,Turing ULR v6
+2,569,Turing ULR v6
+2,570,Vega v1
+2,571,Turing ULR v6
+2,572,Turing NLR v5
+2,573,ERNIE
+2,574,DeBERTa / TuringNLRv4
+2,575,Turing ULR v6
+2,576,StructBERT + CLEVER
+2,577,DeBERTa / TuringNLRv4
+2,578,DeBERTa / TuringNLRv4
+2,579,Vega v1
+2,580,DeBERTa / TuringNLRv4
+2,581,ERNIE
+2,582,Turing NLR v5
+2,583,Turing ULR v6
+2,584,Turing NLR v5
+2,585,Vega v1
+2,586,Turing NLR v5
+2,587,StructBERT + CLEVER
+2,588,Vega v1
+2,589,StructBERT + CLEVER
+2,590,Vega v1
+2,591,DeBERTa / TuringNLRv4
+2,592,Vega v1
+2,593,ERNIE
+2,594,Vega v1
+2,595,Vega v1
+2,596,DeBERTa / TuringNLRv4
+2,597,Turing NLR v5
+2,598,Vega v1
+2,599,Vega v1
+2,600,ERNIE
+2,601,Vega v1
+2,602,ERNIE
+2,603,Turing ULR v6
+2,604,Turing NLR v5
+2,605,ERNIE
+2,606,Vega v1
+2,607,DeBERTa / TuringNLRv4
+2,608,Turing ULR v6
+2,609,Turing NLR v5
+2,610,Vega v1
+2,611,StructBERT + CLEVER
+2,612,Turing ULR v6
+2,613,Turing NLR v5
+2,614,DeBERTa / TuringNLRv4
+2,615,Turing NLR v5
+2,616,Vega v1
+2,617,Vega v1
+2,618,ERNIE
+2,619,Vega v1
+2,620,Turing ULR v6
+2,621,Turing ULR v6
+2,622,ERNIE
+2,623,ERNIE
+2,624,Vega v1
+2,625,ERNIE
+2,626,ERNIE
+2,627,Vega v1
+2,628,Vega v1
+2,629,StructBERT + CLEVER
+2,630,Vega v1
+2,631,GLUE Human Baselines
+2,632,Turing NLR v5
+2,633,Vega v1
+2,634,Turing ULR v6
+2,635,Vega v1
+2,636,Vega v1
+2,637,ERNIE
+2,638,Vega v1
+2,639,Turing NLR v5
+2,640,Turing NLR v5
+2,641,Turing ULR v6
+2,642,Vega v1
+2,643,ERNIE
+2,644,Turing ULR v6
+2,645,Vega v1
+2,646,Turing NLR v5
+2,647,Turing ULR v6
+2,648,Vega v1
+2,649,ERNIE
+2,650,Turing NLR v5
+2,651,Turing ULR v6
+2,652,Vega v1
+2,653,Turing NLR v5
+2,654,Turing NLR v5
+2,655,Turing NLR v5
+2,656,DeBERTa / TuringNLRv4
+2,657,DeBERTa / TuringNLRv4
+2,658,ERNIE
+2,659,ERNIE
+2,660,Turing ULR v6
+2,661,DeBERTa / TuringNLRv4
+2,662,DeBERTa / TuringNLRv4
+2,663,Turing NLR v5
+2,664,Turing ULR v6
+2,665,ERNIE
+2,666,Vega v1
+2,667,StructBERT + CLEVER
+2,668,DeBERTa / TuringNLRv4
+2,669,Turing NLR v5
+2,670,Turing ULR v6
+2,671,Turing NLR v5
+2,672,DeBERTa / TuringNLRv4
+2,673,Vega v1
+2,674,Turing ULR v6
+2,675,Turing NLR v5
+2,676,Turing NLR v5
+2,677,ERNIE
+2,678,Turing ULR v6
+2,679,Vega v1
+2,680,Vega v1
+2,681,Turing ULR v6
+2,682,Turing NLR v5
+2,683,GLUE Human Baselines
+2,684,Vega v1
+2,685,DeBERTa / TuringNLRv4
+2,686,Turing ULR v6
+2,687,Vega v1
+2,688,Vega v1
+2,689,Turing ULR v6
+2,690,GLUE Human Baselines
+2,691,DeBERTa / TuringNLRv4
+2,692,Turing ULR v6
+2,693,Turing NLR v5
+2,694,DeBERTa / TuringNLRv4
+2,695,DeBERTa / TuringNLRv4
+2,696,ERNIE
+2,697,Turing ULR v6
+2,698,Turing NLR v5
+2,699,Turing ULR v6
+2,700,DeBERTa / TuringNLRv4
+2,701,Turing NLR v5
+2,702,DeBERTa / TuringNLRv4
+2,703,Vega v1
+2,704,Turing ULR v6
+2,705,Vega v1
+2,706,DeBERTa / TuringNLRv4
+2,707,Turing NLR v5
+2,708,Turing ULR v6
+2,709,ERNIE
+2,710,Turing ULR v6
+2,711,Turing ULR v6
+2,712,ERNIE
+2,713,DeBERTa / TuringNLRv4
+2,714,Turing NLR v5
+2,715,Vega v1
+2,716,DeBERTa / TuringNLRv4
+2,717,Turing ULR v6
+2,718,Turing NLR v5
+2,719,Turing NLR v5
+2,720,DeBERTa / TuringNLRv4
+2,721,Turing ULR v6
+2,722,Turing ULR v6
+2,723,ERNIE
+2,724,DeBERTa / TuringNLRv4
+2,725,ERNIE
+2,726,Turing NLR v5
+2,727,GLUE Human Baselines
+2,728,Turing ULR v6
+2,729,Vega v1
+2,730,Vega v1
+2,731,GLUE Human Baselines
+2,732,Turing ULR v6
+2,733,Vega v1
+2,734,StructBERT + CLEVER
+2,735,DeBERTa / TuringNLRv4
+2,736,Vega v1
+2,737,DeBERTa / TuringNLRv4
+2,738,StructBERT + CLEVER
+2,739,Turing ULR v6
+2,740,Turing NLR v5
+2,741,Turing ULR v6
+2,742,Turing ULR v6
+2,743,Turing NLR v5
+2,744,Turing NLR v5
+2,745,DeBERTa / TuringNLRv4
+2,746,Turing NLR v5
+2,747,Turing NLR v5
+2,748,Turing NLR v5
+2,749,Vega v1
+2,750,Vega v1
+2,751,Vega v1
+2,752,DeBERTa / TuringNLRv4
+2,753,ERNIE
+2,754,ERNIE
+2,755,ERNIE
+2,756,Vega v1
+2,757,Vega v1
+2,758,Vega v1
+2,759,StructBERT + CLEVER
+2,760,DeBERTa / TuringNLRv4
+2,761,Turing ULR v6
+2,762,Turing ULR v6
+2,763,Turing ULR v6
+2,764,DeBERTa / TuringNLRv4
+2,765,DeBERTa / TuringNLRv4
+2,766,Vega v1
+2,767,GLUE Human Baselines
+2,768,ERNIE
+2,769,Vega v1
+2,770,ERNIE
+2,771,ERNIE
+2,772,StructBERT + CLEVER
+2,773,ERNIE
+2,774,Turing ULR v6
+2,775,DeBERTa / TuringNLRv4
+2,776,ERNIE
+2,777,DeBERTa / TuringNLRv4
+2,778,Vega v1
+2,779,ERNIE
+2,780,Turing ULR v6
+2,781,Turing ULR v6
+2,782,DeBERTa / TuringNLRv4
+2,783,Vega v1
+2,784,Turing NLR v5
+2,785,Vega v1
+2,786,GLUE Human Baselines
+2,787,Turing ULR v6
+2,788,ERNIE
+2,789,Vega v1
+2,790,ERNIE
+2,791,DeBERTa / TuringNLRv4
+2,792,DeBERTa / TuringNLRv4
+2,793,GLUE Human Baselines
+2,794,Turing NLR v5
+2,795,Turing ULR v6
+2,796,Turing ULR v6
+2,797,GLUE Human Baselines
+2,798,Turing NLR v5
+2,799,Vega v1
+2,800,ERNIE
+2,801,Turing NLR v5
+2,802,DeBERTa / TuringNLRv4
+2,803,ERNIE
+2,804,Turing NLR v5
+2,805,Turing NLR v5
+2,806,Vega v1
+2,807,ERNIE
+2,808,Turing ULR v6
+2,809,DeBERTa / TuringNLRv4
+2,810,Vega v1
+2,811,Vega v1
+2,812,DeBERTa / TuringNLRv4
+2,813,StructBERT + CLEVER
+2,814,ERNIE
+2,815,DeBERTa / TuringNLRv4
+2,816,DeBERTa / TuringNLRv4
+2,817,ERNIE
+2,818,DeBERTa / TuringNLRv4
+2,819,Turing NLR v5
+2,820,Vega v1
+2,821,Vega v1
+2,822,DeBERTa / TuringNLRv4
+2,823,Vega v1
+2,824,Vega v1
+2,825,Turing NLR v5
+2,826,ERNIE
+2,827,DeBERTa / TuringNLRv4
+2,828,Vega v1
+2,829,ERNIE
+2,830,Vega v1
+2,831,Turing NLR v5
+2,832,DeBERTa / TuringNLRv4
+2,833,DeBERTa / TuringNLRv4
+2,834,ERNIE
+2,835,ERNIE
+2,836,Vega v1
+2,837,Turing ULR v6
+2,838,ERNIE
+2,839,Vega v1
+2,840,StructBERT + CLEVER
+2,841,StructBERT + CLEVER
+2,842,Turing ULR v6
+2,843,Vega v1
+2,844,Turing NLR v5
+2,845,Turing ULR v6
+2,846,Vega v1
+2,847,Turing ULR v6
+2,848,DeBERTa / TuringNLRv4
+2,849,Vega v1
+2,850,Turing ULR v6
+2,851,Vega v1
+2,852,DeBERTa / TuringNLRv4
+2,853,Turing NLR v5
+2,854,Turing NLR v5
+2,855,Turing NLR v5
+2,856,Turing ULR v6
+2,857,DeBERTa / TuringNLRv4
+2,858,DeBERTa / TuringNLRv4
+2,859,Turing ULR v6
+2,860,Turing NLR v5
+2,861,Turing NLR v5
+2,862,Vega v1
+2,863,ERNIE
+2,864,ERNIE
+2,865,Vega v1
+2,866,Turing NLR v5
+2,867,Turing NLR v5
+2,868,Turing ULR v6
+2,869,Vega v1
+2,870,Turing ULR v6
+2,871,ERNIE
+2,872,ERNIE
+2,873,Turing ULR v6
+2,874,Vega v1
+2,875,Vega v1
+2,876,ERNIE
+2,877,Turing ULR v6
+2,878,Vega v1
+2,879,GLUE Human Baselines
+2,880,Vega v1
+2,881,Turing NLR v5
+2,882,Turing NLR v5
+2,883,Turing ULR v6
+2,884,Turing NLR v5
+2,885,ERNIE
+2,886,GLUE Human Baselines
+2,887,DeBERTa / TuringNLRv4
+2,888,Vega v1
+2,889,ERNIE
+2,890,DeBERTa / TuringNLRv4
+2,891,Vega v1
+2,892,Turing ULR v6
+2,893,Vega v1
+2,894,Turing NLR v5
+2,895,Vega v1
+2,896,Turing ULR v6
+2,897,Vega v1
+2,898,Turing NLR v5
+2,899,Vega v1
+2,900,Turing ULR v6
+2,901,ERNIE
+2,902,Turing ULR v6
+2,903,ERNIE
+2,904,Turing NLR v5
+2,905,Turing ULR v6
+2,906,Vega v1
+2,907,GLUE Human Baselines
+2,908,DeBERTa / TuringNLRv4
+2,909,ERNIE
+2,910,Turing NLR v5
+2,911,Vega v1
+2,912,Vega v1
+2,913,Vega v1
+2,914,Vega v1
+2,915,Vega v1
+2,916,Turing ULR v6
+2,917,ERNIE
+2,918,Turing ULR v6
+2,919,Turing NLR v5
+2,920,Vega v1
+2,921,ERNIE
+2,922,Vega v1
+2,923,Turing NLR v5
+2,924,DeBERTa / TuringNLRv4
+2,925,Vega v1
+2,926,StructBERT + CLEVER
+2,927,DeBERTa / TuringNLRv4
+2,928,Turing NLR v5
+2,929,Vega v1
+2,930,Turing NLR v5
+2,931,ERNIE
+2,932,DeBERTa / TuringNLRv4
+2,933,Turing NLR v5
+2,934,ERNIE
+2,935,Turing ULR v6
+2,936,DeBERTa / TuringNLRv4
+2,937,Vega v1
+2,938,ERNIE
+2,939,DeBERTa / TuringNLRv4
+2,940,Turing NLR v5
+2,941,Turing NLR v5
+2,942,Vega v1
+2,943,Vega v1
+2,944,Vega v1
+2,945,Vega v1
+2,946,Vega v1
+2,947,DeBERTa / TuringNLRv4
+2,948,Turing NLR v5
+2,949,Vega v1
+2,950,Vega v1
+2,951,ERNIE
+2,952,Turing NLR v5
+2,953,Vega v1
+2,954,DeBERTa / TuringNLRv4
+2,955,ERNIE
+2,956,DeBERTa / TuringNLRv4
+2,957,Turing ULR v6
+2,958,Turing NLR v5
+2,959,Turing ULR v6
+2,960,ERNIE
+2,961,StructBERT + CLEVER
+2,962,ERNIE
+2,963,Vega v1
+2,964,Vega v1
+2,965,Turing NLR v5
+2,966,DeBERTa / TuringNLRv4
+2,967,DeBERTa / TuringNLRv4
+2,968,Turing NLR v5
+2,969,Turing NLR v5
+2,970,Vega v1
+2,971,Vega v1
+2,972,Vega v1
+2,973,Vega v1
+2,974,ERNIE
+2,975,GLUE Human Baselines
+2,976,GLUE Human Baselines
+2,977,GLUE Human Baselines
+2,978,DeBERTa / TuringNLRv4
+2,979,Turing ULR v6
+2,980,Turing ULR v6
+2,981,Turing NLR v5
+2,982,Vega v1
+2,983,ERNIE
+2,984,Turing NLR v5
+2,985,ERNIE
+2,986,Vega v1
+2,987,Turing ULR v6
+2,988,Turing ULR v6
+2,989,DeBERTa / TuringNLRv4
+2,990,ERNIE
+2,991,ERNIE
+2,992,Turing ULR v6
+2,993,DeBERTa / TuringNLRv4
+2,994,DeBERTa / TuringNLRv4
+2,995,DeBERTa / TuringNLRv4
+2,996,Turing NLR v5
+2,997,GLUE Human Baselines
+2,998,DeBERTa / TuringNLRv4
+2,999,Vega v1
+3,0,Turing ULR v6
+3,1,Vega v1
+3,2,ERNIE
+3,3,Vega v1
+3,4,Vega v1
+3,5,StructBERT + CLEVER
+3,6,Turing ULR v6
+3,7,DeBERTa / TuringNLRv4
+3,8,Turing ULR v6
+3,9,Turing ULR v6
+3,10,DeBERTa / TuringNLRv4
+3,11,DeBERTa / TuringNLRv4
+3,12,Vega v1
+3,13,Turing ULR v6
+3,14,Vega v1
+3,15,ERNIE
+3,16,DeBERTa / TuringNLRv4
+3,17,Vega v1
+3,18,DeBERTa / TuringNLRv4
+3,19,Vega v1
+3,20,ERNIE
+3,21,DeBERTa / TuringNLRv4
+3,22,StructBERT + CLEVER
+3,23,Turing ULR v6
+3,24,Turing ULR v6
+3,25,Turing ULR v6
+3,26,DeBERTa / TuringNLRv4
+3,27,Vega v1
+3,28,Turing NLR v5
+3,29,Turing NLR v5
+3,30,Vega v1
+3,31,Turing ULR v6
+3,32,ERNIE
+3,33,Turing ULR v6
+3,34,Turing NLR v5
+3,35,Vega v1
+3,36,DeBERTa / TuringNLRv4
+3,37,Turing NLR v5
+3,38,ERNIE
+3,39,Turing ULR v6
+3,40,Turing ULR v6
+3,41,Turing ULR v6
+3,42,DeBERTa / TuringNLRv4
+3,43,StructBERT + CLEVER
+3,44,DeBERTa / TuringNLRv4
+3,45,Turing NLR v5
+3,46,DeBERTa / TuringNLRv4
+3,47,Vega v1
+3,48,Turing ULR v6
+3,49,ERNIE
+3,50,Vega v1
+3,51,Turing ULR v6
+3,52,Turing NLR v5
+3,53,DeBERTa / TuringNLRv4
+3,54,Turing NLR v5
+3,55,MacALBERT + DKM
+3,56,ERNIE
+3,57,Vega v1
+3,58,Vega v1
+3,59,Vega v1
+3,60,Vega v1
+3,61,Vega v1
+3,62,Turing ULR v6
+3,63,Turing NLR v5
+3,64,ERNIE
+3,65,Vega v1
+3,66,DeBERTa / TuringNLRv4
+3,67,ERNIE
+3,68,StructBERT + CLEVER
+3,69,Turing NLR v5
+3,70,ERNIE
+3,71,DeBERTa + CLEVER
+3,72,ERNIE
+3,73,Vega v1
+3,74,DeBERTa / TuringNLRv4
+3,75,Turing NLR v5
+3,76,Turing ULR v6
+3,77,Vega v1
+3,78,Turing NLR v5
+3,79,Turing ULR v6
+3,80,Turing NLR v5
+3,81,Turing NLR v5
+3,82,ERNIE
+3,83,Turing NLR v5
+3,84,Turing NLR v5
+3,85,Turing NLR v5
+3,86,Vega v1
+3,87,Vega v1
+3,88,StructBERT + CLEVER
+3,89,Vega v1
+3,90,StructBERT + CLEVER
+3,91,ERNIE
+3,92,Turing ULR v6
+3,93,Vega v1
+3,94,DeBERTa / TuringNLRv4
+3,95,Vega v1
+3,96,Turing NLR v5
+3,97,Vega v1
+3,98,ERNIE
+3,99,StructBERT + CLEVER
+3,100,ERNIE
+3,101,Turing ULR v6
+3,102,DeBERTa / TuringNLRv4
+3,103,Vega v1
+3,104,Turing NLR v5
+3,105,ERNIE
+3,106,Vega v1
+3,107,ERNIE
+3,108,ERNIE
+3,109,Turing NLR v5
+3,110,Vega v1
+3,111,Turing ULR v6
+3,112,StructBERT + CLEVER
+3,113,Vega v1
+3,114,Turing ULR v6
+3,115,Turing NLR v5
+3,116,DeBERTa / TuringNLRv4
+3,117,DeBERTa / TuringNLRv4
+3,118,Vega v1
+3,119,Turing NLR v5
+3,120,Vega v1
+3,121,MacALBERT + DKM
+3,122,Turing ULR v6
+3,123,Vega v1
+3,124,DeBERTa / TuringNLRv4
+3,125,DeBERTa / TuringNLRv4
+3,126,StructBERT + CLEVER
+3,127,Vega v1
+3,128,Turing ULR v6
+3,129,Turing ULR v6
+3,130,DeBERTa + CLEVER
+3,131,Vega v1
+3,132,Turing ULR v6
+3,133,Vega v1
+3,134,ERNIE
+3,135,DeBERTa / TuringNLRv4
+3,136,ERNIE
+3,137,Vega v1
+3,138,Vega v1
+3,139,Vega v1
+3,140,Turing NLR v5
+3,141,DeBERTa / TuringNLRv4
+3,142,Turing ULR v6
+3,143,Turing ULR v6
+3,144,DeBERTa / TuringNLRv4
+3,145,StructBERT + CLEVER
+3,146,Turing NLR v5
+3,147,Vega v1
+3,148,Vega v1
+3,149,Turing ULR v6
+3,150,Vega v1
+3,151,Vega v1
+3,152,Turing NLR v5
+3,153,DeBERTa / TuringNLRv4
+3,154,Turing NLR v5
+3,155,Turing NLR v5
+3,156,Vega v1
+3,157,StructBERT + CLEVER
+3,158,ERNIE
+3,159,ERNIE
+3,160,DeBERTa / TuringNLRv4
+3,161,ERNIE
+3,162,DeBERTa / TuringNLRv4
+3,163,DeBERTa + CLEVER
+3,164,DeBERTa + CLEVER
+3,165,DeBERTa / TuringNLRv4
+3,166,DeBERTa / TuringNLRv4
+3,167,Vega v1
+3,168,Turing NLR v5
+3,169,Turing ULR v6
+3,170,Vega v1
+3,171,ERNIE
+3,172,Turing ULR v6
+3,173,Turing NLR v5
+3,174,Turing ULR v6
+3,175,Vega v1
+3,176,DeBERTa / TuringNLRv4
+3,177,ERNIE
+3,178,Turing ULR v6
+3,179,StructBERT + CLEVER
+3,180,Turing NLR v5
+3,181,Turing ULR v6
+3,182,Turing ULR v6
+3,183,Turing ULR v6
+3,184,Vega v1
+3,185,Turing NLR v5
+3,186,StructBERT + CLEVER
+3,187,Turing ULR v6
+3,188,Vega v1
+3,189,ERNIE
+3,190,DeBERTa / TuringNLRv4
+3,191,Vega v1
+3,192,Turing NLR v5
+3,193,DeBERTa / TuringNLRv4
+3,194,Turing NLR v5
+3,195,Turing ULR v6
+3,196,StructBERT + CLEVER
+3,197,ERNIE
+3,198,DeBERTa / TuringNLRv4
+3,199,ERNIE
+3,200,MacALBERT + DKM
+3,201,DeBERTa / TuringNLRv4
+3,202,DeBERTa / TuringNLRv4
+3,203,ERNIE
+3,204,DeBERTa + CLEVER
+3,205,StructBERT + CLEVER
+3,206,Vega v1
+3,207,Vega v1
+3,208,DeBERTa / TuringNLRv4
+3,209,StructBERT + CLEVER
+3,210,DeBERTa / TuringNLRv4
+3,211,DeBERTa / TuringNLRv4
+3,212,ERNIE
+3,213,DeBERTa / TuringNLRv4
+3,214,ERNIE
+3,215,ERNIE
+3,216,Vega v1
+3,217,Vega v1
+3,218,ERNIE
+3,219,Vega v1
+3,220,ERNIE
+3,221,DeBERTa + CLEVER
+3,222,StructBERT + CLEVER
+3,223,StructBERT + CLEVER
+3,224,Turing ULR v6
+3,225,Vega v1
+3,226,ERNIE
+3,227,DeBERTa / TuringNLRv4
+3,228,DeBERTa / TuringNLRv4
+3,229,Turing NLR v5
+3,230,Vega v1
+3,231,Vega v1
+3,232,Turing ULR v6
+3,233,Vega v1
+3,234,Turing NLR v5
+3,235,DeBERTa / TuringNLRv4
+3,236,ERNIE
+3,237,Vega v1
+3,238,DeBERTa / TuringNLRv4
+3,239,Vega v1
+3,240,Turing NLR v5
+3,241,Turing ULR v6
+3,242,Turing NLR v5
+3,243,Turing ULR v6
+3,244,DeBERTa + CLEVER
+3,245,Turing NLR v5
+3,246,ERNIE
+3,247,Turing ULR v6
+3,248,Turing ULR v6
+3,249,Vega v1
+3,250,Vega v1
+3,251,ERNIE
+3,252,Turing NLR v5
+3,253,Vega v1
+3,254,Turing ULR v6
+3,255,ERNIE
+3,256,Turing NLR v5
+3,257,Turing ULR v6
+3,258,DeBERTa + CLEVER
+3,259,Turing ULR v6
+3,260,Vega v1
+3,261,Turing ULR v6
+3,262,Turing ULR v6
+3,263,Turing NLR v5
+3,264,Vega v1
+3,265,DeBERTa / TuringNLRv4
+3,266,Turing NLR v5
+3,267,Vega v1
+3,268,StructBERT + CLEVER
+3,269,StructBERT + CLEVER
+3,270,Turing ULR v6
+3,271,Turing NLR v5
+3,272,StructBERT + CLEVER
+3,273,Vega v1
+3,274,Vega v1
+3,275,Vega v1
+3,276,StructBERT + CLEVER
+3,277,ERNIE
+3,278,ERNIE
+3,279,Vega v1
+3,280,StructBERT + CLEVER
+3,281,DeBERTa / TuringNLRv4
+3,282,StructBERT + CLEVER
+3,283,Turing NLR v5
+3,284,Turing NLR v5
+3,285,DeBERTa / TuringNLRv4
+3,286,ERNIE
+3,287,Turing ULR v6
+3,288,DeBERTa / TuringNLRv4
+3,289,Turing NLR v5
+3,290,DeBERTa / TuringNLRv4
+3,291,Vega v1
+3,292,ERNIE
+3,293,ERNIE
+3,294,Turing NLR v5
+3,295,Turing NLR v5
+3,296,Turing NLR v5
+3,297,Vega v1
+3,298,DeBERTa / TuringNLRv4
+3,299,Vega v1
+3,300,Turing ULR v6
+3,301,Turing NLR v5
+3,302,Vega v1
+3,303,ERNIE
+3,304,DeBERTa / TuringNLRv4
+3,305,Vega v1
+3,306,ERNIE
+3,307,StructBERT + CLEVER
+3,308,Turing ULR v6
+3,309,Turing NLR v5
+3,310,Turing ULR v6
+3,311,Turing ULR v6
+3,312,DeBERTa + CLEVER
+3,313,DeBERTa / TuringNLRv4
+3,314,Vega v1
+3,315,ERNIE
+3,316,Turing ULR v6
+3,317,Vega v1
+3,318,Vega v1
+3,319,Turing ULR v6
+3,320,DeBERTa / TuringNLRv4
+3,321,Vega v1
+3,322,ERNIE
+3,323,Turing ULR v6
+3,324,Turing ULR v6
+3,325,ERNIE
+3,326,Vega v1
+3,327,DeBERTa / TuringNLRv4
+3,328,Vega v1
+3,329,ERNIE
+3,330,Turing ULR v6
+3,331,Turing NLR v5
+3,332,Turing NLR v5
+3,333,Vega v1
+3,334,ERNIE
+3,335,Vega v1
+3,336,DeBERTa / TuringNLRv4
+3,337,Turing NLR v5
+3,338,Turing ULR v6
+3,339,Vega v1
+3,340,StructBERT + CLEVER
+3,341,Vega v1
+3,342,DeBERTa / TuringNLRv4
+3,343,Turing ULR v6
+3,344,Vega v1
+3,345,DeBERTa + CLEVER
+3,346,Turing ULR v6
+3,347,StructBERT + CLEVER
+3,348,Vega v1
+3,349,Vega v1
+3,350,ERNIE
+3,351,Turing NLR v5
+3,352,ERNIE
+3,353,ERNIE
+3,354,DeBERTa / TuringNLRv4
+3,355,MacALBERT + DKM
+3,356,Turing NLR v5
+3,357,ERNIE
+3,358,Turing ULR v6
+3,359,Vega v1
+3,360,Turing NLR v5
+3,361,Turing ULR v6
+3,362,Turing NLR v5
+3,363,Vega v1
+3,364,Turing ULR v6
+3,365,Vega v1
+3,366,StructBERT + CLEVER
+3,367,StructBERT + CLEVER
+3,368,Vega v1
+3,369,ERNIE
+3,370,ERNIE
+3,371,DeBERTa / TuringNLRv4
+3,372,ERNIE
+3,373,Vega v1
+3,374,ERNIE
+3,375,Vega v1
+3,376,Turing NLR v5
+3,377,Turing NLR v5
+3,378,ERNIE
+3,379,DeBERTa / TuringNLRv4
+3,380,Turing ULR v6
+3,381,Turing NLR v5
+3,382,StructBERT + CLEVER
+3,383,ERNIE
+3,384,DeBERTa / TuringNLRv4
+3,385,ERNIE
+3,386,Vega v1
+3,387,Turing NLR v5
+3,388,Turing NLR v5
+3,389,Vega v1
+3,390,ERNIE
+3,391,Turing NLR v5
+3,392,Vega v1
+3,393,StructBERT + CLEVER
+3,394,Turing NLR v5
+3,395,ERNIE
+3,396,DeBERTa / TuringNLRv4
+3,397,Turing ULR v6
+3,398,Turing ULR v6
+3,399,Turing NLR v5
+3,400,ERNIE
+3,401,Turing NLR v5
+3,402,Vega v1
+3,403,StructBERT + CLEVER
+3,404,Turing ULR v6
+3,405,Vega v1
+3,406,DeBERTa / TuringNLRv4
+3,407,Turing NLR v5
+3,408,Vega v1
+3,409,DeBERTa / TuringNLRv4
+3,410,Vega v1
+3,411,Turing ULR v6
+3,412,Turing NLR v5
+3,413,DeBERTa + CLEVER
+3,414,DeBERTa / TuringNLRv4
+3,415,ERNIE
+3,416,ERNIE
+3,417,Vega v1
+3,418,StructBERT + CLEVER
+3,419,Vega v1
+3,420,Vega v1
+3,421,Vega v1
+3,422,Turing ULR v6
+3,423,Vega v1
+3,424,Turing ULR v6
+3,425,Turing NLR v5
+3,426,Vega v1
+3,427,ERNIE
+3,428,ERNIE
+3,429,Turing NLR v5
+3,430,Vega v1
+3,431,DeBERTa / TuringNLRv4
+3,432,Vega v1
+3,433,ERNIE
+3,434,Turing NLR v5
+3,435,Turing NLR v5
+3,436,Turing ULR v6
+3,437,DeBERTa / TuringNLRv4
+3,438,Turing NLR v5
+3,439,Turing ULR v6
+3,440,Turing ULR v6
+3,441,Turing NLR v5
+3,442,ERNIE
+3,443,DeBERTa / TuringNLRv4
+3,444,Turing ULR v6
+3,445,DeBERTa / TuringNLRv4
+3,446,StructBERT + CLEVER
+3,447,DeBERTa / TuringNLRv4
+3,448,Turing ULR v6
+3,449,Vega v1
+3,450,DeBERTa / TuringNLRv4
+3,451,Vega v1
+3,452,ERNIE
+3,453,DeBERTa / TuringNLRv4
+3,454,Vega v1
+3,455,Turing ULR v6
+3,456,Turing NLR v5
+3,457,Turing NLR v5
+3,458,Turing NLR v5
+3,459,Vega v1
+3,460,ERNIE
+3,461,Turing NLR v5
+3,462,DeBERTa / TuringNLRv4
+3,463,StructBERT + CLEVER
+3,464,Vega v1
+3,465,Vega v1
+3,466,Turing ULR v6
+3,467,Vega v1
+3,468,Vega v1
+3,469,Vega v1
+3,470,Vega v1
+3,471,Turing NLR v5
+3,472,DeBERTa / TuringNLRv4
+3,473,ERNIE
+3,474,Turing NLR v5
+3,475,Vega v1
+3,476,Turing NLR v5
+3,477,Vega v1
+3,478,Turing ULR v6
+3,479,DeBERTa + CLEVER
+3,480,Turing NLR v5
+3,481,Turing NLR v5
+3,482,StructBERT + CLEVER
+3,483,Vega v1
+3,484,ERNIE
+3,485,Vega v1
+3,486,DeBERTa / TuringNLRv4
+3,487,StructBERT + CLEVER
+3,488,Vega v1
+3,489,Turing ULR v6
+3,490,Turing NLR v5
+3,491,StructBERT + CLEVER
+3,492,ERNIE
+3,493,Vega v1
+3,494,Turing NLR v5
+3,495,DeBERTa / TuringNLRv4
+3,496,MacALBERT + DKM
+3,497,DeBERTa / TuringNLRv4
+3,498,DeBERTa / TuringNLRv4
+3,499,DeBERTa / TuringNLRv4
+3,500,ERNIE
+3,501,Vega v1
+3,502,Vega v1
+3,503,DeBERTa / TuringNLRv4
+3,504,Turing NLR v5
+3,505,ERNIE
+3,506,Turing ULR v6
+3,507,DeBERTa + CLEVER
+3,508,Turing NLR v5
+3,509,ERNIE
+3,510,Vega v1
+3,511,StructBERT + CLEVER
+3,512,DeBERTa + CLEVER
+3,513,Vega v1
+3,514,Turing NLR v5
+3,515,Vega v1
+3,516,Turing ULR v6
+3,517,Vega v1
+3,518,Vega v1
+3,519,DeBERTa / TuringNLRv4
+3,520,ERNIE
+3,521,ERNIE
+3,522,Turing NLR v5
+3,523,DeBERTa / TuringNLRv4
+3,524,ERNIE
+3,525,StructBERT + CLEVER
+3,526,Vega v1
+3,527,Vega v1
+3,528,DeBERTa / TuringNLRv4
+3,529,Turing ULR v6
+3,530,ERNIE
+3,531,DeBERTa / TuringNLRv4
+3,532,ERNIE
+3,533,Turing NLR v5
+3,534,Turing ULR v6
+3,535,Vega v1
+3,536,DeBERTa / TuringNLRv4
+3,537,DeBERTa / TuringNLRv4
+3,538,Turing NLR v5
+3,539,ERNIE
+3,540,Vega v1
+3,541,Turing ULR v6
+3,542,Turing NLR v5
+3,543,DeBERTa / TuringNLRv4
+3,544,Turing ULR v6
+3,545,ERNIE
+3,546,ERNIE
+3,547,Vega v1
+3,548,Turing ULR v6
+3,549,StructBERT + CLEVER
+3,550,Vega v1
+3,551,Turing NLR v5
+3,552,Vega v1
+3,553,Vega v1
+3,554,Vega v1
+3,555,StructBERT + CLEVER
+3,556,Turing ULR v6
+3,557,Turing ULR v6
+3,558,ERNIE
+3,559,DeBERTa / TuringNLRv4
+3,560,Vega v1
+3,561,Vega v1
+3,562,Vega v1
+3,563,Vega v1
+3,564,Turing NLR v5
+3,565,DeBERTa / TuringNLRv4
+3,566,Turing NLR v5
+3,567,ERNIE
+3,568,Turing NLR v5
+3,569,ERNIE
+3,570,Vega v1
+3,571,Vega v1
+3,572,Turing NLR v5
+3,573,Turing NLR v5
+3,574,Turing NLR v5
+3,575,ERNIE
+3,576,Turing ULR v6
+3,577,Turing NLR v5
+3,578,Turing NLR v5
+3,579,Vega v1
+3,580,ERNIE
+3,581,Vega v1
+3,582,DeBERTa / TuringNLRv4
+3,583,Vega v1
+3,584,DeBERTa / TuringNLRv4
+3,585,Vega v1
+3,586,DeBERTa / TuringNLRv4
+3,587,Turing NLR v5
+3,588,Vega v1
+3,589,Vega v1
+3,590,DeBERTa / TuringNLRv4
+3,591,DeBERTa / TuringNLRv4
+3,592,Turing NLR v5
+3,593,Vega v1
+3,594,Turing NLR v5
+3,595,Turing NLR v5
+3,596,Vega v1
+3,597,Turing NLR v5
+3,598,DeBERTa + CLEVER
+3,599,Vega v1
+3,600,DeBERTa / TuringNLRv4
+3,601,DeBERTa / TuringNLRv4
+3,602,DeBERTa / TuringNLRv4
+3,603,Vega v1
+3,604,Vega v1
+3,605,Turing NLR v5
+3,606,Turing ULR v6
+3,607,ERNIE
+3,608,Vega v1
+3,609,ERNIE
+3,610,Vega v1
+3,611,ERNIE
+3,612,Turing ULR v6
+3,613,Vega v1
+3,614,ERNIE
+3,615,ERNIE
+3,616,DeBERTa / TuringNLRv4
+3,617,Turing NLR v5
+3,618,Turing ULR v6
+3,619,Turing ULR v6
+3,620,Turing NLR v5
+3,621,DeBERTa + CLEVER
+3,622,DeBERTa / TuringNLRv4
+3,623,Vega v1
+3,624,Turing NLR v5
+3,625,Turing ULR v6
+3,626,Vega v1
+3,627,DeBERTa / TuringNLRv4
+3,628,ERNIE
+3,629,DeBERTa / TuringNLRv4
+3,630,ERNIE
+3,631,ERNIE
+3,632,Turing NLR v5
+3,633,Turing NLR v5
+3,634,Vega v1
+3,635,Turing NLR v5
+3,636,DeBERTa / TuringNLRv4
+3,637,Turing ULR v6
+3,638,MacALBERT + DKM
+3,639,Vega v1
+3,640,DeBERTa / TuringNLRv4
+3,641,Turing ULR v6
+3,642,Vega v1
+3,643,Vega v1
+3,644,DeBERTa / TuringNLRv4
+3,645,Turing NLR v5
+3,646,Turing NLR v5
+3,647,DeBERTa / TuringNLRv4
+3,648,Vega v1
+3,649,DeBERTa / TuringNLRv4
+3,650,Vega v1
+3,651,StructBERT + CLEVER
+3,652,StructBERT + CLEVER
+3,653,Vega v1
+3,654,Turing NLR v5
+3,655,ERNIE
+3,656,ERNIE
+3,657,ERNIE
+3,658,ERNIE
+3,659,Turing NLR v5
+3,660,ERNIE
+3,661,DeBERTa / TuringNLRv4
+3,662,StructBERT + CLEVER
+3,663,ERNIE
+3,664,Turing NLR v5
+3,665,ERNIE
+3,666,ERNIE
+3,667,ERNIE
+3,668,Turing NLR v5
+3,669,Turing ULR v6
+3,670,ERNIE
+3,671,ERNIE
+3,672,DeBERTa / TuringNLRv4
+3,673,DeBERTa / TuringNLRv4
+3,674,ERNIE
+3,675,Vega v1
+3,676,Vega v1
+3,677,Turing NLR v5
+3,678,Turing ULR v6
+3,679,ERNIE
+3,680,DeBERTa / TuringNLRv4
+3,681,Turing ULR v6
+3,682,ERNIE
+3,683,Vega v1
+3,684,Vega v1
+3,685,Turing ULR v6
+3,686,Turing NLR v5
+3,687,MacALBERT + DKM
+3,688,Vega v1
+3,689,DeBERTa / TuringNLRv4
+3,690,Turing ULR v6
+3,691,Vega v1
+3,692,Vega v1
+3,693,StructBERT + CLEVER
+3,694,ERNIE
+3,695,Turing NLR v5
+3,696,Turing ULR v6
+3,697,DeBERTa / TuringNLRv4
+3,698,DeBERTa / TuringNLRv4
+3,699,Turing NLR v5
+3,700,DeBERTa + CLEVER
+3,701,Turing NLR v5
+3,702,ERNIE
+3,703,Turing NLR v5
+3,704,ERNIE
+3,705,DeBERTa + CLEVER
+3,706,ERNIE
+3,707,Turing ULR v6
+3,708,DeBERTa / TuringNLRv4
+3,709,DeBERTa / TuringNLRv4
+3,710,DeBERTa / TuringNLRv4
+3,711,Vega v1
+3,712,Turing ULR v6
+3,713,Vega v1
+3,714,ERNIE
+3,715,Vega v1
+3,716,Turing ULR v6
+3,717,Turing ULR v6
+3,718,DeBERTa + CLEVER
+3,719,DeBERTa / TuringNLRv4
+3,720,DeBERTa + CLEVER
+3,721,Vega v1
+3,722,Vega v1
+3,723,ERNIE
+3,724,Turing ULR v6
+3,725,Turing NLR v5
+3,726,StructBERT + CLEVER
+3,727,Turing ULR v6
+3,728,Vega v1
+3,729,Turing NLR v5
+3,730,Vega v1
+3,731,Turing NLR v5
+3,732,DeBERTa + CLEVER
+3,733,ERNIE
+3,734,Vega v1
+3,735,DeBERTa / TuringNLRv4
+3,736,DeBERTa / TuringNLRv4
+3,737,ERNIE
+3,738,Turing NLR v5
+3,739,DeBERTa / TuringNLRv4
+3,740,StructBERT + CLEVER
+3,741,ERNIE
+3,742,Turing NLR v5
+3,743,DeBERTa / TuringNLRv4
+3,744,DeBERTa / TuringNLRv4
+3,745,DeBERTa / TuringNLRv4
+3,746,Vega v1
+3,747,Vega v1
+3,748,DeBERTa + CLEVER
+3,749,ERNIE
+3,750,Turing ULR v6
+3,751,Vega v1
+3,752,ERNIE
+3,753,Turing ULR v6
+3,754,Turing ULR v6
+3,755,DeBERTa / TuringNLRv4
+3,756,DeBERTa / TuringNLRv4
+3,757,ERNIE
+3,758,Turing ULR v6
+3,759,ERNIE
+3,760,ERNIE
+3,761,Turing ULR v6
+3,762,Turing NLR v5
+3,763,Turing NLR v5
+3,764,Turing ULR v6
+3,765,StructBERT + CLEVER
+3,766,Vega v1
+3,767,ERNIE
+3,768,DeBERTa / TuringNLRv4
+3,769,StructBERT + CLEVER
+3,770,DeBERTa / TuringNLRv4
+3,771,Turing ULR v6
+3,772,Turing NLR v5
+3,773,DeBERTa / TuringNLRv4
+3,774,Vega v1
+3,775,StructBERT + CLEVER
+3,776,DeBERTa / TuringNLRv4
+3,777,DeBERTa + CLEVER
+3,778,ERNIE
+3,779,Turing ULR v6
+3,780,ERNIE
+3,781,Turing ULR v6
+3,782,DeBERTa / TuringNLRv4
+3,783,ERNIE
+3,784,Vega v1
+3,785,StructBERT + CLEVER
+3,786,ERNIE
+3,787,Vega v1
+3,788,Turing NLR v5
+3,789,Turing ULR v6
+3,790,Turing NLR v5
+3,791,Vega v1
+3,792,Vega v1
+3,793,Turing ULR v6
+3,794,Vega v1
+3,795,DeBERTa / TuringNLRv4
+3,796,Vega v1
+3,797,Turing ULR v6
+3,798,DeBERTa / TuringNLRv4
+3,799,Turing ULR v6
+3,800,Turing ULR v6
+3,801,ERNIE
+3,802,StructBERT + CLEVER
+3,803,DeBERTa / TuringNLRv4
+3,804,Turing NLR v5
+3,805,Vega v1
+3,806,Turing ULR v6
+3,807,ERNIE
+3,808,Turing NLR v5
+3,809,StructBERT + CLEVER
+3,810,Turing ULR v6
+3,811,Turing NLR v5
+3,812,Vega v1
+3,813,StructBERT + CLEVER
+3,814,DeBERTa / TuringNLRv4
+3,815,DeBERTa / TuringNLRv4
+3,816,DeBERTa / TuringNLRv4
+3,817,DeBERTa / TuringNLRv4
+3,818,Vega v1
+3,819,Vega v1
+3,820,Turing NLR v5
+3,821,Vega v1
+3,822,ERNIE
+3,823,DeBERTa / TuringNLRv4
+3,824,Turing ULR v6
+3,825,DeBERTa / TuringNLRv4
+3,826,DeBERTa / TuringNLRv4
+3,827,Turing NLR v5
+3,828,Vega v1
+3,829,Turing NLR v5
+3,830,Vega v1
+3,831,DeBERTa / TuringNLRv4
+3,832,ERNIE
+3,833,DeBERTa / TuringNLRv4
+3,834,Turing ULR v6
+3,835,Turing NLR v5
+3,836,StructBERT + CLEVER
+3,837,ERNIE
+3,838,Turing NLR v5
+3,839,Vega v1
+3,840,Vega v1
+3,841,Turing NLR v5
+3,842,ERNIE
+3,843,Vega v1
+3,844,Turing ULR v6
+3,845,Vega v1
+3,846,Turing NLR v5
+3,847,DeBERTa / TuringNLRv4
+3,848,Vega v1
+3,849,Turing NLR v5
+3,850,DeBERTa / TuringNLRv4
+3,851,Turing NLR v5
+3,852,ERNIE
+3,853,DeBERTa / TuringNLRv4
+3,854,ERNIE
+3,855,Turing NLR v5
+3,856,DeBERTa / TuringNLRv4
+3,857,Turing NLR v5
+3,858,DeBERTa / TuringNLRv4
+3,859,Turing ULR v6
+3,860,Turing ULR v6
+3,861,Vega v1
+3,862,StructBERT + CLEVER
+3,863,Turing NLR v5
+3,864,Turing ULR v6
+3,865,Vega v1
+3,866,Vega v1
+3,867,DeBERTa + CLEVER
+3,868,DeBERTa / TuringNLRv4
+3,869,StructBERT + CLEVER
+3,870,Turing NLR v5
+3,871,Vega v1
+3,872,Vega v1
+3,873,Vega v1
+3,874,Vega v1
+3,875,DeBERTa / TuringNLRv4
+3,876,ERNIE
+3,877,StructBERT + CLEVER
+3,878,DeBERTa / TuringNLRv4
+3,879,Vega v1
+3,880,ERNIE
+3,881,DeBERTa / TuringNLRv4
+3,882,ERNIE
+3,883,DeBERTa / TuringNLRv4
+3,884,DeBERTa / TuringNLRv4
+3,885,Vega v1
+3,886,Turing NLR v5
+3,887,Turing ULR v6
+3,888,Vega v1
+3,889,Turing NLR v5
+3,890,Turing NLR v5
+3,891,DeBERTa / TuringNLRv4
+3,892,Turing NLR v5
+3,893,Turing ULR v6
+3,894,Turing NLR v5
+3,895,Turing ULR v6
+3,896,Vega v1
+3,897,DeBERTa / TuringNLRv4
+3,898,ERNIE
+3,899,DeBERTa / TuringNLRv4
+3,900,ERNIE
+3,901,DeBERTa / TuringNLRv4
+3,902,Turing NLR v5
+3,903,Vega v1
+3,904,Turing NLR v5
+3,905,Vega v1
+3,906,DeBERTa / TuringNLRv4
+3,907,Vega v1
+3,908,Turing NLR v5
+3,909,Turing NLR v5
+3,910,Vega v1
+3,911,ERNIE
+3,912,Vega v1
+3,913,DeBERTa / TuringNLRv4
+3,914,Turing NLR v5
+3,915,DeBERTa + CLEVER
+3,916,ERNIE
+3,917,ERNIE
+3,918,ERNIE
+3,919,Turing NLR v5
+3,920,ERNIE
+3,921,Vega v1
+3,922,ERNIE
+3,923,Turing ULR v6
+3,924,DeBERTa / TuringNLRv4
+3,925,StructBERT + CLEVER
+3,926,Vega v1
+3,927,DeBERTa / TuringNLRv4
+3,928,DeBERTa / TuringNLRv4
+3,929,StructBERT + CLEVER
+3,930,Vega v1
+3,931,Vega v1
+3,932,Vega v1
+3,933,Vega v1
+3,934,StructBERT + CLEVER
+3,935,ERNIE
+3,936,Turing NLR v5
+3,937,ERNIE
+3,938,DeBERTa / TuringNLRv4
+3,939,Turing NLR v5
+3,940,Turing NLR v5
+3,941,DeBERTa / TuringNLRv4
+3,942,Turing NLR v5
+3,943,Turing NLR v5
+3,944,DeBERTa + CLEVER
+3,945,StructBERT + CLEVER
+3,946,Vega v1
+3,947,Turing NLR v5
+3,948,ERNIE
+3,949,ERNIE
+3,950,Vega v1
+3,951,ERNIE
+3,952,Vega v1
+3,953,Turing ULR v6
+3,954,ERNIE
+3,955,Turing ULR v6
+3,956,Turing NLR v5
+3,957,Turing NLR v5
+3,958,Vega v1
+3,959,DeBERTa / TuringNLRv4
+3,960,DeBERTa / TuringNLRv4
+3,961,Vega v1
+3,962,ERNIE
+3,963,Vega v1
+3,964,ERNIE
+3,965,DeBERTa / TuringNLRv4
+3,966,Vega v1
+3,967,Turing NLR v5
+3,968,Turing NLR v5
+3,969,Turing ULR v6
+3,970,Vega v1
+3,971,ERNIE
+3,972,Turing ULR v6
+3,973,ERNIE
+3,974,ERNIE
+3,975,Vega v1
+3,976,Vega v1
+3,977,Vega v1
+3,978,Turing NLR v5
+3,979,ERNIE
+3,980,Vega v1
+3,981,Turing ULR v6
+3,982,ERNIE
+3,983,ERNIE
+3,984,Turing NLR v5
+3,985,Turing NLR v5
+3,986,StructBERT + CLEVER
+3,987,Turing NLR v5
+3,988,Turing NLR v5
+3,989,Turing NLR v5
+3,990,Vega v1
+3,991,ERNIE
+3,992,ERNIE
+3,993,Vega v1
+3,994,StructBERT + CLEVER
+3,995,Vega v1
+3,996,DeBERTa / TuringNLRv4
+3,997,MacALBERT + DKM
+3,998,ERNIE
+3,999,Turing ULR v6
+4,0,Turing ULR v6
+4,1,Vega v1
+4,2,Vega v1
+4,3,Turing ULR v6
+4,4,Turing NLR v5
+4,5,Vega v1
+4,6,Vega v1
+4,7,Turing NLR v5
+4,8,Turing ULR v6
+4,9,Turing NLR v5
+4,10,Vega v1
+4,11,Vega v1
+4,12,Vega v1
+4,13,Turing NLR v5
+4,14,Vega v1
+4,15,Turing NLR v5
+4,16,Turing ULR v6
+4,17,Turing NLR v5
+4,18,Vega v1
+4,19,Turing ULR v6
+4,20,Vega v1
+4,21,Turing ULR v6
+4,22,ERNIE
+4,23,Turing ULR v6
+4,24,Turing ULR v6
+4,25,StructBERT + CLEVER
+4,26,Turing ULR v6
+4,27,Vega v1
+4,28,Turing ULR v6
+4,29,Vega v1
+4,30,ERNIE
+4,31,Vega v1
+4,32,Turing ULR v6
+4,33,DeBERTa / TuringNLRv4
+4,34,Turing ULR v6
+4,35,Turing ULR v6
+4,36,StructBERT + CLEVER
+4,37,Turing ULR v6
+4,38,StructBERT + CLEVER
+4,39,Vega v1
+4,40,StructBERT + CLEVER
+4,41,Turing ULR v6
+4,42,StructBERT + CLEVER
+4,43,Vega v1
+4,44,Vega v1
+4,45,StructBERT + CLEVER
+4,46,Turing NLR v5
+4,47,StructBERT + CLEVER
+4,48,Vega v1
+4,49,Turing ULR v6
+4,50,ERNIE
+4,51,Turing NLR v5
+4,52,Vega v1
+4,53,Vega v1
+4,54,ERNIE
+4,55,Vega v1
+4,56,Turing ULR v6
+4,57,Vega v1
+4,58,ERNIE
+4,59,Vega v1
+4,60,DeBERTa / TuringNLRv4
+4,61,Vega v1
+4,62,Vega v1
+4,63,ERNIE
+4,64,Turing ULR v6
+4,65,DeBERTa / TuringNLRv4
+4,66,StructBERT + CLEVER
+4,67,StructBERT + CLEVER
+4,68,Turing ULR v6
+4,69,Vega v1
+4,70,Turing NLR v5
+4,71,DeBERTa / TuringNLRv4
+4,72,StructBERT + CLEVER
+4,73,Turing ULR v6
+4,74,Vega v1
+4,75,Vega v1
+4,76,Turing NLR v5
+4,77,Turing ULR v6
+4,78,ERNIE
+4,79,Turing ULR v6
+4,80,DeBERTa + CLEVER
+4,81,Turing ULR v6
+4,82,Vega v1
+4,83,Turing ULR v6
+4,84,Turing ULR v6
+4,85,DeBERTa / TuringNLRv4
+4,86,Turing ULR v6
+4,87,StructBERT + CLEVER
+4,88,ERNIE
+4,89,Turing NLR v5
+4,90,Vega v1
+4,91,Turing ULR v6
+4,92,Vega v1
+4,93,Vega v1
+4,94,ERNIE
+4,95,Vega v1
+4,96,Turing ULR v6
+4,97,ERNIE
+4,98,ERNIE
+4,99,Turing NLR v5
+4,100,StructBERT + CLEVER
+4,101,StructBERT + CLEVER
+4,102,Vega v1
+4,103,Vega v1
+4,104,DeBERTa / TuringNLRv4
+4,105,Vega v1
+4,106,DeBERTa + CLEVER
+4,107,Turing ULR v6
+4,108,ERNIE
+4,109,Turing ULR v6
+4,110,DeBERTa / TuringNLRv4
+4,111,Turing ULR v6
+4,112,Turing NLR v5
+4,113,Vega v1
+4,114,Turing ULR v6
+4,115,StructBERT + CLEVER
+4,116,Turing ULR v6
+4,117,ERNIE
+4,118,DeBERTa / TuringNLRv4
+4,119,StructBERT + CLEVER
+4,120,Vega v1
+4,121,Vega v1
+4,122,StructBERT + CLEVER
+4,123,Turing ULR v6
+4,124,ERNIE
+4,125,Turing NLR v5
+4,126,Turing ULR v6
+4,127,Vega v1
+4,128,ERNIE
+4,129,Turing ULR v6
+4,130,Vega v1
+4,131,Vega v1
+4,132,Vega v1
+4,133,StructBERT + CLEVER
+4,134,Vega v1
+4,135,Turing ULR v6
+4,136,Turing ULR v6
+4,137,Turing ULR v6
+4,138,Turing NLR v5
+4,139,ERNIE
+4,140,Turing NLR v5
+4,141,Vega v1
+4,142,StructBERT + CLEVER
+4,143,StructBERT + CLEVER
+4,144,Vega v1
+4,145,Vega v1
+4,146,Turing NLR v5
+4,147,ERNIE
+4,148,Turing NLR v5
+4,149,Turing ULR v6
+4,150,StructBERT + CLEVER
+4,151,Vega v1
+4,152,Vega v1
+4,153,ERNIE
+4,154,Turing ULR v6
+4,155,Turing NLR v5
+4,156,DeBERTa / TuringNLRv4
+4,157,ERNIE
+4,158,Turing ULR v6
+4,159,Turing ULR v6
+4,160,Turing NLR v5
+4,161,ERNIE
+4,162,ERNIE
+4,163,Turing ULR v6
+4,164,DeBERTa / TuringNLRv4
+4,165,Vega v1
+4,166,Turing ULR v6
+4,167,StructBERT + CLEVER
+4,168,DeBERTa + CLEVER
+4,169,ERNIE
+4,170,StructBERT + CLEVER
+4,171,StructBERT + CLEVER
+4,172,DeBERTa / TuringNLRv4
+4,173,Turing ULR v6
+4,174,ERNIE
+4,175,Turing NLR v5
+4,176,DeBERTa + CLEVER
+4,177,Turing NLR v5
+4,178,ERNIE
+4,179,DeBERTa / TuringNLRv4
+4,180,Turing NLR v5
+4,181,Vega v1
+4,182,Vega v1
+4,183,Turing ULR v6
+4,184,Vega v1
+4,185,Turing NLR v5
+4,186,Turing NLR v5
+4,187,DeBERTa / TuringNLRv4
+4,188,Turing NLR v5
+4,189,Vega v1
+4,190,ERNIE
+4,191,DeBERTa / TuringNLRv4
+4,192,ERNIE
+4,193,StructBERT + CLEVER
+4,194,Turing ULR v6
+4,195,DeBERTa / TuringNLRv4
+4,196,ERNIE
+4,197,StructBERT + CLEVER
+4,198,Turing ULR v6
+4,199,Vega v1
+4,200,Turing NLR v5
+4,201,Turing ULR v6
+4,202,Turing NLR v5
+4,203,Vega v1
+4,204,StructBERT + CLEVER
+4,205,Vega v1
+4,206,Vega v1
+4,207,ERNIE
+4,208,StructBERT + CLEVER
+4,209,Vega v1
+4,210,Vega v1
+4,211,Vega v1
+4,212,Turing ULR v6
+4,213,DeBERTa + CLEVER
+4,214,ERNIE
+4,215,Turing NLR v5
+4,216,Turing ULR v6
+4,217,Turing NLR v5
+4,218,Vega v1
+4,219,StructBERT + CLEVER
+4,220,StructBERT + CLEVER
+4,221,ERNIE
+4,222,Vega v1
+4,223,Turing ULR v6
+4,224,Turing ULR v6
+4,225,Vega v1
+4,226,StructBERT + CLEVER
+4,227,Turing ULR v6
+4,228,Turing NLR v5
+4,229,StructBERT + CLEVER
+4,230,ERNIE
+4,231,DeBERTa / TuringNLRv4
+4,232,Turing ULR v6
+4,233,ERNIE
+4,234,DeBERTa / TuringNLRv4
+4,235,Turing ULR v6
+4,236,Turing NLR v5
+4,237,ERNIE
+4,238,Vega v1
+4,239,Turing ULR v6
+4,240,Vega v1
+4,241,StructBERT + CLEVER
+4,242,StructBERT + CLEVER
+4,243,ERNIE
+4,244,Vega v1
+4,245,Vega v1
+4,246,Vega v1
+4,247,ERNIE
+4,248,Turing NLR v5
+4,249,Vega v1
+4,250,Vega v1
+4,251,Turing NLR v5
+4,252,DeBERTa / TuringNLRv4
+4,253,ERNIE
+4,254,Vega v1
+4,255,Turing NLR v5
+4,256,DeBERTa + CLEVER
+4,257,Turing NLR v5
+4,258,Vega v1
+4,259,ERNIE
+4,260,Vega v1
+4,261,ERNIE
+4,262,Turing ULR v6
+4,263,DeBERTa / TuringNLRv4
+4,264,Vega v1
+4,265,DeBERTa / TuringNLRv4
+4,266,Turing ULR v6
+4,267,Turing NLR v5
+4,268,Turing NLR v5
+4,269,ERNIE
+4,270,Vega v1
+4,271,Turing ULR v6
+4,272,Turing ULR v6
+4,273,DeBERTa / TuringNLRv4
+4,274,Vega v1
+4,275,Vega v1
+4,276,Turing ULR v6
+4,277,Turing NLR v5
+4,278,Turing NLR v5
+4,279,DeBERTa / TuringNLRv4
+4,280,ERNIE
+4,281,Vega v1
+4,282,Turing ULR v6
+4,283,Vega v1
+4,284,Vega v1
+4,285,Turing NLR v5
+4,286,DeBERTa / TuringNLRv4
+4,287,DeBERTa + CLEVER
+4,288,Turing NLR v5
+4,289,Vega v1
+4,290,StructBERT + CLEVER
+4,291,Turing NLR v5
+4,292,Turing NLR v5
+4,293,Turing ULR v6
+4,294,Turing ULR v6
+4,295,ERNIE
+4,296,DeBERTa / TuringNLRv4
+4,297,Vega v1
+4,298,Turing ULR v6
+4,299,Vega v1
+4,300,Turing NLR v5
+4,301,StructBERT + CLEVER
+4,302,Turing NLR v5
+4,303,Turing ULR v6
+4,304,DeBERTa / TuringNLRv4
+4,305,Turing ULR v6
+4,306,DeBERTa / TuringNLRv4
+4,307,Turing NLR v5
+4,308,ERNIE
+4,309,Turing ULR v6
+4,310,ERNIE
+4,311,Turing NLR v5
+4,312,Turing ULR v6
+4,313,Vega v1
+4,314,Vega v1
+4,315,Vega v1
+4,316,DeBERTa / TuringNLRv4
+4,317,Vega v1
+4,318,ERNIE
+4,319,Turing ULR v6
+4,320,DeBERTa / TuringNLRv4
+4,321,Turing ULR v6
+4,322,ERNIE
+4,323,Turing NLR v5
+4,324,DeBERTa / TuringNLRv4
+4,325,ERNIE
+4,326,StructBERT + CLEVER
+4,327,ERNIE
+4,328,Turing NLR v5
+4,329,ERNIE
+4,330,Vega v1
+4,331,Turing ULR v6
+4,332,Vega v1
+4,333,Vega v1
+4,334,Turing NLR v5
+4,335,ERNIE
+4,336,ERNIE
+4,337,Turing NLR v5
+4,338,ERNIE
+4,339,Vega v1
+4,340,Vega v1
+4,341,Turing ULR v6
+4,342,DeBERTa / TuringNLRv4
+4,343,Turing ULR v6
+4,344,ERNIE
+4,345,ERNIE
+4,346,Turing ULR v6
+4,347,Vega v1
+4,348,ERNIE
+4,349,Vega v1
+4,350,Turing NLR v5
+4,351,Turing ULR v6
+4,352,Turing NLR v5
+4,353,Vega v1
+4,354,DeBERTa / TuringNLRv4
+4,355,Vega v1
+4,356,StructBERT + CLEVER
+4,357,DeBERTa + CLEVER
+4,358,ERNIE
+4,359,Turing ULR v6
+4,360,Vega v1
+4,361,Turing ULR v6
+4,362,Vega v1
+4,363,Turing ULR v6
+4,364,Turing ULR v6
+4,365,Vega v1
+4,366,Turing ULR v6
+4,367,Vega v1
+4,368,Vega v1
+4,369,Vega v1
+4,370,Vega v1
+4,371,ERNIE
+4,372,Turing NLR v5
+4,373,DeBERTa + CLEVER
+4,374,Vega v1
+4,375,DeBERTa / TuringNLRv4
+4,376,Turing ULR v6
+4,377,StructBERT + CLEVER
+4,378,ERNIE
+4,379,Turing NLR v5
+4,380,DeBERTa / TuringNLRv4
+4,381,Turing ULR v6
+4,382,DeBERTa / TuringNLRv4
+4,383,ERNIE
+4,384,ERNIE
+4,385,ERNIE
+4,386,Vega v1
+4,387,Turing ULR v6
+4,388,Turing ULR v6
+4,389,ERNIE
+4,390,DeBERTa / TuringNLRv4
+4,391,ERNIE
+4,392,DeBERTa + CLEVER
+4,393,DeBERTa / TuringNLRv4
+4,394,Vega v1
+4,395,DeBERTa / TuringNLRv4
+4,396,Vega v1
+4,397,Turing NLR v5
+4,398,Turing ULR v6
+4,399,Turing NLR v5
+4,400,Vega v1
+4,401,StructBERT + CLEVER
+4,402,ERNIE
+4,403,ERNIE
+4,404,Vega v1
+4,405,ERNIE
+4,406,Turing NLR v5
+4,407,Turing ULR v6
+4,408,Turing NLR v5
+4,409,Turing ULR v6
+4,410,DeBERTa + CLEVER
+4,411,ERNIE
+4,412,ERNIE
+4,413,Turing NLR v5
+4,414,Vega v1
+4,415,Vega v1
+4,416,ERNIE
+4,417,Vega v1
+4,418,ERNIE
+4,419,Vega v1
+4,420,ERNIE
+4,421,ERNIE
+4,422,DeBERTa + CLEVER
+4,423,StructBERT + CLEVER
+4,424,Vega v1
+4,425,DeBERTa + CLEVER
+4,426,Turing NLR v5
+4,427,Turing ULR v6
+4,428,ERNIE
+4,429,Vega v1
+4,430,StructBERT + CLEVER
+4,431,Turing ULR v6
+4,432,ERNIE
+4,433,Vega v1
+4,434,Turing ULR v6
+4,435,ERNIE
+4,436,Vega v1
+4,437,Vega v1
+4,438,Turing NLR v5
+4,439,Vega v1
+4,440,ERNIE
+4,441,DeBERTa + CLEVER
+4,442,Turing ULR v6
+4,443,ERNIE
+4,444,Turing NLR v5
+4,445,Vega v1
+4,446,ERNIE
+4,447,Vega v1
+4,448,Turing ULR v6
+4,449,DeBERTa + CLEVER
+4,450,Turing ULR v6
+4,451,Turing NLR v5
+4,452,Turing NLR v5
+4,453,ERNIE
+4,454,Turing ULR v6
+4,455,Vega v1
+4,456,StructBERT + CLEVER
+4,457,DeBERTa / TuringNLRv4
+4,458,Vega v1
+4,459,Vega v1
+4,460,StructBERT + CLEVER
+4,461,Turing NLR v5
+4,462,Turing ULR v6
+4,463,Turing NLR v5
+4,464,Turing ULR v6
+4,465,DeBERTa + CLEVER
+4,466,Turing NLR v5
+4,467,ERNIE
+4,468,ERNIE
+4,469,ERNIE
+4,470,DeBERTa / TuringNLRv4
+4,471,Turing ULR v6
+4,472,DeBERTa / TuringNLRv4
+4,473,Turing ULR v6
+4,474,Turing NLR v5
+4,475,Vega v1
+4,476,Vega v1
+4,477,Turing NLR v5
+4,478,DeBERTa / TuringNLRv4
+4,479,StructBERT + CLEVER
+4,480,Turing NLR v5
+4,481,Turing ULR v6
+4,482,Turing NLR v5
+4,483,StructBERT + CLEVER
+4,484,ERNIE
+4,485,Turing ULR v6
+4,486,Turing ULR v6
+4,487,Turing ULR v6
+4,488,DeBERTa + CLEVER
+4,489,Turing ULR v6
+4,490,Turing NLR v5
+4,491,Turing ULR v6
+4,492,ERNIE
+4,493,Turing ULR v6
+4,494,Turing ULR v6
+4,495,Turing NLR v5
+4,496,Turing NLR v5
+4,497,ERNIE
+4,498,Vega v1
+4,499,Turing NLR v5
+4,500,StructBERT + CLEVER
+4,501,ERNIE
+4,502,Turing NLR v5
+4,503,StructBERT + CLEVER
+4,504,Turing ULR v6
+4,505,Turing NLR v5
+4,506,ERNIE
+4,507,ERNIE
+4,508,ERNIE
+4,509,Vega v1
+4,510,ERNIE
+4,511,Vega v1
+4,512,Vega v1
+4,513,Turing NLR v5
+4,514,Turing ULR v6
+4,515,Turing ULR v6
+4,516,Turing NLR v5
+4,517,Turing ULR v6
+4,518,Turing NLR v5
+4,519,Turing NLR v5
+4,520,Turing NLR v5
+4,521,Vega v1
+4,522,Vega v1
+4,523,DeBERTa / TuringNLRv4
+4,524,StructBERT + CLEVER
+4,525,StructBERT + CLEVER
+4,526,Vega v1
+4,527,ERNIE
+4,528,Turing ULR v6
+4,529,Turing ULR v6
+4,530,Turing ULR v6
+4,531,DeBERTa / TuringNLRv4
+4,532,DeBERTa / TuringNLRv4
+4,533,DeBERTa / TuringNLRv4
+4,534,DeBERTa / TuringNLRv4
+4,535,Vega v1
+4,536,Turing NLR v5
+4,537,Vega v1
+4,538,Vega v1
+4,539,Turing NLR v5
+4,540,ERNIE
+4,541,ERNIE
+4,542,DeBERTa + CLEVER
+4,543,StructBERT + CLEVER
+4,544,Turing NLR v5
+4,545,DeBERTa / TuringNLRv4
+4,546,Vega v1
+4,547,Turing NLR v5
+4,548,DeBERTa / TuringNLRv4
+4,549,ERNIE
+4,550,Turing NLR v5
+4,551,Vega v1
+4,552,Vega v1
+4,553,ERNIE
+4,554,Vega v1
+4,555,Vega v1
+4,556,ERNIE
+4,557,Vega v1
+4,558,DeBERTa + CLEVER
+4,559,Turing ULR v6
+4,560,ERNIE
+4,561,DeBERTa / TuringNLRv4
+4,562,ERNIE
+4,563,Vega v1
+4,564,Vega v1
+4,565,ERNIE
+4,566,StructBERT + CLEVER
+4,567,DeBERTa / TuringNLRv4
+4,568,Turing NLR v5
+4,569,Turing ULR v6
+4,570,ERNIE
+4,571,DeBERTa / TuringNLRv4
+4,572,DeBERTa / TuringNLRv4
+4,573,Vega v1
+4,574,Vega v1
+4,575,ERNIE
+4,576,Turing NLR v5
+4,577,Turing NLR v5
+4,578,Turing NLR v5
+4,579,Turing ULR v6
+4,580,StructBERT + CLEVER
+4,581,StructBERT + CLEVER
+4,582,Vega v1
+4,583,ERNIE
+4,584,Turing ULR v6
+4,585,StructBERT + CLEVER
+4,586,Turing ULR v6
+4,587,Turing ULR v6
+4,588,ERNIE
+4,589,Turing ULR v6
+4,590,DeBERTa / TuringNLRv4
+4,591,Turing NLR v5
+4,592,ERNIE
+4,593,Turing ULR v6
+4,594,ERNIE
+4,595,Vega v1
+4,596,StructBERT + CLEVER
+4,597,Vega v1
+4,598,Vega v1
+4,599,Vega v1
+4,600,Turing NLR v5
+4,601,Turing NLR v5
+4,602,StructBERT + CLEVER
+4,603,DeBERTa + CLEVER
+4,604,StructBERT + CLEVER
+4,605,StructBERT + CLEVER
+4,606,DeBERTa / TuringNLRv4
+4,607,ERNIE
+4,608,ERNIE
+4,609,Turing ULR v6
+4,610,Vega v1
+4,611,Vega v1
+4,612,DeBERTa + CLEVER
+4,613,Vega v1
+4,614,Turing NLR v5
+4,615,Turing ULR v6
+4,616,StructBERT + CLEVER
+4,617,ERNIE
+4,618,Vega v1
+4,619,Turing ULR v6
+4,620,Turing ULR v6
+4,621,Turing ULR v6
+4,622,Turing ULR v6
+4,623,StructBERT + CLEVER
+4,624,ERNIE
+4,625,Turing ULR v6
+4,626,Turing ULR v6
+4,627,StructBERT + CLEVER
+4,628,Turing ULR v6
+4,629,Vega v1
+4,630,Turing ULR v6
+4,631,ERNIE
+4,632,Turing ULR v6
+4,633,DeBERTa + CLEVER
+4,634,Turing NLR v5
+4,635,ERNIE
+4,636,Vega v1
+4,637,Turing ULR v6
+4,638,Vega v1
+4,639,ERNIE
+4,640,ERNIE
+4,641,Vega v1
+4,642,DeBERTa / TuringNLRv4
+4,643,Turing ULR v6
+4,644,Vega v1
+4,645,Vega v1
+4,646,Vega v1
+4,647,DeBERTa / TuringNLRv4
+4,648,Vega v1
+4,649,Turing ULR v6
+4,650,Turing NLR v5
+4,651,StructBERT + CLEVER
+4,652,StructBERT + CLEVER
+4,653,Turing NLR v5
+4,654,Vega v1
+4,655,Turing ULR v6
+4,656,Turing ULR v6
+4,657,Vega v1
+4,658,DeBERTa / TuringNLRv4
+4,659,StructBERT + CLEVER
+4,660,Turing NLR v5
+4,661,ERNIE
+4,662,Turing ULR v6
+4,663,Vega v1
+4,664,Vega v1
+4,665,StructBERT + CLEVER
+4,666,MacALBERT + DKM
+4,667,DeBERTa / TuringNLRv4
+4,668,DeBERTa / TuringNLRv4
+4,669,DeBERTa + CLEVER
+4,670,Turing ULR v6
+4,671,Turing ULR v6
+4,672,Vega v1
+4,673,Turing NLR v5
+4,674,Turing ULR v6
+4,675,Vega v1
+4,676,Vega v1
+4,677,Turing NLR v5
+4,678,DeBERTa / TuringNLRv4
+4,679,Turing NLR v5
+4,680,Turing NLR v5
+4,681,Vega v1
+4,682,Turing ULR v6
+4,683,Vega v1
+4,684,StructBERT + CLEVER
+4,685,Vega v1
+4,686,ERNIE
+4,687,Vega v1
+4,688,Vega v1
+4,689,Turing ULR v6
+4,690,ERNIE
+4,691,Turing NLR v5
+4,692,Turing NLR v5
+4,693,ERNIE
+4,694,DeBERTa + CLEVER
+4,695,Turing ULR v6
+4,696,StructBERT + CLEVER
+4,697,Turing NLR v5
+4,698,DeBERTa / TuringNLRv4
+4,699,DeBERTa + CLEVER
+4,700,Turing ULR v6
+4,701,Vega v1
+4,702,ERNIE
+4,703,DeBERTa / TuringNLRv4
+4,704,Turing ULR v6
+4,705,Turing ULR v6
+4,706,Vega v1
+4,707,Turing ULR v6
+4,708,Vega v1
+4,709,Turing ULR v6
+4,710,DeBERTa / TuringNLRv4
+4,711,StructBERT + CLEVER
+4,712,Vega v1
+4,713,StructBERT + CLEVER
+4,714,Vega v1
+4,715,Turing ULR v6
+4,716,ERNIE
+4,717,ERNIE
+4,718,Turing ULR v6
+4,719,Turing ULR v6
+4,720,ERNIE
+4,721,Vega v1
+4,722,DeBERTa + CLEVER
+4,723,Turing ULR v6
+4,724,DeBERTa / TuringNLRv4
+4,725,Vega v1
+4,726,Turing ULR v6
+4,727,ERNIE
+4,728,ERNIE
+4,729,ERNIE
+4,730,StructBERT + CLEVER
+4,731,Vega v1
+4,732,Vega v1
+4,733,Turing NLR v5
+4,734,Vega v1
+4,735,Vega v1
+4,736,Turing NLR v5
+4,737,Turing ULR v6
+4,738,DeBERTa / TuringNLRv4
+4,739,Turing ULR v6
+4,740,DeBERTa / TuringNLRv4
+4,741,Turing ULR v6
+4,742,ERNIE
+4,743,Turing ULR v6
+4,744,Vega v1
+4,745,StructBERT + CLEVER
+4,746,Vega v1
+4,747,DeBERTa / TuringNLRv4
+4,748,ERNIE
+4,749,ERNIE
+4,750,Turing NLR v5
+4,751,Vega v1
+4,752,Turing ULR v6
+4,753,Vega v1
+4,754,Vega v1
+4,755,DeBERTa / TuringNLRv4
+4,756,Vega v1
+4,757,Turing ULR v6
+4,758,DeBERTa / TuringNLRv4
+4,759,Turing NLR v5
+4,760,Turing NLR v5
+4,761,Vega v1
+4,762,ERNIE
+4,763,Turing NLR v5
+4,764,StructBERT + CLEVER
+4,765,Vega v1
+4,766,ERNIE
+4,767,ERNIE
+4,768,Turing NLR v5
+4,769,Turing ULR v6
+4,770,ERNIE
+4,771,Turing ULR v6
+4,772,ERNIE
+4,773,Vega v1
+4,774,Turing ULR v6
+4,775,Vega v1
+4,776,Turing ULR v6
+4,777,ERNIE
+4,778,StructBERT + CLEVER
+4,779,Vega v1
+4,780,Turing ULR v6
+4,781,DeBERTa + CLEVER
+4,782,Turing NLR v5
+4,783,Vega v1
+4,784,Vega v1
+4,785,Turing NLR v5
+4,786,ERNIE
+4,787,ERNIE
+4,788,Turing ULR v6
+4,789,Turing ULR v6
+4,790,ERNIE
+4,791,StructBERT + CLEVER
+4,792,Turing ULR v6
+4,793,ERNIE
+4,794,Turing ULR v6
+4,795,ERNIE
+4,796,ERNIE
+4,797,Turing ULR v6
+4,798,Turing NLR v5
+4,799,Vega v1
+4,800,Turing NLR v5
+4,801,Turing ULR v6
+4,802,ERNIE
+4,803,ERNIE
+4,804,Turing NLR v5
+4,805,Turing ULR v6
+4,806,DeBERTa / TuringNLRv4
+4,807,DeBERTa / TuringNLRv4
+4,808,Vega v1
+4,809,StructBERT + CLEVER
+4,810,ERNIE
+4,811,Turing ULR v6
+4,812,ERNIE
+4,813,Vega v1
+4,814,Turing ULR v6
+4,815,Turing NLR v5
+4,816,Turing NLR v5
+4,817,ERNIE
+4,818,StructBERT + CLEVER
+4,819,Vega v1
+4,820,Turing NLR v5
+4,821,StructBERT + CLEVER
+4,822,Turing NLR v5
+4,823,ERNIE
+4,824,Turing ULR v6
+4,825,Turing NLR v5
+4,826,ERNIE
+4,827,Turing ULR v6
+4,828,Turing ULR v6
+4,829,Turing ULR v6
+4,830,DeBERTa / TuringNLRv4
+4,831,Vega v1
+4,832,Turing NLR v5
+4,833,ERNIE
+4,834,Turing ULR v6
+4,835,Vega v1
+4,836,Vega v1
+4,837,Turing NLR v5
+4,838,Vega v1
+4,839,Turing ULR v6
+4,840,Turing ULR v6
+4,841,Turing ULR v6
+4,842,Turing ULR v6
+4,843,Turing ULR v6
+4,844,ERNIE
+4,845,Vega v1
+4,846,DeBERTa / TuringNLRv4
+4,847,StructBERT + CLEVER
+4,848,Turing NLR v5
+4,849,Turing NLR v5
+4,850,DeBERTa + CLEVER
+4,851,Vega v1
+4,852,Turing NLR v5
+4,853,Turing NLR v5
+4,854,StructBERT + CLEVER
+4,855,DeBERTa / TuringNLRv4
+4,856,Turing NLR v5
+4,857,ERNIE
+4,858,Vega v1
+4,859,ERNIE
+4,860,Turing ULR v6
+4,861,Turing NLR v5
+4,862,Vega v1
+4,863,Turing ULR v6
+4,864,StructBERT + CLEVER
+4,865,Turing ULR v6
+4,866,Vega v1
+4,867,ERNIE
+4,868,Turing ULR v6
+4,869,ERNIE
+4,870,Turing NLR v5
+4,871,Vega v1
+4,872,Turing ULR v6
+4,873,Turing ULR v6
+4,874,Vega v1
+4,875,StructBERT + CLEVER
+4,876,Turing ULR v6
+4,877,DeBERTa + CLEVER
+4,878,Turing NLR v5
+4,879,Turing ULR v6
+4,880,Turing NLR v5
+4,881,Vega v1
+4,882,ERNIE
+4,883,Turing ULR v6
+4,884,ERNIE
+4,885,ERNIE
+4,886,DeBERTa / TuringNLRv4
+4,887,Vega v1
+4,888,StructBERT + CLEVER
+4,889,DeBERTa + CLEVER
+4,890,Vega v1
+4,891,DeBERTa / TuringNLRv4
+4,892,DeBERTa / TuringNLRv4
+4,893,Turing NLR v5
+4,894,DeBERTa / TuringNLRv4
+4,895,Vega v1
+4,896,StructBERT + CLEVER
+4,897,Vega v1
+4,898,ERNIE
+4,899,Turing NLR v5
+4,900,StructBERT + CLEVER
+4,901,Turing NLR v5
+4,902,Turing NLR v5
+4,903,Turing NLR v5
+4,904,StructBERT + CLEVER
+4,905,Vega v1
+4,906,Turing NLR v5
+4,907,StructBERT + CLEVER
+4,908,DeBERTa / TuringNLRv4
+4,909,DeBERTa / TuringNLRv4
+4,910,Turing ULR v6
+4,911,Vega v1
+4,912,Vega v1
+4,913,Turing NLR v5
+4,914,StructBERT + CLEVER
+4,915,Turing ULR v6
+4,916,Vega v1
+4,917,Turing ULR v6
+4,918,Turing ULR v6
+4,919,Turing ULR v6
+4,920,Vega v1
+4,921,ERNIE
+4,922,Vega v1
+4,923,ERNIE
+4,924,Turing ULR v6
+4,925,Turing ULR v6
+4,926,StructBERT + CLEVER
+4,927,Turing NLR v5
+4,928,Turing ULR v6
+4,929,Vega v1
+4,930,StructBERT + CLEVER
+4,931,StructBERT + CLEVER
+4,932,ERNIE
+4,933,Vega v1
+4,934,Turing ULR v6
+4,935,ERNIE
+4,936,ERNIE
+4,937,ERNIE
+4,938,Vega v1
+4,939,StructBERT + CLEVER
+4,940,Turing ULR v6
+4,941,Vega v1
+4,942,Vega v1
+4,943,Turing NLR v5
+4,944,DeBERTa / TuringNLRv4
+4,945,Vega v1
+4,946,Vega v1
+4,947,Turing ULR v6
+4,948,ERNIE
+4,949,Turing ULR v6
+4,950,Vega v1
+4,951,Turing NLR v5
+4,952,Turing NLR v5
+4,953,Turing ULR v6
+4,954,Vega v1
+4,955,ERNIE
+4,956,ERNIE
+4,957,ERNIE
+4,958,Vega v1
+4,959,DeBERTa + CLEVER
+4,960,Turing ULR v6
+4,961,Vega v1
+4,962,Turing ULR v6
+4,963,ERNIE
+4,964,Vega v1
+4,965,Vega v1
+4,966,Turing ULR v6
+4,967,StructBERT + CLEVER
+4,968,Vega v1
+4,969,ERNIE
+4,970,Turing ULR v6
+4,971,Vega v1
+4,972,Vega v1
+4,973,Turing ULR v6
+4,974,Vega v1
+4,975,ERNIE
+4,976,ERNIE
+4,977,DeBERTa + CLEVER
+4,978,DeBERTa / TuringNLRv4
+4,979,Vega v1
+4,980,Turing ULR v6
+4,981,StructBERT + CLEVER
+4,982,Vega v1
+4,983,Turing ULR v6
+4,984,Vega v1
+4,985,Vega v1
+4,986,Turing ULR v6
+4,987,Vega v1
+4,988,Vega v1
+4,989,Vega v1
+4,990,ERNIE
+4,991,Turing NLR v5
+4,992,DeBERTa / TuringNLRv4
+4,993,Turing ULR v6
+4,994,Vega v1
+4,995,Vega v1
+4,996,ERNIE
+4,997,DeBERTa + CLEVER
+4,998,Turing ULR v6
+4,999,Vega v1
+5,0,Vega v1
+5,1,Turing ULR v6
+5,2,Vega v1
+5,3,Turing NLR v5
+5,4,ERNIE
+5,5,Turing ULR v6
+5,6,Turing ULR v6
+5,7,Vega v1
+5,8,StructBERT + CLEVER
+5,9,Vega v1
+5,10,Turing NLR v5
+5,11,Vega v1
+5,12,Turing NLR v5
+5,13,Turing ULR v6
+5,14,Turing ULR v6
+5,15,Turing ULR v6
+5,16,Vega v1
+5,17,Vega v1
+5,18,Vega v1
+5,19,Vega v1
+5,20,Turing ULR v6
+5,21,Turing NLR v5
+5,22,Turing ULR v6
+5,23,Vega v1
+5,24,Turing NLR v5
+5,25,Turing ULR v6
+5,26,Vega v1
+5,27,ERNIE
+5,28,Turing ULR v6
+5,29,Turing ULR v6
+5,30,Turing ULR v6
+5,31,ERNIE
+5,32,Vega v1
+5,33,Turing ULR v6
+5,34,Vega v1
+5,35,DeBERTa + CLEVER
+5,36,Turing ULR v6
+5,37,Turing NLR v5
+5,38,Turing ULR v6
+5,39,Vega v1
+5,40,Turing ULR v6
+5,41,Turing ULR v6
+5,42,Turing ULR v6
+5,43,Turing NLR v5
+5,44,Vega v1
+5,45,Vega v1
+5,46,Turing ULR v6
+5,47,Turing ULR v6
+5,48,Vega v1
+5,49,Vega v1
+5,50,StructBERT + CLEVER
+5,51,Turing NLR v5
+5,52,Turing ULR v6
+5,53,Vega v1
+5,54,Vega v1
+5,55,StructBERT + CLEVER
+5,56,Vega v1
+5,57,Vega v1
+5,58,Vega v1
+5,59,Turing NLR v5
+5,60,Vega v1
+5,61,Turing NLR v5
+5,62,ERNIE
+5,63,Vega v1
+5,64,Vega v1
+5,65,ERNIE
+5,66,Vega v1
+5,67,Turing ULR v6
+5,68,Turing ULR v6
+5,69,Turing NLR v5
+5,70,Vega v1
+5,71,Turing NLR v5
+5,72,Vega v1
+5,73,Turing ULR v6
+5,74,Turing NLR v5
+5,75,Turing ULR v6
+5,76,Vega v1
+5,77,Turing NLR v5
+5,78,Vega v1
+5,79,Vega v1
+5,80,Vega v1
+5,81,StructBERT + CLEVER
+5,82,Vega v1
+5,83,StructBERT + CLEVER
+5,84,DeBERTa + CLEVER
+5,85,Vega v1
+5,86,Turing NLR v5
+5,87,ERNIE
+5,88,StructBERT + CLEVER
+5,89,Turing ULR v6
+5,90,Vega v1
+5,91,Turing ULR v6
+5,92,Turing ULR v6
+5,93,Turing NLR v5
+5,94,Vega v1
+5,95,ERNIE
+5,96,ERNIE
+5,97,Vega v1
+5,98,ERNIE
+5,99,StructBERT + CLEVER
+5,100,Turing NLR v5
+5,101,Turing ULR v6
+5,102,Turing NLR v5
+5,103,Turing ULR v6
+5,104,StructBERT + CLEVER
+5,105,ERNIE
+5,106,Turing NLR v5
+5,107,Vega v1
+5,108,Turing ULR v6
+5,109,ERNIE
+5,110,ERNIE
+5,111,Vega v1
+5,112,DeBERTa + CLEVER
+5,113,Vega v1
+5,114,ERNIE
+5,115,Vega v1
+5,116,Vega v1
+5,117,Vega v1
+5,118,Turing NLR v5
+5,119,Vega v1
+5,120,ERNIE
+5,121,Turing NLR v5
+5,122,Vega v1
+5,123,StructBERT + CLEVER
+5,124,DeBERTa + CLEVER
+5,125,Turing ULR v6
+5,126,Vega v1
+5,127,Turing NLR v5
+5,128,DeBERTa + CLEVER
+5,129,ERNIE
+5,130,DeBERTa / TuringNLRv4
+5,131,Turing ULR v6
+5,132,ERNIE
+5,133,Turing ULR v6
+5,134,Vega v1
+5,135,DeBERTa / TuringNLRv4
+5,136,Turing ULR v6
+5,137,DeBERTa / TuringNLRv4
+5,138,Turing NLR v5
+5,139,Turing ULR v6
+5,140,Turing NLR v5
+5,141,ERNIE
+5,142,Vega v1
+5,143,Vega v1
+5,144,Turing NLR v5
+5,145,Turing NLR v5
+5,146,Turing NLR v5
+5,147,Turing ULR v6
+5,148,Turing ULR v6
+5,149,Vega v1
+5,150,Turing NLR v5
+5,151,Turing ULR v6
+5,152,Turing ULR v6
+5,153,Turing NLR v5
+5,154,Turing NLR v5
+5,155,Turing ULR v6
+5,156,Turing ULR v6
+5,157,DeBERTa / TuringNLRv4
+5,158,Turing ULR v6
+5,159,Vega v1
+5,160,Turing NLR v5
+5,161,Vega v1
+5,162,Turing NLR v5
+5,163,Vega v1
+5,164,Turing ULR v6
+5,165,Vega v1
+5,166,Turing ULR v6
+5,167,Turing ULR v6
+5,168,DeBERTa / TuringNLRv4
+5,169,ERNIE
+5,170,Turing ULR v6
+5,171,Turing ULR v6
+5,172,DeBERTa / TuringNLRv4
+5,173,Turing ULR v6
+5,174,DeBERTa + CLEVER
+5,175,Vega v1
+5,176,Turing ULR v6
+5,177,Turing ULR v6
+5,178,ERNIE
+5,179,StructBERT + CLEVER
+5,180,Turing ULR v6
+5,181,Vega v1
+5,182,Vega v1
+5,183,DeBERTa / TuringNLRv4
+5,184,Turing NLR v5
+5,185,Vega v1
+5,186,Vega v1
+5,187,Turing NLR v5
+5,188,Turing ULR v6
+5,189,Turing NLR v5
+5,190,DeBERTa + CLEVER
+5,191,Vega v1
+5,192,Turing ULR v6
+5,193,ERNIE
+5,194,Vega v1
+5,195,Vega v1
+5,196,Vega v1
+5,197,Turing NLR v5
+5,198,Vega v1
+5,199,Turing ULR v6
+5,200,DeBERTa / TuringNLRv4
+5,201,DeBERTa / TuringNLRv4
+5,202,Turing NLR v5
+5,203,ERNIE
+5,204,Turing ULR v6
+5,205,Vega v1
+5,206,Turing NLR v5
+5,207,StructBERT + CLEVER
+5,208,Turing NLR v5
+5,209,Vega v1
+5,210,Turing NLR v5
+5,211,StructBERT + CLEVER
+5,212,Vega v1
+5,213,Vega v1
+5,214,Turing ULR v6
+5,215,Vega v1
+5,216,ERNIE
+5,217,Vega v1
+5,218,Turing ULR v6
+5,219,Turing NLR v5
+5,220,Turing ULR v6
+5,221,ERNIE
+5,222,ERNIE
+5,223,Turing ULR v6
+5,224,Turing NLR v5
+5,225,DeBERTa / TuringNLRv4
+5,226,Vega v1
+5,227,Vega v1
+5,228,Vega v1
+5,229,StructBERT + CLEVER
+5,230,ERNIE
+5,231,Vega v1
+5,232,Turing ULR v6
+5,233,Turing NLR v5
+5,234,DeBERTa / TuringNLRv4
+5,235,Turing ULR v6
+5,236,Turing ULR v6
+5,237,Turing ULR v6
+5,238,Turing NLR v5
+5,239,Vega v1
+5,240,Turing ULR v6
+5,241,Turing NLR v5
+5,242,DeBERTa + CLEVER
+5,243,ERNIE
+5,244,Turing ULR v6
+5,245,Turing NLR v5
+5,246,ERNIE
+5,247,Turing NLR v5
+5,248,Turing ULR v6
+5,249,Turing ULR v6
+5,250,Vega v1
+5,251,Vega v1
+5,252,StructBERT + CLEVER
+5,253,Turing ULR v6
+5,254,Vega v1
+5,255,ERNIE
+5,256,ERNIE
+5,257,Turing NLR v5
+5,258,Turing NLR v5
+5,259,Turing ULR v6
+5,260,Vega v1
+5,261,ERNIE
+5,262,Turing ULR v6
+5,263,Vega v1
+5,264,Turing ULR v6
+5,265,Turing ULR v6
+5,266,Vega v1
+5,267,Turing NLR v5
+5,268,Turing ULR v6
+5,269,Turing ULR v6
+5,270,ERNIE
+5,271,Turing ULR v6
+5,272,Turing NLR v5
+5,273,Turing ULR v6
+5,274,StructBERT + CLEVER
+5,275,ERNIE
+5,276,Turing ULR v6
+5,277,DeBERTa + CLEVER
+5,278,Turing NLR v5
+5,279,Vega v1
+5,280,Turing ULR v6
+5,281,ERNIE
+5,282,StructBERT + CLEVER
+5,283,DeBERTa + CLEVER
+5,284,ERNIE
+5,285,StructBERT + CLEVER
+5,286,Turing ULR v6
+5,287,DeBERTa / TuringNLRv4
+5,288,Turing ULR v6
+5,289,Turing ULR v6
+5,290,Vega v1
+5,291,Turing ULR v6
+5,292,Turing NLR v5
+5,293,Vega v1
+5,294,Turing NLR v5
+5,295,Vega v1
+5,296,Turing ULR v6
+5,297,Turing ULR v6
+5,298,Vega v1
+5,299,Vega v1
+5,300,Turing ULR v6
+5,301,Turing ULR v6
+5,302,Turing ULR v6
+5,303,Vega v1
+5,304,Turing NLR v5
+5,305,Vega v1
+5,306,StructBERT + CLEVER
+5,307,Vega v1
+5,308,DeBERTa + CLEVER
+5,309,StructBERT + CLEVER
+5,310,ERNIE
+5,311,Vega v1
+5,312,Turing ULR v6
+5,313,DeBERTa / TuringNLRv4
+5,314,Turing ULR v6
+5,315,Turing ULR v6
+5,316,Vega v1
+5,317,Turing ULR v6
+5,318,Turing ULR v6
+5,319,ERNIE
+5,320,StructBERT + CLEVER
+5,321,StructBERT + CLEVER
+5,322,Vega v1
+5,323,Turing ULR v6
+5,324,StructBERT + CLEVER
+5,325,Turing ULR v6
+5,326,Turing NLR v5
+5,327,ERNIE
+5,328,ERNIE
+5,329,Turing ULR v6
+5,330,Vega v1
+5,331,ERNIE
+5,332,ERNIE
+5,333,Turing ULR v6
+5,334,Turing ULR v6
+5,335,Turing ULR v6
+5,336,ERNIE
+5,337,StructBERT + CLEVER
+5,338,Turing NLR v5
+5,339,ERNIE
+5,340,Turing NLR v5
+5,341,Vega v1
+5,342,ERNIE
+5,343,Turing ULR v6
+5,344,Vega v1
+5,345,Turing NLR v5
+5,346,ERNIE
+5,347,Turing NLR v5
+5,348,Vega v1
+5,349,Vega v1
+5,350,StructBERT + CLEVER
+5,351,Turing ULR v6
+5,352,Turing ULR v6
+5,353,Turing NLR v5
+5,354,Turing ULR v6
+5,355,Vega v1
+5,356,Vega v1
+5,357,Turing NLR v5
+5,358,Turing ULR v6
+5,359,DeBERTa + CLEVER
+5,360,Turing ULR v6
+5,361,Vega v1
+5,362,Turing ULR v6
+5,363,Vega v1
+5,364,Turing NLR v5
+5,365,Turing ULR v6
+5,366,Turing ULR v6
+5,367,Turing ULR v6
+5,368,Vega v1
+5,369,ERNIE
+5,370,DeBERTa / TuringNLRv4
+5,371,Vega v1
+5,372,Turing NLR v5
+5,373,Turing ULR v6
+5,374,Vega v1
+5,375,Turing ULR v6
+5,376,Vega v1
+5,377,Turing ULR v6
+5,378,Turing ULR v6
+5,379,Turing NLR v5
+5,380,Vega v1
+5,381,Turing ULR v6
+5,382,Turing ULR v6
+5,383,Turing ULR v6
+5,384,Turing ULR v6
+5,385,DeBERTa / TuringNLRv4
+5,386,ERNIE
+5,387,Vega v1
+5,388,Turing NLR v5
+5,389,ERNIE
+5,390,Vega v1
+5,391,Turing NLR v5
+5,392,ERNIE
+5,393,ERNIE
+5,394,Turing ULR v6
+5,395,Turing ULR v6
+5,396,Vega v1
+5,397,Turing ULR v6
+5,398,Turing ULR v6
+5,399,Vega v1
+5,400,ERNIE
+5,401,Turing ULR v6
+5,402,Turing NLR v5
+5,403,Turing ULR v6
+5,404,DeBERTa + CLEVER
+5,405,Turing ULR v6
+5,406,Turing ULR v6
+5,407,Turing ULR v6
+5,408,ERNIE
+5,409,Turing NLR v5
+5,410,StructBERT + CLEVER
+5,411,StructBERT + CLEVER
+5,412,DeBERTa / TuringNLRv4
+5,413,Vega v1
+5,414,Vega v1
+5,415,Vega v1
+5,416,Turing ULR v6
+5,417,DeBERTa + CLEVER
+5,418,DeBERTa / TuringNLRv4
+5,419,Turing ULR v6
+5,420,Vega v1
+5,421,Vega v1
+5,422,Turing ULR v6
+5,423,Turing NLR v5
+5,424,Vega v1
+5,425,Turing ULR v6
+5,426,Turing NLR v5
+5,427,StructBERT + CLEVER
+5,428,Vega v1
+5,429,DeBERTa / TuringNLRv4
+5,430,StructBERT + CLEVER
+5,431,Turing ULR v6
+5,432,DeBERTa / TuringNLRv4
+5,433,Turing ULR v6
+5,434,Turing ULR v6
+5,435,Vega v1
+5,436,StructBERT + CLEVER
+5,437,Turing NLR v5
+5,438,Turing ULR v6
+5,439,Turing NLR v5
+5,440,Vega v1
+5,441,Turing ULR v6
+5,442,Turing ULR v6
+5,443,Vega v1
+5,444,Vega v1
+5,445,Turing NLR v5
+5,446,ERNIE
+5,447,Vega v1
+5,448,Turing ULR v6
+5,449,Turing NLR v5
+5,450,Turing ULR v6
+5,451,ERNIE
+5,452,ERNIE
+5,453,Turing ULR v6
+5,454,Vega v1
+5,455,DeBERTa / TuringNLRv4
+5,456,Turing NLR v5
+5,457,Turing ULR v6
+5,458,DeBERTa + CLEVER
+5,459,Turing ULR v6
+5,460,Vega v1
+5,461,DeBERTa + CLEVER
+5,462,ERNIE
+5,463,Turing NLR v5
+5,464,Vega v1
+5,465,Turing ULR v6
+5,466,Vega v1
+5,467,DeBERTa + CLEVER
+5,468,Vega v1
+5,469,Turing NLR v5
+5,470,Turing ULR v6
+5,471,ERNIE
+5,472,Vega v1
+5,473,Turing ULR v6
+5,474,Vega v1
+5,475,Turing NLR v5
+5,476,Vega v1
+5,477,Vega v1
+5,478,Vega v1
+5,479,Vega v1
+5,480,Turing NLR v5
+5,481,Vega v1
+5,482,Vega v1
+5,483,Vega v1
+5,484,Vega v1
+5,485,Turing NLR v5
+5,486,Vega v1
+5,487,Turing ULR v6
+5,488,Vega v1
+5,489,Vega v1
+5,490,ERNIE
+5,491,Turing ULR v6
+5,492,StructBERT + CLEVER
+5,493,Turing ULR v6
+5,494,Vega v1
+5,495,Vega v1
+5,496,ERNIE
+5,497,ERNIE
+5,498,Vega v1
+5,499,Turing ULR v6
+5,500,Turing NLR v5
+5,501,Turing NLR v5
+5,502,Turing NLR v5
+5,503,DeBERTa + CLEVER
+5,504,ERNIE
+5,505,Turing ULR v6
+5,506,Turing NLR v5
+5,507,Turing ULR v6
+5,508,Vega v1
+5,509,Vega v1
+5,510,Vega v1
+5,511,ERNIE
+5,512,Turing NLR v5
+5,513,Vega v1
+5,514,Turing ULR v6
+5,515,Turing ULR v6
+5,516,Turing NLR v5
+5,517,Vega v1
+5,518,Vega v1
+5,519,DeBERTa + CLEVER
+5,520,Vega v1
+5,521,Turing ULR v6
+5,522,StructBERT + CLEVER
+5,523,Vega v1
+5,524,StructBERT + CLEVER
+5,525,Vega v1
+5,526,ERNIE
+5,527,Turing ULR v6
+5,528,Turing ULR v6
+5,529,DeBERTa + CLEVER
+5,530,Turing ULR v6
+5,531,Turing ULR v6
+5,532,Turing NLR v5
+5,533,StructBERT + CLEVER
+5,534,Turing NLR v5
+5,535,Turing NLR v5
+5,536,Vega v1
+5,537,ERNIE
+5,538,Turing ULR v6
+5,539,Turing NLR v5
+5,540,Turing ULR v6
+5,541,Vega v1
+5,542,Turing ULR v6
+5,543,ERNIE
+5,544,Vega v1
+5,545,Turing NLR v5
+5,546,Vega v1
+5,547,Vega v1
+5,548,Turing ULR v6
+5,549,Turing ULR v6
+5,550,Vega v1
+5,551,Vega v1
+5,552,Turing ULR v6
+5,553,Turing ULR v6
+5,554,Turing ULR v6
+5,555,Turing ULR v6
+5,556,StructBERT + CLEVER
+5,557,Vega v1
+5,558,Turing ULR v6
+5,559,Turing ULR v6
+5,560,Turing NLR v5
+5,561,ERNIE
+5,562,DeBERTa / TuringNLRv4
+5,563,Vega v1
+5,564,Vega v1
+5,565,Vega v1
+5,566,ERNIE
+5,567,StructBERT + CLEVER
+5,568,Turing ULR v6
+5,569,Turing ULR v6
+5,570,Turing ULR v6
+5,571,Vega v1
+5,572,Vega v1
+5,573,Turing ULR v6
+5,574,Turing NLR v5
+5,575,Turing ULR v6
+5,576,ERNIE
+5,577,ERNIE
+5,578,Turing ULR v6
+5,579,Turing ULR v6
+5,580,Turing ULR v6
+5,581,Turing ULR v6
+5,582,ERNIE
+5,583,Vega v1
+5,584,Turing ULR v6
+5,585,Turing ULR v6
+5,586,Turing ULR v6
+5,587,Turing NLR v5
+5,588,Turing ULR v6
+5,589,ERNIE
+5,590,Vega v1
+5,591,DeBERTa + CLEVER
+5,592,Turing ULR v6
+5,593,Vega v1
+5,594,Turing ULR v6
+5,595,Vega v1
+5,596,StructBERT + CLEVER
+5,597,Turing ULR v6
+5,598,Vega v1
+5,599,StructBERT + CLEVER
+5,600,Turing NLR v5
+5,601,Turing NLR v5
+5,602,Turing ULR v6
+5,603,Turing NLR v5
+5,604,ERNIE
+5,605,Turing ULR v6
+5,606,Turing ULR v6
+5,607,Turing ULR v6
+5,608,Vega v1
+5,609,Vega v1
+5,610,ERNIE
+5,611,Turing ULR v6
+5,612,ERNIE
+5,613,Turing ULR v6
+5,614,ERNIE
+5,615,Vega v1
+5,616,Turing ULR v6
+5,617,Turing ULR v6
+5,618,Vega v1
+5,619,ERNIE
+5,620,ERNIE
+5,621,StructBERT + CLEVER
+5,622,Vega v1
+5,623,Turing ULR v6
+5,624,ERNIE
+5,625,Vega v1
+5,626,StructBERT + CLEVER
+5,627,Vega v1
+5,628,Turing NLR v5
+5,629,Turing ULR v6
+5,630,Turing ULR v6
+5,631,Turing ULR v6
+5,632,StructBERT + CLEVER
+5,633,Turing NLR v5
+5,634,Vega v1
+5,635,Turing NLR v5
+5,636,Turing ULR v6
+5,637,StructBERT + CLEVER
+5,638,Turing ULR v6
+5,639,Vega v1
+5,640,Turing ULR v6
+5,641,Turing ULR v6
+5,642,Turing NLR v5
+5,643,Turing NLR v5
+5,644,Turing ULR v6
+5,645,ERNIE
+5,646,Vega v1
+5,647,Turing NLR v5
+5,648,Vega v1
+5,649,Turing ULR v6
+5,650,Vega v1
+5,651,ERNIE
+5,652,Turing ULR v6
+5,653,Vega v1
+5,654,Vega v1
+5,655,ERNIE
+5,656,ERNIE
+5,657,Turing NLR v5
+5,658,DeBERTa + CLEVER
+5,659,ERNIE
+5,660,Vega v1
+5,661,DeBERTa + CLEVER
+5,662,Turing NLR v5
+5,663,Turing NLR v5
+5,664,Turing ULR v6
+5,665,Turing ULR v6
+5,666,Turing ULR v6
+5,667,ERNIE
+5,668,Vega v1
+5,669,Vega v1
+5,670,Vega v1
+5,671,Vega v1
+5,672,Turing NLR v5
+5,673,StructBERT + CLEVER
+5,674,Turing ULR v6
+5,675,Turing ULR v6
+5,676,Turing ULR v6
+5,677,ERNIE
+5,678,ERNIE
+5,679,ERNIE
+5,680,Vega v1
+5,681,Turing ULR v6
+5,682,Vega v1
+5,683,Turing NLR v5
+5,684,ERNIE
+5,685,Vega v1
+5,686,Vega v1
+5,687,Turing NLR v5
+5,688,Vega v1
+5,689,Turing ULR v6
+5,690,Vega v1
+5,691,Vega v1
+5,692,Turing ULR v6
+5,693,Turing ULR v6
+5,694,Turing NLR v5
+5,695,Vega v1
+5,696,ERNIE
+5,697,Turing ULR v6
+5,698,Turing ULR v6
+5,699,Turing NLR v5
+5,700,DeBERTa / TuringNLRv4
+5,701,Turing ULR v6
+5,702,Vega v1
+5,703,Turing NLR v5
+5,704,Turing ULR v6
+5,705,Vega v1
+5,706,Turing ULR v6
+5,707,Turing ULR v6
+5,708,Turing ULR v6
+5,709,Vega v1
+5,710,Turing ULR v6
+5,711,StructBERT + CLEVER
+5,712,DeBERTa + CLEVER
+5,713,Turing NLR v5
+5,714,DeBERTa / TuringNLRv4
+5,715,Turing NLR v5
+5,716,Vega v1
+5,717,StructBERT + CLEVER
+5,718,Vega v1
+5,719,Turing NLR v5
+5,720,Turing NLR v5
+5,721,StructBERT + CLEVER
+5,722,Vega v1
+5,723,Turing ULR v6
+5,724,Turing ULR v6
+5,725,ERNIE
+5,726,DeBERTa / TuringNLRv4
+5,727,Vega v1
+5,728,Turing ULR v6
+5,729,Turing ULR v6
+5,730,ERNIE
+5,731,ERNIE
+5,732,Turing ULR v6
+5,733,Vega v1
+5,734,Vega v1
+5,735,Vega v1
+5,736,Vega v1
+5,737,Turing ULR v6
+5,738,DeBERTa + CLEVER
+5,739,Vega v1
+5,740,DeBERTa + CLEVER
+5,741,StructBERT + CLEVER
+5,742,Turing NLR v5
+5,743,Turing ULR v6
+5,744,Turing NLR v5
+5,745,Vega v1
+5,746,DeBERTa + CLEVER
+5,747,Turing NLR v5
+5,748,ERNIE
+5,749,Turing ULR v6
+5,750,StructBERT + CLEVER
+5,751,ERNIE
+5,752,ERNIE
+5,753,ERNIE
+5,754,ERNIE
+5,755,Turing ULR v6
+5,756,Turing ULR v6
+5,757,Turing NLR v5
+5,758,Vega v1
+5,759,Turing ULR v6
+5,760,Turing ULR v6
+5,761,Turing NLR v5
+5,762,Turing ULR v6
+5,763,Turing NLR v5
+5,764,ERNIE
+5,765,Turing ULR v6
+5,766,Turing NLR v5
+5,767,Turing NLR v5
+5,768,DeBERTa + CLEVER
+5,769,Turing ULR v6
+5,770,StructBERT + CLEVER
+5,771,Turing ULR v6
+5,772,Turing ULR v6
+5,773,Vega v1
+5,774,Vega v1
+5,775,Vega v1
+5,776,Vega v1
+5,777,DeBERTa + CLEVER
+5,778,ERNIE
+5,779,Vega v1
+5,780,Turing ULR v6
+5,781,Vega v1
+5,782,Turing ULR v6
+5,783,Turing NLR v5
+5,784,Vega v1
+5,785,Turing NLR v5
+5,786,Vega v1
+5,787,ERNIE
+5,788,Turing NLR v5
+5,789,ERNIE
+5,790,DeBERTa + CLEVER
+5,791,Turing ULR v6
+5,792,Vega v1
+5,793,Turing ULR v6
+5,794,Turing NLR v5
+5,795,ERNIE
+5,796,DeBERTa + CLEVER
+5,797,Turing ULR v6
+5,798,Vega v1
+5,799,ERNIE
+5,800,Turing NLR v5
+5,801,Turing ULR v6
+5,802,Vega v1
+5,803,Turing ULR v6
+5,804,Vega v1
+5,805,Vega v1
+5,806,ERNIE
+5,807,Turing ULR v6
+5,808,Turing NLR v5
+5,809,ERNIE
+5,810,StructBERT + CLEVER
+5,811,ERNIE
+5,812,Turing ULR v6
+5,813,ERNIE
+5,814,Turing NLR v5
+5,815,DeBERTa + CLEVER
+5,816,Turing ULR v6
+5,817,Vega v1
+5,818,StructBERT + CLEVER
+5,819,DeBERTa / TuringNLRv4
+5,820,Turing ULR v6
+5,821,Turing ULR v6
+5,822,ERNIE
+5,823,StructBERT + CLEVER
+5,824,DeBERTa / TuringNLRv4
+5,825,Turing ULR v6
+5,826,Turing ULR v6
+5,827,StructBERT + CLEVER
+5,828,Turing ULR v6
+5,829,Vega v1
+5,830,Turing ULR v6
+5,831,Turing ULR v6
+5,832,Vega v1
+5,833,Vega v1
+5,834,Turing ULR v6
+5,835,StructBERT + CLEVER
+5,836,StructBERT + CLEVER
+5,837,Vega v1
+5,838,StructBERT + CLEVER
+5,839,Turing ULR v6
+5,840,Vega v1
+5,841,Vega v1
+5,842,Vega v1
+5,843,Turing NLR v5
+5,844,Turing ULR v6
+5,845,Vega v1
+5,846,ERNIE
+5,847,Turing NLR v5
+5,848,ERNIE
+5,849,DeBERTa / TuringNLRv4
+5,850,ERNIE
+5,851,Turing ULR v6
+5,852,DeBERTa + CLEVER
+5,853,Vega v1
+5,854,Turing ULR v6
+5,855,Turing ULR v6
+5,856,Vega v1
+5,857,Turing NLR v5
+5,858,DeBERTa / TuringNLRv4
+5,859,Turing ULR v6
+5,860,Turing NLR v5
+5,861,Turing ULR v6
+5,862,ERNIE
+5,863,Turing ULR v6
+5,864,Vega v1
+5,865,Turing NLR v5
+5,866,Turing ULR v6
+5,867,Turing ULR v6
+5,868,Turing ULR v6
+5,869,ERNIE
+5,870,Turing NLR v5
+5,871,Turing NLR v5
+5,872,Vega v1
+5,873,ERNIE
+5,874,ERNIE
+5,875,Turing ULR v6
+5,876,ERNIE
+5,877,Turing NLR v5
+5,878,Turing ULR v6
+5,879,Turing ULR v6
+5,880,StructBERT + CLEVER
+5,881,DeBERTa + CLEVER
+5,882,DeBERTa / TuringNLRv4
+5,883,Vega v1
+5,884,Turing ULR v6
+5,885,Turing ULR v6
+5,886,DeBERTa + CLEVER
+5,887,ERNIE
+5,888,StructBERT + CLEVER
+5,889,Turing ULR v6
+5,890,Vega v1
+5,891,Vega v1
+5,892,Vega v1
+5,893,Vega v1
+5,894,Turing ULR v6
+5,895,Turing ULR v6
+5,896,Turing ULR v6
+5,897,Turing ULR v6
+5,898,StructBERT + CLEVER
+5,899,Turing ULR v6
+5,900,StructBERT + CLEVER
+5,901,Turing NLR v5
+5,902,Turing NLR v5
+5,903,ERNIE
+5,904,ERNIE
+5,905,Turing NLR v5
+5,906,Vega v1
+5,907,Turing ULR v6
+5,908,Vega v1
+5,909,Turing ULR v6
+5,910,Vega v1
+5,911,ERNIE
+5,912,Vega v1
+5,913,Vega v1
+5,914,Vega v1
+5,915,Vega v1
+5,916,StructBERT + CLEVER
+5,917,Turing NLR v5
+5,918,StructBERT + CLEVER
+5,919,StructBERT + CLEVER
+5,920,Vega v1
+5,921,Turing NLR v5
+5,922,Turing NLR v5
+5,923,Turing NLR v5
+5,924,Turing ULR v6
+5,925,Turing NLR v5
+5,926,Turing ULR v6
+5,927,Turing ULR v6
+5,928,Turing NLR v5
+5,929,Turing ULR v6
+5,930,Turing NLR v5
+5,931,StructBERT + CLEVER
+5,932,Vega v1
+5,933,Turing NLR v5
+5,934,Turing NLR v5
+5,935,StructBERT + CLEVER
+5,936,Vega v1
+5,937,Turing ULR v6
+5,938,StructBERT + CLEVER
+5,939,Turing NLR v5
+5,940,Turing ULR v6
+5,941,Turing NLR v5
+5,942,ERNIE
+5,943,Turing ULR v6
+5,944,ERNIE
+5,945,Turing NLR v5
+5,946,Turing ULR v6
+5,947,ERNIE
+5,948,Vega v1
+5,949,Turing ULR v6
+5,950,Turing ULR v6
+5,951,Turing ULR v6
+5,952,Vega v1
+5,953,StructBERT + CLEVER
+5,954,Vega v1
+5,955,DeBERTa / TuringNLRv4
+5,956,Turing ULR v6
+5,957,ERNIE
+5,958,ERNIE
+5,959,Turing NLR v5
+5,960,Vega v1
+5,961,Turing ULR v6
+5,962,Vega v1
+5,963,Turing NLR v5
+5,964,Turing ULR v6
+5,965,Turing NLR v5
+5,966,Turing ULR v6
+5,967,Turing ULR v6
+5,968,Vega v1
+5,969,Turing NLR v5
+5,970,Turing ULR v6
+5,971,Turing ULR v6
+5,972,Turing NLR v5
+5,973,StructBERT + CLEVER
+5,974,Turing ULR v6
+5,975,Turing ULR v6
+5,976,Turing NLR v5
+5,977,Turing NLR v5
+5,978,Turing ULR v6
+5,979,Turing ULR v6
+5,980,Turing NLR v5
+5,981,Turing ULR v6
+5,982,Turing ULR v6
+5,983,Turing ULR v6
+5,984,StructBERT + CLEVER
+5,985,ERNIE
+5,986,Turing NLR v5
+5,987,Vega v1
+5,988,Vega v1
+5,989,Vega v1
+5,990,Turing NLR v5
+5,991,Turing ULR v6
+5,992,Vega v1
+5,993,Turing ULR v6
+5,994,ERNIE
+5,995,Turing NLR v5
+5,996,ERNIE
+5,997,Vega v1
+5,998,Turing ULR v6
+5,999,Turing ULR v6
+6,0,Turing NLR v5
+6,1,ERNIE
+6,2,Turing ULR v6
+6,3,Vega v1
+6,4,Vega v1
+6,5,Vega v1
+6,6,Turing ULR v6
+6,7,Vega v1
+6,8,Vega v1
+6,9,Turing ULR v6
+6,10,Turing ULR v6
+6,11,DeBERTa + CLEVER
+6,12,Turing ULR v6
+6,13,Turing ULR v6
+6,14,DeBERTa + CLEVER
+6,15,Turing ULR v6
+6,16,Turing ULR v6
+6,17,Turing NLR v5
+6,18,Turing NLR v5
+6,19,Vega v1
+6,20,Vega v1
+6,21,Vega v1
+6,22,Vega v1
+6,23,Turing NLR v5
+6,24,Turing ULR v6
+6,25,Turing ULR v6
+6,26,Turing ULR v6
+6,27,Turing NLR v5
+6,28,Turing ULR v6
+6,29,Turing ULR v6
+6,30,Vega v1
+6,31,Turing ULR v6
+6,32,Turing ULR v6
+6,33,Turing ULR v6
+6,34,Vega v1
+6,35,Vega v1
+6,36,Turing ULR v6
+6,37,Turing NLR v5
+6,38,Vega v1
+6,39,StructBERT + CLEVER
+6,40,Turing ULR v6
+6,41,StructBERT + CLEVER
+6,42,Vega v1
+6,43,StructBERT + CLEVER
+6,44,Turing ULR v6
+6,45,Turing ULR v6
+6,46,Turing ULR v6
+6,47,Turing NLR v5
+6,48,DeBERTa + CLEVER
+6,49,Vega v1
+6,50,Turing ULR v6
+6,51,Turing ULR v6
+6,52,Turing ULR v6
+6,53,Vega v1
+6,54,Turing ULR v6
+6,55,Turing NLR v5
+6,56,Turing ULR v6
+6,57,Turing ULR v6
+6,58,Turing ULR v6
+6,59,Turing NLR v5
+6,60,Turing NLR v5
+6,61,Vega v1
+6,62,Turing ULR v6
+6,63,Turing ULR v6
+6,64,StructBERT + CLEVER
+6,65,ERNIE
+6,66,Vega v1
+6,67,Turing ULR v6
+6,68,Vega v1
+6,69,Vega v1
+6,70,Turing ULR v6
+6,71,Vega v1
+6,72,Turing ULR v6
+6,73,Turing NLR v5
+6,74,Turing ULR v6
+6,75,Turing ULR v6
+6,76,Turing NLR v5
+6,77,Turing ULR v6
+6,78,Vega v1
+6,79,Turing ULR v6
+6,80,Turing NLR v5
+6,81,Turing ULR v6
+6,82,Turing NLR v5
+6,83,Turing NLR v5
+6,84,Turing ULR v6
+6,85,Turing ULR v6
+6,86,StructBERT + CLEVER
+6,87,Turing ULR v6
+6,88,Turing NLR v5
+6,89,Turing ULR v6
+6,90,Turing ULR v6
+6,91,StructBERT + CLEVER
+6,92,Turing ULR v6
+6,93,ERNIE
+6,94,Turing ULR v6
+6,95,StructBERT + CLEVER
+6,96,Vega v1
+6,97,Turing NLR v5
+6,98,Turing NLR v5
+6,99,Vega v1
+6,100,ERNIE
+6,101,ERNIE
+6,102,Turing NLR v5
+6,103,Turing ULR v6
+6,104,Vega v1
+6,105,Turing ULR v6
+6,106,Vega v1
+6,107,Vega v1
+6,108,Turing NLR v5
+6,109,Turing NLR v5
+6,110,Turing NLR v5
+6,111,Turing ULR v6
+6,112,Turing ULR v6
+6,113,Turing ULR v6
+6,114,Turing NLR v5
+6,115,Vega v1
+6,116,Vega v1
+6,117,Turing ULR v6
+6,118,ERNIE
+6,119,Turing ULR v6
+6,120,Vega v1
+6,121,Vega v1
+6,122,Turing ULR v6
+6,123,Vega v1
+6,124,Turing NLR v5
+6,125,Turing ULR v6
+6,126,Turing ULR v6
+6,127,Turing ULR v6
+6,128,ERNIE
+6,129,Turing ULR v6
+6,130,Turing ULR v6
+6,131,Turing ULR v6
+6,132,Vega v1
+6,133,Vega v1
+6,134,Vega v1
+6,135,Turing ULR v6
+6,136,Turing ULR v6
+6,137,ERNIE
+6,138,Turing ULR v6
+6,139,ERNIE
+6,140,ERNIE
+6,141,Vega v1
+6,142,Turing ULR v6
+6,143,Turing NLR v5
+6,144,ERNIE
+6,145,Vega v1
+6,146,StructBERT + CLEVER
+6,147,StructBERT + CLEVER
+6,148,Turing ULR v6
+6,149,Turing ULR v6
+6,150,Turing NLR v5
+6,151,ERNIE
+6,152,Vega v1
+6,153,Turing NLR v5
+6,154,Turing ULR v6
+6,155,ERNIE
+6,156,Turing NLR v5
+6,157,Turing ULR v6
+6,158,Turing ULR v6
+6,159,Vega v1
+6,160,Vega v1
+6,161,Turing ULR v6
+6,162,Vega v1
+6,163,Turing ULR v6
+6,164,Turing NLR v5
+6,165,Vega v1
+6,166,Turing ULR v6
+6,167,Vega v1
+6,168,Turing ULR v6
+6,169,Turing ULR v6
+6,170,Turing ULR v6
+6,171,Vega v1
+6,172,Turing NLR v5
+6,173,Vega v1
+6,174,Turing NLR v5
+6,175,Turing NLR v5
+6,176,Vega v1
+6,177,Turing ULR v6
+6,178,Turing ULR v6
+6,179,Turing ULR v6
+6,180,Vega v1
+6,181,Turing NLR v5
+6,182,StructBERT + CLEVER
+6,183,Turing ULR v6
+6,184,Turing NLR v5
+6,185,Turing ULR v6
+6,186,Vega v1
+6,187,Turing ULR v6
+6,188,Turing ULR v6
+6,189,Turing NLR v5
+6,190,Turing ULR v6
+6,191,Turing ULR v6
+6,192,Turing ULR v6
+6,193,Turing NLR v5
+6,194,ERNIE
+6,195,Vega v1
+6,196,Turing NLR v5
+6,197,ERNIE
+6,198,Turing NLR v5
+6,199,ERNIE
+6,200,Turing ULR v6
+6,201,Turing ULR v6
+6,202,Turing ULR v6
+6,203,Vega v1
+6,204,Turing ULR v6
+6,205,Turing ULR v6
+6,206,Vega v1
+6,207,Turing NLR v5
+6,208,Turing ULR v6
+6,209,StructBERT + CLEVER
+6,210,Vega v1
+6,211,Vega v1
+6,212,Turing NLR v5
+6,213,StructBERT + CLEVER
+6,214,Turing NLR v5
+6,215,Vega v1
+6,216,Vega v1
+6,217,Vega v1
+6,218,ERNIE
+6,219,Turing NLR v5
+6,220,Vega v1
+6,221,Turing NLR v5
+6,222,Vega v1
+6,223,Vega v1
+6,224,Turing NLR v5
+6,225,Vega v1
+6,226,Turing ULR v6
+6,227,ERNIE
+6,228,Vega v1
+6,229,StructBERT + CLEVER
+6,230,StructBERT + CLEVER
+6,231,Turing NLR v5
+6,232,Vega v1
+6,233,Vega v1
+6,234,Vega v1
+6,235,Vega v1
+6,236,Vega v1
+6,237,Vega v1
+6,238,Vega v1
+6,239,Vega v1
+6,240,Turing ULR v6
+6,241,Turing ULR v6
+6,242,Turing ULR v6
+6,243,Turing NLR v5
+6,244,Turing NLR v5
+6,245,Turing NLR v5
+6,246,Vega v1
+6,247,Vega v1
+6,248,Turing NLR v5
+6,249,Vega v1
+6,250,Turing NLR v5
+6,251,Turing ULR v6
+6,252,Turing NLR v5
+6,253,Vega v1
+6,254,Turing ULR v6
+6,255,Turing ULR v6
+6,256,Turing ULR v6
+6,257,ERNIE
+6,258,Turing ULR v6
+6,259,Turing ULR v6
+6,260,Turing ULR v6
+6,261,Vega v1
+6,262,Vega v1
+6,263,Turing ULR v6
+6,264,Vega v1
+6,265,Turing ULR v6
+6,266,ERNIE
+6,267,Turing NLR v5
+6,268,Vega v1
+6,269,Turing ULR v6
+6,270,ERNIE
+6,271,Vega v1
+6,272,StructBERT + CLEVER
+6,273,Turing NLR v5
+6,274,Turing ULR v6
+6,275,Turing ULR v6
+6,276,Turing ULR v6
+6,277,Turing ULR v6
+6,278,Turing ULR v6
+6,279,Turing ULR v6
+6,280,StructBERT + CLEVER
+6,281,ERNIE
+6,282,Vega v1
+6,283,Vega v1
+6,284,Turing ULR v6
+6,285,Turing ULR v6
+6,286,Turing ULR v6
+6,287,Turing ULR v6
+6,288,Vega v1
+6,289,Vega v1
+6,290,Turing ULR v6
+6,291,ERNIE
+6,292,Turing NLR v5
+6,293,Vega v1
+6,294,ERNIE
+6,295,ERNIE
+6,296,Turing NLR v5
+6,297,Vega v1
+6,298,Turing ULR v6
+6,299,Turing ULR v6
+6,300,Vega v1
+6,301,Vega v1
+6,302,ERNIE
+6,303,Turing NLR v5
+6,304,ERNIE
+6,305,Vega v1
+6,306,Turing ULR v6
+6,307,Turing ULR v6
+6,308,ERNIE
+6,309,Vega v1
+6,310,Vega v1
+6,311,Turing ULR v6
+6,312,Turing ULR v6
+6,313,Turing ULR v6
+6,314,Turing ULR v6
+6,315,StructBERT + CLEVER
+6,316,Turing ULR v6
+6,317,Turing NLR v5
+6,318,Turing ULR v6
+6,319,Turing NLR v5
+6,320,Turing ULR v6
+6,321,Turing ULR v6
+6,322,Vega v1
+6,323,Turing ULR v6
+6,324,Turing ULR v6
+6,325,Turing ULR v6
+6,326,Vega v1
+6,327,Vega v1
+6,328,Vega v1
+6,329,Vega v1
+6,330,Turing NLR v5
+6,331,Vega v1
+6,332,Vega v1
+6,333,StructBERT + CLEVER
+6,334,StructBERT + CLEVER
+6,335,Vega v1
+6,336,Turing NLR v5
+6,337,Vega v1
+6,338,DeBERTa + CLEVER
+6,339,Vega v1
+6,340,Vega v1
+6,341,Turing ULR v6
+6,342,Vega v1
+6,343,Turing ULR v6
+6,344,Turing NLR v5
+6,345,Turing NLR v5
+6,346,Turing ULR v6
+6,347,Vega v1
+6,348,Turing NLR v5
+6,349,Turing NLR v5
+6,350,Vega v1
+6,351,Turing ULR v6
+6,352,Turing ULR v6
+6,353,StructBERT + CLEVER
+6,354,Turing NLR v5
+6,355,Turing ULR v6
+6,356,Vega v1
+6,357,Turing NLR v5
+6,358,Turing NLR v5
+6,359,Vega v1
+6,360,Turing ULR v6
+6,361,Turing ULR v6
+6,362,Vega v1
+6,363,Vega v1
+6,364,Turing NLR v5
+6,365,Turing NLR v5
+6,366,Turing NLR v5
+6,367,Turing NLR v5
+6,368,Turing NLR v5
+6,369,Vega v1
+6,370,Turing ULR v6
+6,371,Turing ULR v6
+6,372,Turing NLR v5
+6,373,Turing NLR v5
+6,374,Turing ULR v6
+6,375,Turing ULR v6
+6,376,Turing ULR v6
+6,377,Turing ULR v6
+6,378,StructBERT + CLEVER
+6,379,Vega v1
+6,380,Vega v1
+6,381,ERNIE
+6,382,Turing ULR v6
+6,383,Turing ULR v6
+6,384,Vega v1
+6,385,Turing ULR v6
+6,386,Vega v1
+6,387,Turing ULR v6
+6,388,Turing ULR v6
+6,389,Turing ULR v6
+6,390,Turing ULR v6
+6,391,Turing ULR v6
+6,392,Turing NLR v5
+6,393,Turing ULR v6
+6,394,Turing ULR v6
+6,395,Vega v1
+6,396,Turing ULR v6
+6,397,ERNIE
+6,398,Turing ULR v6
+6,399,Turing NLR v5
+6,400,Turing ULR v6
+6,401,Turing NLR v5
+6,402,Turing ULR v6
+6,403,Turing ULR v6
+6,404,StructBERT + CLEVER
+6,405,Turing NLR v5
+6,406,Turing NLR v5
+6,407,ERNIE
+6,408,Turing ULR v6
+6,409,Turing ULR v6
+6,410,Vega v1
+6,411,Turing ULR v6
+6,412,Vega v1
+6,413,ERNIE
+6,414,Turing ULR v6
+6,415,Turing ULR v6
+6,416,Turing NLR v5
+6,417,Turing ULR v6
+6,418,Turing ULR v6
+6,419,Turing NLR v5
+6,420,Vega v1
+6,421,Vega v1
+6,422,Turing NLR v5
+6,423,Turing NLR v5
+6,424,Turing ULR v6
+6,425,Turing NLR v5
+6,426,StructBERT + CLEVER
+6,427,Turing ULR v6
+6,428,DeBERTa + CLEVER
+6,429,Turing ULR v6
+6,430,Vega v1
+6,431,Turing ULR v6
+6,432,Turing ULR v6
+6,433,Vega v1
+6,434,ERNIE
+6,435,Turing ULR v6
+6,436,StructBERT + CLEVER
+6,437,Turing ULR v6
+6,438,Vega v1
+6,439,StructBERT + CLEVER
+6,440,Turing ULR v6
+6,441,Turing ULR v6
+6,442,Turing NLR v5
+6,443,Vega v1
+6,444,Turing ULR v6
+6,445,ERNIE
+6,446,Turing NLR v5
+6,447,Turing ULR v6
+6,448,DeBERTa + CLEVER
+6,449,StructBERT + CLEVER
+6,450,Turing ULR v6
+6,451,Vega v1
+6,452,Vega v1
+6,453,Turing ULR v6
+6,454,Turing ULR v6
+6,455,Turing NLR v5
+6,456,Turing ULR v6
+6,457,Turing ULR v6
+6,458,Turing ULR v6
+6,459,Turing ULR v6
+6,460,Turing ULR v6
+6,461,Turing ULR v6
+6,462,Turing NLR v5
+6,463,Turing NLR v5
+6,464,Turing ULR v6
+6,465,Turing ULR v6
+6,466,Turing ULR v6
+6,467,Turing ULR v6
+6,468,Turing ULR v6
+6,469,Turing ULR v6
+6,470,Turing NLR v5
+6,471,Vega v1
+6,472,Vega v1
+6,473,Turing NLR v5
+6,474,Turing ULR v6
+6,475,Vega v1
+6,476,Turing NLR v5
+6,477,Vega v1
+6,478,StructBERT + CLEVER
+6,479,Vega v1
+6,480,Turing ULR v6
+6,481,Vega v1
+6,482,StructBERT + CLEVER
+6,483,Turing NLR v5
+6,484,StructBERT + CLEVER
+6,485,Vega v1
+6,486,StructBERT + CLEVER
+6,487,Turing NLR v5
+6,488,Turing ULR v6
+6,489,Vega v1
+6,490,Turing NLR v5
+6,491,Vega v1
+6,492,Turing NLR v5
+6,493,Turing ULR v6
+6,494,Vega v1
+6,495,StructBERT + CLEVER
+6,496,Vega v1
+6,497,Vega v1
+6,498,Vega v1
+6,499,Vega v1
+6,500,ERNIE
+6,501,Turing NLR v5
+6,502,Turing ULR v6
+6,503,ERNIE
+6,504,Turing ULR v6
+6,505,Turing ULR v6
+6,506,Turing ULR v6
+6,507,Vega v1
+6,508,Vega v1
+6,509,Vega v1
+6,510,ERNIE
+6,511,Turing NLR v5
+6,512,Turing NLR v5
+6,513,Turing ULR v6
+6,514,Turing ULR v6
+6,515,ERNIE
+6,516,Turing ULR v6
+6,517,Vega v1
+6,518,Turing NLR v5
+6,519,Turing NLR v5
+6,520,Turing ULR v6
+6,521,Turing ULR v6
+6,522,Turing ULR v6
+6,523,StructBERT + CLEVER
+6,524,Turing ULR v6
+6,525,Turing ULR v6
+6,526,Turing NLR v5
+6,527,Vega v1
+6,528,Vega v1
+6,529,Turing ULR v6
+6,530,Turing NLR v5
+6,531,StructBERT + CLEVER
+6,532,Turing ULR v6
+6,533,Turing ULR v6
+6,534,DeBERTa + CLEVER
+6,535,StructBERT + CLEVER
+6,536,Turing NLR v5
+6,537,ERNIE
+6,538,Vega v1
+6,539,ERNIE
+6,540,Turing ULR v6
+6,541,Turing NLR v5
+6,542,Turing NLR v5
+6,543,Turing ULR v6
+6,544,Vega v1
+6,545,ERNIE
+6,546,Turing NLR v5
+6,547,Turing ULR v6
+6,548,Turing ULR v6
+6,549,Turing ULR v6
+6,550,Turing NLR v5
+6,551,Vega v1
+6,552,Turing ULR v6
+6,553,Vega v1
+6,554,Turing ULR v6
+6,555,Vega v1
+6,556,Vega v1
+6,557,Turing ULR v6
+6,558,Turing ULR v6
+6,559,Turing NLR v5
+6,560,Turing NLR v5
+6,561,StructBERT + CLEVER
+6,562,DeBERTa + CLEVER
+6,563,Turing NLR v5
+6,564,Turing ULR v6
+6,565,Turing ULR v6
+6,566,Vega v1
+6,567,Turing ULR v6
+6,568,Turing ULR v6
+6,569,Vega v1
+6,570,Vega v1
+6,571,Vega v1
+6,572,Turing ULR v6
+6,573,Vega v1
+6,574,Turing ULR v6
+6,575,Vega v1
+6,576,Vega v1
+6,577,Turing ULR v6
+6,578,Turing ULR v6
+6,579,Vega v1
+6,580,Vega v1
+6,581,Turing ULR v6
+6,582,Turing ULR v6
+6,583,Turing NLR v5
+6,584,Vega v1
+6,585,Turing ULR v6
+6,586,Turing ULR v6
+6,587,StructBERT + CLEVER
+6,588,Vega v1
+6,589,Turing NLR v5
+6,590,Turing NLR v5
+6,591,Turing ULR v6
+6,592,Vega v1
+6,593,Turing NLR v5
+6,594,Turing ULR v6
+6,595,Turing ULR v6
+6,596,Turing ULR v6
+6,597,Turing NLR v5
+6,598,ERNIE
+6,599,Turing NLR v5
+6,600,Turing ULR v6
+6,601,Vega v1
+6,602,Turing NLR v5
+6,603,Vega v1
+6,604,Turing ULR v6
+6,605,Vega v1
+6,606,Turing ULR v6
+6,607,Vega v1
+6,608,Vega v1
+6,609,Vega v1
+6,610,Vega v1
+6,611,StructBERT + CLEVER
+6,612,Vega v1
+6,613,Turing NLR v5
+6,614,ERNIE
+6,615,Turing ULR v6
+6,616,Vega v1
+6,617,ERNIE
+6,618,Turing ULR v6
+6,619,Vega v1
+6,620,Turing ULR v6
+6,621,ERNIE
+6,622,Turing NLR v5
+6,623,Turing ULR v6
+6,624,Turing NLR v5
+6,625,Turing ULR v6
+6,626,Turing NLR v5
+6,627,Turing NLR v5
+6,628,Vega v1
+6,629,Turing ULR v6
+6,630,Turing ULR v6
+6,631,Turing ULR v6
+6,632,Vega v1
+6,633,Vega v1
+6,634,Vega v1
+6,635,Turing ULR v6
+6,636,Turing NLR v5
+6,637,Turing NLR v5
+6,638,Vega v1
+6,639,Vega v1
+6,640,Vega v1
+6,641,ERNIE
+6,642,Turing ULR v6
+6,643,Turing NLR v5
+6,644,Turing NLR v5
+6,645,Turing NLR v5
+6,646,Turing NLR v5
+6,647,Turing ULR v6
+6,648,Turing ULR v6
+6,649,Turing ULR v6
+6,650,Turing NLR v5
+6,651,Vega v1
+6,652,StructBERT + CLEVER
+6,653,Turing NLR v5
+6,654,ERNIE
+6,655,Turing ULR v6
+6,656,Vega v1
+6,657,Turing NLR v5
+6,658,Turing NLR v5
+6,659,Turing NLR v5
+6,660,Turing NLR v5
+6,661,Turing ULR v6
+6,662,ERNIE
+6,663,Turing NLR v5
+6,664,Turing NLR v5
+6,665,Turing NLR v5
+6,666,Turing ULR v6
+6,667,Turing ULR v6
+6,668,Turing ULR v6
+6,669,StructBERT + CLEVER
+6,670,Turing ULR v6
+6,671,Vega v1
+6,672,Vega v1
+6,673,Turing NLR v5
+6,674,Vega v1
+6,675,Turing NLR v5
+6,676,Turing ULR v6
+6,677,Turing NLR v5
+6,678,Vega v1
+6,679,Vega v1
+6,680,Turing NLR v5
+6,681,ERNIE
+6,682,StructBERT + CLEVER
+6,683,ERNIE
+6,684,Vega v1
+6,685,Vega v1
+6,686,Turing ULR v6
+6,687,Turing ULR v6
+6,688,Turing ULR v6
+6,689,Turing NLR v5
+6,690,Turing NLR v5
+6,691,Turing NLR v5
+6,692,Vega v1
+6,693,Turing ULR v6
+6,694,Vega v1
+6,695,Turing ULR v6
+6,696,Turing ULR v6
+6,697,ERNIE
+6,698,Turing ULR v6
+6,699,Vega v1
+6,700,Turing ULR v6
+6,701,Vega v1
+6,702,Vega v1
+6,703,Vega v1
+6,704,Turing ULR v6
+6,705,Turing NLR v5
+6,706,Turing NLR v5
+6,707,Turing NLR v5
+6,708,Vega v1
+6,709,ERNIE
+6,710,Turing ULR v6
+6,711,Vega v1
+6,712,Turing ULR v6
+6,713,Vega v1
+6,714,Turing NLR v5
+6,715,Vega v1
+6,716,Vega v1
+6,717,Turing ULR v6
+6,718,Vega v1
+6,719,Turing ULR v6
+6,720,Vega v1
+6,721,Vega v1
+6,722,Turing ULR v6
+6,723,Turing ULR v6
+6,724,ERNIE
+6,725,Vega v1
+6,726,Turing NLR v5
+6,727,Turing ULR v6
+6,728,Turing ULR v6
+6,729,Turing ULR v6
+6,730,Vega v1
+6,731,Turing ULR v6
+6,732,Turing NLR v5
+6,733,Vega v1
+6,734,Vega v1
+6,735,Turing ULR v6
+6,736,StructBERT + CLEVER
+6,737,Turing ULR v6
+6,738,Turing NLR v5
+6,739,ERNIE
+6,740,Vega v1
+6,741,Vega v1
+6,742,Turing ULR v6
+6,743,Vega v1
+6,744,Vega v1
+6,745,Turing ULR v6
+6,746,Vega v1
+6,747,Turing NLR v5
+6,748,Vega v1
+6,749,Turing ULR v6
+6,750,Turing NLR v5
+6,751,Vega v1
+6,752,Vega v1
+6,753,Turing NLR v5
+6,754,Vega v1
+6,755,StructBERT + CLEVER
+6,756,Turing NLR v5
+6,757,Turing ULR v6
+6,758,Turing NLR v5
+6,759,DeBERTa + CLEVER
+6,760,Vega v1
+6,761,Vega v1
+6,762,ERNIE
+6,763,ERNIE
+6,764,Turing ULR v6
+6,765,ERNIE
+6,766,StructBERT + CLEVER
+6,767,Vega v1
+6,768,Vega v1
+6,769,Turing NLR v5
+6,770,StructBERT + CLEVER
+6,771,Turing NLR v5
+6,772,Vega v1
+6,773,Vega v1
+6,774,Turing ULR v6
+6,775,Turing ULR v6
+6,776,Turing ULR v6
+6,777,Turing ULR v6
+6,778,Turing NLR v5
+6,779,Turing ULR v6
+6,780,Vega v1
+6,781,ERNIE
+6,782,Vega v1
+6,783,Turing NLR v5
+6,784,StructBERT + CLEVER
+6,785,Turing ULR v6
+6,786,Turing ULR v6
+6,787,Turing NLR v5
+6,788,Turing NLR v5
+6,789,Vega v1
+6,790,ERNIE
+6,791,Turing ULR v6
+6,792,Turing NLR v5
+6,793,Vega v1
+6,794,Vega v1
+6,795,Turing NLR v5
+6,796,Turing ULR v6
+6,797,Turing ULR v6
+6,798,Vega v1
+6,799,ERNIE
+6,800,Turing ULR v6
+6,801,Vega v1
+6,802,Turing ULR v6
+6,803,Vega v1
+6,804,Turing NLR v5
+6,805,ERNIE
+6,806,Turing NLR v5
+6,807,Turing ULR v6
+6,808,Turing ULR v6
+6,809,Turing ULR v6
+6,810,Turing ULR v6
+6,811,Turing ULR v6
+6,812,Vega v1
+6,813,Turing ULR v6
+6,814,Turing ULR v6
+6,815,Turing NLR v5
+6,816,Vega v1
+6,817,ERNIE
+6,818,Turing ULR v6
+6,819,Turing NLR v5
+6,820,Turing NLR v5
+6,821,StructBERT + CLEVER
+6,822,Turing ULR v6
+6,823,Turing ULR v6
+6,824,Vega v1
+6,825,Turing NLR v5
+6,826,Turing ULR v6
+6,827,Turing ULR v6
+6,828,ERNIE
+6,829,Vega v1
+6,830,StructBERT + CLEVER
+6,831,Turing ULR v6
+6,832,Turing NLR v5
+6,833,Turing ULR v6
+6,834,Turing ULR v6
+6,835,Turing NLR v5
+6,836,Vega v1
+6,837,Turing NLR v5
+6,838,Turing ULR v6
+6,839,Turing NLR v5
+6,840,Turing ULR v6
+6,841,Vega v1
+6,842,Vega v1
+6,843,Vega v1
+6,844,Turing ULR v6
+6,845,Turing NLR v5
+6,846,Turing ULR v6
+6,847,ERNIE
+6,848,Turing ULR v6
+6,849,ERNIE
+6,850,StructBERT + CLEVER
+6,851,ERNIE
+6,852,Turing ULR v6
+6,853,StructBERT + CLEVER
+6,854,Turing ULR v6
+6,855,Vega v1
+6,856,Turing NLR v5
+6,857,StructBERT + CLEVER
+6,858,Turing ULR v6
+6,859,Turing ULR v6
+6,860,Vega v1
+6,861,Turing ULR v6
+6,862,Turing ULR v6
+6,863,DeBERTa + CLEVER
+6,864,Vega v1
+6,865,Turing ULR v6
+6,866,Turing ULR v6
+6,867,ERNIE
+6,868,Vega v1
+6,869,Turing NLR v5
+6,870,Vega v1
+6,871,Turing NLR v5
+6,872,Turing ULR v6
+6,873,Turing NLR v5
+6,874,Vega v1
+6,875,Turing NLR v5
+6,876,Turing ULR v6
+6,877,Turing ULR v6
+6,878,Turing NLR v5
+6,879,Turing NLR v5
+6,880,Vega v1
+6,881,StructBERT + CLEVER
+6,882,ERNIE
+6,883,Turing ULR v6
+6,884,Turing ULR v6
+6,885,Vega v1
+6,886,ERNIE
+6,887,Turing ULR v6
+6,888,Vega v1
+6,889,Vega v1
+6,890,Turing ULR v6
+6,891,Vega v1
+6,892,Turing NLR v5
+6,893,Vega v1
+6,894,ERNIE
+6,895,Vega v1
+6,896,Vega v1
+6,897,Turing ULR v6
+6,898,Turing ULR v6
+6,899,Turing ULR v6
+6,900,Vega v1
+6,901,StructBERT + CLEVER
+6,902,Turing ULR v6
+6,903,Vega v1
+6,904,Vega v1
+6,905,Turing ULR v6
+6,906,Turing ULR v6
+6,907,Turing NLR v5
+6,908,Turing ULR v6
+6,909,Vega v1
+6,910,Turing NLR v5
+6,911,Turing ULR v6
+6,912,Turing NLR v5
+6,913,Turing ULR v6
+6,914,Turing ULR v6
+6,915,Turing NLR v5
+6,916,Vega v1
+6,917,Vega v1
+6,918,Turing NLR v5
+6,919,Vega v1
+6,920,Turing ULR v6
+6,921,Vega v1
+6,922,ERNIE
+6,923,Turing ULR v6
+6,924,Turing ULR v6
+6,925,Vega v1
+6,926,Turing ULR v6
+6,927,Turing ULR v6
+6,928,Turing NLR v5
+6,929,Vega v1
+6,930,StructBERT + CLEVER
+6,931,Vega v1
+6,932,Turing ULR v6
+6,933,Turing ULR v6
+6,934,Turing NLR v5
+6,935,Turing ULR v6
+6,936,Turing NLR v5
+6,937,Vega v1
+6,938,Turing ULR v6
+6,939,Vega v1
+6,940,Vega v1
+6,941,Vega v1
+6,942,Vega v1
+6,943,ERNIE
+6,944,Vega v1
+6,945,Turing ULR v6
+6,946,ERNIE
+6,947,Vega v1
+6,948,Turing ULR v6
+6,949,Turing ULR v6
+6,950,StructBERT + CLEVER
+6,951,Turing ULR v6
+6,952,Vega v1
+6,953,Vega v1
+6,954,Vega v1
+6,955,Turing NLR v5
+6,956,Turing ULR v6
+6,957,Turing NLR v5
+6,958,DeBERTa + CLEVER
+6,959,Turing ULR v6
+6,960,Turing ULR v6
+6,961,StructBERT + CLEVER
+6,962,StructBERT + CLEVER
+6,963,Turing ULR v6
+6,964,Turing ULR v6
+6,965,Turing ULR v6
+6,966,Turing ULR v6
+6,967,ERNIE
+6,968,Turing ULR v6
+6,969,StructBERT + CLEVER
+6,970,Vega v1
+6,971,Turing ULR v6
+6,972,StructBERT + CLEVER
+6,973,Turing ULR v6
+6,974,Turing ULR v6
+6,975,Vega v1
+6,976,Vega v1
+6,977,Turing NLR v5
+6,978,ERNIE
+6,979,DeBERTa + CLEVER
+6,980,Turing ULR v6
+6,981,Turing ULR v6
+6,982,StructBERT + CLEVER
+6,983,Vega v1
+6,984,Vega v1
+6,985,Vega v1
+6,986,Turing ULR v6
+6,987,Turing ULR v6
+6,988,Turing NLR v5
+6,989,Vega v1
+6,990,Turing ULR v6
+6,991,Turing ULR v6
+6,992,Turing NLR v5
+6,993,Turing ULR v6
+6,994,Turing ULR v6
+6,995,Turing ULR v6
+6,996,Turing ULR v6
+6,997,Vega v1
+6,998,Turing ULR v6
+6,999,Turing ULR v6
+7,0,Turing ULR v6
+7,1,Turing ULR v6
+7,2,Vega v1
+7,3,Turing NLR v5
+7,4,Turing ULR v6
+7,5,Turing ULR v6
+7,6,Turing NLR v5
+7,7,Turing ULR v6
+7,8,StructBERT + CLEVER
+7,9,Turing ULR v6
+7,10,Turing NLR v5
+7,11,Turing ULR v6
+7,12,Turing ULR v6
+7,13,Turing ULR v6
+7,14,Turing ULR v6
+7,15,Turing ULR v6
+7,16,Turing ULR v6
+7,17,Turing ULR v6
+7,18,Turing ULR v6
+7,19,Turing NLR v5
+7,20,Vega v1
+7,21,Vega v1
+7,22,Vega v1
+7,23,Turing ULR v6
+7,24,Turing ULR v6
+7,25,Turing ULR v6
+7,26,Turing ULR v6
+7,27,Turing ULR v6
+7,28,Turing ULR v6
+7,29,Turing ULR v6
+7,30,Turing ULR v6
+7,31,Vega v1
+7,32,Vega v1
+7,33,Vega v1
+7,34,Vega v1
+7,35,Turing ULR v6
+7,36,Vega v1
+7,37,Turing ULR v6
+7,38,Turing ULR v6
+7,39,Vega v1
+7,40,Turing NLR v5
+7,41,Turing ULR v6
+7,42,Turing ULR v6
+7,43,Turing ULR v6
+7,44,Turing NLR v5
+7,45,Turing ULR v6
+7,46,Vega v1
+7,47,Turing NLR v5
+7,48,Turing ULR v6
+7,49,Turing NLR v5
+7,50,Turing ULR v6
+7,51,Turing ULR v6
+7,52,Vega v1
+7,53,Vega v1
+7,54,Turing NLR v5
+7,55,Turing ULR v6
+7,56,Turing NLR v5
+7,57,Turing ULR v6
+7,58,Turing NLR v5
+7,59,Turing ULR v6
+7,60,Turing ULR v6
+7,61,Turing ULR v6
+7,62,Turing ULR v6
+7,63,Turing ULR v6
+7,64,Vega v1
+7,65,Turing ULR v6
+7,66,Turing ULR v6
+7,67,Vega v1
+7,68,Vega v1
+7,69,Turing ULR v6
+7,70,Turing ULR v6
+7,71,Turing NLR v5
+7,72,Turing ULR v6
+7,73,Turing ULR v6
+7,74,Turing ULR v6
+7,75,Turing ULR v6
+7,76,Turing ULR v6
+7,77,Turing ULR v6
+7,78,Turing NLR v5
+7,79,Turing ULR v6
+7,80,Vega v1
+7,81,Turing ULR v6
+7,82,Vega v1
+7,83,Vega v1
+7,84,Turing ULR v6
+7,85,Turing NLR v5
+7,86,Turing ULR v6
+7,87,Vega v1
+7,88,Vega v1
+7,89,Turing ULR v6
+7,90,Turing NLR v5
+7,91,Vega v1
+7,92,Turing ULR v6
+7,93,Turing ULR v6
+7,94,StructBERT + CLEVER
+7,95,Turing ULR v6
+7,96,Turing NLR v5
+7,97,Turing NLR v5
+7,98,Turing ULR v6
+7,99,Vega v1
+7,100,Turing NLR v5
+7,101,Turing ULR v6
+7,102,Vega v1
+7,103,Vega v1
+7,104,Vega v1
+7,105,Vega v1
+7,106,Turing ULR v6
+7,107,Vega v1
+7,108,Vega v1
+7,109,Turing NLR v5
+7,110,Turing ULR v6
+7,111,Turing NLR v5
+7,112,Turing NLR v5
+7,113,Turing ULR v6
+7,114,Vega v1
+7,115,Vega v1
+7,116,Turing ULR v6
+7,117,Turing ULR v6
+7,118,Vega v1
+7,119,Turing ULR v6
+7,120,Vega v1
+7,121,Turing NLR v5
+7,122,Turing ULR v6
+7,123,StructBERT + CLEVER
+7,124,Turing NLR v5
+7,125,Vega v1
+7,126,Turing NLR v5
+7,127,Vega v1
+7,128,Vega v1
+7,129,Vega v1
+7,130,Turing ULR v6
+7,131,Turing ULR v6
+7,132,StructBERT + CLEVER
+7,133,StructBERT + CLEVER
+7,134,Turing ULR v6
+7,135,Vega v1
+7,136,Turing ULR v6
+7,137,Vega v1
+7,138,Turing NLR v5
+7,139,Turing ULR v6
+7,140,Turing ULR v6
+7,141,Turing ULR v6
+7,142,Turing ULR v6
+7,143,Turing ULR v6
+7,144,Vega v1
+7,145,Turing ULR v6
+7,146,Turing ULR v6
+7,147,Turing ULR v6
+7,148,Turing ULR v6
+7,149,Turing NLR v5
+7,150,Vega v1
+7,151,Turing ULR v6
+7,152,Turing NLR v5
+7,153,Turing ULR v6
+7,154,Turing ULR v6
+7,155,Turing NLR v5
+7,156,Turing ULR v6
+7,157,Turing ULR v6
+7,158,Turing ULR v6
+7,159,Vega v1
+7,160,Turing ULR v6
+7,161,StructBERT + CLEVER
+7,162,Turing ULR v6
+7,163,Turing ULR v6
+7,164,Turing NLR v5
+7,165,Vega v1
+7,166,Vega v1
+7,167,Turing ULR v6
+7,168,Vega v1
+7,169,Vega v1
+7,170,Turing ULR v6
+7,171,Vega v1
+7,172,Turing ULR v6
+7,173,Vega v1
+7,174,Vega v1
+7,175,Turing NLR v5
+7,176,Turing ULR v6
+7,177,Turing ULR v6
+7,178,Vega v1
+7,179,StructBERT + CLEVER
+7,180,Turing ULR v6
+7,181,Turing ULR v6
+7,182,Vega v1
+7,183,Turing NLR v5
+7,184,Turing ULR v6
+7,185,Turing ULR v6
+7,186,Turing NLR v5
+7,187,Turing ULR v6
+7,188,Vega v1
+7,189,Turing ULR v6
+7,190,Turing ULR v6
+7,191,Turing ULR v6
+7,192,Turing ULR v6
+7,193,StructBERT + CLEVER
+7,194,Vega v1
+7,195,Turing ULR v6
+7,196,Turing ULR v6
+7,197,StructBERT + CLEVER
+7,198,Vega v1
+7,199,Turing ULR v6
+7,200,Turing ULR v6
+7,201,Turing ULR v6
+7,202,Turing ULR v6
+7,203,Turing ULR v6
+7,204,Turing ULR v6
+7,205,Vega v1
+7,206,Turing ULR v6
+7,207,Turing ULR v6
+7,208,Turing NLR v5
+7,209,Vega v1
+7,210,Turing ULR v6
+7,211,Turing ULR v6
+7,212,Turing ULR v6
+7,213,Turing NLR v5
+7,214,Vega v1
+7,215,Turing ULR v6
+7,216,Turing ULR v6
+7,217,Turing ULR v6
+7,218,StructBERT + CLEVER
+7,219,Turing ULR v6
+7,220,Turing ULR v6
+7,221,Turing ULR v6
+7,222,Turing ULR v6
+7,223,Vega v1
+7,224,Turing ULR v6
+7,225,Turing ULR v6
+7,226,Vega v1
+7,227,StructBERT + CLEVER
+7,228,Turing ULR v6
+7,229,Turing NLR v5
+7,230,Turing ULR v6
+7,231,Vega v1
+7,232,Turing ULR v6
+7,233,Turing ULR v6
+7,234,Turing ULR v6
+7,235,Turing ULR v6
+7,236,Vega v1
+7,237,Turing NLR v5
+7,238,Turing ULR v6
+7,239,Vega v1
+7,240,Turing ULR v6
+7,241,Turing NLR v5
+7,242,Turing NLR v5
+7,243,Turing ULR v6
+7,244,Turing ULR v6
+7,245,Turing NLR v5
+7,246,StructBERT + CLEVER
+7,247,Turing ULR v6
+7,248,Turing ULR v6
+7,249,Turing ULR v6
+7,250,Vega v1
+7,251,Turing ULR v6
+7,252,Turing ULR v6
+7,253,Turing ULR v6
+7,254,Turing ULR v6
+7,255,Turing NLR v5
+7,256,Vega v1
+7,257,Turing ULR v6
+7,258,Vega v1
+7,259,Vega v1
+7,260,Turing NLR v5
+7,261,Turing ULR v6
+7,262,Vega v1
+7,263,Vega v1
+7,264,Turing NLR v5
+7,265,Turing ULR v6
+7,266,Turing ULR v6
+7,267,Turing ULR v6
+7,268,Turing ULR v6
+7,269,Turing ULR v6
+7,270,Turing ULR v6
+7,271,Turing ULR v6
+7,272,Turing ULR v6
+7,273,Turing NLR v5
+7,274,Vega v1
+7,275,Turing ULR v6
+7,276,Vega v1
+7,277,Turing ULR v6
+7,278,Vega v1
+7,279,Turing NLR v5
+7,280,Vega v1
+7,281,Vega v1
+7,282,Turing NLR v5
+7,283,Turing ULR v6
+7,284,Turing ULR v6
+7,285,Turing ULR v6
+7,286,Turing NLR v5
+7,287,Turing ULR v6
+7,288,Turing ULR v6
+7,289,Turing ULR v6
+7,290,Turing ULR v6
+7,291,Turing ULR v6
+7,292,Vega v1
+7,293,Turing ULR v6
+7,294,StructBERT + CLEVER
+7,295,Turing NLR v5
+7,296,Turing ULR v6
+7,297,Vega v1
+7,298,Vega v1
+7,299,Turing ULR v6
+7,300,Turing ULR v6
+7,301,Vega v1
+7,302,Turing ULR v6
+7,303,Turing NLR v5
+7,304,Vega v1
+7,305,Turing ULR v6
+7,306,Turing ULR v6
+7,307,Turing NLR v5
+7,308,Turing ULR v6
+7,309,Vega v1
+7,310,Vega v1
+7,311,Turing NLR v5
+7,312,Turing ULR v6
+7,313,Vega v1
+7,314,Turing ULR v6
+7,315,Vega v1
+7,316,Turing ULR v6
+7,317,StructBERT + CLEVER
+7,318,Turing ULR v6
+7,319,Turing ULR v6
+7,320,Turing NLR v5
+7,321,Vega v1
+7,322,Turing NLR v5
+7,323,Turing ULR v6
+7,324,Turing ULR v6
+7,325,Turing ULR v6
+7,326,Turing ULR v6
+7,327,Vega v1
+7,328,Vega v1
+7,329,Turing NLR v5
+7,330,Turing ULR v6
+7,331,Vega v1
+7,332,Vega v1
+7,333,Vega v1
+7,334,Turing ULR v6
+7,335,Turing ULR v6
+7,336,StructBERT + CLEVER
+7,337,Vega v1
+7,338,Turing ULR v6
+7,339,Turing NLR v5
+7,340,Vega v1
+7,341,Turing ULR v6
+7,342,Turing NLR v5
+7,343,Vega v1
+7,344,Turing ULR v6
+7,345,Turing NLR v5
+7,346,Vega v1
+7,347,Turing ULR v6
+7,348,Turing ULR v6
+7,349,Turing ULR v6
+7,350,Vega v1
+7,351,Vega v1
+7,352,Vega v1
+7,353,Vega v1
+7,354,Vega v1
+7,355,Turing ULR v6
+7,356,Vega v1
+7,357,Turing ULR v6
+7,358,Vega v1
+7,359,Vega v1
+7,360,Turing ULR v6
+7,361,StructBERT + CLEVER
+7,362,Turing ULR v6
+7,363,Turing ULR v6
+7,364,Turing ULR v6
+7,365,Vega v1
+7,366,Turing ULR v6
+7,367,StructBERT + CLEVER
+7,368,Turing ULR v6
+7,369,Turing NLR v5
+7,370,Turing ULR v6
+7,371,Turing ULR v6
+7,372,Turing ULR v6
+7,373,Turing NLR v5
+7,374,StructBERT + CLEVER
+7,375,Turing ULR v6
+7,376,Turing ULR v6
+7,377,Vega v1
+7,378,Turing ULR v6
+7,379,Turing NLR v5
+7,380,Turing NLR v5
+7,381,Vega v1
+7,382,Turing ULR v6
+7,383,Turing ULR v6
+7,384,Turing ULR v6
+7,385,Turing ULR v6
+7,386,Turing ULR v6
+7,387,Turing ULR v6
+7,388,Turing ULR v6
+7,389,Turing NLR v5
+7,390,Turing ULR v6
+7,391,Turing NLR v5
+7,392,Vega v1
+7,393,Vega v1
+7,394,Turing ULR v6
+7,395,Vega v1
+7,396,Turing ULR v6
+7,397,Turing ULR v6
+7,398,Turing ULR v6
+7,399,StructBERT + CLEVER
+7,400,StructBERT + CLEVER
+7,401,Turing ULR v6
+7,402,Vega v1
+7,403,Turing ULR v6
+7,404,Turing ULR v6
+7,405,Turing ULR v6
+7,406,Turing ULR v6
+7,407,StructBERT + CLEVER
+7,408,Turing NLR v5
+7,409,Vega v1
+7,410,Turing NLR v5
+7,411,Turing NLR v5
+7,412,Turing ULR v6
+7,413,Turing ULR v6
+7,414,Turing ULR v6
+7,415,Vega v1
+7,416,Turing ULR v6
+7,417,Vega v1
+7,418,Turing NLR v5
+7,419,Turing ULR v6
+7,420,StructBERT + CLEVER
+7,421,Vega v1
+7,422,Turing ULR v6
+7,423,Turing ULR v6
+7,424,Turing ULR v6
+7,425,Turing ULR v6
+7,426,Vega v1
+7,427,Vega v1
+7,428,Vega v1
+7,429,Turing ULR v6
+7,430,Turing NLR v5
+7,431,Turing ULR v6
+7,432,Vega v1
+7,433,Turing ULR v6
+7,434,Turing ULR v6
+7,435,Turing NLR v5
+7,436,Turing ULR v6
+7,437,Turing NLR v5
+7,438,Turing ULR v6
+7,439,Turing NLR v5
+7,440,Turing ULR v6
+7,441,Turing ULR v6
+7,442,StructBERT + CLEVER
+7,443,Turing ULR v6
+7,444,Turing NLR v5
+7,445,Vega v1
+7,446,StructBERT + CLEVER
+7,447,Turing ULR v6
+7,448,Turing ULR v6
+7,449,Turing ULR v6
+7,450,Vega v1
+7,451,Vega v1
+7,452,Turing ULR v6
+7,453,Turing ULR v6
+7,454,Vega v1
+7,455,Turing ULR v6
+7,456,StructBERT + CLEVER
+7,457,Turing ULR v6
+7,458,Turing ULR v6
+7,459,Vega v1
+7,460,Vega v1
+7,461,Turing ULR v6
+7,462,Vega v1
+7,463,Turing ULR v6
+7,464,Turing ULR v6
+7,465,Turing NLR v5
+7,466,Vega v1
+7,467,Turing ULR v6
+7,468,Turing ULR v6
+7,469,Turing ULR v6
+7,470,Vega v1
+7,471,Turing ULR v6
+7,472,Turing NLR v5
+7,473,StructBERT + CLEVER
+7,474,Turing NLR v5
+7,475,Turing ULR v6
+7,476,Turing ULR v6
+7,477,Turing ULR v6
+7,478,Turing NLR v5
+7,479,Turing NLR v5
+7,480,Vega v1
+7,481,Turing ULR v6
+7,482,Turing ULR v6
+7,483,Turing ULR v6
+7,484,Turing ULR v6
+7,485,Vega v1
+7,486,StructBERT + CLEVER
+7,487,Turing ULR v6
+7,488,Turing ULR v6
+7,489,Vega v1
+7,490,Turing ULR v6
+7,491,Vega v1
+7,492,Turing ULR v6
+7,493,Vega v1
+7,494,Turing ULR v6
+7,495,Turing ULR v6
+7,496,Turing ULR v6
+7,497,Turing ULR v6
+7,498,Vega v1
+7,499,Vega v1
+7,500,Vega v1
+7,501,StructBERT + CLEVER
+7,502,Vega v1
+7,503,Turing ULR v6
+7,504,Turing ULR v6
+7,505,Vega v1
+7,506,Turing ULR v6
+7,507,Turing NLR v5
+7,508,StructBERT + CLEVER
+7,509,Turing ULR v6
+7,510,Turing ULR v6
+7,511,Turing ULR v6
+7,512,Vega v1
+7,513,Turing ULR v6
+7,514,Vega v1
+7,515,Vega v1
+7,516,Turing ULR v6
+7,517,Turing ULR v6
+7,518,Turing NLR v5
+7,519,Vega v1
+7,520,Turing ULR v6
+7,521,Turing NLR v5
+7,522,Vega v1
+7,523,Turing ULR v6
+7,524,Turing NLR v5
+7,525,Vega v1
+7,526,Vega v1
+7,527,Turing ULR v6
+7,528,Turing NLR v5
+7,529,Turing NLR v5
+7,530,Turing ULR v6
+7,531,Turing ULR v6
+7,532,Vega v1
+7,533,Vega v1
+7,534,Vega v1
+7,535,Turing ULR v6
+7,536,Turing ULR v6
+7,537,Turing ULR v6
+7,538,Vega v1
+7,539,Turing ULR v6
+7,540,Turing NLR v5
+7,541,Turing ULR v6
+7,542,Turing NLR v5
+7,543,Turing NLR v5
+7,544,Vega v1
+7,545,Turing ULR v6
+7,546,Vega v1
+7,547,Turing NLR v5
+7,548,Turing ULR v6
+7,549,Turing ULR v6
+7,550,Turing ULR v6
+7,551,Turing ULR v6
+7,552,Turing ULR v6
+7,553,Vega v1
+7,554,Turing ULR v6
+7,555,Vega v1
+7,556,Vega v1
+7,557,Turing ULR v6
+7,558,Turing ULR v6
+7,559,Turing NLR v5
+7,560,Turing NLR v5
+7,561,Turing ULR v6
+7,562,Vega v1
+7,563,Turing ULR v6
+7,564,Turing ULR v6
+7,565,Vega v1
+7,566,Turing ULR v6
+7,567,Turing NLR v5
+7,568,Turing ULR v6
+7,569,Turing ULR v6
+7,570,Turing ULR v6
+7,571,Turing ULR v6
+7,572,Turing ULR v6
+7,573,Turing ULR v6
+7,574,Vega v1
+7,575,Vega v1
+7,576,Turing ULR v6
+7,577,Vega v1
+7,578,Vega v1
+7,579,Turing ULR v6
+7,580,Turing NLR v5
+7,581,Turing NLR v5
+7,582,Vega v1
+7,583,Turing NLR v5
+7,584,Turing ULR v6
+7,585,Vega v1
+7,586,Turing NLR v5
+7,587,Vega v1
+7,588,Turing NLR v5
+7,589,Turing ULR v6
+7,590,Turing ULR v6
+7,591,Turing ULR v6
+7,592,Vega v1
+7,593,Turing ULR v6
+7,594,Vega v1
+7,595,StructBERT + CLEVER
+7,596,StructBERT + CLEVER
+7,597,Vega v1
+7,598,Turing ULR v6
+7,599,Turing ULR v6
+7,600,Turing ULR v6
+7,601,Turing ULR v6
+7,602,Turing NLR v5
+7,603,Turing ULR v6
+7,604,Turing ULR v6
+7,605,Turing ULR v6
+7,606,Turing ULR v6
+7,607,Turing NLR v5
+7,608,Turing ULR v6
+7,609,Turing ULR v6
+7,610,Vega v1
+7,611,Turing NLR v5
+7,612,Vega v1
+7,613,Turing ULR v6
+7,614,Turing ULR v6
+7,615,StructBERT + CLEVER
+7,616,Vega v1
+7,617,Turing ULR v6
+7,618,Turing ULR v6
+7,619,Turing ULR v6
+7,620,Vega v1
+7,621,Vega v1
+7,622,Vega v1
+7,623,Turing ULR v6
+7,624,Turing ULR v6
+7,625,Turing ULR v6
+7,626,Turing NLR v5
+7,627,Turing ULR v6
+7,628,Turing ULR v6
+7,629,Turing ULR v6
+7,630,Turing ULR v6
+7,631,Turing ULR v6
+7,632,Vega v1
+7,633,Vega v1
+7,634,Turing ULR v6
+7,635,Turing ULR v6
+7,636,Turing ULR v6
+7,637,StructBERT + CLEVER
+7,638,StructBERT + CLEVER
+7,639,Turing ULR v6
+7,640,Turing NLR v5
+7,641,Turing NLR v5
+7,642,Vega v1
+7,643,Turing ULR v6
+7,644,Turing ULR v6
+7,645,Turing NLR v5
+7,646,Turing NLR v5
+7,647,Turing NLR v5
+7,648,Turing NLR v5
+7,649,Turing ULR v6
+7,650,Turing ULR v6
+7,651,Turing ULR v6
+7,652,Vega v1
+7,653,Turing ULR v6
+7,654,Vega v1
+7,655,Turing ULR v6
+7,656,Turing ULR v6
+7,657,Turing ULR v6
+7,658,Turing NLR v5
+7,659,Turing NLR v5
+7,660,Turing ULR v6
+7,661,Vega v1
+7,662,Turing NLR v5
+7,663,Turing NLR v5
+7,664,Turing ULR v6
+7,665,Vega v1
+7,666,Turing ULR v6
+7,667,Turing NLR v5
+7,668,Turing ULR v6
+7,669,Turing ULR v6
+7,670,Turing ULR v6
+7,671,Vega v1
+7,672,Vega v1
+7,673,Turing ULR v6
+7,674,Vega v1
+7,675,Turing ULR v6
+7,676,Turing ULR v6
+7,677,Turing ULR v6
+7,678,Turing ULR v6
+7,679,Vega v1
+7,680,Turing ULR v6
+7,681,Turing NLR v5
+7,682,Turing ULR v6
+7,683,Vega v1
+7,684,Turing ULR v6
+7,685,StructBERT + CLEVER
+7,686,Turing ULR v6
+7,687,Vega v1
+7,688,Turing ULR v6
+7,689,Vega v1
+7,690,Vega v1
+7,691,Vega v1
+7,692,Turing NLR v5
+7,693,Turing ULR v6
+7,694,Turing ULR v6
+7,695,Turing ULR v6
+7,696,StructBERT + CLEVER
+7,697,Turing ULR v6
+7,698,Turing ULR v6
+7,699,Vega v1
+7,700,Vega v1
+7,701,Turing ULR v6
+7,702,Vega v1
+7,703,Turing ULR v6
+7,704,Turing NLR v5
+7,705,Turing NLR v5
+7,706,Turing ULR v6
+7,707,Vega v1
+7,708,Vega v1
+7,709,Turing ULR v6
+7,710,Turing ULR v6
+7,711,Turing ULR v6
+7,712,Turing ULR v6
+7,713,StructBERT + CLEVER
+7,714,Vega v1
+7,715,Turing ULR v6
+7,716,Vega v1
+7,717,Turing ULR v6
+7,718,Vega v1
+7,719,Turing ULR v6
+7,720,Turing ULR v6
+7,721,Turing ULR v6
+7,722,Turing ULR v6
+7,723,StructBERT + CLEVER
+7,724,Vega v1
+7,725,Vega v1
+7,726,Turing NLR v5
+7,727,Turing ULR v6
+7,728,Turing ULR v6
+7,729,Turing NLR v5
+7,730,Vega v1
+7,731,Turing ULR v6
+7,732,Turing ULR v6
+7,733,Turing NLR v5
+7,734,Turing ULR v6
+7,735,Vega v1
+7,736,Turing ULR v6
+7,737,Turing ULR v6
+7,738,Turing ULR v6
+7,739,StructBERT + CLEVER
+7,740,Turing ULR v6
+7,741,Turing ULR v6
+7,742,Turing ULR v6
+7,743,Turing ULR v6
+7,744,Turing NLR v5
+7,745,Turing ULR v6
+7,746,Turing ULR v6
+7,747,Vega v1
+7,748,Turing ULR v6
+7,749,Vega v1
+7,750,Turing ULR v6
+7,751,Vega v1
+7,752,Turing NLR v5
+7,753,Turing ULR v6
+7,754,Turing NLR v5
+7,755,Turing ULR v6
+7,756,Vega v1
+7,757,Turing NLR v5
+7,758,Turing NLR v5
+7,759,Vega v1
+7,760,Turing ULR v6
+7,761,Turing ULR v6
+7,762,Turing ULR v6
+7,763,Turing ULR v6
+7,764,StructBERT + CLEVER
+7,765,Turing ULR v6
+7,766,Turing NLR v5
+7,767,Turing ULR v6
+7,768,Turing ULR v6
+7,769,Vega v1
+7,770,Turing ULR v6
+7,771,Turing ULR v6
+7,772,Turing ULR v6
+7,773,Turing ULR v6
+7,774,Turing ULR v6
+7,775,Vega v1
+7,776,StructBERT + CLEVER
+7,777,Vega v1
+7,778,Turing ULR v6
+7,779,Vega v1
+7,780,Turing NLR v5
+7,781,Turing ULR v6
+7,782,Turing ULR v6
+7,783,Turing ULR v6
+7,784,Turing ULR v6
+7,785,Turing NLR v5
+7,786,Turing ULR v6
+7,787,Turing ULR v6
+7,788,Turing ULR v6
+7,789,Turing ULR v6
+7,790,Turing NLR v5
+7,791,Vega v1
+7,792,Turing ULR v6
+7,793,Vega v1
+7,794,Vega v1
+7,795,Turing ULR v6
+7,796,Turing ULR v6
+7,797,Turing NLR v5
+7,798,Vega v1
+7,799,Turing ULR v6
+7,800,Turing ULR v6
+7,801,Turing ULR v6
+7,802,Turing NLR v5
+7,803,Vega v1
+7,804,Turing ULR v6
+7,805,Turing NLR v5
+7,806,Turing NLR v5
+7,807,Vega v1
+7,808,Turing ULR v6
+7,809,Turing ULR v6
+7,810,Turing ULR v6
+7,811,StructBERT + CLEVER
+7,812,Turing ULR v6
+7,813,Vega v1
+7,814,Turing ULR v6
+7,815,Vega v1
+7,816,Vega v1
+7,817,Turing ULR v6
+7,818,Vega v1
+7,819,Turing NLR v5
+7,820,Turing ULR v6
+7,821,Turing NLR v5
+7,822,Turing ULR v6
+7,823,Turing ULR v6
+7,824,StructBERT + CLEVER
+7,825,Vega v1
+7,826,Vega v1
+7,827,Turing ULR v6
+7,828,Turing ULR v6
+7,829,Turing NLR v5
+7,830,Vega v1
+7,831,Turing ULR v6
+7,832,Vega v1
+7,833,Turing ULR v6
+7,834,Turing ULR v6
+7,835,Turing ULR v6
+7,836,Turing ULR v6
+7,837,Vega v1
+7,838,Turing ULR v6
+7,839,Turing ULR v6
+7,840,StructBERT + CLEVER
+7,841,Turing ULR v6
+7,842,Turing ULR v6
+7,843,StructBERT + CLEVER
+7,844,Turing ULR v6
+7,845,Vega v1
+7,846,Turing ULR v6
+7,847,Turing ULR v6
+7,848,Vega v1
+7,849,Turing ULR v6
+7,850,Turing NLR v5
+7,851,Turing ULR v6
+7,852,StructBERT + CLEVER
+7,853,StructBERT + CLEVER
+7,854,Turing ULR v6
+7,855,Turing ULR v6
+7,856,Turing ULR v6
+7,857,Turing NLR v5
+7,858,Turing ULR v6
+7,859,Turing ULR v6
+7,860,Vega v1
+7,861,Vega v1
+7,862,Turing NLR v5
+7,863,Turing ULR v6
+7,864,Vega v1
+7,865,Turing NLR v5
+7,866,Turing ULR v6
+7,867,Vega v1
+7,868,Turing ULR v6
+7,869,Vega v1
+7,870,Turing ULR v6
+7,871,Vega v1
+7,872,StructBERT + CLEVER
+7,873,Vega v1
+7,874,Turing ULR v6
+7,875,Turing ULR v6
+7,876,Turing ULR v6
+7,877,Vega v1
+7,878,Turing NLR v5
+7,879,Vega v1
+7,880,Turing ULR v6
+7,881,Turing ULR v6
+7,882,Vega v1
+7,883,Turing NLR v5
+7,884,StructBERT + CLEVER
+7,885,Turing ULR v6
+7,886,Turing ULR v6
+7,887,Turing ULR v6
+7,888,Turing ULR v6
+7,889,Vega v1
+7,890,Vega v1
+7,891,Turing NLR v5
+7,892,Vega v1
+7,893,Vega v1
+7,894,Vega v1
+7,895,Turing ULR v6
+7,896,Turing ULR v6
+7,897,Turing ULR v6
+7,898,Turing ULR v6
+7,899,Vega v1
+7,900,Turing ULR v6
+7,901,Vega v1
+7,902,Turing ULR v6
+7,903,Vega v1
+7,904,Turing ULR v6
+7,905,Turing ULR v6
+7,906,Vega v1
+7,907,StructBERT + CLEVER
+7,908,Vega v1
+7,909,Vega v1
+7,910,Turing ULR v6
+7,911,Turing ULR v6
+7,912,Turing ULR v6
+7,913,Turing ULR v6
+7,914,Turing ULR v6
+7,915,Turing NLR v5
+7,916,Vega v1
+7,917,Turing NLR v5
+7,918,Turing ULR v6
+7,919,Turing ULR v6
+7,920,Turing ULR v6
+7,921,Turing NLR v5
+7,922,Turing ULR v6
+7,923,Vega v1
+7,924,Vega v1
+7,925,Turing ULR v6
+7,926,Vega v1
+7,927,Turing ULR v6
+7,928,Turing NLR v5
+7,929,Vega v1
+7,930,Turing ULR v6
+7,931,Turing NLR v5
+7,932,Turing ULR v6
+7,933,StructBERT + CLEVER
+7,934,Turing NLR v5
+7,935,Turing ULR v6
+7,936,Vega v1
+7,937,StructBERT + CLEVER
+7,938,Vega v1
+7,939,Turing NLR v5
+7,940,Turing NLR v5
+7,941,Turing ULR v6
+7,942,Turing ULR v6
+7,943,Turing ULR v6
+7,944,Turing NLR v5
+7,945,Vega v1
+7,946,Turing ULR v6
+7,947,Turing ULR v6
+7,948,Vega v1
+7,949,StructBERT + CLEVER
+7,950,Vega v1
+7,951,Vega v1
+7,952,Turing NLR v5
+7,953,Turing ULR v6
+7,954,Vega v1
+7,955,Turing ULR v6
+7,956,Vega v1
+7,957,Turing ULR v6
+7,958,Vega v1
+7,959,Turing ULR v6
+7,960,Turing ULR v6
+7,961,Turing ULR v6
+7,962,Turing NLR v5
+7,963,Turing ULR v6
+7,964,Turing NLR v5
+7,965,Vega v1
+7,966,Turing NLR v5
+7,967,Turing ULR v6
+7,968,Vega v1
+7,969,Turing ULR v6
+7,970,Turing NLR v5
+7,971,Vega v1
+7,972,Turing ULR v6
+7,973,StructBERT + CLEVER
+7,974,Turing NLR v5
+7,975,Turing ULR v6
+7,976,Turing ULR v6
+7,977,Turing ULR v6
+7,978,Turing ULR v6
+7,979,Turing ULR v6
+7,980,Turing ULR v6
+7,981,Vega v1
+7,982,StructBERT + CLEVER
+7,983,Turing ULR v6
+7,984,Vega v1
+7,985,Turing NLR v5
+7,986,Turing ULR v6
+7,987,Turing ULR v6
+7,988,Turing ULR v6
+7,989,Vega v1
+7,990,Turing ULR v6
+7,991,Turing ULR v6
+7,992,Turing ULR v6
+7,993,Turing ULR v6
+7,994,Turing NLR v5
+7,995,Turing ULR v6
+7,996,Turing ULR v6
+7,997,Turing ULR v6
+7,998,Turing ULR v6
+7,999,Turing NLR v5
+8,0,Vega v1
+8,1,Turing ULR v6
+8,2,Turing ULR v6
+8,3,Turing ULR v6
+8,4,Vega v1
+8,5,Vega v1
+8,6,Turing ULR v6
+8,7,Turing ULR v6
+8,8,Turing ULR v6
+8,9,Turing ULR v6
+8,10,Turing NLR v5
+8,11,Vega v1
+8,12,Turing ULR v6
+8,13,Turing ULR v6
+8,14,Turing NLR v5
+8,15,Turing ULR v6
+8,16,Turing ULR v6
+8,17,Turing ULR v6
+8,18,Turing ULR v6
+8,19,Turing ULR v6
+8,20,Turing NLR v5
+8,21,Vega v1
+8,22,Turing ULR v6
+8,23,Turing ULR v6
+8,24,Turing ULR v6
+8,25,Vega v1
+8,26,Turing NLR v5
+8,27,Turing ULR v6
+8,28,Turing ULR v6
+8,29,Vega v1
+8,30,Vega v1
+8,31,Turing ULR v6
+8,32,Turing ULR v6
+8,33,Turing ULR v6
+8,34,Turing ULR v6
+8,35,Turing ULR v6
+8,36,Turing NLR v5
+8,37,Turing ULR v6
+8,38,Vega v1
+8,39,Vega v1
+8,40,Turing ULR v6
+8,41,Turing ULR v6
+8,42,Turing ULR v6
+8,43,Turing ULR v6
+8,44,Turing ULR v6
+8,45,Turing ULR v6
+8,46,Turing ULR v6
+8,47,Turing ULR v6
+8,48,Turing ULR v6
+8,49,Turing ULR v6
+8,50,Turing ULR v6
+8,51,Turing ULR v6
+8,52,Turing ULR v6
+8,53,Turing ULR v6
+8,54,Turing ULR v6
+8,55,Turing NLR v5
+8,56,Vega v1
+8,57,Turing ULR v6
+8,58,Vega v1
+8,59,Turing ULR v6
+8,60,Turing NLR v5
+8,61,Turing ULR v6
+8,62,Turing ULR v6
+8,63,Turing NLR v5
+8,64,Vega v1
+8,65,Turing NLR v5
+8,66,Turing ULR v6
+8,67,Turing ULR v6
+8,68,Turing ULR v6
+8,69,Turing ULR v6
+8,70,Vega v1
+8,71,Turing ULR v6
+8,72,Vega v1
+8,73,Turing ULR v6
+8,74,Vega v1
+8,75,Turing ULR v6
+8,76,Turing ULR v6
+8,77,Turing ULR v6
+8,78,Vega v1
+8,79,Turing ULR v6
+8,80,Turing ULR v6
+8,81,Turing ULR v6
+8,82,Vega v1
+8,83,Vega v1
+8,84,Turing ULR v6
+8,85,Turing ULR v6
+8,86,Turing ULR v6
+8,87,Turing ULR v6
+8,88,Turing ULR v6
+8,89,Turing NLR v5
+8,90,Turing ULR v6
+8,91,Turing ULR v6
+8,92,Turing ULR v6
+8,93,Turing NLR v5
+8,94,Vega v1
+8,95,Turing ULR v6
+8,96,Turing NLR v5
+8,97,Turing ULR v6
+8,98,Turing ULR v6
+8,99,Turing ULR v6
+8,100,Turing ULR v6
+8,101,Turing ULR v6
+8,102,Turing NLR v5
+8,103,Vega v1
+8,104,Turing ULR v6
+8,105,Turing NLR v5
+8,106,Turing ULR v6
+8,107,Turing ULR v6
+8,108,Turing ULR v6
+8,109,Turing ULR v6
+8,110,Turing ULR v6
+8,111,Turing NLR v5
+8,112,Turing ULR v6
+8,113,Turing ULR v6
+8,114,Turing ULR v6
+8,115,Turing ULR v6
+8,116,Turing ULR v6
+8,117,Vega v1
+8,118,Turing NLR v5
+8,119,Turing ULR v6
+8,120,Turing ULR v6
+8,121,Vega v1
+8,122,Turing ULR v6
+8,123,Turing ULR v6
+8,124,Turing ULR v6
+8,125,Turing ULR v6
+8,126,Turing ULR v6
+8,127,Turing ULR v6
+8,128,Vega v1
+8,129,Turing ULR v6
+8,130,Turing ULR v6
+8,131,Turing ULR v6
+8,132,Turing NLR v5
+8,133,Vega v1
+8,134,Turing ULR v6
+8,135,Turing ULR v6
+8,136,Turing ULR v6
+8,137,Vega v1
+8,138,Turing ULR v6
+8,139,Turing ULR v6
+8,140,Turing ULR v6
+8,141,Turing ULR v6
+8,142,Turing ULR v6
+8,143,Turing ULR v6
+8,144,Vega v1
+8,145,Turing NLR v5
+8,146,Vega v1
+8,147,Vega v1
+8,148,Turing ULR v6
+8,149,Turing ULR v6
+8,150,Vega v1
+8,151,Vega v1
+8,152,Turing ULR v6
+8,153,Vega v1
+8,154,Vega v1
+8,155,Vega v1
+8,156,Vega v1
+8,157,Vega v1
+8,158,Turing ULR v6
+8,159,Vega v1
+8,160,Turing ULR v6
+8,161,Turing ULR v6
+8,162,Turing ULR v6
+8,163,Turing ULR v6
+8,164,Turing ULR v6
+8,165,Vega v1
+8,166,Vega v1
+8,167,Turing ULR v6
+8,168,Turing ULR v6
+8,169,Turing ULR v6
+8,170,Turing ULR v6
+8,171,Vega v1
+8,172,Turing ULR v6
+8,173,Turing ULR v6
+8,174,Turing ULR v6
+8,175,Turing ULR v6
+8,176,Turing NLR v5
+8,177,Turing ULR v6
+8,178,Turing ULR v6
+8,179,Turing ULR v6
+8,180,Turing ULR v6
+8,181,Turing ULR v6
+8,182,Turing ULR v6
+8,183,Turing ULR v6
+8,184,Turing ULR v6
+8,185,Turing ULR v6
+8,186,Vega v1
+8,187,Turing NLR v5
+8,188,Turing ULR v6
+8,189,Turing NLR v5
+8,190,Vega v1
+8,191,Turing ULR v6
+8,192,Vega v1
+8,193,Vega v1
+8,194,Turing ULR v6
+8,195,Turing ULR v6
+8,196,Turing ULR v6
+8,197,Turing ULR v6
+8,198,Turing ULR v6
+8,199,Vega v1
+8,200,Turing ULR v6
+8,201,Turing ULR v6
+8,202,Turing NLR v5
+8,203,Turing NLR v5
+8,204,Vega v1
+8,205,Turing ULR v6
+8,206,Turing ULR v6
+8,207,Vega v1
+8,208,Turing ULR v6
+8,209,Turing ULR v6
+8,210,Turing ULR v6
+8,211,Turing ULR v6
+8,212,Turing ULR v6
+8,213,Turing ULR v6
+8,214,Turing ULR v6
+8,215,Turing ULR v6
+8,216,Turing ULR v6
+8,217,Turing ULR v6
+8,218,Turing ULR v6
+8,219,Turing NLR v5
+8,220,Vega v1
+8,221,Turing ULR v6
+8,222,Turing ULR v6
+8,223,Turing ULR v6
+8,224,Vega v1
+8,225,Turing ULR v6
+8,226,Turing ULR v6
+8,227,Turing ULR v6
+8,228,Turing ULR v6
+8,229,Vega v1
+8,230,Vega v1
+8,231,Turing NLR v5
+8,232,Turing ULR v6
+8,233,Vega v1
+8,234,Turing ULR v6
+8,235,Turing ULR v6
+8,236,Turing NLR v5
+8,237,Turing ULR v6
+8,238,Vega v1
+8,239,Vega v1
+8,240,Turing ULR v6
+8,241,Vega v1
+8,242,Turing ULR v6
+8,243,Turing ULR v6
+8,244,Vega v1
+8,245,Turing ULR v6
+8,246,Turing ULR v6
+8,247,Turing ULR v6
+8,248,Vega v1
+8,249,Turing ULR v6
+8,250,Turing ULR v6
+8,251,Vega v1
+8,252,Turing ULR v6
+8,253,Vega v1
+8,254,Turing ULR v6
+8,255,Turing ULR v6
+8,256,Turing ULR v6
+8,257,Turing ULR v6
+8,258,Turing NLR v5
+8,259,Vega v1
+8,260,Turing ULR v6
+8,261,Turing ULR v6
+8,262,Turing ULR v6
+8,263,Turing ULR v6
+8,264,Turing ULR v6
+8,265,Vega v1
+8,266,Vega v1
+8,267,Turing NLR v5
+8,268,Turing ULR v6
+8,269,Turing ULR v6
+8,270,Turing ULR v6
+8,271,Turing ULR v6
+8,272,Turing ULR v6
+8,273,Turing ULR v6
+8,274,Vega v1
+8,275,Turing ULR v6
+8,276,Turing ULR v6
+8,277,Turing ULR v6
+8,278,Turing ULR v6
+8,279,Turing ULR v6
+8,280,Turing ULR v6
+8,281,Turing NLR v5
+8,282,Vega v1
+8,283,Turing NLR v5
+8,284,Turing ULR v6
+8,285,Turing ULR v6
+8,286,Turing ULR v6
+8,287,Turing ULR v6
+8,288,Turing ULR v6
+8,289,Vega v1
+8,290,Turing ULR v6
+8,291,Turing ULR v6
+8,292,Turing ULR v6
+8,293,Turing ULR v6
+8,294,Vega v1
+8,295,Turing ULR v6
+8,296,Turing ULR v6
+8,297,Turing ULR v6
+8,298,Vega v1
+8,299,Turing ULR v6
+8,300,Turing NLR v5
+8,301,Turing ULR v6
+8,302,Turing ULR v6
+8,303,Turing NLR v5
+8,304,Turing ULR v6
+8,305,Vega v1
+8,306,Turing ULR v6
+8,307,Turing ULR v6
+8,308,Turing ULR v6
+8,309,Turing ULR v6
+8,310,Turing ULR v6
+8,311,Vega v1
+8,312,Turing NLR v5
+8,313,Turing ULR v6
+8,314,Vega v1
+8,315,Vega v1
+8,316,Turing ULR v6
+8,317,Turing ULR v6
+8,318,Turing ULR v6
+8,319,Vega v1
+8,320,Turing ULR v6
+8,321,Turing ULR v6
+8,322,Turing ULR v6
+8,323,Vega v1
+8,324,Turing ULR v6
+8,325,Turing ULR v6
+8,326,Turing ULR v6
+8,327,Vega v1
+8,328,Turing ULR v6
+8,329,Turing ULR v6
+8,330,Turing NLR v5
+8,331,Vega v1
+8,332,Turing ULR v6
+8,333,Turing ULR v6
+8,334,Turing ULR v6
+8,335,Turing NLR v5
+8,336,Turing ULR v6
+8,337,Turing ULR v6
+8,338,Turing ULR v6
+8,339,Turing ULR v6
+8,340,Turing ULR v6
+8,341,Turing ULR v6
+8,342,Turing NLR v5
+8,343,Vega v1
+8,344,Turing ULR v6
+8,345,Turing NLR v5
+8,346,Turing ULR v6
+8,347,Vega v1
+8,348,Turing ULR v6
+8,349,Turing ULR v6
+8,350,Vega v1
+8,351,Turing NLR v5
+8,352,Turing ULR v6
+8,353,Turing NLR v5
+8,354,Vega v1
+8,355,Vega v1
+8,356,Turing ULR v6
+8,357,Turing ULR v6
+8,358,Turing ULR v6
+8,359,Turing ULR v6
+8,360,Turing ULR v6
+8,361,Turing ULR v6
+8,362,Turing ULR v6
+8,363,Turing ULR v6
+8,364,Turing ULR v6
+8,365,Vega v1
+8,366,Turing ULR v6
+8,367,Turing ULR v6
+8,368,Turing ULR v6
+8,369,Turing ULR v6
+8,370,Vega v1
+8,371,Turing ULR v6
+8,372,Turing ULR v6
+8,373,Turing ULR v6
+8,374,Turing ULR v6
+8,375,Turing ULR v6
+8,376,Turing ULR v6
+8,377,Vega v1
+8,378,Vega v1
+8,379,Turing ULR v6
+8,380,Vega v1
+8,381,Turing ULR v6
+8,382,Turing ULR v6
+8,383,Turing NLR v5
+8,384,Turing ULR v6
+8,385,Vega v1
+8,386,Vega v1
+8,387,Turing ULR v6
+8,388,Turing ULR v6
+8,389,Turing NLR v5
+8,390,Turing ULR v6
+8,391,Turing NLR v5
+8,392,Turing ULR v6
+8,393,Turing ULR v6
+8,394,Turing ULR v6
+8,395,Turing ULR v6
+8,396,Vega v1
+8,397,Turing ULR v6
+8,398,Turing ULR v6
+8,399,Turing ULR v6
+8,400,Vega v1
+8,401,Turing NLR v5
+8,402,Turing ULR v6
+8,403,Turing ULR v6
+8,404,Turing ULR v6
+8,405,Turing ULR v6
+8,406,Turing ULR v6
+8,407,Vega v1
+8,408,Turing ULR v6
+8,409,Turing NLR v5
+8,410,Turing ULR v6
+8,411,Turing NLR v5
+8,412,Turing ULR v6
+8,413,Turing ULR v6
+8,414,Turing NLR v5
+8,415,Turing NLR v5
+8,416,Turing ULR v6
+8,417,Turing ULR v6
+8,418,Vega v1
+8,419,Turing ULR v6
+8,420,Turing ULR v6
+8,421,Turing NLR v5
+8,422,Turing NLR v5
+8,423,Turing ULR v6
+8,424,Turing ULR v6
+8,425,Turing ULR v6
+8,426,Turing ULR v6
+8,427,Turing ULR v6
+8,428,Turing ULR v6
+8,429,Turing NLR v5
+8,430,Turing ULR v6
+8,431,Turing ULR v6
+8,432,Turing ULR v6
+8,433,Turing ULR v6
+8,434,Turing ULR v6
+8,435,Vega v1
+8,436,Turing NLR v5
+8,437,Vega v1
+8,438,Turing ULR v6
+8,439,Turing NLR v5
+8,440,Turing ULR v6
+8,441,Turing ULR v6
+8,442,Turing ULR v6
+8,443,Turing ULR v6
+8,444,Turing ULR v6
+8,445,Vega v1
+8,446,Turing ULR v6
+8,447,Vega v1
+8,448,Turing NLR v5
+8,449,Turing ULR v6
+8,450,Turing NLR v5
+8,451,Turing ULR v6
+8,452,Turing ULR v6
+8,453,Turing ULR v6
+8,454,Turing NLR v5
+8,455,Turing ULR v6
+8,456,Turing ULR v6
+8,457,Turing ULR v6
+8,458,Turing NLR v5
+8,459,Turing ULR v6
+8,460,Turing ULR v6
+8,461,Vega v1
+8,462,Vega v1
+8,463,Turing NLR v5
+8,464,Vega v1
+8,465,Turing NLR v5
+8,466,Vega v1
+8,467,Turing ULR v6
+8,468,Vega v1
+8,469,Turing ULR v6
+8,470,Vega v1
+8,471,Vega v1
+8,472,Turing ULR v6
+8,473,Turing ULR v6
+8,474,Turing ULR v6
+8,475,Turing ULR v6
+8,476,Vega v1
+8,477,Turing ULR v6
+8,478,Vega v1
+8,479,Turing ULR v6
+8,480,Turing ULR v6
+8,481,Turing NLR v5
+8,482,Vega v1
+8,483,Turing NLR v5
+8,484,Vega v1
+8,485,Vega v1
+8,486,Vega v1
+8,487,Turing NLR v5
+8,488,Vega v1
+8,489,Turing ULR v6
+8,490,Vega v1
+8,491,Turing ULR v6
+8,492,Turing ULR v6
+8,493,Turing ULR v6
+8,494,Turing ULR v6
+8,495,Turing ULR v6
+8,496,Turing NLR v5
+8,497,Turing ULR v6
+8,498,Vega v1
+8,499,Turing ULR v6
+8,500,Vega v1
+8,501,Vega v1
+8,502,Turing NLR v5
+8,503,Turing ULR v6
+8,504,Turing ULR v6
+8,505,Vega v1
+8,506,Turing ULR v6
+8,507,Vega v1
+8,508,Turing ULR v6
+8,509,Turing ULR v6
+8,510,Turing ULR v6
+8,511,Turing ULR v6
+8,512,Turing ULR v6
+8,513,Turing NLR v5
+8,514,Turing NLR v5
+8,515,Turing ULR v6
+8,516,Turing ULR v6
+8,517,Vega v1
+8,518,Turing ULR v6
+8,519,Turing ULR v6
+8,520,Turing ULR v6
+8,521,Turing ULR v6
+8,522,Turing ULR v6
+8,523,Vega v1
+8,524,Turing ULR v6
+8,525,Vega v1
+8,526,Turing ULR v6
+8,527,Turing ULR v6
+8,528,Turing ULR v6
+8,529,Turing ULR v6
+8,530,Vega v1
+8,531,Turing NLR v5
+8,532,Turing ULR v6
+8,533,Turing ULR v6
+8,534,Turing ULR v6
+8,535,Turing ULR v6
+8,536,Turing NLR v5
+8,537,Turing ULR v6
+8,538,Turing ULR v6
+8,539,Turing ULR v6
+8,540,Vega v1
+8,541,Vega v1
+8,542,Turing ULR v6
+8,543,Turing ULR v6
+8,544,Turing ULR v6
+8,545,Turing ULR v6
+8,546,Vega v1
+8,547,Turing ULR v6
+8,548,Vega v1
+8,549,Turing ULR v6
+8,550,Vega v1
+8,551,Turing ULR v6
+8,552,Turing ULR v6
+8,553,Turing NLR v5
+8,554,Turing ULR v6
+8,555,Turing NLR v5
+8,556,Turing ULR v6
+8,557,Turing ULR v6
+8,558,Turing ULR v6
+8,559,Turing ULR v6
+8,560,Vega v1
+8,561,Vega v1
+8,562,Vega v1
+8,563,Turing NLR v5
+8,564,Vega v1
+8,565,Turing ULR v6
+8,566,Turing ULR v6
+8,567,Turing ULR v6
+8,568,Turing NLR v5
+8,569,Turing ULR v6
+8,570,Turing ULR v6
+8,571,Turing NLR v5
+8,572,Turing ULR v6
+8,573,Vega v1
+8,574,Turing NLR v5
+8,575,Turing ULR v6
+8,576,Vega v1
+8,577,Turing ULR v6
+8,578,Turing NLR v5
+8,579,Turing ULR v6
+8,580,Turing NLR v5
+8,581,Turing ULR v6
+8,582,Turing NLR v5
+8,583,Turing ULR v6
+8,584,Turing ULR v6
+8,585,Turing ULR v6
+8,586,Turing ULR v6
+8,587,Turing ULR v6
+8,588,Turing ULR v6
+8,589,Turing ULR v6
+8,590,Turing ULR v6
+8,591,Vega v1
+8,592,Turing ULR v6
+8,593,Turing ULR v6
+8,594,Turing ULR v6
+8,595,Turing ULR v6
+8,596,Turing ULR v6
+8,597,Turing NLR v5
+8,598,Turing ULR v6
+8,599,Turing ULR v6
+8,600,Turing ULR v6
+8,601,Vega v1
+8,602,Turing ULR v6
+8,603,Turing ULR v6
+8,604,Turing ULR v6
+8,605,Vega v1
+8,606,Vega v1
+8,607,Turing ULR v6
+8,608,Vega v1
+8,609,Turing ULR v6
+8,610,Turing ULR v6
+8,611,Turing ULR v6
+8,612,Turing ULR v6
+8,613,Turing ULR v6
+8,614,Turing ULR v6
+8,615,Turing ULR v6
+8,616,Vega v1
+8,617,Turing ULR v6
+8,618,Turing ULR v6
+8,619,Turing ULR v6
+8,620,Turing NLR v5
+8,621,Vega v1
+8,622,Vega v1
+8,623,Turing ULR v6
+8,624,Turing ULR v6
+8,625,Turing ULR v6
+8,626,Turing NLR v5
+8,627,Vega v1
+8,628,Turing ULR v6
+8,629,Turing ULR v6
+8,630,Vega v1
+8,631,Turing NLR v5
+8,632,Vega v1
+8,633,Turing ULR v6
+8,634,Vega v1
+8,635,Turing NLR v5
+8,636,Turing ULR v6
+8,637,Vega v1
+8,638,Vega v1
+8,639,Vega v1
+8,640,Turing NLR v5
+8,641,Turing ULR v6
+8,642,Turing ULR v6
+8,643,Turing ULR v6
+8,644,Vega v1
+8,645,Turing ULR v6
+8,646,Turing ULR v6
+8,647,Turing ULR v6
+8,648,Turing ULR v6
+8,649,Turing ULR v6
+8,650,Turing ULR v6
+8,651,Vega v1
+8,652,Turing ULR v6
+8,653,Turing ULR v6
+8,654,Turing ULR v6
+8,655,Vega v1
+8,656,Turing ULR v6
+8,657,Turing ULR v6
+8,658,Turing ULR v6
+8,659,Turing ULR v6
+8,660,Turing ULR v6
+8,661,Turing ULR v6
+8,662,Turing ULR v6
+8,663,Turing ULR v6
+8,664,Turing ULR v6
+8,665,Turing ULR v6
+8,666,Turing ULR v6
+8,667,Turing ULR v6
+8,668,Turing ULR v6
+8,669,Turing ULR v6
+8,670,Vega v1
+8,671,Turing ULR v6
+8,672,Turing ULR v6
+8,673,Turing ULR v6
+8,674,Turing ULR v6
+8,675,Turing ULR v6
+8,676,Vega v1
+8,677,Turing NLR v5
+8,678,Turing NLR v5
+8,679,Vega v1
+8,680,Turing ULR v6
+8,681,Vega v1
+8,682,Turing ULR v6
+8,683,Turing ULR v6
+8,684,Turing ULR v6
+8,685,Vega v1
+8,686,Turing NLR v5
+8,687,Turing ULR v6
+8,688,Turing ULR v6
+8,689,Turing NLR v5
+8,690,Turing ULR v6
+8,691,Vega v1
+8,692,Turing ULR v6
+8,693,Turing ULR v6
+8,694,Vega v1
+8,695,Turing ULR v6
+8,696,Turing NLR v5
+8,697,Turing ULR v6
+8,698,Turing ULR v6
+8,699,Vega v1
+8,700,Turing ULR v6
+8,701,Vega v1
+8,702,Vega v1
+8,703,Turing ULR v6
+8,704,Vega v1
+8,705,Turing ULR v6
+8,706,Turing ULR v6
+8,707,Turing ULR v6
+8,708,Turing ULR v6
+8,709,Turing ULR v6
+8,710,Vega v1
+8,711,Turing ULR v6
+8,712,Vega v1
+8,713,Vega v1
+8,714,Turing ULR v6
+8,715,Turing ULR v6
+8,716,Turing ULR v6
+8,717,Turing ULR v6
+8,718,Vega v1
+8,719,Turing ULR v6
+8,720,Vega v1
+8,721,Vega v1
+8,722,Turing NLR v5
+8,723,Turing ULR v6
+8,724,Turing ULR v6
+8,725,Turing ULR v6
+8,726,Turing ULR v6
+8,727,Turing NLR v5
+8,728,Turing ULR v6
+8,729,Turing ULR v6
+8,730,Turing ULR v6
+8,731,Turing ULR v6
+8,732,Turing ULR v6
+8,733,Turing ULR v6
+8,734,Turing ULR v6
+8,735,Turing ULR v6
+8,736,Turing ULR v6
+8,737,Turing ULR v6
+8,738,Turing ULR v6
+8,739,Turing NLR v5
+8,740,Turing ULR v6
+8,741,Turing ULR v6
+8,742,Vega v1
+8,743,Turing NLR v5
+8,744,Turing ULR v6
+8,745,Vega v1
+8,746,Turing ULR v6
+8,747,Turing ULR v6
+8,748,Turing ULR v6
+8,749,Vega v1
+8,750,Turing ULR v6
+8,751,Vega v1
+8,752,Turing ULR v6
+8,753,Vega v1
+8,754,Turing ULR v6
+8,755,Turing NLR v5
+8,756,Turing ULR v6
+8,757,Vega v1
+8,758,Turing ULR v6
+8,759,Turing ULR v6
+8,760,Turing ULR v6
+8,761,Turing NLR v5
+8,762,Turing ULR v6
+8,763,Turing ULR v6
+8,764,Turing ULR v6
+8,765,Vega v1
+8,766,Turing ULR v6
+8,767,Turing ULR v6
+8,768,Turing ULR v6
+8,769,Turing ULR v6
+8,770,Vega v1
+8,771,Turing ULR v6
+8,772,Vega v1
+8,773,Turing ULR v6
+8,774,Vega v1
+8,775,Turing ULR v6
+8,776,Turing ULR v6
+8,777,Turing ULR v6
+8,778,Turing NLR v5
+8,779,Turing ULR v6
+8,780,Turing ULR v6
+8,781,Vega v1
+8,782,Vega v1
+8,783,Turing NLR v5
+8,784,Turing ULR v6
+8,785,Turing ULR v6
+8,786,Turing ULR v6
+8,787,Turing ULR v6
+8,788,Turing ULR v6
+8,789,Turing ULR v6
+8,790,Turing ULR v6
+8,791,Turing ULR v6
+8,792,Turing ULR v6
+8,793,Turing ULR v6
+8,794,Turing NLR v5
+8,795,Turing ULR v6
+8,796,Turing NLR v5
+8,797,Turing ULR v6
+8,798,Vega v1
+8,799,Turing NLR v5
+8,800,Turing ULR v6
+8,801,Turing ULR v6
+8,802,Vega v1
+8,803,Turing ULR v6
+8,804,Turing ULR v6
+8,805,Turing ULR v6
+8,806,Turing ULR v6
+8,807,Turing ULR v6
+8,808,Turing ULR v6
+8,809,Vega v1
+8,810,Turing ULR v6
+8,811,Turing ULR v6
+8,812,Turing ULR v6
+8,813,Turing ULR v6
+8,814,Vega v1
+8,815,Turing ULR v6
+8,816,Turing ULR v6
+8,817,Turing ULR v6
+8,818,Turing ULR v6
+8,819,Turing NLR v5
+8,820,Turing ULR v6
+8,821,Turing ULR v6
+8,822,Turing ULR v6
+8,823,Vega v1
+8,824,Turing ULR v6
+8,825,Turing ULR v6
+8,826,Turing NLR v5
+8,827,Turing ULR v6
+8,828,Turing ULR v6
+8,829,Vega v1
+8,830,Turing ULR v6
+8,831,Turing ULR v6
+8,832,Turing ULR v6
+8,833,Turing ULR v6
+8,834,Turing ULR v6
+8,835,Vega v1
+8,836,Turing ULR v6
+8,837,Turing ULR v6
+8,838,Turing ULR v6
+8,839,Turing ULR v6
+8,840,Turing ULR v6
+8,841,Turing ULR v6
+8,842,Turing ULR v6
+8,843,Vega v1
+8,844,Vega v1
+8,845,Turing ULR v6
+8,846,Vega v1
+8,847,Turing ULR v6
+8,848,Turing ULR v6
+8,849,Turing ULR v6
+8,850,Turing ULR v6
+8,851,Turing ULR v6
+8,852,Turing ULR v6
+8,853,Turing ULR v6
+8,854,Turing NLR v5
+8,855,Turing ULR v6
+8,856,Turing ULR v6
+8,857,Turing ULR v6
+8,858,Turing ULR v6
+8,859,Turing NLR v5
+8,860,Turing ULR v6
+8,861,Turing ULR v6
+8,862,Turing NLR v5
+8,863,Turing ULR v6
+8,864,Turing ULR v6
+8,865,Turing ULR v6
+8,866,Turing ULR v6
+8,867,Vega v1
+8,868,Turing ULR v6
+8,869,Vega v1
+8,870,Turing ULR v6
+8,871,Turing ULR v6
+8,872,Turing ULR v6
+8,873,Turing ULR v6
+8,874,Turing ULR v6
+8,875,Turing ULR v6
+8,876,Turing NLR v5
+8,877,Turing ULR v6
+8,878,Vega v1
+8,879,Turing ULR v6
+8,880,Turing NLR v5
+8,881,Turing ULR v6
+8,882,Vega v1
+8,883,Turing ULR v6
+8,884,Vega v1
+8,885,Turing ULR v6
+8,886,Turing NLR v5
+8,887,Turing ULR v6
+8,888,Turing ULR v6
+8,889,Turing ULR v6
+8,890,Turing ULR v6
+8,891,Turing ULR v6
+8,892,Turing ULR v6
+8,893,Turing NLR v5
+8,894,Turing ULR v6
+8,895,Turing ULR v6
+8,896,Turing ULR v6
+8,897,Vega v1
+8,898,Turing NLR v5
+8,899,Turing ULR v6
+8,900,Turing ULR v6
+8,901,Vega v1
+8,902,Turing ULR v6
+8,903,Turing ULR v6
+8,904,Turing ULR v6
+8,905,Turing NLR v5
+8,906,Turing ULR v6
+8,907,Turing NLR v5
+8,908,Turing ULR v6
+8,909,Turing ULR v6
+8,910,Turing ULR v6
+8,911,Turing NLR v5
+8,912,Turing ULR v6
+8,913,Turing NLR v5
+8,914,Turing NLR v5
+8,915,Vega v1
+8,916,Turing ULR v6
+8,917,Turing ULR v6
+8,918,Vega v1
+8,919,Vega v1
+8,920,Turing ULR v6
+8,921,Vega v1
+8,922,Vega v1
+8,923,Turing ULR v6
+8,924,Turing ULR v6
+8,925,Turing ULR v6
+8,926,Vega v1
+8,927,Turing ULR v6
+8,928,Turing ULR v6
+8,929,Turing NLR v5
+8,930,Vega v1
+8,931,Vega v1
+8,932,Turing ULR v6
+8,933,Turing ULR v6
+8,934,Turing ULR v6
+8,935,Turing ULR v6
+8,936,Turing ULR v6
+8,937,Turing ULR v6
+8,938,Turing ULR v6
+8,939,Vega v1
+8,940,Turing NLR v5
+8,941,Turing ULR v6
+8,942,Turing NLR v5
+8,943,Vega v1
+8,944,Turing ULR v6
+8,945,Turing ULR v6
+8,946,Turing ULR v6
+8,947,Turing ULR v6
+8,948,Turing NLR v5
+8,949,Turing NLR v5
+8,950,Turing ULR v6
+8,951,Turing ULR v6
+8,952,Turing ULR v6
+8,953,Turing ULR v6
+8,954,Turing ULR v6
+8,955,Turing ULR v6
+8,956,Vega v1
+8,957,Vega v1
+8,958,Turing NLR v5
+8,959,Vega v1
+8,960,Turing ULR v6
+8,961,Turing ULR v6
+8,962,Vega v1
+8,963,Turing ULR v6
+8,964,Vega v1
+8,965,Turing ULR v6
+8,966,Turing ULR v6
+8,967,Turing NLR v5
+8,968,Vega v1
+8,969,Vega v1
+8,970,Turing ULR v6
+8,971,Turing ULR v6
+8,972,Turing NLR v5
+8,973,Turing ULR v6
+8,974,Turing ULR v6
+8,975,Turing ULR v6
+8,976,Turing ULR v6
+8,977,Turing ULR v6
+8,978,Turing ULR v6
+8,979,Turing ULR v6
+8,980,Turing ULR v6
+8,981,Turing ULR v6
+8,982,Vega v1
+8,983,Turing ULR v6
+8,984,Vega v1
+8,985,Turing ULR v6
+8,986,Vega v1
+8,987,Turing ULR v6
+8,988,Turing ULR v6
+8,989,Vega v1
+8,990,Turing ULR v6
+8,991,Turing ULR v6
+8,992,Turing ULR v6
+8,993,Turing ULR v6
+8,994,Turing ULR v6
+8,995,Turing ULR v6
+8,996,Turing ULR v6
+8,997,Turing ULR v6
+8,998,Turing ULR v6
+8,999,Turing ULR v6
+9,0,Turing ULR v6
+9,1,Turing ULR v6
+9,2,Turing ULR v6
+9,3,Turing ULR v6
+9,4,Turing ULR v6
+9,5,Turing ULR v6
+9,6,Turing ULR v6
+9,7,Turing ULR v6
+9,8,Turing ULR v6
+9,9,Turing ULR v6
+9,10,Turing ULR v6
+9,11,Turing ULR v6
+9,12,Turing ULR v6
+9,13,Turing ULR v6
+9,14,Turing ULR v6
+9,15,Turing ULR v6
+9,16,Turing ULR v6
+9,17,Turing ULR v6
+9,18,Turing ULR v6
+9,19,Turing ULR v6
+9,20,Turing ULR v6
+9,21,Turing ULR v6
+9,22,Turing ULR v6
+9,23,Turing ULR v6
+9,24,Turing ULR v6
+9,25,Turing ULR v6
+9,26,Turing ULR v6
+9,27,Turing ULR v6
+9,28,Turing ULR v6
+9,29,Turing ULR v6
+9,30,Turing ULR v6
+9,31,Turing ULR v6
+9,32,Turing ULR v6
+9,33,Turing ULR v6
+9,34,Turing ULR v6
+9,35,Turing ULR v6
+9,36,Turing ULR v6
+9,37,Turing ULR v6
+9,38,Turing ULR v6
+9,39,Turing ULR v6
+9,40,Turing ULR v6
+9,41,Turing ULR v6
+9,42,Turing ULR v6
+9,43,Turing ULR v6
+9,44,Turing ULR v6
+9,45,Turing ULR v6
+9,46,Turing ULR v6
+9,47,Turing ULR v6
+9,48,Turing ULR v6
+9,49,Turing ULR v6
+9,50,Turing ULR v6
+9,51,Turing ULR v6
+9,52,Turing ULR v6
+9,53,Turing ULR v6
+9,54,Turing ULR v6
+9,55,Turing ULR v6
+9,56,Turing ULR v6
+9,57,Turing ULR v6
+9,58,Turing ULR v6
+9,59,Turing ULR v6
+9,60,Turing ULR v6
+9,61,Turing ULR v6
+9,62,Turing ULR v6
+9,63,Turing ULR v6
+9,64,Turing ULR v6
+9,65,Turing ULR v6
+9,66,Turing ULR v6
+9,67,Turing ULR v6
+9,68,Turing ULR v6
+9,69,Turing ULR v6
+9,70,Turing ULR v6
+9,71,Turing ULR v6
+9,72,Turing ULR v6
+9,73,Turing ULR v6
+9,74,Turing ULR v6
+9,75,Turing ULR v6
+9,76,Turing ULR v6
+9,77,Turing ULR v6
+9,78,Turing ULR v6
+9,79,Turing ULR v6
+9,80,Turing ULR v6
+9,81,Turing ULR v6
+9,82,Turing ULR v6
+9,83,Turing ULR v6
+9,84,Turing ULR v6
+9,85,Turing ULR v6
+9,86,Turing ULR v6
+9,87,Turing ULR v6
+9,88,Turing ULR v6
+9,89,Turing ULR v6
+9,90,Turing ULR v6
+9,91,Turing ULR v6
+9,92,Turing ULR v6
+9,93,Turing ULR v6
+9,94,Turing ULR v6
+9,95,Turing ULR v6
+9,96,Turing ULR v6
+9,97,Turing ULR v6
+9,98,Turing ULR v6
+9,99,Turing ULR v6
+9,100,Turing ULR v6
+9,101,Turing ULR v6
+9,102,Turing ULR v6
+9,103,Turing ULR v6
+9,104,Turing ULR v6
+9,105,Turing ULR v6
+9,106,Turing ULR v6
+9,107,Turing ULR v6
+9,108,Turing ULR v6
+9,109,Turing ULR v6
+9,110,Turing ULR v6
+9,111,Turing ULR v6
+9,112,Turing ULR v6
+9,113,Turing ULR v6
+9,114,Turing ULR v6
+9,115,Turing ULR v6
+9,116,Turing ULR v6
+9,117,Turing ULR v6
+9,118,Turing ULR v6
+9,119,Turing ULR v6
+9,120,Turing ULR v6
+9,121,Turing ULR v6
+9,122,Turing ULR v6
+9,123,Turing ULR v6
+9,124,Turing ULR v6
+9,125,Turing ULR v6
+9,126,Turing ULR v6
+9,127,Turing ULR v6
+9,128,Turing ULR v6
+9,129,Turing ULR v6
+9,130,Turing ULR v6
+9,131,Turing ULR v6
+9,132,Turing ULR v6
+9,133,Turing ULR v6
+9,134,Turing ULR v6
+9,135,Turing ULR v6
+9,136,Turing ULR v6
+9,137,Turing ULR v6
+9,138,Turing ULR v6
+9,139,Turing ULR v6
+9,140,Turing ULR v6
+9,141,Turing ULR v6
+9,142,Turing ULR v6
+9,143,Turing ULR v6
+9,144,Turing ULR v6
+9,145,Turing ULR v6
+9,146,Turing ULR v6
+9,147,Turing ULR v6
+9,148,Turing ULR v6
+9,149,Turing ULR v6
+9,150,Turing ULR v6
+9,151,Turing ULR v6
+9,152,Turing ULR v6
+9,153,Turing ULR v6
+9,154,Turing ULR v6
+9,155,Turing ULR v6
+9,156,Turing ULR v6
+9,157,Turing ULR v6
+9,158,Turing ULR v6
+9,159,Turing ULR v6
+9,160,Turing ULR v6
+9,161,Turing ULR v6
+9,162,Turing ULR v6
+9,163,Turing ULR v6
+9,164,Turing ULR v6
+9,165,Turing ULR v6
+9,166,Turing ULR v6
+9,167,Turing ULR v6
+9,168,Turing ULR v6
+9,169,Turing ULR v6
+9,170,Turing ULR v6
+9,171,Turing ULR v6
+9,172,Turing ULR v6
+9,173,Turing ULR v6
+9,174,Turing ULR v6
+9,175,Turing ULR v6
+9,176,Turing ULR v6
+9,177,Turing ULR v6
+9,178,Turing ULR v6
+9,179,Turing ULR v6
+9,180,Turing ULR v6
+9,181,Turing ULR v6
+9,182,Turing ULR v6
+9,183,Turing ULR v6
+9,184,Turing ULR v6
+9,185,Turing ULR v6
+9,186,Turing ULR v6
+9,187,Turing ULR v6
+9,188,Turing ULR v6
+9,189,Turing ULR v6
+9,190,Turing ULR v6
+9,191,Turing ULR v6
+9,192,Turing ULR v6
+9,193,Turing ULR v6
+9,194,Turing ULR v6
+9,195,Turing ULR v6
+9,196,Turing ULR v6
+9,197,Turing ULR v6
+9,198,Turing ULR v6
+9,199,Turing ULR v6
+9,200,Turing ULR v6
+9,201,Turing ULR v6
+9,202,Turing ULR v6
+9,203,Turing ULR v6
+9,204,Turing ULR v6
+9,205,Turing ULR v6
+9,206,Turing ULR v6
+9,207,Turing ULR v6
+9,208,Turing ULR v6
+9,209,Turing ULR v6
+9,210,Turing ULR v6
+9,211,Turing ULR v6
+9,212,Turing ULR v6
+9,213,Turing ULR v6
+9,214,Turing ULR v6
+9,215,Turing ULR v6
+9,216,Turing ULR v6
+9,217,Turing ULR v6
+9,218,Turing ULR v6
+9,219,Turing ULR v6
+9,220,Turing ULR v6
+9,221,Turing ULR v6
+9,222,Turing ULR v6
+9,223,Turing ULR v6
+9,224,Turing ULR v6
+9,225,Turing ULR v6
+9,226,Turing ULR v6
+9,227,Turing ULR v6
+9,228,Turing ULR v6
+9,229,Turing ULR v6
+9,230,Turing ULR v6
+9,231,Turing ULR v6
+9,232,Turing ULR v6
+9,233,Turing ULR v6
+9,234,Turing ULR v6
+9,235,Turing ULR v6
+9,236,Turing ULR v6
+9,237,Turing ULR v6
+9,238,Turing ULR v6
+9,239,Turing ULR v6
+9,240,Turing ULR v6
+9,241,Turing ULR v6
+9,242,Turing ULR v6
+9,243,Turing ULR v6
+9,244,Turing ULR v6
+9,245,Turing ULR v6
+9,246,Turing ULR v6
+9,247,Turing ULR v6
+9,248,Turing ULR v6
+9,249,Turing ULR v6
+9,250,Turing ULR v6
+9,251,Turing ULR v6
+9,252,Turing ULR v6
+9,253,Turing ULR v6
+9,254,Turing ULR v6
+9,255,Turing ULR v6
+9,256,Turing ULR v6
+9,257,Turing ULR v6
+9,258,Turing ULR v6
+9,259,Turing ULR v6
+9,260,Turing ULR v6
+9,261,Turing ULR v6
+9,262,Turing ULR v6
+9,263,Turing ULR v6
+9,264,Turing ULR v6
+9,265,Turing ULR v6
+9,266,Turing ULR v6
+9,267,Turing ULR v6
+9,268,Turing ULR v6
+9,269,Turing ULR v6
+9,270,Turing ULR v6
+9,271,Turing ULR v6
+9,272,Turing ULR v6
+9,273,Turing ULR v6
+9,274,Turing ULR v6
+9,275,Turing ULR v6
+9,276,Turing ULR v6
+9,277,Turing ULR v6
+9,278,Turing ULR v6
+9,279,Turing ULR v6
+9,280,Turing ULR v6
+9,281,Turing ULR v6
+9,282,Turing ULR v6
+9,283,Turing ULR v6
+9,284,Turing ULR v6
+9,285,Turing ULR v6
+9,286,Turing ULR v6
+9,287,Turing ULR v6
+9,288,Turing ULR v6
+9,289,Turing ULR v6
+9,290,Turing ULR v6
+9,291,Turing ULR v6
+9,292,Turing ULR v6
+9,293,Turing ULR v6
+9,294,Turing ULR v6
+9,295,Turing ULR v6
+9,296,Turing ULR v6
+9,297,Turing ULR v6
+9,298,Turing ULR v6
+9,299,Turing ULR v6
+9,300,Turing ULR v6
+9,301,Turing ULR v6
+9,302,Turing ULR v6
+9,303,Turing ULR v6
+9,304,Turing ULR v6
+9,305,Turing ULR v6
+9,306,Turing ULR v6
+9,307,Turing ULR v6
+9,308,Turing ULR v6
+9,309,Turing ULR v6
+9,310,Turing ULR v6
+9,311,Turing ULR v6
+9,312,Turing ULR v6
+9,313,Turing ULR v6
+9,314,Turing ULR v6
+9,315,Turing ULR v6
+9,316,Turing ULR v6
+9,317,Turing ULR v6
+9,318,Turing ULR v6
+9,319,Turing ULR v6
+9,320,Turing ULR v6
+9,321,Turing ULR v6
+9,322,Turing ULR v6
+9,323,Turing ULR v6
+9,324,Turing ULR v6
+9,325,Turing ULR v6
+9,326,Turing ULR v6
+9,327,Turing ULR v6
+9,328,Turing ULR v6
+9,329,Turing ULR v6
+9,330,Turing ULR v6
+9,331,Turing ULR v6
+9,332,Turing ULR v6
+9,333,Turing ULR v6
+9,334,Turing ULR v6
+9,335,Turing ULR v6
+9,336,Turing ULR v6
+9,337,Turing ULR v6
+9,338,Turing ULR v6
+9,339,Turing ULR v6
+9,340,Turing ULR v6
+9,341,Turing ULR v6
+9,342,Turing ULR v6
+9,343,Turing ULR v6
+9,344,Turing ULR v6
+9,345,Turing ULR v6
+9,346,Turing ULR v6
+9,347,Turing ULR v6
+9,348,Turing ULR v6
+9,349,Turing ULR v6
+9,350,Turing ULR v6
+9,351,Turing ULR v6
+9,352,Turing ULR v6
+9,353,Turing ULR v6
+9,354,Turing ULR v6
+9,355,Turing ULR v6
+9,356,Turing ULR v6
+9,357,Turing ULR v6
+9,358,Turing ULR v6
+9,359,Turing ULR v6
+9,360,Turing ULR v6
+9,361,Turing ULR v6
+9,362,Turing ULR v6
+9,363,Turing ULR v6
+9,364,Turing ULR v6
+9,365,Turing ULR v6
+9,366,Turing ULR v6
+9,367,Turing ULR v6
+9,368,Turing ULR v6
+9,369,Turing ULR v6
+9,370,Turing ULR v6
+9,371,Turing ULR v6
+9,372,Turing ULR v6
+9,373,Turing ULR v6
+9,374,Turing ULR v6
+9,375,Turing ULR v6
+9,376,Turing ULR v6
+9,377,Turing ULR v6
+9,378,Turing ULR v6
+9,379,Turing ULR v6
+9,380,Turing ULR v6
+9,381,Turing ULR v6
+9,382,Turing ULR v6
+9,383,Turing ULR v6
+9,384,Turing ULR v6
+9,385,Turing ULR v6
+9,386,Turing ULR v6
+9,387,Turing ULR v6
+9,388,Turing ULR v6
+9,389,Turing ULR v6
+9,390,Turing ULR v6
+9,391,Turing ULR v6
+9,392,Turing ULR v6
+9,393,Turing ULR v6
+9,394,Turing ULR v6
+9,395,Turing ULR v6
+9,396,Turing ULR v6
+9,397,Turing ULR v6
+9,398,Turing ULR v6
+9,399,Turing ULR v6
+9,400,Turing ULR v6
+9,401,Turing ULR v6
+9,402,Turing ULR v6
+9,403,Turing ULR v6
+9,404,Turing ULR v6
+9,405,Turing ULR v6
+9,406,Turing ULR v6
+9,407,Turing ULR v6
+9,408,Turing ULR v6
+9,409,Turing ULR v6
+9,410,Turing ULR v6
+9,411,Turing ULR v6
+9,412,Turing ULR v6
+9,413,Turing ULR v6
+9,414,Turing ULR v6
+9,415,Turing ULR v6
+9,416,Turing ULR v6
+9,417,Turing ULR v6
+9,418,Turing ULR v6
+9,419,Turing ULR v6
+9,420,Turing ULR v6
+9,421,Turing ULR v6
+9,422,Turing ULR v6
+9,423,Turing ULR v6
+9,424,Turing ULR v6
+9,425,Turing ULR v6
+9,426,Turing ULR v6
+9,427,Turing ULR v6
+9,428,Turing ULR v6
+9,429,Turing ULR v6
+9,430,Turing ULR v6
+9,431,Turing ULR v6
+9,432,Turing ULR v6
+9,433,Turing ULR v6
+9,434,Turing ULR v6
+9,435,Turing ULR v6
+9,436,Turing ULR v6
+9,437,Turing ULR v6
+9,438,Turing ULR v6
+9,439,Turing ULR v6
+9,440,Turing ULR v6
+9,441,Turing ULR v6
+9,442,Turing ULR v6
+9,443,Turing ULR v6
+9,444,Turing ULR v6
+9,445,Turing ULR v6
+9,446,Turing ULR v6
+9,447,Turing ULR v6
+9,448,Turing ULR v6
+9,449,Turing ULR v6
+9,450,Turing ULR v6
+9,451,Turing ULR v6
+9,452,Turing ULR v6
+9,453,Turing ULR v6
+9,454,Turing ULR v6
+9,455,Turing ULR v6
+9,456,Turing ULR v6
+9,457,Turing ULR v6
+9,458,Turing ULR v6
+9,459,Turing ULR v6
+9,460,Turing ULR v6
+9,461,Turing ULR v6
+9,462,Turing ULR v6
+9,463,Turing ULR v6
+9,464,Turing ULR v6
+9,465,Turing ULR v6
+9,466,Turing ULR v6
+9,467,Turing ULR v6
+9,468,Turing ULR v6
+9,469,Turing ULR v6
+9,470,Turing ULR v6
+9,471,Turing ULR v6
+9,472,Turing ULR v6
+9,473,Turing ULR v6
+9,474,Turing ULR v6
+9,475,Turing ULR v6
+9,476,Turing ULR v6
+9,477,Turing ULR v6
+9,478,Turing ULR v6
+9,479,Turing ULR v6
+9,480,Turing ULR v6
+9,481,Turing ULR v6
+9,482,Turing ULR v6
+9,483,Turing ULR v6
+9,484,Turing ULR v6
+9,485,Turing ULR v6
+9,486,Turing ULR v6
+9,487,Turing ULR v6
+9,488,Turing ULR v6
+9,489,Turing ULR v6
+9,490,Turing ULR v6
+9,491,Turing ULR v6
+9,492,Turing ULR v6
+9,493,Turing ULR v6
+9,494,Turing ULR v6
+9,495,Turing ULR v6
+9,496,Turing ULR v6
+9,497,Turing ULR v6
+9,498,Turing ULR v6
+9,499,Turing ULR v6
+9,500,Turing ULR v6
+9,501,Turing ULR v6
+9,502,Turing ULR v6
+9,503,Turing ULR v6
+9,504,Turing ULR v6
+9,505,Turing ULR v6
+9,506,Turing ULR v6
+9,507,Turing ULR v6
+9,508,Turing ULR v6
+9,509,Turing ULR v6
+9,510,Turing ULR v6
+9,511,Turing ULR v6
+9,512,Turing ULR v6
+9,513,Turing ULR v6
+9,514,Turing ULR v6
+9,515,Turing ULR v6
+9,516,Turing ULR v6
+9,517,Turing ULR v6
+9,518,Turing ULR v6
+9,519,Turing ULR v6
+9,520,Turing ULR v6
+9,521,Turing ULR v6
+9,522,Turing ULR v6
+9,523,Turing ULR v6
+9,524,Turing ULR v6
+9,525,Turing ULR v6
+9,526,Turing ULR v6
+9,527,Turing ULR v6
+9,528,Turing ULR v6
+9,529,Turing ULR v6
+9,530,Turing ULR v6
+9,531,Turing ULR v6
+9,532,Turing ULR v6
+9,533,Turing ULR v6
+9,534,Turing ULR v6
+9,535,Turing ULR v6
+9,536,Turing ULR v6
+9,537,Turing ULR v6
+9,538,Turing ULR v6
+9,539,Turing ULR v6
+9,540,Turing ULR v6
+9,541,Turing ULR v6
+9,542,Turing ULR v6
+9,543,Turing ULR v6
+9,544,Turing ULR v6
+9,545,Turing ULR v6
+9,546,Turing ULR v6
+9,547,Turing ULR v6
+9,548,Turing ULR v6
+9,549,Turing ULR v6
+9,550,Turing ULR v6
+9,551,Turing ULR v6
+9,552,Turing ULR v6
+9,553,Turing ULR v6
+9,554,Turing ULR v6
+9,555,Turing ULR v6
+9,556,Turing ULR v6
+9,557,Turing ULR v6
+9,558,Turing ULR v6
+9,559,Turing ULR v6
+9,560,Turing ULR v6
+9,561,Turing ULR v6
+9,562,Turing ULR v6
+9,563,Turing ULR v6
+9,564,Turing ULR v6
+9,565,Turing ULR v6
+9,566,Turing ULR v6
+9,567,Turing ULR v6
+9,568,Turing ULR v6
+9,569,Turing ULR v6
+9,570,Turing ULR v6
+9,571,Turing ULR v6
+9,572,Turing ULR v6
+9,573,Turing ULR v6
+9,574,Turing ULR v6
+9,575,Turing ULR v6
+9,576,Turing ULR v6
+9,577,Turing ULR v6
+9,578,Turing ULR v6
+9,579,Turing ULR v6
+9,580,Turing ULR v6
+9,581,Turing ULR v6
+9,582,Turing ULR v6
+9,583,Turing ULR v6
+9,584,Turing ULR v6
+9,585,Turing ULR v6
+9,586,Turing ULR v6
+9,587,Turing ULR v6
+9,588,Turing ULR v6
+9,589,Turing ULR v6
+9,590,Turing ULR v6
+9,591,Turing ULR v6
+9,592,Turing ULR v6
+9,593,Turing ULR v6
+9,594,Turing ULR v6
+9,595,Turing ULR v6
+9,596,Turing ULR v6
+9,597,Turing ULR v6
+9,598,Turing ULR v6
+9,599,Turing ULR v6
+9,600,Turing ULR v6
+9,601,Turing ULR v6
+9,602,Turing ULR v6
+9,603,Turing ULR v6
+9,604,Turing ULR v6
+9,605,Turing ULR v6
+9,606,Turing ULR v6
+9,607,Turing ULR v6
+9,608,Turing ULR v6
+9,609,Turing ULR v6
+9,610,Turing ULR v6
+9,611,Turing ULR v6
+9,612,Turing ULR v6
+9,613,Turing ULR v6
+9,614,Turing ULR v6
+9,615,Turing ULR v6
+9,616,Turing ULR v6
+9,617,Turing ULR v6
+9,618,Turing ULR v6
+9,619,Turing ULR v6
+9,620,Turing ULR v6
+9,621,Turing ULR v6
+9,622,Turing ULR v6
+9,623,Turing ULR v6
+9,624,Turing ULR v6
+9,625,Turing ULR v6
+9,626,Turing ULR v6
+9,627,Turing ULR v6
+9,628,Turing ULR v6
+9,629,Turing ULR v6
+9,630,Turing ULR v6
+9,631,Turing ULR v6
+9,632,Turing ULR v6
+9,633,Turing ULR v6
+9,634,Turing ULR v6
+9,635,Turing ULR v6
+9,636,Turing ULR v6
+9,637,Turing ULR v6
+9,638,Turing ULR v6
+9,639,Turing ULR v6
+9,640,Turing ULR v6
+9,641,Turing ULR v6
+9,642,Turing ULR v6
+9,643,Turing ULR v6
+9,644,Turing ULR v6
+9,645,Turing ULR v6
+9,646,Turing ULR v6
+9,647,Turing ULR v6
+9,648,Turing ULR v6
+9,649,Turing ULR v6
+9,650,Turing ULR v6
+9,651,Turing ULR v6
+9,652,Turing ULR v6
+9,653,Turing ULR v6
+9,654,Turing ULR v6
+9,655,Turing ULR v6
+9,656,Turing ULR v6
+9,657,Turing ULR v6
+9,658,Turing ULR v6
+9,659,Turing ULR v6
+9,660,Turing ULR v6
+9,661,Turing ULR v6
+9,662,Turing ULR v6
+9,663,Turing ULR v6
+9,664,Turing ULR v6
+9,665,Turing ULR v6
+9,666,Turing ULR v6
+9,667,Turing ULR v6
+9,668,Turing ULR v6
+9,669,Turing ULR v6
+9,670,Turing ULR v6
+9,671,Turing ULR v6
+9,672,Turing ULR v6
+9,673,Turing ULR v6
+9,674,Turing ULR v6
+9,675,Turing ULR v6
+9,676,Turing ULR v6
+9,677,Turing ULR v6
+9,678,Turing ULR v6
+9,679,Turing ULR v6
+9,680,Turing ULR v6
+9,681,Turing ULR v6
+9,682,Turing ULR v6
+9,683,Turing ULR v6
+9,684,Turing ULR v6
+9,685,Turing ULR v6
+9,686,Turing ULR v6
+9,687,Turing ULR v6
+9,688,Turing ULR v6
+9,689,Turing ULR v6
+9,690,Turing ULR v6
+9,691,Turing ULR v6
+9,692,Turing ULR v6
+9,693,Turing ULR v6
+9,694,Turing ULR v6
+9,695,Turing ULR v6
+9,696,Turing ULR v6
+9,697,Turing ULR v6
+9,698,Turing ULR v6
+9,699,Turing ULR v6
+9,700,Turing ULR v6
+9,701,Turing ULR v6
+9,702,Turing ULR v6
+9,703,Turing ULR v6
+9,704,Turing ULR v6
+9,705,Turing ULR v6
+9,706,Turing ULR v6
+9,707,Turing ULR v6
+9,708,Turing ULR v6
+9,709,Turing ULR v6
+9,710,Turing ULR v6
+9,711,Turing ULR v6
+9,712,Turing ULR v6
+9,713,Turing ULR v6
+9,714,Turing ULR v6
+9,715,Turing ULR v6
+9,716,Turing ULR v6
+9,717,Turing ULR v6
+9,718,Turing ULR v6
+9,719,Turing ULR v6
+9,720,Turing ULR v6
+9,721,Turing ULR v6
+9,722,Turing ULR v6
+9,723,Turing ULR v6
+9,724,Turing ULR v6
+9,725,Turing ULR v6
+9,726,Turing ULR v6
+9,727,Turing ULR v6
+9,728,Turing ULR v6
+9,729,Turing ULR v6
+9,730,Turing ULR v6
+9,731,Turing ULR v6
+9,732,Turing ULR v6
+9,733,Turing ULR v6
+9,734,Turing ULR v6
+9,735,Turing ULR v6
+9,736,Turing ULR v6
+9,737,Turing ULR v6
+9,738,Turing ULR v6
+9,739,Turing ULR v6
+9,740,Turing ULR v6
+9,741,Turing ULR v6
+9,742,Turing ULR v6
+9,743,Turing ULR v6
+9,744,Turing ULR v6
+9,745,Turing ULR v6
+9,746,Turing ULR v6
+9,747,Turing ULR v6
+9,748,Turing ULR v6
+9,749,Turing ULR v6
+9,750,Turing ULR v6
+9,751,Turing ULR v6
+9,752,Turing ULR v6
+9,753,Turing ULR v6
+9,754,Turing ULR v6
+9,755,Turing ULR v6
+9,756,Turing ULR v6
+9,757,Turing ULR v6
+9,758,Turing ULR v6
+9,759,Turing ULR v6
+9,760,Turing ULR v6
+9,761,Turing ULR v6
+9,762,Turing ULR v6
+9,763,Turing ULR v6
+9,764,Turing ULR v6
+9,765,Turing ULR v6
+9,766,Turing ULR v6
+9,767,Turing ULR v6
+9,768,Turing ULR v6
+9,769,Turing ULR v6
+9,770,Turing ULR v6
+9,771,Turing ULR v6
+9,772,Turing ULR v6
+9,773,Turing ULR v6
+9,774,Turing ULR v6
+9,775,Turing ULR v6
+9,776,Turing ULR v6
+9,777,Turing ULR v6
+9,778,Turing ULR v6
+9,779,Turing ULR v6
+9,780,Turing ULR v6
+9,781,Turing ULR v6
+9,782,Turing ULR v6
+9,783,Turing ULR v6
+9,784,Turing ULR v6
+9,785,Turing ULR v6
+9,786,Turing ULR v6
+9,787,Turing ULR v6
+9,788,Turing ULR v6
+9,789,Turing ULR v6
+9,790,Turing ULR v6
+9,791,Turing ULR v6
+9,792,Turing ULR v6
+9,793,Turing ULR v6
+9,794,Turing ULR v6
+9,795,Turing ULR v6
+9,796,Turing ULR v6
+9,797,Turing ULR v6
+9,798,Turing ULR v6
+9,799,Turing ULR v6
+9,800,Turing ULR v6
+9,801,Turing ULR v6
+9,802,Turing ULR v6
+9,803,Turing ULR v6
+9,804,Turing ULR v6
+9,805,Turing ULR v6
+9,806,Turing ULR v6
+9,807,Turing ULR v6
+9,808,Turing ULR v6
+9,809,Turing ULR v6
+9,810,Turing ULR v6
+9,811,Turing ULR v6
+9,812,Turing ULR v6
+9,813,Turing ULR v6
+9,814,Turing ULR v6
+9,815,Turing ULR v6
+9,816,Turing ULR v6
+9,817,Turing ULR v6
+9,818,Turing ULR v6
+9,819,Turing ULR v6
+9,820,Turing ULR v6
+9,821,Turing ULR v6
+9,822,Turing ULR v6
+9,823,Turing ULR v6
+9,824,Turing ULR v6
+9,825,Turing ULR v6
+9,826,Turing ULR v6
+9,827,Turing ULR v6
+9,828,Turing ULR v6
+9,829,Turing ULR v6
+9,830,Turing ULR v6
+9,831,Turing ULR v6
+9,832,Turing ULR v6
+9,833,Turing ULR v6
+9,834,Turing ULR v6
+9,835,Turing ULR v6
+9,836,Turing ULR v6
+9,837,Turing ULR v6
+9,838,Turing ULR v6
+9,839,Turing ULR v6
+9,840,Turing ULR v6
+9,841,Turing ULR v6
+9,842,Turing ULR v6
+9,843,Turing ULR v6
+9,844,Turing ULR v6
+9,845,Turing ULR v6
+9,846,Turing ULR v6
+9,847,Turing ULR v6
+9,848,Turing ULR v6
+9,849,Turing ULR v6
+9,850,Turing ULR v6
+9,851,Turing ULR v6
+9,852,Turing ULR v6
+9,853,Turing ULR v6
+9,854,Turing ULR v6
+9,855,Turing ULR v6
+9,856,Turing ULR v6
+9,857,Turing ULR v6
+9,858,Turing ULR v6
+9,859,Turing ULR v6
+9,860,Turing ULR v6
+9,861,Turing ULR v6
+9,862,Turing ULR v6
+9,863,Turing ULR v6
+9,864,Turing ULR v6
+9,865,Turing ULR v6
+9,866,Turing ULR v6
+9,867,Turing ULR v6
+9,868,Turing ULR v6
+9,869,Turing ULR v6
+9,870,Turing ULR v6
+9,871,Turing ULR v6
+9,872,Turing ULR v6
+9,873,Turing ULR v6
+9,874,Turing ULR v6
+9,875,Turing ULR v6
+9,876,Turing ULR v6
+9,877,Turing ULR v6
+9,878,Turing ULR v6
+9,879,Turing ULR v6
+9,880,Turing ULR v6
+9,881,Turing ULR v6
+9,882,Turing ULR v6
+9,883,Turing ULR v6
+9,884,Turing ULR v6
+9,885,Turing ULR v6
+9,886,Turing ULR v6
+9,887,Turing ULR v6
+9,888,Turing ULR v6
+9,889,Turing ULR v6
+9,890,Turing ULR v6
+9,891,Turing ULR v6
+9,892,Turing ULR v6
+9,893,Turing ULR v6
+9,894,Turing ULR v6
+9,895,Turing ULR v6
+9,896,Turing ULR v6
+9,897,Turing ULR v6
+9,898,Turing ULR v6
+9,899,Turing ULR v6
+9,900,Turing ULR v6
+9,901,Turing ULR v6
+9,902,Turing ULR v6
+9,903,Turing ULR v6
+9,904,Turing ULR v6
+9,905,Turing ULR v6
+9,906,Turing ULR v6
+9,907,Turing ULR v6
+9,908,Turing ULR v6
+9,909,Turing ULR v6
+9,910,Turing ULR v6
+9,911,Turing ULR v6
+9,912,Turing ULR v6
+9,913,Turing ULR v6
+9,914,Turing ULR v6
+9,915,Turing ULR v6
+9,916,Turing ULR v6
+9,917,Turing ULR v6
+9,918,Turing ULR v6
+9,919,Turing ULR v6
+9,920,Turing ULR v6
+9,921,Turing ULR v6
+9,922,Turing ULR v6
+9,923,Turing ULR v6
+9,924,Turing ULR v6
+9,925,Turing ULR v6
+9,926,Turing ULR v6
+9,927,Turing ULR v6
+9,928,Turing ULR v6
+9,929,Turing ULR v6
+9,930,Turing ULR v6
+9,931,Turing ULR v6
+9,932,Turing ULR v6
+9,933,Turing ULR v6
+9,934,Turing ULR v6
+9,935,Turing ULR v6
+9,936,Turing ULR v6
+9,937,Turing ULR v6
+9,938,Turing ULR v6
+9,939,Turing ULR v6
+9,940,Turing ULR v6
+9,941,Turing ULR v6
+9,942,Turing ULR v6
+9,943,Turing ULR v6
+9,944,Turing ULR v6
+9,945,Turing ULR v6
+9,946,Turing ULR v6
+9,947,Turing ULR v6
+9,948,Turing ULR v6
+9,949,Turing ULR v6
+9,950,Turing ULR v6
+9,951,Turing ULR v6
+9,952,Turing ULR v6
+9,953,Turing ULR v6
+9,954,Turing ULR v6
+9,955,Turing ULR v6
+9,956,Turing ULR v6
+9,957,Turing ULR v6
+9,958,Turing ULR v6
+9,959,Turing ULR v6
+9,960,Turing ULR v6
+9,961,Turing ULR v6
+9,962,Turing ULR v6
+9,963,Turing ULR v6
+9,964,Turing ULR v6
+9,965,Turing ULR v6
+9,966,Turing ULR v6
+9,967,Turing ULR v6
+9,968,Turing ULR v6
+9,969,Turing ULR v6
+9,970,Turing ULR v6
+9,971,Turing ULR v6
+9,972,Turing ULR v6
+9,973,Turing ULR v6
+9,974,Turing ULR v6
+9,975,Turing ULR v6
+9,976,Turing ULR v6
+9,977,Turing ULR v6
+9,978,Turing ULR v6
+9,979,Turing ULR v6
+9,980,Turing ULR v6
+9,981,Turing ULR v6
+9,982,Turing ULR v6
+9,983,Turing ULR v6
+9,984,Turing ULR v6
+9,985,Turing ULR v6
+9,986,Turing ULR v6
+9,987,Turing ULR v6
+9,988,Turing ULR v6
+9,989,Turing ULR v6
+9,990,Turing ULR v6
+9,991,Turing ULR v6
+9,992,Turing ULR v6
+9,993,Turing ULR v6
+9,994,Turing ULR v6
+9,995,Turing ULR v6
+9,996,Turing ULR v6
+9,997,Turing ULR v6
+9,998,Turing ULR v6
+9,999,Turing ULR v6
