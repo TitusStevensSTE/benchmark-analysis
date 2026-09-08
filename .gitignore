@@ -1,0 +1,21 @@
+# Local / nested repositories
+benchbench/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated analysis outputs
+# Add specific result directories here if they should not be versioned
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# temporary files
+*.tmp
+*.temp
+*.log
+
+# builds
+build/
+dist/
+*.egg-info/
+
+# secrets
+.env
+.env.*
+!.env.example
