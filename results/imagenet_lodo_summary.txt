@@ -1,0 +1,23 @@
+ImageNet LODO summary — weight competitors
+==========================================
+Competitors: 112
+Tasks: 1000 (ImageNet classes acc_0..acc_999)
+Full benchmark winner: ViT_H_14_Weights.IMAGENET1K_SWAG_E2E_V1
+Full benchmark score: 0.885480
+
+Most influential task by lowest Kendall tau:
+  acc_68
+  Kendall tau = 0.997748
+  Spearman rho = 0.999940
+  Mean rank change = 0.12
+  Max rank change = 1
+  Num rank changes = 14
+  LODO winner = ViT_H_14_Weights.IMAGENET1K_SWAG_E2E_V1
+
+Largest maximum rank change:
+  acc_0
+  Max rank change = 1
+  LODO winner = ViT_H_14_Weights.IMAGENET1K_SWAG_E2E_V1
+
+Winner-changing removals:
+  None
