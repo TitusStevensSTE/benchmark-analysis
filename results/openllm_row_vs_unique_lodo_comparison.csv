@@ -1,0 +1,13 @@
+analysis,n_models_or_rows,removed_task,kendall_tau,spearman_rho,max_rank_change,num_rank_changes,mean_rank_change,median_rank_change,top_5_overlap,winner_changed,full_winner,lodo_winner
+BenchBench rows,100,ARC,0.8147623862487361,0.9418044345764949,33.0,88,6.68,4.0,4,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+BenchBench rows,100,HellaSwag,0.8921925748846748,0.9770798141337418,23.0,88,4.2,3.0,5,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+BenchBench rows,100,MMLU,0.688169868554095,0.8310420354646103,55.0,100,12.92,11.5,3,True,cloudyu/Yi-34Bx2-MoE-60B,TomGrc/FusionNet_7Bx2_MoE_14B
+BenchBench rows,100,TruthfulQA,0.3021539099279273,0.42625469187593784,73.0,94,24.53,19.0,4,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+BenchBench rows,100,Winogrande,0.8898776463740831,0.9772119691963012,23.0,82,4.2,3.0,5,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+BenchBench rows,100,GSM8K,0.6094255788092326,0.7724850579817922,90.0,99,14.49,13.0,0,True,cloudyu/Yi-34Bx2-MoE-60B,one-man-army/UNA-34Beagles-32K-bf16-v1
+Unique models,87,ARC,0.8262496658647419,0.9475832908070276,29.0,77,5.517241379310345,3.0,5,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+Unique models,87,HellaSwag,0.8918593850565834,0.9774594365644064,22.0,75,3.6436781609195403,3.0,5,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+Unique models,87,MMLU,0.6968724939855653,0.837956550266093,46.0,87,10.988505747126437,9.0,3,True,cloudyu/Yi-34Bx2-MoE-60B,TomGrc/FusionNet_7Bx2_MoE_14B
+Unique models,87,TruthfulQA,0.31493116174959684,0.4404317654770033,63.0,83,21.32183908045977,18.0,5,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+Unique models,87,Winogrande,0.8914728682170542,0.97853029087993,18.0,72,3.7011494252873565,3.0,5,False,cloudyu/Yi-34Bx2-MoE-60B,cloudyu/Yi-34Bx2-MoE-60B
+Unique models,87,GSM8K,0.6041973052241841,0.7652309416813308,77.0,86,12.758620689655173,11.0,1,True,cloudyu/Yi-34Bx2-MoE-60B,one-man-army/UNA-34Beagles-32K-bf16-v1

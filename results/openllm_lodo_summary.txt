@@ -1,0 +1,23 @@
+OpenLLM LODO summary — exact BenchBench rows
+============================================
+Rows/models: 100
+Tasks: ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K
+Full benchmark winner: cloudyu/Yi-34Bx2-MoE-60B
+Full benchmark score: 76.721667
+
+Most influential task by lowest Kendall tau:
+  TruthfulQA
+  Kendall tau = 0.302154
+  Spearman rho = 0.426255
+  Mean rank change = 24.53
+  Max rank change = 73
+  Num rank changes = 94
+  LODO winner = cloudyu/Yi-34Bx2-MoE-60B
+
+Largest maximum rank change:
+  GSM8K
+  Max rank change = 90
+  LODO winner = one-man-army/UNA-34Beagles-32K-bf16-v1
+
+Winner-changing removals:
+  MMLU, GSM8K
