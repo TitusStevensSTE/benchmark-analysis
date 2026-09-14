@@ -1,0 +1,12 @@
+{
+  "best_kendall_tau": 0.9109225874867443,
+  "best_removed_datasets": "APSFailure|Food_Delivery_Time|SDSS17|bank-marketing|kddcup09_appetency",
+  "depth": 5,
+  "elapsed_seconds": 2989.104580600001,
+  "evaluated_new": 2346828,
+  "tau_threshold_datasets": null,
+  "tau_threshold_found": false,
+  "total_combinations": 2349060,
+  "winner_change_datasets": "Diabetes130US|Food_Delivery_Time|customer_satisfaction_in_airline|diamonds|houses",
+  "winner_change_found": true
+}

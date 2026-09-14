@@ -1,0 +1,33 @@
+TabArena dataset influence summary
+========================================
+LODO input: D:\Users\titus\Informatik-DO\benchmark-analysis\Code\analysis\results\lodo_score_results.csv
+Removal input: D:\Users\titus\Informatik-DO\benchmark-analysis\Code\analysis\results\dataset_removal_search\score\most_destabilizing_subsets.csv
+Random input: None
+Top-k adversarial subsets per depth: 100
+Adversarial depths: 4..8
+Tau threshold: 0.9
+
+Correlations with LODO Kendall instability:
+  adversarial_topk_rate: Spearman rho=nan (p=nan), Kendall tau=nan (p=nan), n=51
+
+Top-k rank overlap with LODO instability:
+  adversarial_topk_rate @ k=5: 5/5
+  adversarial_topk_rate @ k=10: 10/10
+  adversarial_topk_rate @ k=15: 15/15
+
+Top datasets by combined influence:
+   1. blood-transfusion-service-center score=0.755; LODO(1-tau)=0.0296; adv_rate=0.0000
+   2. hiva_agnostic score=0.745; LODO(1-tau)=0.0275; adv_rate=0.0000
+   3. Food_Delivery_Time score=0.735; LODO(1-tau)=0.0254; adv_rate=0.0000
+   4. SDSS17 score=0.725; LODO(1-tau)=0.0233; adv_rate=0.0000
+   5. Bioresponse score=0.706; LODO(1-tau)=0.0211; adv_rate=0.0000
+   6. E-CommereShippingData score=0.706; LODO(1-tau)=0.0211; adv_rate=0.0000
+   7. Amazon_employee_access score=0.706; LODO(1-tau)=0.0211; adv_rate=0.0000
+   8. kddcup09_appetency score=0.686; LODO(1-tau)=0.0190; adv_rate=0.0000
+   9. customer_satisfaction_in_airline score=0.667; LODO(1-tau)=0.0169; adv_rate=0.0000
+  10. healthcare_insurance_expenses score=0.667; LODO(1-tau)=0.0169; adv_rate=0.0000
+  11. jm1 score=0.667; LODO(1-tau)=0.0169; adv_rate=0.0000
+  12. bank-marketing score=0.618; LODO(1-tau)=0.0148; adv_rate=0.0000
+  13. hazelnut-spread-contaminant-detection score=0.618; LODO(1-tau)=0.0148; adv_rate=0.0000
+  14. HR_Analytics_Job_Change_of_Data_Scientists score=0.618; LODO(1-tau)=0.0148; adv_rate=0.0000
+  15. APSFailure score=0.618; LODO(1-tau)=0.0148; adv_rate=0.0000

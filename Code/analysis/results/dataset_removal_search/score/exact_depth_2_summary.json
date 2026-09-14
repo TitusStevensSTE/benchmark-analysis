@@ -1,0 +1,12 @@
+{
+  "best_kendall_tau": 0.9469777306468716,
+  "best_removed_datasets": "E-CommereShippingData|blood-transfusion-service-center",
+  "depth": 2,
+  "elapsed_seconds": 0.0010027999996964354,
+  "evaluated_new": 0,
+  "tau_threshold_datasets": null,
+  "tau_threshold_found": false,
+  "total_combinations": 1275,
+  "winner_change_datasets": null,
+  "winner_change_found": false
+}

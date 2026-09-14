@@ -1,0 +1,61 @@
+Dataset Influence Analysis Summary
+==================================================
+
+Number of datasets: 51
+Minimum winner-change depth: 5
+Minimum tau-break depth: 6
+Tau-break threshold: 0.90
+
+Top 10 datasets by LODO instability:
+  blood-transfusion-service-center: instability=0.029598, tau=0.970402
+  hiva_agnostic: instability=0.027484, tau=0.972516
+  Food_Delivery_Time: instability=0.025370, tau=0.974630
+  SDSS17: instability=0.023256, tau=0.976744
+  E-CommereShippingData: instability=0.021142, tau=0.978858
+  Amazon_employee_access: instability=0.021142, tau=0.978858
+  Bioresponse: instability=0.021142, tau=0.978858
+  kddcup09_appetency: instability=0.019027, tau=0.980973
+  customer_satisfaction_in_airline: instability=0.016913, tau=0.983087
+  healthcare_insurance_expenses: instability=0.016913, tau=0.983087
+
+Top 10 datasets by minimum-depth winner-change frequency:
+  customer_satisfaction_in_airline: 1.000000
+  houses: 1.000000
+  diamonds: 1.000000
+  Food_Delivery_Time: 0.800000
+  Diabetes130US: 0.400000
+  bank-marketing: 0.400000
+  superconductivity: 0.200000
+  GiveMeSomeCredit: 0.200000
+  blood-transfusion-service-center: 0.000000
+  healthcare_insurance_expenses: 0.000000
+
+Top 10 datasets by minimum-depth tau-break frequency:
+  healthcare_insurance_expenses: 0.977273
+  blood-transfusion-service-center: 0.954545
+  Food_Delivery_Time: 0.931818
+  Is-this-a-good-customer: 0.818182
+  kddcup09_appetency: 0.545455
+  Diabetes130US: 0.409091
+  HR_Analytics_Job_Change_of_Data_Scientists: 0.181818
+  APSFailure: 0.181818
+  customer_satisfaction_in_airline: 0.113636
+  E-CommereShippingData: 0.113636
+
+Rank correlations:
+  lodo_instability vs winner_change_frequency: Spearman rho=0.2254 (p=0.1118), Kendall tau=0.1909 (p=0.1087), n=51
+  lodo_instability vs tau_break_frequency: Spearman rho=0.3658 (p=0.008305), Kendall tau=0.2988 (p=0.006875), n=51
+  winner_change_frequency vs tau_break_frequency: Spearman rho=0.2346 (p=0.09746), Kendall tau=0.2081 (p=0.09357), n=51
+  lodo_instability vs max_rank_change: Spearman rho=0.6302 (p=7.205e-07), Kendall tau=0.5377 (p=2.587e-06), n=51
+  lodo_instability vs num_rank_changes: Spearman rho=0.9144 (p=7.066e-21), Kendall tau=0.8053 (p=1.644e-14), n=51
+
+Top-k overlap:
+  lodo_instability vs winner_change_frequency, k=5: overlap=1, Jaccard=0.1111
+  lodo_instability vs winner_change_frequency, k=10: overlap=4, Jaccard=0.2500
+  lodo_instability vs winner_change_frequency, k=15: overlap=11, Jaccard=0.5789
+  lodo_instability vs tau_break_frequency, k=5: overlap=2, Jaccard=0.2500
+  lodo_instability vs tau_break_frequency, k=10: overlap=6, Jaccard=0.4286
+  lodo_instability vs tau_break_frequency, k=15: overlap=10, Jaccard=0.5000
+  winner_change_frequency vs tau_break_frequency, k=5: overlap=1, Jaccard=0.1111
+  winner_change_frequency vs tau_break_frequency, k=10: overlap=5, Jaccard=0.3333
+  winner_change_frequency vs tau_break_frequency, k=15: overlap=11, Jaccard=0.5789

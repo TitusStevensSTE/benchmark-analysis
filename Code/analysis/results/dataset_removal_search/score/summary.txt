@@ -1,0 +1,16 @@
+TabArena dataset-removal search — score aggregation
+==========================================================
+Evaluated subsets: 2,627,344
+Tau threshold: 0.9
+
+First winner-changing subset:
+  minimum removals = 5
+  removed datasets = Diabetes130US|Food_Delivery_Time|customer_satisfaction_in_airline|diamonds|houses
+  Kendall tau = 0.932131
+  winner = TABPFNV2 (tuned + ensemble)
+
+First subset with Kendall tau < 0.9:
+  minimum removals = 6
+  removed datasets = Diabetes130US|Food_Delivery_Time|Is-this-a-good-customer|blood-transfusion-service-center|healthcare_insurance_expenses|kddcup09_appetency
+  Kendall tau = 0.889714
+  winner = REALMLP (tuned + ensemble)

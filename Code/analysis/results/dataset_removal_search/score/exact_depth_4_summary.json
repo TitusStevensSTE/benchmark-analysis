@@ -1,0 +1,12 @@
+{
+  "best_kendall_tau": 0.9533404029692469,
+  "best_removed_datasets": "jm1|maternal_health_risk|physiochemical_protein|wine_quality",
+  "depth": 4,
+  "elapsed_seconds": 3.593963199999962,
+  "evaluated_new": 2766,
+  "tau_threshold_datasets": null,
+  "tau_threshold_found": false,
+  "total_combinations": 249900,
+  "winner_change_datasets": null,
+  "winner_change_found": false
+}

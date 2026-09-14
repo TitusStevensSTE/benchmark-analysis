@@ -1,0 +1,9 @@
+dataset,count,frequency
+diamonds,5,1.0
+customer_satisfaction_in_airline,5,1.0
+houses,5,1.0
+Food_Delivery_Time,4,0.8
+bank-marketing,2,0.4
+Diabetes130US,2,0.4
+GiveMeSomeCredit,1,0.2
+superconductivity,1,0.2

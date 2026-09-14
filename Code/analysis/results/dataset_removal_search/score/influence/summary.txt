@@ -1,0 +1,18 @@
+DATASET REMOVAL INFLUENCE EXTRACTION
+============================================================
+
+Rows processed: 2,627,344
+Minimum winner-change depth: 5
+Minimum tau-break depth (tau < 0.90): 6
+Winner-change evaluations: 25
+Tau-break evaluations: 2,748
+
+OUTPUT FILES
+------------------------------------------------------------
+adversarial_top100_by_depth.csv
+minimum_winner_change_subsets.csv
+minimum_tau_break_subsets.csv
+dataset_winner_change_frequency.csv
+dataset_tau_break_frequency.csv
+dataset_adversarial_frequency.csv
+extraction_summary.json

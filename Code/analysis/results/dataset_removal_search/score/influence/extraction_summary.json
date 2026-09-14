@@ -1,0 +1,27 @@
+{
+  "input_file": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\evaluations.csv",
+  "rows_processed": 2627344,
+  "chunks_processed": 14,
+  "tau_threshold": 0.9,
+  "top_n_per_depth": 100,
+  "depths_found": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "minimum_winner_change_depth": 5,
+  "minimum_tau_break_depth": 6,
+  "winner_change_rows": 25,
+  "tau_break_rows": 2748,
+  "top_subsets_output": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\influence\\adversarial_top100_by_depth.csv",
+  "winner_change_output": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\influence\\minimum_winner_change_subsets.csv",
+  "tau_break_output": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\influence\\minimum_tau_break_subsets.csv",
+  "winner_frequency_output": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\influence\\dataset_winner_change_frequency.csv",
+  "tau_frequency_output": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\influence\\dataset_tau_break_frequency.csv",
+  "adversarial_frequency_output": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\dataset_removal_search\\score\\influence\\dataset_adversarial_frequency.csv"
+}
