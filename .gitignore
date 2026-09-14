@@ -22,3 +22,5 @@ Thumbs.db
 
 # Large dataset-removal search cache
 Code/analysis/results/dataset_removal_search/score/evaluations.csv
+Code/analysis/results/dataset_removal_search/elo/
+Code/analysis/results/dataset_removal_elo/
