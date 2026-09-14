@@ -1,0 +1,23 @@
+ImageNet LODO summary — unique architectures
+============================================
+Competitors: 79
+Tasks: 1000 (ImageNet classes acc_0..acc_999)
+Full benchmark winner: regnet_y_128gf
+Full benchmark score: 0.871510
+
+Most influential task by lowest Kendall tau:
+  acc_65
+  Kendall tau = 0.998702
+  Spearman rho = 0.999951
+  Mean rank change = 0.05
+  Max rank change = 1
+  Num rank changes = 4
+  LODO winner = regnet_y_128gf
+
+Largest maximum rank change:
+  acc_2
+  Max rank change = 1
+  LODO winner = regnet_y_128gf
+
+Winner-changing removals:
+  None

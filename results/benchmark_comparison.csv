@@ -1,0 +1,4 @@
+benchmark,tasks,competitors,worst_kendall_tau,worst_kendall_removed_task,worst_spearman_rho,worst_spearman_removed_task,max_rank_change,max_rank_change_removed_task,max_num_rank_changes,max_num_rank_changes_removed_task,winner_changed_removals,winner_changed,lodo_cases
+OpenLLM,6,,0.302154,TruthfulQA,0.426255,TruthfulQA,90.000000,GSM8K,100,MMLU,2,True,6
+ImageNet (weights),1000,112.000000,0.997748,acc_68,0.999940,acc_68,1.000000,acc_0,14,acc_68,0,False,1000
+ImageNet (architectures),1000,79.000000,0.998702,acc_65,0.999951,acc_65,1.000000,acc_2,4,acc_65,0,False,1000

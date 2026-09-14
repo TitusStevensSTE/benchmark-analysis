@@ -11,9 +11,9 @@ from scipy.stats import kendalltau, spearmanr
 # ============================================================
 
 # Path to the cloned benchbench repository
-BENCHBENCH_ROOT = Path(
-    r"D:\Users\titus\Informatik-DO\benchmark-analysis\benchbench"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+BENCHBENCH_ROOT = PROJECT_ROOT / "benchbench"
 
 sys.path.insert(0, str(BENCHBENCH_ROOT))
 
@@ -432,7 +432,7 @@ output_dir.mkdir(
 
 output_file = (
     output_dir
-    / "glue_lodo_original_benchbench.csv"
+    / "glue_lodo_results.csv"
 )
 
 results_df.to_csv(
