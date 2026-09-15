@@ -1,0 +1,3 @@
+aggregation,winner_change_found,winner_change_depth,winner_change_evidence,winner_change_set,tau_break_found,tau_break_depth,tau_break_evidence,tau_break_set,tau_at_first_break
+Score,True,5.0,beam,Diabetes130US|Food_Delivery_Time|customer_satisfaction_in_airline|diamonds|houses,True,6,beam,Diabetes130US|Food_Delivery_Time|Is-this-a-good-customer|blood-transfusion-service-center|healthcare_insurance_expenses|kddcup09_appetency,0.889713679745493
+Elo,False,,,,True,8,beam,Amazon_employee_access|GiveMeSomeCredit|HR_Analytics_Job_Change_of_Data_Scientists|NATICUSdroid|QSAR-TID-11|credit_card_clients_default|customer_satisfaction_in_airline|in_vehicle_coupon_recommendation,0.8964059196617336

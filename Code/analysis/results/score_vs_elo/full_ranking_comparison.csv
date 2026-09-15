@@ -1,0 +1,2 @@
+score_winner,elo_winner,winner_agrees,kendall_tau,kendall_p,spearman_rho,spearman_p,max_rank_difference,mean_rank_difference
+REALMLP (tuned + ensemble),REALMLP (tuned + ensemble),True,0.8628915064015336,1.6561639430175994e-16,0.9688469225100597,4.393430280097269e-27,9.0,2.3636363636363638

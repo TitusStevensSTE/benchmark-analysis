@@ -1,0 +1,41 @@
+TabArena Score vs Elo — Same-Subset Diagnostics
+============================================================
+
+IMPORTANT:
+The comparison below uses selected representative shared removal subsets, not all possible perturbations.
+Therefore percentages such as 58/93 must not be interpreted as frequencies over the complete perturbation space.
+
+OVERALL
+------------------------------------------------------------
+Shared subsets: 2
+Mean Score Kendall tau: 0.976670
+Median Score Kendall tau: 0.976670
+Mean Elo Kendall tau: 0.983087
+Median Elo Kendall tau: 0.983087
+Mean Elo - Score tau: +0.006416
+Median Elo - Score tau: +0.006416
+Minimum Elo - Score tau: +0.004296
+Maximum Elo - Score tau: +0.008537
+
+Score more stable: 0
+Elo more stable: 2
+Equal: 0
+
+Winner disagreements: 0
+Winner-change disagreements: 0
+Score winner changes: 0
+Elo winner changes: 0
+
+WINNER-CHANGE PATTERNS
+------------------------------------------------------------
+neither_changes: 2 (100.00%)
+
+DEPTH-WISE EFFECT
+------------------------------------------------------------
+Depth  1: n= 2, Score tau=0.976670, Elo tau=0.983087, delta=+0.006416, winner disagreements=0
+
+INTERPRETATION
+------------------------------------------------------------
+Positive Elo - Score tau means that the Elo ranking is more stable than the Score ranking for that subset.
+Negative Elo - Score tau means that the Score ranking is more stable for that subset.
+A winner-change disagreement means that one aggregation changes the benchmark winner while the other does not.

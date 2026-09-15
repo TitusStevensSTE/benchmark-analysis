@@ -1,0 +1,2 @@
+depth,n,mean_score_tau,mean_elo_tau,mean_elo_minus_score_tau,median_elo_minus_score_tau,score_more_unstable_count,elo_more_unstable_count,winner_disagreements,winner_change_disagreements,score_winner_changes,elo_winner_changes
+1,2,0.9766702014846236,0.9830866807610992,0.006416479276475651,0.006416479276475651,2,0,0,0,0,0

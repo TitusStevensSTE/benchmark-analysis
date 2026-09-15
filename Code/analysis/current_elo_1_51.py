@@ -1,3 +1,4 @@
+from pathlib import Path
 import os
 import time
 import pandas as pd
@@ -9,16 +10,24 @@ from bencheval.elo_utils import EloHelper
 # ============================================================
 # SETTINGS
 # ============================================================
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    r"C:\Users\Titus Stevens\Bachelorarbeit\Code\analysis\data"
-    r"\df_results_tabarena_2026_08_13.csv"
+    PROJECT_ROOT
+    / "Code"
+    / "analysis"
+    / "data"
+    / "df_results_tabarena_2026_08_13.csv"
 )
 
 OUTPUT_FILE = (
-    r"C:\Users\Titus Stevens\Bachelorarbeit\Code\analysis\data"
-    r"\current_elo_1_51_results.csv"
+    PROJECT_ROOT
+    / "Code"
+    / "analysis"
+    / "data"
+    / "current_elo_1_51_results.csv"
 )
+
 
 N_REPETITIONS = 1000
 
