@@ -1,0 +1,10 @@
+analysis,x,y,n,spearman_rho,spearman_p,kendall_tau,kendall_p,status
+fold_stability_vs_lodo_instability,mean_kendall_tau,lodo_instability,51,0.0860707342252084,0.5481425545360946,0.0674525890603697,0.5050824244963779,ok
+fold_stability_vs_winner_change_frequency,mean_kendall_tau,winner_change_frequency,51,0.4705698723952635,0.0004927242361837557,0.3873983346375796,0.0006383216528565186,ok
+fold_stability_vs_performance_gap,mean_kendall_tau,winner_runnerup_score_gap,51,-0.23683257918552036,0.09426978986934335,-0.1670588235294118,0.08362474264842938,ok
+fold_instability_vs_performance_gap,fold_instability,winner_runnerup_score_gap,51,0.23683257918552036,0.09426978986934335,0.1670588235294118,0.08362474264842938,ok
+fold_stability_vs_third_gap,mean_kendall_tau,winner_third_score_gap,51,-0.24986425339366514,0.07700781710798789,-0.17490196078431378,0.07010168534737547,ok
+fold_stability_vs_fifth_gap,mean_kendall_tau,winner_fifth_score_gap,51,-0.216289592760181,0.12740084265360205,-0.1466666666666667,0.12879938132932728,ok
+fold_stability_vs_top5_dispersion,mean_kendall_tau,top5_score_std,51,-0.20452488687782805,0.14996409990011508,-0.13725490196078433,0.15520429973185193,ok
+fold_stability_vs_overall_dispersion,mean_kendall_tau,overall_score_std,51,0.28841628959276017,0.040122733746681856,0.17960784313725495,0.06288745793386345,ok
+fold_stability_vs_number_of_folds,mean_kendall_tau,n_folds,51,-0.4549523428697475,0.0007960508819960867,-0.37509118686881077,0.0012953911003322357,ok
