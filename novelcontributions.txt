@@ -1,0 +1,253 @@
+ok sounds good, which ones are the strongest most fitting + are they new or is there already existing papers etc. (or is it from papers in the section future work etc?)
+
+Yes. After checking the relevant literature more carefully, I would not present all three ideas as equally novel. There is a fairly clear hierarchy.
+
+My recommendation
+
+For your thesis, I would make these the two main extensions:
+
+1. Stability is multidimensional
+
+Very fitting and probably the strongest conceptual contribution.
+
+Your existing results already show:
+
+Kendall/Spearman → overall ranking agreement
+maximum rank change → extreme individual movement
+number of changed ranks → breadth of movement
+winner change → top-level decision stability
+
+And these measures do not identify the same influential datasets. In your current analysis, LODO instability correlates significantly with tau-break frequency, but not significantly with winner-change frequency; the top-5 overlap between LODO influence and winner-change influence is only 1/5.
+
+That gives you a genuine observation:
+
+There is no single notion of benchmark stability that captures all practically relevant changes in a leaderboard.
+
+Is this already in the literature?
+
+Related ideas definitely exist. Your exact empirical framing is much less obviously covered.
+
+Zhang & Hardt explicitly distinguish different notions of benchmark behavior through diversity and sensitivity, and they show that different benchmark constructions exhibit different sensitivity properties.
+
+The Benchmark Lottery likewise establishes that task selection can change relative model performance substantially.
+
+But those papers do not appear to make your exact empirical distinction:
+
+"A benchmark can preserve its overall ranking while losing winner stability, and the datasets driving those two phenomena can be different."
+
+That is the part I would frame as your empirical contribution, not as a brand-new general theory of stability.
+
+This is important academically: don't claim "nobody has studied multidimensional benchmark stability." Instead say:
+
+Existing work studies benchmark sensitivity and instability from several perspectives. We extend this perspective by separating global-ranking stability, rank-displacement stability, and winner stability and examining whether they identify the same influential benchmark components.
+
+That's defensible.
+
+2. The "robustness budget"
+
+This is the one I would add because it turns your existing removal search into a much clearer thesis result.
+
+You already have:
+
+5 jointly removed datasets → winner changes
+6 jointly removed datasets → Kendall τ < 0.90
+
+and importantly, those are not necessarily the same subsets.
+
+So instead of merely saying:
+
+"The benchmark becomes unstable after removing some datasets."
+
+you can ask:
+
+How much benchmark composition can change before a specific conclusion breaks?
+
+That gives you a robustness budget for different claims.
+
+For example:
+
+Protected conclusion	Failure criterion	Minimum removals
+Same winner	winner changes	5
+Similar global ranking	τ < 0.95	?
+Strong global agreement	τ < 0.90	6
+Limited individual movement	max rank change > X	?
+Stable top-k	top-k overlap < X%	?
+
+You would calculate this for several thresholds.
+
+Is this already in papers?
+
+The underlying idea is definitely not new.
+
+It is closely related to the task-selection fragility in The Benchmark Lottery and the sensitivity framework of Zhang & Hardt.
+
+But I have not found, in the literature I checked, a standard concept that says:
+
+"For each practical leaderboard conclusion, report the minimum number of benchmark components that must be removed before that conclusion fails."
+
+That is therefore a good thesis-level operationalization, even though it builds directly on existing ideas.
+
+And it is especially appropriate because your professor's earlier question was essentially whether one can "save some stability." This gives you a quantitative answer:
+
+How much stability can be sacrificed before the benchmark's substantive conclusion changes?
+
+That is a very natural thesis contribution.
+
+3. Dataset characteristics / explaining influence
+
+This is potentially the most scientifically interesting extension, but I would put it third.
+
+Your current result says performance gap is associated with LODO instability:
+
+Pearson \(r \approx 0.366\)
+Spearman \(\rho \approx 0.415\)
+Kendall \(\tau \approx 0.294\)
+
+but the relationship is only moderate.
+
+So you naturally reach:
+
+What else makes a dataset influential?
+
+You could test:
+
+performance gap
+model-performance variance
+dataset size
+number of features
+categorical/numerical composition
+missingness
+task type
+class imbalance
+perhaps difficulty
+
+against LODO instability.
+
+Is this already in the literature?
+
+There is clearly related literature on benchmark construction, task selection and benchmark quality, but this exact question—
+
+which observable properties of a benchmark task predict its influence on the aggregate leaderboard?
+
+—is much less directly represented in the core benchmark-stability literature you're building on.
+
+Zhang & Hardt focus primarily on diversity and sensitivity, not on explaining individual task influence through dataset metadata.
+
+And The Benchmark Lottery demonstrates task-selection effects rather than providing a predictive model of which task characteristics make a task influential.
+
+So this could potentially be your most original empirical extension.
+
+The downside is that it can become a rabbit hole. You need reliable metadata for all 51 TabArena datasets, and you have only about a month.
+
+How your existing papers fit
+
+I would think about the literature like this:
+
+Your analysis	Main literature connection	Novelty of your application
+LODO / task removal	Benchmark Lottery	Application + systematic TabArena study
+Diversity vs. sensitivity	Zhang & Hardt	Applying framework to TabArena + cross-benchmark comparison
+Score vs. Elo	Zhang & Hardt's cardinal/ordinal distinction	Explicit aggregation-robustness comparison
+Random subsets	Benchmark Lottery / benchmark sensitivity	Quantifying distribution of partial benchmark rankings
+Winner stability	Benchmark Lottery conceptually	Strong extension of your existing analysis
+Dataset-influence analysis	Related to task-selection sensitivity	Quite novel empirically
+Robustness budget	Related to task-selection sensitivity	Good original operationalization
+Dataset characteristics → influence	Benchmark-design literature generally	Potentially most original
+And what about your newer papers?
+
+The newer papers are useful mainly for positioning, rather than because they give you a ready-made experiment.
+
+Beyond Arrow
+
+This 2026 paper is directly relevant because it continues the social-choice/benchmark-aggregation line and studies when benchmark aggregation can produce coherent rankings under structural restrictions. It is more theoretical than your empirical work.
+
+For you, I would use it to say:
+
+Recent work continues to investigate how structural properties of benchmark preferences affect the possibility of robust aggregation.
+
+I would not try to reproduce its theoretical framework.
+
+There are no Champions...
+
+This one is useful rhetorically and empirically. The 2026 study evaluates forecasting models across datasets and finds that small changes to experimental setups or evaluation metrics can substantially alter conclusions about state-of-the-art performance.
+
+That supports your broader motivation:
+
+A benchmark winner is not necessarily a robust scientific conclusion.
+
+But again, your thesis is doing something different: you deliberately perturb benchmark composition while holding model results fixed.
+
+The really important distinction
+
+There are three levels here.
+
+Existing research asks
+
+"Are benchmarks sensitive?"
+
+Yes. Established.
+
+Benchmark Lottery and Zhang & Hardt already establish this very clearly.
+
+Your thesis asks
+
+"Does TabArena exhibit this, how much does it vary across benchmarks and aggregation rules, and which datasets matter?"
+
+That is already a legitimate empirical thesis contribution.
+
+Your own extension asks
+
+"Does 'stability' actually describe several different properties, and how much benchmark change is required to invalidate each type of conclusion?"
+
+That is where your thesis gets its own identity.
+
+What I would actually put in your thesis
+
+I would make the contribution structure:
+
+Contribution 1 — Empirical TabArena stability analysis
+
+LODO + random subsets + joint removal.
+
+Contribution 2 — Aggregation robustness
+
+Score vs. Elo.
+
+Contribution 3 — Cross-benchmark comparison
+
+TabArena vs. GLUE vs. OpenLLM vs. ImageNet.
+
+Contribution 4 — A multidimensional view of benchmark stability
+
+Global ranking, rank displacement, and winner stability can behave differently.
+
+Contribution 5 — Robustness budgets
+
+Quantify the minimum benchmark perturbation required to invalidate different leaderboard conclusions.
+
+Contribution 4 and 5 are the ones I'd explicitly present to your professor as "the part I want to develop further myself."
+
+They fit your current data extremely well, don't require a completely new project, and they connect directly to the question of whether some stability can be sacrificed.
+
+One thing I would not claim
+
+I would not say:
+
+"I developed a new benchmark stability framework."
+
+That would overstate the novelty because Zhang & Hardt already provide a formal diversity/sensitivity framework.
+
+Instead:
+
+"I use several complementary stability dimensions and introduce a robustness-budget perspective for interpreting how much benchmark perturbation is required before different leaderboard conclusions change."
+
+That is much safer and, in my view, actually stronger.
+
+My ranking of the three possibilities
+
+Best fit: multidimensional stability + robustness budget together
+
+Most potentially novel: dataset characteristics explaining influence
+
+Most risky in one month: building a substantial new predictive model of dataset influence
+
+The first combination is what I would take to your professor as your proposed final analytical extension.
