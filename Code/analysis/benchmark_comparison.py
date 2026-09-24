@@ -28,7 +28,7 @@ REQUIRED_LODO_COLUMNS = {
     "spearman_rho",
     "max_rank_change",
     "num_rank_changes",
-    "winner_changed",
+   # "winner_changed",
 }
 
 
@@ -39,12 +39,29 @@ def load_lodo_file(path: Path, benchmark_name: str) -> pd.DataFrame:
         )
 
     df = pd.read_csv(path)
+
+    # Older TabArena LODO exports do not contain winner_changed.
+    # Derive it from the full benchmark winner and the LODO winner.
+    if "winner_changed" not in df.columns:
+        if {"full_winner", "lodo_winner"}.issubset(df.columns):
+            df["winner_changed"] = (
+                df["full_winner"].astype(str)
+                != df["lodo_winner"].astype(str)
+            )
+        else:
+            raise ValueError(
+                f"{benchmark_name}: cannot derive winner_changed because "
+                "the result contains neither winner_changed nor both "
+                f"full_winner/lodo_winner:\n{path}"
+            )
+
     missing = REQUIRED_LODO_COLUMNS.difference(df.columns)
     if missing:
         raise ValueError(
             f"{benchmark_name}: missing required columns "
             f"{sorted(missing)} in:\n{path}"
         )
+
     return df
 
 
@@ -55,31 +72,59 @@ def summarize_lodo(
     competitors: int | None,
     removed_task_column: str = "removed_task",
 ) -> dict:
+    # Older TabArena LODO results contain full_winner and lodo_winner
+    # instead of an explicit winner_changed column.
+    if "winner_changed" not in df.columns:
+        if {"full_winner", "lodo_winner"}.issubset(df.columns):
+            df = df.copy()
+            df["winner_changed"] = (
+                df["full_winner"].astype(str).str.strip()
+                != df["lodo_winner"].astype(str).str.strip()
+            )
+        else:
+            raise ValueError(
+                f"{benchmark}: cannot determine winner_changed. "
+                "Expected either 'winner_changed' or both "
+                "'full_winner' and 'lodo_winner'."
+            )
+
     worst_tau = df.loc[df["kendall_tau"].idxmin()]
     worst_spearman = df.loc[df["spearman_rho"].idxmin()]
     worst_mrc = df.loc[df["max_rank_change"].idxmax()]
     worst_num = df.loc[df["num_rank_changes"].idxmax()]
 
-    winner_changes = df["winner_changed"].astype(str).str.lower().eq("true")
+    winner_changes = df["winner_changed"].astype(bool)
 
     return {
         "benchmark": benchmark,
         "tasks": tasks,
         "competitors": competitors,
         "worst_kendall_tau": float(worst_tau["kendall_tau"]),
-        "worst_kendall_removed_task": str(worst_tau.get(removed_task_column, "")),
+        "worst_kendall_removed_task": str(
+            worst_tau.get(removed_task_column, "")
+        ),
         "worst_spearman_rho": float(worst_spearman["spearman_rho"]),
-        "worst_spearman_removed_task": str(worst_spearman.get(removed_task_column, "")),
+        "worst_spearman_removed_task": str(
+            worst_spearman.get(removed_task_column, "")
+        ),
         "max_rank_change": float(worst_mrc["max_rank_change"]),
-        "max_rank_change_removed_task": str(worst_mrc.get(removed_task_column, "")),
+        "max_rank_change_removed_task": str(
+            worst_mrc.get(removed_task_column, "")
+        ),
         "max_num_rank_changes": int(worst_num["num_rank_changes"]),
-        "max_num_rank_changes_removed_task": str(worst_num.get(removed_task_column, "")),
+        "max_num_rank_changes_removed_task": str(
+            worst_num.get(removed_task_column, "")
+        ),
         "winner_changed_removals": int(winner_changes.sum()),
         "winner_changed": bool(winner_changes.any()),
         "lodo_cases": len(df),
         "mean_kendall_tau": float(df["kendall_tau"].mean()),
-        "mean_lodo_instability": float((1.0 - df["kendall_tau"]).mean()),
-        "tau_break_frequency": float((df["kendall_tau"] < 0.90).mean()),
+        "mean_lodo_instability": float(
+            (1.0 - df["kendall_tau"]).mean()
+        ),
+        "tau_break_frequency": float(
+            (df["kendall_tau"] < 0.90).mean()
+        ),
     }
 
 
