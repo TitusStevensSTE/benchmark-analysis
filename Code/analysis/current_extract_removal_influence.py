@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 import json
 from pathlib import Path
 
@@ -12,13 +14,9 @@ import pandas as pd
 
 # Script is in: Code/analysis/
 # Therefore parents[2] = repository root
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 REMOVAL_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
     / "dataset_removal_search"
     / "score"
 )

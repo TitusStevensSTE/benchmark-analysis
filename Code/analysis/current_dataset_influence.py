@@ -1,3 +1,4 @@
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
 from pathlib import Path
 
 import numpy as np
@@ -9,9 +10,8 @@ from scipy.stats import spearmanr, kendalltau
 # PROJECT PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-RESULTS_ROOT = PROJECT_ROOT / "Code" / "analysis" / "results"
+RESULTS_ROOT = RESULTS_DIR
 
 LODO_FILE = RESULTS_ROOT / "lodo_score_results.csv"
 

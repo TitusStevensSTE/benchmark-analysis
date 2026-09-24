@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 from pathlib import Path
 
 import numpy as np
@@ -13,21 +15,13 @@ from bencheval.elo_utils import EloHelper
 # PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RESULTS_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
 )
 
 TABARENA_RESULTS = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "data"
-    / "df_results_tabarena_2026_08_13.csv"
+    TABARENA_DATA_FILE
 )
 
 SCORE_MATRIX = (

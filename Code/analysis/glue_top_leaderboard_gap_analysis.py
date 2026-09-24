@@ -1,3 +1,4 @@
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
 import sys
 from pathlib import Path
 
@@ -9,14 +10,9 @@ import pandas as pd
 # PROJECT SETUP — PORTABLE
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-BENCHBENCH_ROOT = PROJECT_ROOT / "benchbench"
-
-sys.path.insert(0, str(BENCHBENCH_ROOT))
-
 from benchbench.data.glue import load_glue
 
-PHASE1_OUTPUT_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "phase1_crossbenchmark" / "glue" / "performance_gap"
+PHASE1_OUTPUT_DIR = RESULTS_DIR / "phase1_crossbenchmark" / "glue" / "performance_gap"
 PHASE1_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 

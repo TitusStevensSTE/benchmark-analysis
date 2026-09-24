@@ -1,34 +1,80 @@
-# Benchmark Analysis — Updated Script Bundle
+# Benchmark Analysis — Clean Thesis Pipeline
 
-This bundle is the cleaned current analysis pipeline for the benchmark-stability thesis work.
+This repository contains the analysis code for the benchmark-stability thesis.
 
-## What is current
-
-The canonical pipeline is under `Code/analysis/`.
-
-- TabArena uses the existing TabArena-specific score/LODO/removal pipeline.
-- GLUE, OpenLLM, and ImageNet are loaded through the local BenchBench repository via its native loaders.
-- Phase 1 cross-benchmark LODO is centralized in `current_simple_crossbenchmark.py`.
-- `current_glue_lodo.py`, `current_openllm_analysis.py`, and `current_imageNet_analysis.py` are compatibility entry points that call the canonical implementation.
-- Cross-benchmark summaries are written to `Code/analysis/results/phase1_crossbenchmark/`.
-- `run_current_pipeline.py` provides a reproducible end-to-end execution order.
-
-## Important cleanup
-
-Older exploratory/duplicate scripts are under `Code/analysis/legacy/` and are not part of the current thesis pipeline. The original versions are preserved under `docs/original_scripts/` for provenance.
-
-The repository-root path handling uses `Path(__file__).resolve().parents[2]`; the previous Elo removal script contained an off-by-one root calculation that could produce `Code/Code/...` paths. That is corrected here.
-
-The current joint Score removal defaults match the latest analysis configuration: exhaustive depths 1–5 and heuristic/beam exploration through depth 8.
-
-## Running
-
-Run from the repository root:
+## Repository structure
 
 ```text
+benchmark-analysis/
+├── Code/
+│   └── analysis/              # analysis source code only
+│       ├── data/              # input datasets
+│       └── legacy/             # older exploratory scripts
+├── benchbench/                 # local BenchBench checkout
+├── results/                    # ALL generated analysis results and figures
+├── docs/                       # documentation and preserved originals
+└── README.md
+```
+
+The canonical output location is **`results/` at the repository root**. Active scripts must not create `Code/analysis/results/`.
+
+## Current analysis pipeline
+
+- TabArena uses the existing TabArena-specific data pipeline.
+- GLUE, OpenLLM, and ImageNet use the local BenchBench-native loaders.
+- `current_simple_crossbenchmark.py` is the canonical Phase 1 cross-benchmark LODO analysis.
+- `plot_crossbenchmark_lodo.py` creates the common Phase 1 LODO figures.
+- `benchmark_comparison.py` creates the cross-benchmark comparison table.
+- Older exploratory/duplicate scripts are retained under `Code/analysis/legacy/`; their original versions are preserved under `docs/original_scripts/`.
+
+## Important safety rule
+
+`run_current_pipeline.py` is intentionally safe by default.
+
+With no arguments, it only reads existing result files and creates plots/summaries:
+
+```powershell
 python Code/analysis/run_current_pipeline.py
 ```
 
-Or follow `docs/RUN_ORDER.md` to run stages individually.
+This default mode does **not** start the exhaustive removal or fold/Elo searches.
 
-The local checkout must contain the BenchBench repository at `<repo-root>/benchbench` and the required Python dependencies. The uploaded bundle contains the analysis scripts, not the BenchBench checkout itself.
+To recompute the non-exhaustive analyses explicitly:
+
+```powershell
+python Code/analysis/run_current_pipeline.py --refresh
+```
+
+To run one expensive analysis deliberately:
+
+```powershell
+python Code/analysis/run_current_pipeline.py --stage dataset_search --expensive
+```
+
+To run the complete pipeline, including expensive recomputation, the permission must be explicit:
+
+```powershell
+python Code/analysis/run_current_pipeline.py --full --expensive
+```
+
+## Consolidating old result locations
+
+Older scripts stored outputs in `Code/analysis/results/`. The migration utility consolidates these into the root `results/` directory.
+
+First inspect the migration plan:
+
+```powershell
+python Code/analysis/organize_results.py
+```
+
+Then apply it:
+
+```powershell
+python Code/analysis/organize_results.py --apply
+```
+
+Conflicting existing root files are preserved under `results/_archive/pre_cleanup_root_results/` rather than silently overwritten.
+
+## Existing expensive analyses
+
+Existing result files can be reused. Do **not** rerun the 24+ hour analyses merely because the code was reorganized. Only invoke an expensive stage deliberately when a new computation is actually required.

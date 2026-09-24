@@ -1,13 +1,14 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 from pathlib import Path
 
 import matplotlib.pyplot as plt
 import pandas as pd
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-PHASE1_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "phase1_crossbenchmark"
+PHASE1_DIR = RESULTS_DIR / "phase1_crossbenchmark"
 FIGURE_DIR = PHASE1_DIR / "figures"
 FIGURE_DIR.mkdir(parents=True, exist_ok=True)
 

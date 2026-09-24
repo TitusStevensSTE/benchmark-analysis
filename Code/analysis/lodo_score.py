@@ -1,3 +1,4 @@
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
 # ============================================================
 # TABARENA SCORE LODO ANALYSIS
 # ============================================================
@@ -18,7 +19,7 @@
 #   Compare LODO ranking against full-benchmark ranking
 #
 # Output:
-#   Code/analysis/results/lodo_score_results.csv
+#   results/lodo_score_results.csv
 # ============================================================
 
 from pathlib import Path
@@ -44,21 +45,13 @@ from scipy.stats import kendalltau, spearmanr
 #         │   └── lodo_score_results.csv
 #         └── lodo_score.py
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 DATA_FILE = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "data"
-    / "df_results_tabarena_2026_08_13.csv"
+    TABARENA_DATA_FILE
 )
 
 RESULTS_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
 )
 
 RESULTS_DIR.mkdir(

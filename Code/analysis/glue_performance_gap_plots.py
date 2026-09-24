@@ -1,4 +1,4 @@
-import sys
+from analysis_config import PROJECT_ROOT, RESULTS_DIR
 from pathlib import Path
 
 import numpy as np
@@ -7,55 +7,23 @@ import matplotlib.pyplot as plt
 
 
 # ============================================================
-# PORTABLE PROJECT PATHS
+# PROJECT PATHS
 # ============================================================
 
-CURRENT_DIR = Path(__file__).resolve()
-
-PROJECT_ROOT = None
-
-for parent in [CURRENT_DIR.parent, *CURRENT_DIR.parents]:
-    if (
-        (parent / "benchbench" / "pyproject.toml").exists()
-        and (parent / "Code").exists()
-    ):
-        PROJECT_ROOT = parent
-        break
-
-if PROJECT_ROOT is None:
-    raise RuntimeError(
-        "Could not locate project root. "
-        "Expected a 'benchbench/pyproject.toml' and 'Code/' directory."
-    )
-
-BENCHBENCH_ROOT = PROJECT_ROOT / "benchbench"
-
-# Analysis files: CSVs and other data needed for analysis
-ANALYSIS_DIR = PROJECT_ROOT / "Code" / "analysis"
-
-# Final outputs: plots, figures, etc.
-RESULTS_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "phase1_crossbenchmark" / "glue" / "performance_gap"
-
-RESULTS_DIR.mkdir(
-    parents=True,
-    exist_ok=True
-)
-
-# Add benchbench repository to Python path if needed
-sys.path.insert(0, str(BENCHBENCH_ROOT))
-
+GLUE_GAP_RESULTS_DIR = RESULTS_DIR / "phase1_crossbenchmark" / "glue" / "performance_gap"
+GLUE_GAP_RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ============================================================
 # INPUT FILES
 # ============================================================
 
 PAIRWISE_INPUT = (
-    ANALYSIS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_pairwise_performance_gap_lodo.csv"
 )
 
 TOP10_INPUT = (
-    ANALYSIS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_top10_adjacent_gap_analysis.csv"
 )
 
@@ -73,12 +41,8 @@ print("Project root:")
 print(PROJECT_ROOT)
 print()
 
-print("Analysis directory:")
-print(ANALYSIS_DIR)
-print()
-
 print("Results directory:")
-print(RESULTS_DIR)
+print(GLUE_GAP_RESULTS_DIR)
 print()
 
 if not PAIRWISE_INPUT.exists():
@@ -171,7 +135,7 @@ ax.grid(
 fig.tight_layout()
 
 output_file = (
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_top10_performance_gap_vs_lodo_reversal.png"
 )
 
@@ -229,7 +193,7 @@ ax.grid(
 fig.tight_layout()
 
 output_file = (
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_all_pairs_performance_gap_vs_lodo_reversal.png"
 )
 
@@ -297,7 +261,7 @@ ax.grid(
 fig.tight_layout()
 
 output_file = (
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_all_pairs_performance_gap_vs_lodo_reversal_log.png"
 )
 
@@ -421,7 +385,7 @@ ax.grid(
 fig.tight_layout()
 
 output_file = (
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_reversal_rate_by_performance_gap_bin.png"
 )
 
@@ -448,31 +412,31 @@ print("=" * 80)
 print()
 
 print("Final plots are stored in:")
-print(RESULTS_DIR)
+print(GLUE_GAP_RESULTS_DIR)
 print()
 
 print("Generated files:")
 print(
     "1.",
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_top10_performance_gap_vs_lodo_reversal.png"
 )
 
 print(
     "2.",
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_all_pairs_performance_gap_vs_lodo_reversal.png"
 )
 
 print(
     "3.",
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_all_pairs_performance_gap_vs_lodo_reversal_log.png"
 )
 
 print(
     "4.",
-    RESULTS_DIR
+    GLUE_GAP_RESULTS_DIR
     / "glue_reversal_rate_by_performance_gap_bin.png"
 )
 

@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 from itertools import combinations
 from pathlib import Path
 
@@ -61,21 +63,13 @@ from scipy.stats import kendalltau, spearmanr
 # REPOSITORY-RELATIVE PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 INPUT_FILE = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "data"
-    / "df_results_tabarena_2026_08_13.csv"
+    TABARENA_DATA_FILE
 )
 
 OUTPUT_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
     / "fold_stability"
 )
 

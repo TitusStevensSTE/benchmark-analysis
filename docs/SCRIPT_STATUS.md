@@ -1,39 +1,45 @@
 # Analysis script status
 
-## Current / thesis pipeline
+## Canonical active scripts
 
-- `lodo_score.py` — TabArena Score aggregation + LODO baseline.
-- `current-dataset_removal_search.py` — TabArena Score joint dataset removal; exact search followed by beam search.
-- `current_extract_removal_influence.py` — extracts influential/adversarial datasets from the joint-removal output.
-- `current_dataset_influence.py` — combines LODO, winner-change and tau-break influence measures.
-- `current_fold_stability.py` — fold-level stability analysis for TabArena.
-- `current_fold_vs_dataset_stability.py` — compares fold-level and dataset-level instability.
-- `current_dataset_removal_search_elo.py` — TabArena Elo joint-removal analysis.
-- `compare_score_elo_same_subsets.py` — Score-vs-Elo comparison on the same removal subsets.
-- `compare_score_elo_removal.py` — broader Score-vs-Elo removal comparison/summary.
-- `plot_score_elo_removal.py` — Score-vs-Elo figures.
-- `plot_fold_stability_figures.py` — fold-stability figures.
-- `current_simple_crossbenchmark.py` — canonical Phase 1 LODO analysis for GLUE, OpenLLM and ImageNet using BenchBench-native loaders.
-- `current_glue_lodo.py` / `current_openllm_analysis.py` / `current_imageNet_analysis.py` — compatibility entry points to the canonical cross-benchmark implementation.
-- `current_glue_performance_gap.py` — GLUE pairwise performance-gap vs LODO reversal analysis.
-- `glue_top_leaderboard_gap_analysis.py` — top-of-leaderboard adjacent-gap analysis.
-- `glue_performance_gap_plots.py` — plots the GLUE performance-gap analyses.
-- `plot_crossbenchmark_lodo.py` — common plots for the canonical Phase 1 LODO results.
-- `benchmark_comparison.py` — canonical cross-benchmark comparison table.
-- `run_current_pipeline.py` — optional orchestrator for the current pipeline.
+The active scripts live directly in `Code/analysis/` and all share paths from `analysis_config.py`.
 
-## Legacy / exploratory
+### TabArena stability
 
-The following are retained under `Code/analysis/legacy/` because they are older or duplicate experiments and should not be used as the thesis pipeline without a deliberate reason:
+- `lodo_score.py` — Score aggregation and leave-one-dataset-out baseline.
+- `current-dataset_removal_search.py` — exact + beam dataset-removal search.
+- `current_extract_removal_influence.py` — extracts influence measures from saved removal-search evaluations.
+- `current_dataset_influence.py` — combines LODO and adversarial influence measures.
+- `current_fold_stability.py` — fold-based stability analysis.
+- `current_fold_vs_dataset_stability.py` — fold-vs-dataset stability comparison.
+- `current_dataset_removal_search_elo.py` — Elo dataset-removal search.
+- `compare_score_elo_same_subsets.py` — Score-vs-Elo comparison on shared subsets.
+- `compare_score_elo_removal.py` — broader Score-vs-Elo removal comparison.
 
-- `current_elo_1_51.py`
-- `current_elo_lodo.py`
-- `current_elo_winners.py`
-- `current_tabarena_elo_removal.py`
-- `glue_analysis.py`
-- `lodo_elo.py`
-- `winners_elo.py`
-- `winners_elo_plot.py`
-- `winners_lodo_score.py`
+### Cross-benchmark Phase 1
 
-The legacy files are preserved for provenance. Some contain machine-specific paths or older output locations.
+- `current_simple_crossbenchmark.py` — canonical LODO analysis for GLUE, OpenLLM, and ImageNet using BenchBench-native loaders.
+- `current_glue_lodo.py` — GLUE compatibility entry point.
+- `current_openllm_analysis.py` — OpenLLM compatibility entry point.
+- `current_imageNet_analysis.py` — ImageNet compatibility entry point.
+- `plot_crossbenchmark_lodo.py` — common LODO figures.
+- `benchmark_comparison.py` — final cross-benchmark comparison table.
+
+### Performance gaps / figures
+
+- `performance_gap_analysis.py`
+- `current_glue_performance_gap.py`
+- `glue_top_leaderboard_gap_analysis.py`
+- `glue_performance_gap_plots.py`
+- `plot_fold_stability_figures.py`
+- `plot_score_elo_removal.py`
+
+### Repository utilities
+
+- `analysis_config.py` — single source of truth for repository, data, BenchBench, and result paths.
+- `organize_results.py` — safe consolidation of the old `Code/analysis/results/` directory into root `results/`.
+- `run_current_pipeline.py` — safe orchestrator. Reporting is the default; refresh/expensive recomputation is explicit.
+
+## Legacy / provenance
+
+Older exploratory or duplicate scripts remain under `Code/analysis/legacy/`. Original pre-cleanup versions are under `docs/original_scripts/`.

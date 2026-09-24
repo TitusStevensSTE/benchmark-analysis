@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 import ast
 import json
 from pathlib import Path
@@ -13,8 +15,6 @@ from scipy.stats import kendalltau, spearmanr
 # REPOSITORY-RELATIVE PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RESULTS_DIR = PROJECT_ROOT / "Code" / "analysis" / "results"
 
 SCORE_DIR = RESULTS_DIR / "dataset_removal_search" / "score"
 ELO_DIR = RESULTS_DIR / "dataset_removal_search" / "elo"

@@ -1,3 +1,4 @@
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
 from pathlib import Path
 
 import numpy as np
@@ -10,13 +11,9 @@ import matplotlib.pyplot as plt
 # SETTINGS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RESULTS_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
 )
 
 SCORE_FILE = (

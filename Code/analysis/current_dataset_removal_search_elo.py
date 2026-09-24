@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 import argparse
 import itertools
 import json
@@ -24,23 +26,12 @@ from bencheval.elo_utils import EloHelper
 #
 # Repository root:
 #   <repo>
-SCRIPT_DIR = Path(__file__).resolve().parent
-# Code/analysis/<script> -> repository root is two levels up.
-PROJECT_ROOT = SCRIPT_DIR.parents[1].parent
-
 INPUT_FILE = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "data"
-    / "df_results_tabarena_2026_08_13.csv"
+    TABARENA_DATA_FILE
 )
 
 OUTPUT_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
     / "dataset_removal_search"
     / "elo"
 )

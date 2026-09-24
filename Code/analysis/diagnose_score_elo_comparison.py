@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 from pathlib import Path
 
 import numpy as np
@@ -11,13 +13,9 @@ import pandas as pd
 # ============================================================
 
 # <repo>/Code/analysis/diagnose_score_elo_comparison.py
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RESULTS_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
 )
 
 INPUT_FILE = (

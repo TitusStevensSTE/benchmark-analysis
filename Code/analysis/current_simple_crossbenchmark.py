@@ -1,5 +1,4 @@
-import sys
-from pathlib import Path
+from analysis_config import RESULTS_DIR
 
 import numpy as np
 import pandas as pd
@@ -9,11 +8,6 @@ from scipy.stats import kendalltau, pearsonr, spearmanr
 # ============================================================
 # PROJECT SETUP
 # ============================================================
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-BENCHBENCH_ROOT = PROJECT_ROOT / "benchbench"
-
-sys.path.insert(0, str(BENCHBENCH_ROOT))
 
 
 # Import the ORIGINAL BenchBench loaders
@@ -30,10 +24,7 @@ TAU_BREAK_THRESHOLD = 0.90
 TOP_K = 5
 
 OUTPUT_ROOT = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
     / "phase1_crossbenchmark"
 )
 

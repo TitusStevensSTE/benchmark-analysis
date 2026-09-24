@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 import argparse
 import itertools
 import json
@@ -18,10 +20,9 @@ from scipy.stats import kendalltau, spearmanr, rankdata
 # ============================================================
 # This file is intended to live in Code/analysis/.
 # Project root is therefore two levels above this script.
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-INPUT_FILE = PROJECT_ROOT / "Code" / "analysis" / "results" / "score_method_dataset.csv"
-OUTPUT_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "dataset_removal_search" / "score"
+INPUT_FILE = RESULTS_DIR / "score_method_dataset.csv"
+OUTPUT_DIR = RESULTS_DIR / "dataset_removal_search" / "score"
 
 
 # ============================================================

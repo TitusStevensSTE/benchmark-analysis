@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from analysis_config import (PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
+
 from pathlib import Path
 
 import pandas as pd
@@ -9,8 +11,6 @@ import pandas as pd
 # PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RESULTS_DIR = PROJECT_ROOT / "Code" / "analysis" / "results"
 PHASE1_DIR = RESULTS_DIR / "phase1_crossbenchmark"
 
 TABARENA_LODO_FILE = RESULTS_DIR / "lodo_score_results.csv"

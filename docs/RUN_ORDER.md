@@ -1,34 +1,56 @@
-# Reproducible analysis order
+# Reproducible run order
 
-Run from the repository root:
+## 1. Consolidate result directories once
 
-```text
-python Code/analysis/lodo_score.py
-python Code/analysis/current-dataset_removal_search.py
-python Code/analysis/current_extract_removal_influence.py
-python Code/analysis/current_dataset_influence.py
-python Code/analysis/performance_gap_analysis.py
-python Code/analysis/current_fold_stability.py
-python Code/analysis/current_fold_vs_dataset_stability.py
-python Code/analysis/current_dataset_removal_search_elo.py
-python Code/analysis/compare_score_elo_same_subsets.py
-python Code/analysis/compare_score_elo_removal.py
-python Code/analysis/current_simple_crossbenchmark.py
-python Code/analysis/current_glue_performance_gap.py
-python Code/analysis/glue_top_leaderboard_gap_analysis.py
-python Code/analysis/glue_performance_gap_plots.py
-python Code/analysis/plot_crossbenchmark_lodo.py
-python Code/analysis/plot_fold_stability_figures.py
-python Code/analysis/plot_score_elo_removal.py
-python Code/analysis/benchmark_comparison.py
+Run a dry run first:
+
+```powershell
+python Code/analysis/organize_results.py
 ```
 
-Alternatively:
+Then apply it:
 
-```text
+```powershell
+python Code/analysis/organize_results.py --apply
+```
+
+This makes the repository root `results/` the canonical result location.
+
+## 2. Safe reporting from existing results
+
+After migration, the safest normal command is:
+
+```powershell
 python Code/analysis/run_current_pipeline.py
 ```
 
-The joint Score search now defaults to the analysis configuration used for the latest thesis results: exhaustive removal depths 1–5 and heuristic/beam exploration through depth 8. Existing checkpoints can still be resumed.
+This generates plots and the benchmark-comparison summary from existing CSVs. It does not launch exhaustive recomputation.
 
-GLUE, OpenLLM and ImageNet are loaded through the local BenchBench repository. TabArena remains on the TabArena-specific input pipeline.
+## 3. Refresh non-exhaustive analyses
+
+```powershell
+python Code/analysis/run_current_pipeline.py --refresh
+```
+
+This explicitly recomputes the Phase 1 cross-benchmark and other non-exhaustive analyses, then regenerates reports.
+
+## 4. Expensive analyses
+
+The following stages are protected and require `--expensive`:
+
+```text
+lodo_score.py
+current-dataset_removal_search.py
+current_fold_stability.py
+current_dataset_removal_search_elo.py
+compare_score_elo_same_subsets.py
+compare_score_elo_removal.py
+```
+
+Run a single stage deliberately, for example:
+
+```powershell
+python Code/analysis/run_current_pipeline.py --stage dataset_search --expensive
+```
+
+Do not rerun the existing exhaustive analyses simply to reproduce the reorganized repository. Their saved outputs should be reused.

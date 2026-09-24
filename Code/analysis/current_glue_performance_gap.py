@@ -1,3 +1,4 @@
+from analysis_config import (BENCHBENCH_ROOT, PROJECT_ROOT, RESULTS_DIR, TABARENA_DATA_FILE)
 import sys
 from pathlib import Path
 
@@ -9,11 +10,6 @@ from scipy.stats import spearmanr, kendalltau
 # ============================================================
 # PROJECT SETUP
 # ============================================================
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-BENCHBENCH_ROOT = Path(__file__).resolve().parents[2] / "benchbench"
-
-sys.path.insert(0, str(BENCHBENCH_ROOT))
-
 # Use the original GLUE loader from benchbench
 from benchbench.data.glue import load_glue
 
@@ -23,10 +19,7 @@ from benchbench.data.glue import load_glue
 # ============================================================
 
 OUTPUT_DIR = (
-    PROJECT_ROOT
-    / "Code"
-    / "analysis"
-    / "results"
+    RESULTS_DIR
     / "phase1_crossbenchmark"
     / "glue"
     / "performance_gap"
