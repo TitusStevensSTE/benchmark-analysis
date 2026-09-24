@@ -1,0 +1,2245 @@
+num_datasets,method,baseline_rank,wins,repetitions,win_frequency,win_percentage
+1,REALMLP (tuned + ensemble),1,45,1000,0.045,4.5
+1,TABM (tuned + ensemble),2,56,1000,0.056,5.6000000000000005
+1,GBM (tuned + ensemble),3,43,1000,0.043,4.3
+1,TABPFNV2 (tuned + ensemble),4,230,1000,0.23,23.0
+1,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+1,CAT (tuned),6,39,1000,0.039,3.9
+1,MNCA (tuned + ensemble),7,58,1000,0.058,5.800000000000001
+1,CAT (default),8,36,1000,0.036,3.5999999999999996
+1,GBM (tuned),9,0,1000,0.0,0.0
+1,TABICL (default),10,119,1000,0.119,11.899999999999999
+1,XGB (tuned + ensemble),11,31,1000,0.031,3.1
+1,TABM (tuned),12,0,1000,0.0,0.0
+1,TABPFNV2 (tuned),13,9,1000,0.009,0.8999999999999999
+1,XGB (tuned),14,0,1000,0.0,0.0
+1,TABPFNV2 (default),15,87,1000,0.087,8.7
+1,MNCA (tuned),16,0,1000,0.0,0.0
+1,TABDPT (default),17,135,1000,0.135,13.5
+1,TABM (default),18,0,1000,0.0,0.0
+1,REALMLP (tuned),19,0,1000,0.0,0.0
+1,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+1,MNCA (default),21,32,1000,0.032,3.2
+1,EBM (tuned + ensemble),22,16,1000,0.016,1.6
+1,FASTAI (tuned + ensemble),23,17,1000,0.017,1.7000000000000002
+1,EBM (tuned),24,0,1000,0.0,0.0
+1,EBM (default),25,12,1000,0.012,1.2
+1,XGB (default),26,0,1000,0.0,0.0
+1,XT (tuned + ensemble),27,0,1000,0.0,0.0
+1,NN_TORCH (tuned),28,0,1000,0.0,0.0
+1,REALMLP (default),29,0,1000,0.0,0.0
+1,RF (tuned + ensemble),30,11,1000,0.011,1.0999999999999999
+1,GBM (default),31,0,1000,0.0,0.0
+1,XT (tuned),32,0,1000,0.0,0.0
+1,RF (tuned),33,24,1000,0.024,2.4
+1,FASTAI (tuned),34,0,1000,0.0,0.0
+1,LR (tuned + ensemble),35,0,1000,0.0,0.0
+1,FASTAI (default),36,0,1000,0.0,0.0
+1,XT (default),37,0,1000,0.0,0.0
+1,NN_TORCH (default),38,0,1000,0.0,0.0
+1,LR (tuned),39,0,1000,0.0,0.0
+1,RF (default),40,0,1000,0.0,0.0
+1,LR (default),41,0,1000,0.0,0.0
+1,KNN (default),42,0,1000,0.0,0.0
+1,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+1,KNN (tuned),44,0,1000,0.0,0.0
+2,REALMLP (tuned + ensemble),1,112,1000,0.112,11.200000000000001
+2,TABM (tuned + ensemble),2,97,1000,0.097,9.700000000000001
+2,GBM (tuned + ensemble),3,91,1000,0.091,9.1
+2,TABPFNV2 (tuned + ensemble),4,172,1000,0.172,17.2
+2,CAT (tuned + ensemble),5,35,1000,0.035,3.5000000000000004
+2,CAT (tuned),6,39,1000,0.039,3.9
+2,MNCA (tuned + ensemble),7,68,1000,0.068,6.800000000000001
+2,CAT (default),8,37,1000,0.037,3.6999999999999997
+2,GBM (tuned),9,2,1000,0.002,0.2
+2,TABICL (default),10,121,1000,0.121,12.1
+2,XGB (tuned + ensemble),11,7,1000,0.007,0.7000000000000001
+2,TABM (tuned),12,5,1000,0.005,0.5
+2,TABPFNV2 (tuned),13,22,1000,0.022,2.1999999999999997
+2,XGB (tuned),14,0,1000,0.0,0.0
+2,TABPFNV2 (default),15,72,1000,0.072,7.199999999999999
+2,MNCA (tuned),16,7,1000,0.007,0.7000000000000001
+2,TABDPT (default),17,63,1000,0.063,6.3
+2,TABM (default),18,2,1000,0.002,0.2
+2,REALMLP (tuned),19,0,1000,0.0,0.0
+2,NN_TORCH (tuned + ensemble),20,13,1000,0.013,1.3
+2,MNCA (default),21,3,1000,0.003,0.3
+2,EBM (tuned + ensemble),22,3,1000,0.003,0.3
+2,FASTAI (tuned + ensemble),23,11,1000,0.011,1.0999999999999999
+2,EBM (tuned),24,1,1000,0.001,0.1
+2,EBM (default),25,5,1000,0.005,0.5
+2,XGB (default),26,2,1000,0.002,0.2
+2,XT (tuned + ensemble),27,6,1000,0.006,0.6
+2,NN_TORCH (tuned),28,2,1000,0.002,0.2
+2,REALMLP (default),29,0,1000,0.0,0.0
+2,RF (tuned + ensemble),30,2,1000,0.002,0.2
+2,GBM (default),31,0,1000,0.0,0.0
+2,XT (tuned),32,0,1000,0.0,0.0
+2,RF (tuned),33,0,1000,0.0,0.0
+2,FASTAI (tuned),34,0,1000,0.0,0.0
+2,LR (tuned + ensemble),35,0,1000,0.0,0.0
+2,FASTAI (default),36,0,1000,0.0,0.0
+2,XT (default),37,0,1000,0.0,0.0
+2,NN_TORCH (default),38,0,1000,0.0,0.0
+2,LR (tuned),39,0,1000,0.0,0.0
+2,RF (default),40,0,1000,0.0,0.0
+2,LR (default),41,0,1000,0.0,0.0
+2,KNN (default),42,0,1000,0.0,0.0
+2,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+2,KNN (tuned),44,0,1000,0.0,0.0
+3,REALMLP (tuned + ensemble),1,176,1000,0.176,17.599999999999998
+3,TABM (tuned + ensemble),2,125,1000,0.125,12.5
+3,GBM (tuned + ensemble),3,91,1000,0.091,9.1
+3,TABPFNV2 (tuned + ensemble),4,164,1000,0.164,16.400000000000002
+3,CAT (tuned + ensemble),5,34,1000,0.034,3.4000000000000004
+3,CAT (tuned),6,39,1000,0.039,3.9
+3,MNCA (tuned + ensemble),7,74,1000,0.074,7.3999999999999995
+3,CAT (default),8,34,1000,0.034,3.4000000000000004
+3,GBM (tuned),9,0,1000,0.0,0.0
+3,TABICL (default),10,97,1000,0.097,9.700000000000001
+3,XGB (tuned + ensemble),11,4,1000,0.004,0.4
+3,TABM (tuned),12,2,1000,0.002,0.2
+3,TABPFNV2 (tuned),13,27,1000,0.027,2.7
+3,XGB (tuned),14,0,1000,0.0,0.0
+3,TABPFNV2 (default),15,44,1000,0.044,4.3999999999999995
+3,MNCA (tuned),16,8,1000,0.008,0.8
+3,TABDPT (default),17,59,1000,0.059,5.8999999999999995
+3,TABM (default),18,5,1000,0.005,0.5
+3,REALMLP (tuned),19,0,1000,0.0,0.0
+3,NN_TORCH (tuned + ensemble),20,1,1000,0.001,0.1
+3,MNCA (default),21,3,1000,0.003,0.3
+3,EBM (tuned + ensemble),22,2,1000,0.002,0.2
+3,FASTAI (tuned + ensemble),23,5,1000,0.005,0.5
+3,EBM (tuned),24,0,1000,0.0,0.0
+3,EBM (default),25,2,1000,0.002,0.2
+3,XGB (default),26,0,1000,0.0,0.0
+3,XT (tuned + ensemble),27,1,1000,0.001,0.1
+3,NN_TORCH (tuned),28,0,1000,0.0,0.0
+3,REALMLP (default),29,0,1000,0.0,0.0
+3,RF (tuned + ensemble),30,3,1000,0.003,0.3
+3,GBM (default),31,0,1000,0.0,0.0
+3,XT (tuned),32,0,1000,0.0,0.0
+3,RF (tuned),33,0,1000,0.0,0.0
+3,FASTAI (tuned),34,0,1000,0.0,0.0
+3,LR (tuned + ensemble),35,0,1000,0.0,0.0
+3,FASTAI (default),36,0,1000,0.0,0.0
+3,XT (default),37,0,1000,0.0,0.0
+3,NN_TORCH (default),38,0,1000,0.0,0.0
+3,LR (tuned),39,0,1000,0.0,0.0
+3,RF (default),40,0,1000,0.0,0.0
+3,LR (default),41,0,1000,0.0,0.0
+3,KNN (default),42,0,1000,0.0,0.0
+3,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+3,KNN (tuned),44,0,1000,0.0,0.0
+4,REALMLP (tuned + ensemble),1,189,1000,0.189,18.9
+4,TABM (tuned + ensemble),2,114,1000,0.114,11.4
+4,GBM (tuned + ensemble),3,109,1000,0.109,10.9
+4,TABPFNV2 (tuned + ensemble),4,179,1000,0.179,17.9
+4,CAT (tuned + ensemble),5,35,1000,0.035,3.5000000000000004
+4,CAT (tuned),6,30,1000,0.03,3.0
+4,MNCA (tuned + ensemble),7,80,1000,0.08,8.0
+4,CAT (default),8,38,1000,0.038,3.8
+4,GBM (tuned),9,0,1000,0.0,0.0
+4,TABICL (default),10,100,1000,0.1,10.0
+4,XGB (tuned + ensemble),11,4,1000,0.004,0.4
+4,TABM (tuned),12,0,1000,0.0,0.0
+4,TABPFNV2 (tuned),13,14,1000,0.014,1.4000000000000001
+4,XGB (tuned),14,0,1000,0.0,0.0
+4,TABPFNV2 (default),15,40,1000,0.04,4.0
+4,MNCA (tuned),16,2,1000,0.002,0.2
+4,TABDPT (default),17,50,1000,0.05,5.0
+4,TABM (default),18,5,1000,0.005,0.5
+4,REALMLP (tuned),19,0,1000,0.0,0.0
+4,NN_TORCH (tuned + ensemble),20,3,1000,0.003,0.3
+4,MNCA (default),21,2,1000,0.002,0.2
+4,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+4,FASTAI (tuned + ensemble),23,4,1000,0.004,0.4
+4,EBM (tuned),24,0,1000,0.0,0.0
+4,EBM (default),25,1,1000,0.001,0.1
+4,XGB (default),26,0,1000,0.0,0.0
+4,XT (tuned + ensemble),27,0,1000,0.0,0.0
+4,NN_TORCH (tuned),28,0,1000,0.0,0.0
+4,REALMLP (default),29,0,1000,0.0,0.0
+4,RF (tuned + ensemble),30,1,1000,0.001,0.1
+4,GBM (default),31,0,1000,0.0,0.0
+4,XT (tuned),32,0,1000,0.0,0.0
+4,RF (tuned),33,0,1000,0.0,0.0
+4,FASTAI (tuned),34,0,1000,0.0,0.0
+4,LR (tuned + ensemble),35,0,1000,0.0,0.0
+4,FASTAI (default),36,0,1000,0.0,0.0
+4,XT (default),37,0,1000,0.0,0.0
+4,NN_TORCH (default),38,0,1000,0.0,0.0
+4,LR (tuned),39,0,1000,0.0,0.0
+4,RF (default),40,0,1000,0.0,0.0
+4,LR (default),41,0,1000,0.0,0.0
+4,KNN (default),42,0,1000,0.0,0.0
+4,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+4,KNN (tuned),44,0,1000,0.0,0.0
+5,REALMLP (tuned + ensemble),1,254,1000,0.254,25.4
+5,TABM (tuned + ensemble),2,95,1000,0.095,9.5
+5,GBM (tuned + ensemble),3,87,1000,0.087,8.7
+5,TABPFNV2 (tuned + ensemble),4,187,1000,0.187,18.7
+5,CAT (tuned + ensemble),5,49,1000,0.049,4.9
+5,CAT (tuned),6,30,1000,0.03,3.0
+5,MNCA (tuned + ensemble),7,75,1000,0.075,7.5
+5,CAT (default),8,35,1000,0.035,3.5000000000000004
+5,GBM (tuned),9,1,1000,0.001,0.1
+5,TABICL (default),10,106,1000,0.106,10.6
+5,XGB (tuned + ensemble),11,3,1000,0.003,0.3
+5,TABM (tuned),12,0,1000,0.0,0.0
+5,TABPFNV2 (tuned),13,7,1000,0.007,0.7000000000000001
+5,XGB (tuned),14,0,1000,0.0,0.0
+5,TABPFNV2 (default),15,33,1000,0.033,3.3000000000000003
+5,MNCA (tuned),16,3,1000,0.003,0.3
+5,TABDPT (default),17,32,1000,0.032,3.2
+5,TABM (default),18,1,1000,0.001,0.1
+5,REALMLP (tuned),19,0,1000,0.0,0.0
+5,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+5,MNCA (default),21,0,1000,0.0,0.0
+5,EBM (tuned + ensemble),22,1,1000,0.001,0.1
+5,FASTAI (tuned + ensemble),23,1,1000,0.001,0.1
+5,EBM (tuned),24,0,1000,0.0,0.0
+5,EBM (default),25,0,1000,0.0,0.0
+5,XGB (default),26,0,1000,0.0,0.0
+5,XT (tuned + ensemble),27,0,1000,0.0,0.0
+5,NN_TORCH (tuned),28,0,1000,0.0,0.0
+5,REALMLP (default),29,0,1000,0.0,0.0
+5,RF (tuned + ensemble),30,0,1000,0.0,0.0
+5,GBM (default),31,0,1000,0.0,0.0
+5,XT (tuned),32,0,1000,0.0,0.0
+5,RF (tuned),33,0,1000,0.0,0.0
+5,FASTAI (tuned),34,0,1000,0.0,0.0
+5,LR (tuned + ensemble),35,0,1000,0.0,0.0
+5,FASTAI (default),36,0,1000,0.0,0.0
+5,XT (default),37,0,1000,0.0,0.0
+5,NN_TORCH (default),38,0,1000,0.0,0.0
+5,LR (tuned),39,0,1000,0.0,0.0
+5,RF (default),40,0,1000,0.0,0.0
+5,LR (default),41,0,1000,0.0,0.0
+5,KNN (default),42,0,1000,0.0,0.0
+5,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+5,KNN (tuned),44,0,1000,0.0,0.0
+6,REALMLP (tuned + ensemble),1,282,1000,0.282,28.199999999999996
+6,TABM (tuned + ensemble),2,123,1000,0.123,12.3
+6,GBM (tuned + ensemble),3,100,1000,0.1,10.0
+6,TABPFNV2 (tuned + ensemble),4,214,1000,0.214,21.4
+6,CAT (tuned + ensemble),5,42,1000,0.042,4.2
+6,CAT (tuned),6,23,1000,0.023,2.3
+6,MNCA (tuned + ensemble),7,55,1000,0.055,5.5
+6,CAT (default),8,24,1000,0.024,2.4
+6,GBM (tuned),9,0,1000,0.0,0.0
+6,TABICL (default),10,79,1000,0.079,7.9
+6,XGB (tuned + ensemble),11,3,1000,0.003,0.3
+6,TABM (tuned),12,0,1000,0.0,0.0
+6,TABPFNV2 (tuned),13,2,1000,0.002,0.2
+6,XGB (tuned),14,0,1000,0.0,0.0
+6,TABPFNV2 (default),15,29,1000,0.029,2.9000000000000004
+6,MNCA (tuned),16,0,1000,0.0,0.0
+6,TABDPT (default),17,23,1000,0.023,2.3
+6,TABM (default),18,0,1000,0.0,0.0
+6,REALMLP (tuned),19,0,1000,0.0,0.0
+6,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+6,MNCA (default),21,1,1000,0.001,0.1
+6,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+6,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+6,EBM (tuned),24,0,1000,0.0,0.0
+6,EBM (default),25,0,1000,0.0,0.0
+6,XGB (default),26,0,1000,0.0,0.0
+6,XT (tuned + ensemble),27,0,1000,0.0,0.0
+6,NN_TORCH (tuned),28,0,1000,0.0,0.0
+6,REALMLP (default),29,0,1000,0.0,0.0
+6,RF (tuned + ensemble),30,0,1000,0.0,0.0
+6,GBM (default),31,0,1000,0.0,0.0
+6,XT (tuned),32,0,1000,0.0,0.0
+6,RF (tuned),33,0,1000,0.0,0.0
+6,FASTAI (tuned),34,0,1000,0.0,0.0
+6,LR (tuned + ensemble),35,0,1000,0.0,0.0
+6,FASTAI (default),36,0,1000,0.0,0.0
+6,XT (default),37,0,1000,0.0,0.0
+6,NN_TORCH (default),38,0,1000,0.0,0.0
+6,LR (tuned),39,0,1000,0.0,0.0
+6,RF (default),40,0,1000,0.0,0.0
+6,LR (default),41,0,1000,0.0,0.0
+6,KNN (default),42,0,1000,0.0,0.0
+6,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+6,KNN (tuned),44,0,1000,0.0,0.0
+7,REALMLP (tuned + ensemble),1,317,1000,0.317,31.7
+7,TABM (tuned + ensemble),2,97,1000,0.097,9.700000000000001
+7,GBM (tuned + ensemble),3,91,1000,0.091,9.1
+7,TABPFNV2 (tuned + ensemble),4,191,1000,0.191,19.1
+7,CAT (tuned + ensemble),5,39,1000,0.039,3.9
+7,CAT (tuned),6,29,1000,0.029,2.9000000000000004
+7,MNCA (tuned + ensemble),7,58,1000,0.058,5.800000000000001
+7,CAT (default),8,24,1000,0.024,2.4
+7,GBM (tuned),9,0,1000,0.0,0.0
+7,TABICL (default),10,94,1000,0.094,9.4
+7,XGB (tuned + ensemble),11,2,1000,0.002,0.2
+7,TABM (tuned),12,0,1000,0.0,0.0
+7,TABPFNV2 (tuned),13,4,1000,0.004,0.4
+7,XGB (tuned),14,0,1000,0.0,0.0
+7,TABPFNV2 (default),15,27,1000,0.027,2.7
+7,MNCA (tuned),16,1,1000,0.001,0.1
+7,TABDPT (default),17,24,1000,0.024,2.4
+7,TABM (default),18,0,1000,0.0,0.0
+7,REALMLP (tuned),19,0,1000,0.0,0.0
+7,NN_TORCH (tuned + ensemble),20,1,1000,0.001,0.1
+7,MNCA (default),21,1,1000,0.001,0.1
+7,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+7,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+7,EBM (tuned),24,0,1000,0.0,0.0
+7,EBM (default),25,0,1000,0.0,0.0
+7,XGB (default),26,0,1000,0.0,0.0
+7,XT (tuned + ensemble),27,0,1000,0.0,0.0
+7,NN_TORCH (tuned),28,0,1000,0.0,0.0
+7,REALMLP (default),29,0,1000,0.0,0.0
+7,RF (tuned + ensemble),30,0,1000,0.0,0.0
+7,GBM (default),31,0,1000,0.0,0.0
+7,XT (tuned),32,0,1000,0.0,0.0
+7,RF (tuned),33,0,1000,0.0,0.0
+7,FASTAI (tuned),34,0,1000,0.0,0.0
+7,LR (tuned + ensemble),35,0,1000,0.0,0.0
+7,FASTAI (default),36,0,1000,0.0,0.0
+7,XT (default),37,0,1000,0.0,0.0
+7,NN_TORCH (default),38,0,1000,0.0,0.0
+7,LR (tuned),39,0,1000,0.0,0.0
+7,RF (default),40,0,1000,0.0,0.0
+7,LR (default),41,0,1000,0.0,0.0
+7,KNN (default),42,0,1000,0.0,0.0
+7,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+7,KNN (tuned),44,0,1000,0.0,0.0
+8,REALMLP (tuned + ensemble),1,354,1000,0.354,35.4
+8,TABM (tuned + ensemble),2,121,1000,0.121,12.1
+8,GBM (tuned + ensemble),3,107,1000,0.107,10.7
+8,TABPFNV2 (tuned + ensemble),4,192,1000,0.192,19.2
+8,CAT (tuned + ensemble),5,26,1000,0.026,2.6
+8,CAT (tuned),6,17,1000,0.017,1.7000000000000002
+8,MNCA (tuned + ensemble),7,50,1000,0.05,5.0
+8,CAT (default),8,23,1000,0.023,2.3
+8,GBM (tuned),9,0,1000,0.0,0.0
+8,TABICL (default),10,73,1000,0.073,7.3
+8,XGB (tuned + ensemble),11,2,1000,0.002,0.2
+8,TABM (tuned),12,0,1000,0.0,0.0
+8,TABPFNV2 (tuned),13,3,1000,0.003,0.3
+8,XGB (tuned),14,0,1000,0.0,0.0
+8,TABPFNV2 (default),15,16,1000,0.016,1.6
+8,MNCA (tuned),16,1,1000,0.001,0.1
+8,TABDPT (default),17,15,1000,0.015,1.5
+8,TABM (default),18,0,1000,0.0,0.0
+8,REALMLP (tuned),19,0,1000,0.0,0.0
+8,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+8,MNCA (default),21,0,1000,0.0,0.0
+8,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+8,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+8,EBM (tuned),24,0,1000,0.0,0.0
+8,EBM (default),25,0,1000,0.0,0.0
+8,XGB (default),26,0,1000,0.0,0.0
+8,XT (tuned + ensemble),27,0,1000,0.0,0.0
+8,NN_TORCH (tuned),28,0,1000,0.0,0.0
+8,REALMLP (default),29,0,1000,0.0,0.0
+8,RF (tuned + ensemble),30,0,1000,0.0,0.0
+8,GBM (default),31,0,1000,0.0,0.0
+8,XT (tuned),32,0,1000,0.0,0.0
+8,RF (tuned),33,0,1000,0.0,0.0
+8,FASTAI (tuned),34,0,1000,0.0,0.0
+8,LR (tuned + ensemble),35,0,1000,0.0,0.0
+8,FASTAI (default),36,0,1000,0.0,0.0
+8,XT (default),37,0,1000,0.0,0.0
+8,NN_TORCH (default),38,0,1000,0.0,0.0
+8,LR (tuned),39,0,1000,0.0,0.0
+8,RF (default),40,0,1000,0.0,0.0
+8,LR (default),41,0,1000,0.0,0.0
+8,KNN (default),42,0,1000,0.0,0.0
+8,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+8,KNN (tuned),44,0,1000,0.0,0.0
+9,REALMLP (tuned + ensemble),1,375,1000,0.375,37.5
+9,TABM (tuned + ensemble),2,96,1000,0.096,9.6
+9,GBM (tuned + ensemble),3,93,1000,0.093,9.3
+9,TABPFNV2 (tuned + ensemble),4,212,1000,0.212,21.2
+9,CAT (tuned + ensemble),5,38,1000,0.038,3.8
+9,CAT (tuned),6,23,1000,0.023,2.3
+9,MNCA (tuned + ensemble),7,51,1000,0.051,5.1
+9,CAT (default),8,21,1000,0.021,2.1
+9,GBM (tuned),9,0,1000,0.0,0.0
+9,TABICL (default),10,65,1000,0.065,6.5
+9,XGB (tuned + ensemble),11,1,1000,0.001,0.1
+9,TABM (tuned),12,0,1000,0.0,0.0
+9,TABPFNV2 (tuned),13,1,1000,0.001,0.1
+9,XGB (tuned),14,0,1000,0.0,0.0
+9,TABPFNV2 (default),15,11,1000,0.011,1.0999999999999999
+9,MNCA (tuned),16,0,1000,0.0,0.0
+9,TABDPT (default),17,13,1000,0.013,1.3
+9,TABM (default),18,0,1000,0.0,0.0
+9,REALMLP (tuned),19,0,1000,0.0,0.0
+9,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+9,MNCA (default),21,0,1000,0.0,0.0
+9,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+9,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+9,EBM (tuned),24,0,1000,0.0,0.0
+9,EBM (default),25,0,1000,0.0,0.0
+9,XGB (default),26,0,1000,0.0,0.0
+9,XT (tuned + ensemble),27,0,1000,0.0,0.0
+9,NN_TORCH (tuned),28,0,1000,0.0,0.0
+9,REALMLP (default),29,0,1000,0.0,0.0
+9,RF (tuned + ensemble),30,0,1000,0.0,0.0
+9,GBM (default),31,0,1000,0.0,0.0
+9,XT (tuned),32,0,1000,0.0,0.0
+9,RF (tuned),33,0,1000,0.0,0.0
+9,FASTAI (tuned),34,0,1000,0.0,0.0
+9,LR (tuned + ensemble),35,0,1000,0.0,0.0
+9,FASTAI (default),36,0,1000,0.0,0.0
+9,XT (default),37,0,1000,0.0,0.0
+9,NN_TORCH (default),38,0,1000,0.0,0.0
+9,LR (tuned),39,0,1000,0.0,0.0
+9,RF (default),40,0,1000,0.0,0.0
+9,LR (default),41,0,1000,0.0,0.0
+9,KNN (default),42,0,1000,0.0,0.0
+9,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+9,KNN (tuned),44,0,1000,0.0,0.0
+10,REALMLP (tuned + ensemble),1,409,1000,0.409,40.9
+10,TABM (tuned + ensemble),2,113,1000,0.113,11.3
+10,GBM (tuned + ensemble),3,121,1000,0.121,12.1
+10,TABPFNV2 (tuned + ensemble),4,202,1000,0.202,20.200000000000003
+10,CAT (tuned + ensemble),5,28,1000,0.028,2.8000000000000003
+10,CAT (tuned),6,10,1000,0.01,1.0
+10,MNCA (tuned + ensemble),7,29,1000,0.029,2.9000000000000004
+10,CAT (default),8,11,1000,0.011,1.0999999999999999
+10,GBM (tuned),9,0,1000,0.0,0.0
+10,TABICL (default),10,50,1000,0.05,5.0
+10,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+10,TABM (tuned),12,0,1000,0.0,0.0
+10,TABPFNV2 (tuned),13,3,1000,0.003,0.3
+10,XGB (tuned),14,0,1000,0.0,0.0
+10,TABPFNV2 (default),15,16,1000,0.016,1.6
+10,MNCA (tuned),16,0,1000,0.0,0.0
+10,TABDPT (default),17,8,1000,0.008,0.8
+10,TABM (default),18,0,1000,0.0,0.0
+10,REALMLP (tuned),19,0,1000,0.0,0.0
+10,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+10,MNCA (default),21,0,1000,0.0,0.0
+10,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+10,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+10,EBM (tuned),24,0,1000,0.0,0.0
+10,EBM (default),25,0,1000,0.0,0.0
+10,XGB (default),26,0,1000,0.0,0.0
+10,XT (tuned + ensemble),27,0,1000,0.0,0.0
+10,NN_TORCH (tuned),28,0,1000,0.0,0.0
+10,REALMLP (default),29,0,1000,0.0,0.0
+10,RF (tuned + ensemble),30,0,1000,0.0,0.0
+10,GBM (default),31,0,1000,0.0,0.0
+10,XT (tuned),32,0,1000,0.0,0.0
+10,RF (tuned),33,0,1000,0.0,0.0
+10,FASTAI (tuned),34,0,1000,0.0,0.0
+10,LR (tuned + ensemble),35,0,1000,0.0,0.0
+10,FASTAI (default),36,0,1000,0.0,0.0
+10,XT (default),37,0,1000,0.0,0.0
+10,NN_TORCH (default),38,0,1000,0.0,0.0
+10,LR (tuned),39,0,1000,0.0,0.0
+10,RF (default),40,0,1000,0.0,0.0
+10,LR (default),41,0,1000,0.0,0.0
+10,KNN (default),42,0,1000,0.0,0.0
+10,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+10,KNN (tuned),44,0,1000,0.0,0.0
+11,REALMLP (tuned + ensemble),1,436,1000,0.436,43.6
+11,TABM (tuned + ensemble),2,112,1000,0.112,11.200000000000001
+11,GBM (tuned + ensemble),3,90,1000,0.09,9.0
+11,TABPFNV2 (tuned + ensemble),4,198,1000,0.198,19.8
+11,CAT (tuned + ensemble),5,33,1000,0.033,3.3000000000000003
+11,CAT (tuned),6,13,1000,0.013,1.3
+11,MNCA (tuned + ensemble),7,34,1000,0.034,3.4000000000000004
+11,CAT (default),8,11,1000,0.011,1.0999999999999999
+11,GBM (tuned),9,0,1000,0.0,0.0
+11,TABICL (default),10,57,1000,0.057,5.7
+11,XGB (tuned + ensemble),11,1,1000,0.001,0.1
+11,TABM (tuned),12,0,1000,0.0,0.0
+11,TABPFNV2 (tuned),13,1,1000,0.001,0.1
+11,XGB (tuned),14,0,1000,0.0,0.0
+11,TABPFNV2 (default),15,8,1000,0.008,0.8
+11,MNCA (tuned),16,0,1000,0.0,0.0
+11,TABDPT (default),17,6,1000,0.006,0.6
+11,TABM (default),18,0,1000,0.0,0.0
+11,REALMLP (tuned),19,0,1000,0.0,0.0
+11,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+11,MNCA (default),21,0,1000,0.0,0.0
+11,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+11,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+11,EBM (tuned),24,0,1000,0.0,0.0
+11,EBM (default),25,0,1000,0.0,0.0
+11,XGB (default),26,0,1000,0.0,0.0
+11,XT (tuned + ensemble),27,0,1000,0.0,0.0
+11,NN_TORCH (tuned),28,0,1000,0.0,0.0
+11,REALMLP (default),29,0,1000,0.0,0.0
+11,RF (tuned + ensemble),30,0,1000,0.0,0.0
+11,GBM (default),31,0,1000,0.0,0.0
+11,XT (tuned),32,0,1000,0.0,0.0
+11,RF (tuned),33,0,1000,0.0,0.0
+11,FASTAI (tuned),34,0,1000,0.0,0.0
+11,LR (tuned + ensemble),35,0,1000,0.0,0.0
+11,FASTAI (default),36,0,1000,0.0,0.0
+11,XT (default),37,0,1000,0.0,0.0
+11,NN_TORCH (default),38,0,1000,0.0,0.0
+11,LR (tuned),39,0,1000,0.0,0.0
+11,RF (default),40,0,1000,0.0,0.0
+11,LR (default),41,0,1000,0.0,0.0
+11,KNN (default),42,0,1000,0.0,0.0
+11,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+11,KNN (tuned),44,0,1000,0.0,0.0
+12,REALMLP (tuned + ensemble),1,469,1000,0.469,46.9
+12,TABM (tuned + ensemble),2,125,1000,0.125,12.5
+12,GBM (tuned + ensemble),3,98,1000,0.098,9.8
+12,TABPFNV2 (tuned + ensemble),4,176,1000,0.176,17.599999999999998
+12,CAT (tuned + ensemble),5,23,1000,0.023,2.3
+12,CAT (tuned),6,9,1000,0.009,0.8999999999999999
+12,MNCA (tuned + ensemble),7,38,1000,0.038,3.8
+12,CAT (default),8,7,1000,0.007,0.7000000000000001
+12,GBM (tuned),9,0,1000,0.0,0.0
+12,TABICL (default),10,44,1000,0.044,4.3999999999999995
+12,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+12,TABM (tuned),12,0,1000,0.0,0.0
+12,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+12,XGB (tuned),14,0,1000,0.0,0.0
+12,TABPFNV2 (default),15,7,1000,0.007,0.7000000000000001
+12,MNCA (tuned),16,0,1000,0.0,0.0
+12,TABDPT (default),17,4,1000,0.004,0.4
+12,TABM (default),18,0,1000,0.0,0.0
+12,REALMLP (tuned),19,0,1000,0.0,0.0
+12,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+12,MNCA (default),21,0,1000,0.0,0.0
+12,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+12,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+12,EBM (tuned),24,0,1000,0.0,0.0
+12,EBM (default),25,0,1000,0.0,0.0
+12,XGB (default),26,0,1000,0.0,0.0
+12,XT (tuned + ensemble),27,0,1000,0.0,0.0
+12,NN_TORCH (tuned),28,0,1000,0.0,0.0
+12,REALMLP (default),29,0,1000,0.0,0.0
+12,RF (tuned + ensemble),30,0,1000,0.0,0.0
+12,GBM (default),31,0,1000,0.0,0.0
+12,XT (tuned),32,0,1000,0.0,0.0
+12,RF (tuned),33,0,1000,0.0,0.0
+12,FASTAI (tuned),34,0,1000,0.0,0.0
+12,LR (tuned + ensemble),35,0,1000,0.0,0.0
+12,FASTAI (default),36,0,1000,0.0,0.0
+12,XT (default),37,0,1000,0.0,0.0
+12,NN_TORCH (default),38,0,1000,0.0,0.0
+12,LR (tuned),39,0,1000,0.0,0.0
+12,RF (default),40,0,1000,0.0,0.0
+12,LR (default),41,0,1000,0.0,0.0
+12,KNN (default),42,0,1000,0.0,0.0
+12,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+12,KNN (tuned),44,0,1000,0.0,0.0
+13,REALMLP (tuned + ensemble),1,499,1000,0.499,49.9
+13,TABM (tuned + ensemble),2,115,1000,0.115,11.5
+13,GBM (tuned + ensemble),3,90,1000,0.09,9.0
+13,TABPFNV2 (tuned + ensemble),4,188,1000,0.188,18.8
+13,CAT (tuned + ensemble),5,17,1000,0.017,1.7000000000000002
+13,CAT (tuned),6,12,1000,0.012,1.2
+13,MNCA (tuned + ensemble),7,24,1000,0.024,2.4
+13,CAT (default),8,6,1000,0.006,0.6
+13,GBM (tuned),9,0,1000,0.0,0.0
+13,TABICL (default),10,39,1000,0.039,3.9
+13,XGB (tuned + ensemble),11,1,1000,0.001,0.1
+13,TABM (tuned),12,0,1000,0.0,0.0
+13,TABPFNV2 (tuned),13,1,1000,0.001,0.1
+13,XGB (tuned),14,0,1000,0.0,0.0
+13,TABPFNV2 (default),15,2,1000,0.002,0.2
+13,MNCA (tuned),16,0,1000,0.0,0.0
+13,TABDPT (default),17,6,1000,0.006,0.6
+13,TABM (default),18,0,1000,0.0,0.0
+13,REALMLP (tuned),19,0,1000,0.0,0.0
+13,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+13,MNCA (default),21,0,1000,0.0,0.0
+13,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+13,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+13,EBM (tuned),24,0,1000,0.0,0.0
+13,EBM (default),25,0,1000,0.0,0.0
+13,XGB (default),26,0,1000,0.0,0.0
+13,XT (tuned + ensemble),27,0,1000,0.0,0.0
+13,NN_TORCH (tuned),28,0,1000,0.0,0.0
+13,REALMLP (default),29,0,1000,0.0,0.0
+13,RF (tuned + ensemble),30,0,1000,0.0,0.0
+13,GBM (default),31,0,1000,0.0,0.0
+13,XT (tuned),32,0,1000,0.0,0.0
+13,RF (tuned),33,0,1000,0.0,0.0
+13,FASTAI (tuned),34,0,1000,0.0,0.0
+13,LR (tuned + ensemble),35,0,1000,0.0,0.0
+13,FASTAI (default),36,0,1000,0.0,0.0
+13,XT (default),37,0,1000,0.0,0.0
+13,NN_TORCH (default),38,0,1000,0.0,0.0
+13,LR (tuned),39,0,1000,0.0,0.0
+13,RF (default),40,0,1000,0.0,0.0
+13,LR (default),41,0,1000,0.0,0.0
+13,KNN (default),42,0,1000,0.0,0.0
+13,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+13,KNN (tuned),44,0,1000,0.0,0.0
+14,REALMLP (tuned + ensemble),1,553,1000,0.553,55.300000000000004
+14,TABM (tuned + ensemble),2,115,1000,0.115,11.5
+14,GBM (tuned + ensemble),3,69,1000,0.069,6.9
+14,TABPFNV2 (tuned + ensemble),4,170,1000,0.17,17.0
+14,CAT (tuned + ensemble),5,15,1000,0.015,1.5
+14,CAT (tuned),6,12,1000,0.012,1.2
+14,MNCA (tuned + ensemble),7,27,1000,0.027,2.7
+14,CAT (default),8,2,1000,0.002,0.2
+14,GBM (tuned),9,0,1000,0.0,0.0
+14,TABICL (default),10,33,1000,0.033,3.3000000000000003
+14,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+14,TABM (tuned),12,0,1000,0.0,0.0
+14,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+14,XGB (tuned),14,0,1000,0.0,0.0
+14,TABPFNV2 (default),15,2,1000,0.002,0.2
+14,MNCA (tuned),16,0,1000,0.0,0.0
+14,TABDPT (default),17,2,1000,0.002,0.2
+14,TABM (default),18,0,1000,0.0,0.0
+14,REALMLP (tuned),19,0,1000,0.0,0.0
+14,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+14,MNCA (default),21,0,1000,0.0,0.0
+14,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+14,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+14,EBM (tuned),24,0,1000,0.0,0.0
+14,EBM (default),25,0,1000,0.0,0.0
+14,XGB (default),26,0,1000,0.0,0.0
+14,XT (tuned + ensemble),27,0,1000,0.0,0.0
+14,NN_TORCH (tuned),28,0,1000,0.0,0.0
+14,REALMLP (default),29,0,1000,0.0,0.0
+14,RF (tuned + ensemble),30,0,1000,0.0,0.0
+14,GBM (default),31,0,1000,0.0,0.0
+14,XT (tuned),32,0,1000,0.0,0.0
+14,RF (tuned),33,0,1000,0.0,0.0
+14,FASTAI (tuned),34,0,1000,0.0,0.0
+14,LR (tuned + ensemble),35,0,1000,0.0,0.0
+14,FASTAI (default),36,0,1000,0.0,0.0
+14,XT (default),37,0,1000,0.0,0.0
+14,NN_TORCH (default),38,0,1000,0.0,0.0
+14,LR (tuned),39,0,1000,0.0,0.0
+14,RF (default),40,0,1000,0.0,0.0
+14,LR (default),41,0,1000,0.0,0.0
+14,KNN (default),42,0,1000,0.0,0.0
+14,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+14,KNN (tuned),44,0,1000,0.0,0.0
+15,REALMLP (tuned + ensemble),1,544,1000,0.544,54.400000000000006
+15,TABM (tuned + ensemble),2,111,1000,0.111,11.1
+15,GBM (tuned + ensemble),3,81,1000,0.081,8.1
+15,TABPFNV2 (tuned + ensemble),4,183,1000,0.183,18.3
+15,CAT (tuned + ensemble),5,15,1000,0.015,1.5
+15,CAT (tuned),6,12,1000,0.012,1.2
+15,MNCA (tuned + ensemble),7,18,1000,0.018,1.7999999999999998
+15,CAT (default),8,2,1000,0.002,0.2
+15,GBM (tuned),9,0,1000,0.0,0.0
+15,TABICL (default),10,27,1000,0.027,2.7
+15,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+15,TABM (tuned),12,0,1000,0.0,0.0
+15,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+15,XGB (tuned),14,0,1000,0.0,0.0
+15,TABPFNV2 (default),15,5,1000,0.005,0.5
+15,MNCA (tuned),16,0,1000,0.0,0.0
+15,TABDPT (default),17,2,1000,0.002,0.2
+15,TABM (default),18,0,1000,0.0,0.0
+15,REALMLP (tuned),19,0,1000,0.0,0.0
+15,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+15,MNCA (default),21,0,1000,0.0,0.0
+15,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+15,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+15,EBM (tuned),24,0,1000,0.0,0.0
+15,EBM (default),25,0,1000,0.0,0.0
+15,XGB (default),26,0,1000,0.0,0.0
+15,XT (tuned + ensemble),27,0,1000,0.0,0.0
+15,NN_TORCH (tuned),28,0,1000,0.0,0.0
+15,REALMLP (default),29,0,1000,0.0,0.0
+15,RF (tuned + ensemble),30,0,1000,0.0,0.0
+15,GBM (default),31,0,1000,0.0,0.0
+15,XT (tuned),32,0,1000,0.0,0.0
+15,RF (tuned),33,0,1000,0.0,0.0
+15,FASTAI (tuned),34,0,1000,0.0,0.0
+15,LR (tuned + ensemble),35,0,1000,0.0,0.0
+15,FASTAI (default),36,0,1000,0.0,0.0
+15,XT (default),37,0,1000,0.0,0.0
+15,NN_TORCH (default),38,0,1000,0.0,0.0
+15,LR (tuned),39,0,1000,0.0,0.0
+15,RF (default),40,0,1000,0.0,0.0
+15,LR (default),41,0,1000,0.0,0.0
+15,KNN (default),42,0,1000,0.0,0.0
+15,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+15,KNN (tuned),44,0,1000,0.0,0.0
+16,REALMLP (tuned + ensemble),1,609,1000,0.609,60.9
+16,TABM (tuned + ensemble),2,95,1000,0.095,9.5
+16,GBM (tuned + ensemble),3,66,1000,0.066,6.6000000000000005
+16,TABPFNV2 (tuned + ensemble),4,142,1000,0.142,14.2
+16,CAT (tuned + ensemble),5,19,1000,0.019,1.9
+16,CAT (tuned),6,7,1000,0.007,0.7000000000000001
+16,MNCA (tuned + ensemble),7,15,1000,0.015,1.5
+16,CAT (default),8,3,1000,0.003,0.3
+16,GBM (tuned),9,0,1000,0.0,0.0
+16,TABICL (default),10,43,1000,0.043,4.3
+16,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+16,TABM (tuned),12,0,1000,0.0,0.0
+16,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+16,XGB (tuned),14,0,1000,0.0,0.0
+16,TABPFNV2 (default),15,1,1000,0.001,0.1
+16,MNCA (tuned),16,0,1000,0.0,0.0
+16,TABDPT (default),17,0,1000,0.0,0.0
+16,TABM (default),18,0,1000,0.0,0.0
+16,REALMLP (tuned),19,0,1000,0.0,0.0
+16,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+16,MNCA (default),21,0,1000,0.0,0.0
+16,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+16,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+16,EBM (tuned),24,0,1000,0.0,0.0
+16,EBM (default),25,0,1000,0.0,0.0
+16,XGB (default),26,0,1000,0.0,0.0
+16,XT (tuned + ensemble),27,0,1000,0.0,0.0
+16,NN_TORCH (tuned),28,0,1000,0.0,0.0
+16,REALMLP (default),29,0,1000,0.0,0.0
+16,RF (tuned + ensemble),30,0,1000,0.0,0.0
+16,GBM (default),31,0,1000,0.0,0.0
+16,XT (tuned),32,0,1000,0.0,0.0
+16,RF (tuned),33,0,1000,0.0,0.0
+16,FASTAI (tuned),34,0,1000,0.0,0.0
+16,LR (tuned + ensemble),35,0,1000,0.0,0.0
+16,FASTAI (default),36,0,1000,0.0,0.0
+16,XT (default),37,0,1000,0.0,0.0
+16,NN_TORCH (default),38,0,1000,0.0,0.0
+16,LR (tuned),39,0,1000,0.0,0.0
+16,RF (default),40,0,1000,0.0,0.0
+16,LR (default),41,0,1000,0.0,0.0
+16,KNN (default),42,0,1000,0.0,0.0
+16,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+16,KNN (tuned),44,0,1000,0.0,0.0
+17,REALMLP (tuned + ensemble),1,598,1000,0.598,59.8
+17,TABM (tuned + ensemble),2,95,1000,0.095,9.5
+17,GBM (tuned + ensemble),3,71,1000,0.071,7.1
+17,TABPFNV2 (tuned + ensemble),4,161,1000,0.161,16.1
+17,CAT (tuned + ensemble),5,13,1000,0.013,1.3
+17,CAT (tuned),6,6,1000,0.006,0.6
+17,MNCA (tuned + ensemble),7,17,1000,0.017,1.7000000000000002
+17,CAT (default),8,1,1000,0.001,0.1
+17,GBM (tuned),9,0,1000,0.0,0.0
+17,TABICL (default),10,36,1000,0.036,3.5999999999999996
+17,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+17,TABM (tuned),12,0,1000,0.0,0.0
+17,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+17,XGB (tuned),14,0,1000,0.0,0.0
+17,TABPFNV2 (default),15,2,1000,0.002,0.2
+17,MNCA (tuned),16,0,1000,0.0,0.0
+17,TABDPT (default),17,0,1000,0.0,0.0
+17,TABM (default),18,0,1000,0.0,0.0
+17,REALMLP (tuned),19,0,1000,0.0,0.0
+17,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+17,MNCA (default),21,0,1000,0.0,0.0
+17,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+17,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+17,EBM (tuned),24,0,1000,0.0,0.0
+17,EBM (default),25,0,1000,0.0,0.0
+17,XGB (default),26,0,1000,0.0,0.0
+17,XT (tuned + ensemble),27,0,1000,0.0,0.0
+17,NN_TORCH (tuned),28,0,1000,0.0,0.0
+17,REALMLP (default),29,0,1000,0.0,0.0
+17,RF (tuned + ensemble),30,0,1000,0.0,0.0
+17,GBM (default),31,0,1000,0.0,0.0
+17,XT (tuned),32,0,1000,0.0,0.0
+17,RF (tuned),33,0,1000,0.0,0.0
+17,FASTAI (tuned),34,0,1000,0.0,0.0
+17,LR (tuned + ensemble),35,0,1000,0.0,0.0
+17,FASTAI (default),36,0,1000,0.0,0.0
+17,XT (default),37,0,1000,0.0,0.0
+17,NN_TORCH (default),38,0,1000,0.0,0.0
+17,LR (tuned),39,0,1000,0.0,0.0
+17,RF (default),40,0,1000,0.0,0.0
+17,LR (default),41,0,1000,0.0,0.0
+17,KNN (default),42,0,1000,0.0,0.0
+17,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+17,KNN (tuned),44,0,1000,0.0,0.0
+18,REALMLP (tuned + ensemble),1,657,1000,0.657,65.7
+18,TABM (tuned + ensemble),2,93,1000,0.093,9.3
+18,GBM (tuned + ensemble),3,73,1000,0.073,7.3
+18,TABPFNV2 (tuned + ensemble),4,123,1000,0.123,12.3
+18,CAT (tuned + ensemble),5,10,1000,0.01,1.0
+18,CAT (tuned),6,7,1000,0.007,0.7000000000000001
+18,MNCA (tuned + ensemble),7,12,1000,0.012,1.2
+18,CAT (default),8,1,1000,0.001,0.1
+18,GBM (tuned),9,0,1000,0.0,0.0
+18,TABICL (default),10,21,1000,0.021,2.1
+18,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+18,TABM (tuned),12,0,1000,0.0,0.0
+18,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+18,XGB (tuned),14,0,1000,0.0,0.0
+18,TABPFNV2 (default),15,2,1000,0.002,0.2
+18,MNCA (tuned),16,0,1000,0.0,0.0
+18,TABDPT (default),17,1,1000,0.001,0.1
+18,TABM (default),18,0,1000,0.0,0.0
+18,REALMLP (tuned),19,0,1000,0.0,0.0
+18,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+18,MNCA (default),21,0,1000,0.0,0.0
+18,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+18,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+18,EBM (tuned),24,0,1000,0.0,0.0
+18,EBM (default),25,0,1000,0.0,0.0
+18,XGB (default),26,0,1000,0.0,0.0
+18,XT (tuned + ensemble),27,0,1000,0.0,0.0
+18,NN_TORCH (tuned),28,0,1000,0.0,0.0
+18,REALMLP (default),29,0,1000,0.0,0.0
+18,RF (tuned + ensemble),30,0,1000,0.0,0.0
+18,GBM (default),31,0,1000,0.0,0.0
+18,XT (tuned),32,0,1000,0.0,0.0
+18,RF (tuned),33,0,1000,0.0,0.0
+18,FASTAI (tuned),34,0,1000,0.0,0.0
+18,LR (tuned + ensemble),35,0,1000,0.0,0.0
+18,FASTAI (default),36,0,1000,0.0,0.0
+18,XT (default),37,0,1000,0.0,0.0
+18,NN_TORCH (default),38,0,1000,0.0,0.0
+18,LR (tuned),39,0,1000,0.0,0.0
+18,RF (default),40,0,1000,0.0,0.0
+18,LR (default),41,0,1000,0.0,0.0
+18,KNN (default),42,0,1000,0.0,0.0
+18,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+18,KNN (tuned),44,0,1000,0.0,0.0
+19,REALMLP (tuned + ensemble),1,691,1000,0.691,69.1
+19,TABM (tuned + ensemble),2,84,1000,0.084,8.4
+19,GBM (tuned + ensemble),3,59,1000,0.059,5.8999999999999995
+19,TABPFNV2 (tuned + ensemble),4,127,1000,0.127,12.7
+19,CAT (tuned + ensemble),5,11,1000,0.011,1.0999999999999999
+19,CAT (tuned),6,3,1000,0.003,0.3
+19,MNCA (tuned + ensemble),7,14,1000,0.014,1.4000000000000001
+19,CAT (default),8,1,1000,0.001,0.1
+19,GBM (tuned),9,0,1000,0.0,0.0
+19,TABICL (default),10,9,1000,0.009,0.8999999999999999
+19,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+19,TABM (tuned),12,0,1000,0.0,0.0
+19,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+19,XGB (tuned),14,0,1000,0.0,0.0
+19,TABPFNV2 (default),15,0,1000,0.0,0.0
+19,MNCA (tuned),16,0,1000,0.0,0.0
+19,TABDPT (default),17,1,1000,0.001,0.1
+19,TABM (default),18,0,1000,0.0,0.0
+19,REALMLP (tuned),19,0,1000,0.0,0.0
+19,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+19,MNCA (default),21,0,1000,0.0,0.0
+19,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+19,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+19,EBM (tuned),24,0,1000,0.0,0.0
+19,EBM (default),25,0,1000,0.0,0.0
+19,XGB (default),26,0,1000,0.0,0.0
+19,XT (tuned + ensemble),27,0,1000,0.0,0.0
+19,NN_TORCH (tuned),28,0,1000,0.0,0.0
+19,REALMLP (default),29,0,1000,0.0,0.0
+19,RF (tuned + ensemble),30,0,1000,0.0,0.0
+19,GBM (default),31,0,1000,0.0,0.0
+19,XT (tuned),32,0,1000,0.0,0.0
+19,RF (tuned),33,0,1000,0.0,0.0
+19,FASTAI (tuned),34,0,1000,0.0,0.0
+19,LR (tuned + ensemble),35,0,1000,0.0,0.0
+19,FASTAI (default),36,0,1000,0.0,0.0
+19,XT (default),37,0,1000,0.0,0.0
+19,NN_TORCH (default),38,0,1000,0.0,0.0
+19,LR (tuned),39,0,1000,0.0,0.0
+19,RF (default),40,0,1000,0.0,0.0
+19,LR (default),41,0,1000,0.0,0.0
+19,KNN (default),42,0,1000,0.0,0.0
+19,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+19,KNN (tuned),44,0,1000,0.0,0.0
+20,REALMLP (tuned + ensemble),1,671,1000,0.671,67.10000000000001
+20,TABM (tuned + ensemble),2,81,1000,0.081,8.1
+20,GBM (tuned + ensemble),3,70,1000,0.07,7.000000000000001
+20,TABPFNV2 (tuned + ensemble),4,150,1000,0.15,15.0
+20,CAT (tuned + ensemble),5,4,1000,0.004,0.4
+20,CAT (tuned),6,4,1000,0.004,0.4
+20,MNCA (tuned + ensemble),7,7,1000,0.007,0.7000000000000001
+20,CAT (default),8,0,1000,0.0,0.0
+20,GBM (tuned),9,0,1000,0.0,0.0
+20,TABICL (default),10,13,1000,0.013,1.3
+20,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+20,TABM (tuned),12,0,1000,0.0,0.0
+20,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+20,XGB (tuned),14,0,1000,0.0,0.0
+20,TABPFNV2 (default),15,0,1000,0.0,0.0
+20,MNCA (tuned),16,0,1000,0.0,0.0
+20,TABDPT (default),17,0,1000,0.0,0.0
+20,TABM (default),18,0,1000,0.0,0.0
+20,REALMLP (tuned),19,0,1000,0.0,0.0
+20,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+20,MNCA (default),21,0,1000,0.0,0.0
+20,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+20,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+20,EBM (tuned),24,0,1000,0.0,0.0
+20,EBM (default),25,0,1000,0.0,0.0
+20,XGB (default),26,0,1000,0.0,0.0
+20,XT (tuned + ensemble),27,0,1000,0.0,0.0
+20,NN_TORCH (tuned),28,0,1000,0.0,0.0
+20,REALMLP (default),29,0,1000,0.0,0.0
+20,RF (tuned + ensemble),30,0,1000,0.0,0.0
+20,GBM (default),31,0,1000,0.0,0.0
+20,XT (tuned),32,0,1000,0.0,0.0
+20,RF (tuned),33,0,1000,0.0,0.0
+20,FASTAI (tuned),34,0,1000,0.0,0.0
+20,LR (tuned + ensemble),35,0,1000,0.0,0.0
+20,FASTAI (default),36,0,1000,0.0,0.0
+20,XT (default),37,0,1000,0.0,0.0
+20,NN_TORCH (default),38,0,1000,0.0,0.0
+20,LR (tuned),39,0,1000,0.0,0.0
+20,RF (default),40,0,1000,0.0,0.0
+20,LR (default),41,0,1000,0.0,0.0
+20,KNN (default),42,0,1000,0.0,0.0
+20,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+20,KNN (tuned),44,0,1000,0.0,0.0
+21,REALMLP (tuned + ensemble),1,723,1000,0.723,72.3
+21,TABM (tuned + ensemble),2,88,1000,0.088,8.799999999999999
+21,GBM (tuned + ensemble),3,54,1000,0.054,5.4
+21,TABPFNV2 (tuned + ensemble),4,112,1000,0.112,11.200000000000001
+21,CAT (tuned + ensemble),5,3,1000,0.003,0.3
+21,CAT (tuned),6,1,1000,0.001,0.1
+21,MNCA (tuned + ensemble),7,7,1000,0.007,0.7000000000000001
+21,CAT (default),8,0,1000,0.0,0.0
+21,GBM (tuned),9,0,1000,0.0,0.0
+21,TABICL (default),10,12,1000,0.012,1.2
+21,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+21,TABM (tuned),12,0,1000,0.0,0.0
+21,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+21,XGB (tuned),14,0,1000,0.0,0.0
+21,TABPFNV2 (default),15,0,1000,0.0,0.0
+21,MNCA (tuned),16,0,1000,0.0,0.0
+21,TABDPT (default),17,0,1000,0.0,0.0
+21,TABM (default),18,0,1000,0.0,0.0
+21,REALMLP (tuned),19,0,1000,0.0,0.0
+21,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+21,MNCA (default),21,0,1000,0.0,0.0
+21,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+21,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+21,EBM (tuned),24,0,1000,0.0,0.0
+21,EBM (default),25,0,1000,0.0,0.0
+21,XGB (default),26,0,1000,0.0,0.0
+21,XT (tuned + ensemble),27,0,1000,0.0,0.0
+21,NN_TORCH (tuned),28,0,1000,0.0,0.0
+21,REALMLP (default),29,0,1000,0.0,0.0
+21,RF (tuned + ensemble),30,0,1000,0.0,0.0
+21,GBM (default),31,0,1000,0.0,0.0
+21,XT (tuned),32,0,1000,0.0,0.0
+21,RF (tuned),33,0,1000,0.0,0.0
+21,FASTAI (tuned),34,0,1000,0.0,0.0
+21,LR (tuned + ensemble),35,0,1000,0.0,0.0
+21,FASTAI (default),36,0,1000,0.0,0.0
+21,XT (default),37,0,1000,0.0,0.0
+21,NN_TORCH (default),38,0,1000,0.0,0.0
+21,LR (tuned),39,0,1000,0.0,0.0
+21,RF (default),40,0,1000,0.0,0.0
+21,LR (default),41,0,1000,0.0,0.0
+21,KNN (default),42,0,1000,0.0,0.0
+21,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+21,KNN (tuned),44,0,1000,0.0,0.0
+22,REALMLP (tuned + ensemble),1,730,1000,0.73,73.0
+22,TABM (tuned + ensemble),2,59,1000,0.059,5.8999999999999995
+22,GBM (tuned + ensemble),3,61,1000,0.061,6.1
+22,TABPFNV2 (tuned + ensemble),4,128,1000,0.128,12.8
+22,CAT (tuned + ensemble),5,5,1000,0.005,0.5
+22,CAT (tuned),6,1,1000,0.001,0.1
+22,MNCA (tuned + ensemble),7,7,1000,0.007,0.7000000000000001
+22,CAT (default),8,0,1000,0.0,0.0
+22,GBM (tuned),9,0,1000,0.0,0.0
+22,TABICL (default),10,9,1000,0.009,0.8999999999999999
+22,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+22,TABM (tuned),12,0,1000,0.0,0.0
+22,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+22,XGB (tuned),14,0,1000,0.0,0.0
+22,TABPFNV2 (default),15,0,1000,0.0,0.0
+22,MNCA (tuned),16,0,1000,0.0,0.0
+22,TABDPT (default),17,0,1000,0.0,0.0
+22,TABM (default),18,0,1000,0.0,0.0
+22,REALMLP (tuned),19,0,1000,0.0,0.0
+22,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+22,MNCA (default),21,0,1000,0.0,0.0
+22,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+22,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+22,EBM (tuned),24,0,1000,0.0,0.0
+22,EBM (default),25,0,1000,0.0,0.0
+22,XGB (default),26,0,1000,0.0,0.0
+22,XT (tuned + ensemble),27,0,1000,0.0,0.0
+22,NN_TORCH (tuned),28,0,1000,0.0,0.0
+22,REALMLP (default),29,0,1000,0.0,0.0
+22,RF (tuned + ensemble),30,0,1000,0.0,0.0
+22,GBM (default),31,0,1000,0.0,0.0
+22,XT (tuned),32,0,1000,0.0,0.0
+22,RF (tuned),33,0,1000,0.0,0.0
+22,FASTAI (tuned),34,0,1000,0.0,0.0
+22,LR (tuned + ensemble),35,0,1000,0.0,0.0
+22,FASTAI (default),36,0,1000,0.0,0.0
+22,XT (default),37,0,1000,0.0,0.0
+22,NN_TORCH (default),38,0,1000,0.0,0.0
+22,LR (tuned),39,0,1000,0.0,0.0
+22,RF (default),40,0,1000,0.0,0.0
+22,LR (default),41,0,1000,0.0,0.0
+22,KNN (default),42,0,1000,0.0,0.0
+22,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+22,KNN (tuned),44,0,1000,0.0,0.0
+23,REALMLP (tuned + ensemble),1,745,1000,0.745,74.5
+23,TABM (tuned + ensemble),2,71,1000,0.071,7.1
+23,GBM (tuned + ensemble),3,48,1000,0.048,4.8
+23,TABPFNV2 (tuned + ensemble),4,116,1000,0.116,11.600000000000001
+23,CAT (tuned + ensemble),5,3,1000,0.003,0.3
+23,CAT (tuned),6,3,1000,0.003,0.3
+23,MNCA (tuned + ensemble),7,5,1000,0.005,0.5
+23,CAT (default),8,0,1000,0.0,0.0
+23,GBM (tuned),9,0,1000,0.0,0.0
+23,TABICL (default),10,9,1000,0.009,0.8999999999999999
+23,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+23,TABM (tuned),12,0,1000,0.0,0.0
+23,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+23,XGB (tuned),14,0,1000,0.0,0.0
+23,TABPFNV2 (default),15,0,1000,0.0,0.0
+23,MNCA (tuned),16,0,1000,0.0,0.0
+23,TABDPT (default),17,0,1000,0.0,0.0
+23,TABM (default),18,0,1000,0.0,0.0
+23,REALMLP (tuned),19,0,1000,0.0,0.0
+23,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+23,MNCA (default),21,0,1000,0.0,0.0
+23,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+23,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+23,EBM (tuned),24,0,1000,0.0,0.0
+23,EBM (default),25,0,1000,0.0,0.0
+23,XGB (default),26,0,1000,0.0,0.0
+23,XT (tuned + ensemble),27,0,1000,0.0,0.0
+23,NN_TORCH (tuned),28,0,1000,0.0,0.0
+23,REALMLP (default),29,0,1000,0.0,0.0
+23,RF (tuned + ensemble),30,0,1000,0.0,0.0
+23,GBM (default),31,0,1000,0.0,0.0
+23,XT (tuned),32,0,1000,0.0,0.0
+23,RF (tuned),33,0,1000,0.0,0.0
+23,FASTAI (tuned),34,0,1000,0.0,0.0
+23,LR (tuned + ensemble),35,0,1000,0.0,0.0
+23,FASTAI (default),36,0,1000,0.0,0.0
+23,XT (default),37,0,1000,0.0,0.0
+23,NN_TORCH (default),38,0,1000,0.0,0.0
+23,LR (tuned),39,0,1000,0.0,0.0
+23,RF (default),40,0,1000,0.0,0.0
+23,LR (default),41,0,1000,0.0,0.0
+23,KNN (default),42,0,1000,0.0,0.0
+23,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+23,KNN (tuned),44,0,1000,0.0,0.0
+24,REALMLP (tuned + ensemble),1,796,1000,0.796,79.60000000000001
+24,TABM (tuned + ensemble),2,57,1000,0.057,5.7
+24,GBM (tuned + ensemble),3,34,1000,0.034,3.4000000000000004
+24,TABPFNV2 (tuned + ensemble),4,104,1000,0.104,10.4
+24,CAT (tuned + ensemble),5,1,1000,0.001,0.1
+24,CAT (tuned),6,0,1000,0.0,0.0
+24,MNCA (tuned + ensemble),7,3,1000,0.003,0.3
+24,CAT (default),8,0,1000,0.0,0.0
+24,GBM (tuned),9,0,1000,0.0,0.0
+24,TABICL (default),10,5,1000,0.005,0.5
+24,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+24,TABM (tuned),12,0,1000,0.0,0.0
+24,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+24,XGB (tuned),14,0,1000,0.0,0.0
+24,TABPFNV2 (default),15,0,1000,0.0,0.0
+24,MNCA (tuned),16,0,1000,0.0,0.0
+24,TABDPT (default),17,0,1000,0.0,0.0
+24,TABM (default),18,0,1000,0.0,0.0
+24,REALMLP (tuned),19,0,1000,0.0,0.0
+24,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+24,MNCA (default),21,0,1000,0.0,0.0
+24,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+24,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+24,EBM (tuned),24,0,1000,0.0,0.0
+24,EBM (default),25,0,1000,0.0,0.0
+24,XGB (default),26,0,1000,0.0,0.0
+24,XT (tuned + ensemble),27,0,1000,0.0,0.0
+24,NN_TORCH (tuned),28,0,1000,0.0,0.0
+24,REALMLP (default),29,0,1000,0.0,0.0
+24,RF (tuned + ensemble),30,0,1000,0.0,0.0
+24,GBM (default),31,0,1000,0.0,0.0
+24,XT (tuned),32,0,1000,0.0,0.0
+24,RF (tuned),33,0,1000,0.0,0.0
+24,FASTAI (tuned),34,0,1000,0.0,0.0
+24,LR (tuned + ensemble),35,0,1000,0.0,0.0
+24,FASTAI (default),36,0,1000,0.0,0.0
+24,XT (default),37,0,1000,0.0,0.0
+24,NN_TORCH (default),38,0,1000,0.0,0.0
+24,LR (tuned),39,0,1000,0.0,0.0
+24,RF (default),40,0,1000,0.0,0.0
+24,LR (default),41,0,1000,0.0,0.0
+24,KNN (default),42,0,1000,0.0,0.0
+24,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+24,KNN (tuned),44,0,1000,0.0,0.0
+25,REALMLP (tuned + ensemble),1,798,1000,0.798,79.80000000000001
+25,TABM (tuned + ensemble),2,53,1000,0.053,5.3
+25,GBM (tuned + ensemble),3,37,1000,0.037,3.6999999999999997
+25,TABPFNV2 (tuned + ensemble),4,105,1000,0.105,10.5
+25,CAT (tuned + ensemble),5,1,1000,0.001,0.1
+25,CAT (tuned),6,1,1000,0.001,0.1
+25,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+25,CAT (default),8,0,1000,0.0,0.0
+25,GBM (tuned),9,0,1000,0.0,0.0
+25,TABICL (default),10,5,1000,0.005,0.5
+25,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+25,TABM (tuned),12,0,1000,0.0,0.0
+25,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+25,XGB (tuned),14,0,1000,0.0,0.0
+25,TABPFNV2 (default),15,0,1000,0.0,0.0
+25,MNCA (tuned),16,0,1000,0.0,0.0
+25,TABDPT (default),17,0,1000,0.0,0.0
+25,TABM (default),18,0,1000,0.0,0.0
+25,REALMLP (tuned),19,0,1000,0.0,0.0
+25,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+25,MNCA (default),21,0,1000,0.0,0.0
+25,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+25,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+25,EBM (tuned),24,0,1000,0.0,0.0
+25,EBM (default),25,0,1000,0.0,0.0
+25,XGB (default),26,0,1000,0.0,0.0
+25,XT (tuned + ensemble),27,0,1000,0.0,0.0
+25,NN_TORCH (tuned),28,0,1000,0.0,0.0
+25,REALMLP (default),29,0,1000,0.0,0.0
+25,RF (tuned + ensemble),30,0,1000,0.0,0.0
+25,GBM (default),31,0,1000,0.0,0.0
+25,XT (tuned),32,0,1000,0.0,0.0
+25,RF (tuned),33,0,1000,0.0,0.0
+25,FASTAI (tuned),34,0,1000,0.0,0.0
+25,LR (tuned + ensemble),35,0,1000,0.0,0.0
+25,FASTAI (default),36,0,1000,0.0,0.0
+25,XT (default),37,0,1000,0.0,0.0
+25,NN_TORCH (default),38,0,1000,0.0,0.0
+25,LR (tuned),39,0,1000,0.0,0.0
+25,RF (default),40,0,1000,0.0,0.0
+25,LR (default),41,0,1000,0.0,0.0
+25,KNN (default),42,0,1000,0.0,0.0
+25,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+25,KNN (tuned),44,0,1000,0.0,0.0
+26,REALMLP (tuned + ensemble),1,811,1000,0.811,81.10000000000001
+26,TABM (tuned + ensemble),2,55,1000,0.055,5.5
+26,GBM (tuned + ensemble),3,28,1000,0.028,2.8000000000000003
+26,TABPFNV2 (tuned + ensemble),4,98,1000,0.098,9.8
+26,CAT (tuned + ensemble),5,2,1000,0.002,0.2
+26,CAT (tuned),6,0,1000,0.0,0.0
+26,MNCA (tuned + ensemble),7,1,1000,0.001,0.1
+26,CAT (default),8,0,1000,0.0,0.0
+26,GBM (tuned),9,0,1000,0.0,0.0
+26,TABICL (default),10,5,1000,0.005,0.5
+26,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+26,TABM (tuned),12,0,1000,0.0,0.0
+26,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+26,XGB (tuned),14,0,1000,0.0,0.0
+26,TABPFNV2 (default),15,0,1000,0.0,0.0
+26,MNCA (tuned),16,0,1000,0.0,0.0
+26,TABDPT (default),17,0,1000,0.0,0.0
+26,TABM (default),18,0,1000,0.0,0.0
+26,REALMLP (tuned),19,0,1000,0.0,0.0
+26,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+26,MNCA (default),21,0,1000,0.0,0.0
+26,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+26,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+26,EBM (tuned),24,0,1000,0.0,0.0
+26,EBM (default),25,0,1000,0.0,0.0
+26,XGB (default),26,0,1000,0.0,0.0
+26,XT (tuned + ensemble),27,0,1000,0.0,0.0
+26,NN_TORCH (tuned),28,0,1000,0.0,0.0
+26,REALMLP (default),29,0,1000,0.0,0.0
+26,RF (tuned + ensemble),30,0,1000,0.0,0.0
+26,GBM (default),31,0,1000,0.0,0.0
+26,XT (tuned),32,0,1000,0.0,0.0
+26,RF (tuned),33,0,1000,0.0,0.0
+26,FASTAI (tuned),34,0,1000,0.0,0.0
+26,LR (tuned + ensemble),35,0,1000,0.0,0.0
+26,FASTAI (default),36,0,1000,0.0,0.0
+26,XT (default),37,0,1000,0.0,0.0
+26,NN_TORCH (default),38,0,1000,0.0,0.0
+26,LR (tuned),39,0,1000,0.0,0.0
+26,RF (default),40,0,1000,0.0,0.0
+26,LR (default),41,0,1000,0.0,0.0
+26,KNN (default),42,0,1000,0.0,0.0
+26,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+26,KNN (tuned),44,0,1000,0.0,0.0
+27,REALMLP (tuned + ensemble),1,841,1000,0.841,84.1
+27,TABM (tuned + ensemble),2,43,1000,0.043,4.3
+27,GBM (tuned + ensemble),3,27,1000,0.027,2.7
+27,TABPFNV2 (tuned + ensemble),4,83,1000,0.083,8.3
+27,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+27,CAT (tuned),6,0,1000,0.0,0.0
+27,MNCA (tuned + ensemble),7,2,1000,0.002,0.2
+27,CAT (default),8,0,1000,0.0,0.0
+27,GBM (tuned),9,0,1000,0.0,0.0
+27,TABICL (default),10,4,1000,0.004,0.4
+27,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+27,TABM (tuned),12,0,1000,0.0,0.0
+27,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+27,XGB (tuned),14,0,1000,0.0,0.0
+27,TABPFNV2 (default),15,0,1000,0.0,0.0
+27,MNCA (tuned),16,0,1000,0.0,0.0
+27,TABDPT (default),17,0,1000,0.0,0.0
+27,TABM (default),18,0,1000,0.0,0.0
+27,REALMLP (tuned),19,0,1000,0.0,0.0
+27,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+27,MNCA (default),21,0,1000,0.0,0.0
+27,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+27,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+27,EBM (tuned),24,0,1000,0.0,0.0
+27,EBM (default),25,0,1000,0.0,0.0
+27,XGB (default),26,0,1000,0.0,0.0
+27,XT (tuned + ensemble),27,0,1000,0.0,0.0
+27,NN_TORCH (tuned),28,0,1000,0.0,0.0
+27,REALMLP (default),29,0,1000,0.0,0.0
+27,RF (tuned + ensemble),30,0,1000,0.0,0.0
+27,GBM (default),31,0,1000,0.0,0.0
+27,XT (tuned),32,0,1000,0.0,0.0
+27,RF (tuned),33,0,1000,0.0,0.0
+27,FASTAI (tuned),34,0,1000,0.0,0.0
+27,LR (tuned + ensemble),35,0,1000,0.0,0.0
+27,FASTAI (default),36,0,1000,0.0,0.0
+27,XT (default),37,0,1000,0.0,0.0
+27,NN_TORCH (default),38,0,1000,0.0,0.0
+27,LR (tuned),39,0,1000,0.0,0.0
+27,RF (default),40,0,1000,0.0,0.0
+27,LR (default),41,0,1000,0.0,0.0
+27,KNN (default),42,0,1000,0.0,0.0
+27,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+27,KNN (tuned),44,0,1000,0.0,0.0
+28,REALMLP (tuned + ensemble),1,839,1000,0.839,83.89999999999999
+28,TABM (tuned + ensemble),2,54,1000,0.054,5.4
+28,GBM (tuned + ensemble),3,25,1000,0.025,2.5
+28,TABPFNV2 (tuned + ensemble),4,76,1000,0.076,7.6
+28,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+28,CAT (tuned),6,3,1000,0.003,0.3
+28,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+28,CAT (default),8,0,1000,0.0,0.0
+28,GBM (tuned),9,0,1000,0.0,0.0
+28,TABICL (default),10,3,1000,0.003,0.3
+28,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+28,TABM (tuned),12,0,1000,0.0,0.0
+28,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+28,XGB (tuned),14,0,1000,0.0,0.0
+28,TABPFNV2 (default),15,0,1000,0.0,0.0
+28,MNCA (tuned),16,0,1000,0.0,0.0
+28,TABDPT (default),17,0,1000,0.0,0.0
+28,TABM (default),18,0,1000,0.0,0.0
+28,REALMLP (tuned),19,0,1000,0.0,0.0
+28,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+28,MNCA (default),21,0,1000,0.0,0.0
+28,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+28,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+28,EBM (tuned),24,0,1000,0.0,0.0
+28,EBM (default),25,0,1000,0.0,0.0
+28,XGB (default),26,0,1000,0.0,0.0
+28,XT (tuned + ensemble),27,0,1000,0.0,0.0
+28,NN_TORCH (tuned),28,0,1000,0.0,0.0
+28,REALMLP (default),29,0,1000,0.0,0.0
+28,RF (tuned + ensemble),30,0,1000,0.0,0.0
+28,GBM (default),31,0,1000,0.0,0.0
+28,XT (tuned),32,0,1000,0.0,0.0
+28,RF (tuned),33,0,1000,0.0,0.0
+28,FASTAI (tuned),34,0,1000,0.0,0.0
+28,LR (tuned + ensemble),35,0,1000,0.0,0.0
+28,FASTAI (default),36,0,1000,0.0,0.0
+28,XT (default),37,0,1000,0.0,0.0
+28,NN_TORCH (default),38,0,1000,0.0,0.0
+28,LR (tuned),39,0,1000,0.0,0.0
+28,RF (default),40,0,1000,0.0,0.0
+28,LR (default),41,0,1000,0.0,0.0
+28,KNN (default),42,0,1000,0.0,0.0
+28,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+28,KNN (tuned),44,0,1000,0.0,0.0
+29,REALMLP (tuned + ensemble),1,880,1000,0.88,88.0
+29,TABM (tuned + ensemble),2,33,1000,0.033,3.3000000000000003
+29,GBM (tuned + ensemble),3,17,1000,0.017,1.7000000000000002
+29,TABPFNV2 (tuned + ensemble),4,70,1000,0.07,7.000000000000001
+29,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+29,CAT (tuned),6,0,1000,0.0,0.0
+29,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+29,CAT (default),8,0,1000,0.0,0.0
+29,GBM (tuned),9,0,1000,0.0,0.0
+29,TABICL (default),10,0,1000,0.0,0.0
+29,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+29,TABM (tuned),12,0,1000,0.0,0.0
+29,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+29,XGB (tuned),14,0,1000,0.0,0.0
+29,TABPFNV2 (default),15,0,1000,0.0,0.0
+29,MNCA (tuned),16,0,1000,0.0,0.0
+29,TABDPT (default),17,0,1000,0.0,0.0
+29,TABM (default),18,0,1000,0.0,0.0
+29,REALMLP (tuned),19,0,1000,0.0,0.0
+29,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+29,MNCA (default),21,0,1000,0.0,0.0
+29,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+29,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+29,EBM (tuned),24,0,1000,0.0,0.0
+29,EBM (default),25,0,1000,0.0,0.0
+29,XGB (default),26,0,1000,0.0,0.0
+29,XT (tuned + ensemble),27,0,1000,0.0,0.0
+29,NN_TORCH (tuned),28,0,1000,0.0,0.0
+29,REALMLP (default),29,0,1000,0.0,0.0
+29,RF (tuned + ensemble),30,0,1000,0.0,0.0
+29,GBM (default),31,0,1000,0.0,0.0
+29,XT (tuned),32,0,1000,0.0,0.0
+29,RF (tuned),33,0,1000,0.0,0.0
+29,FASTAI (tuned),34,0,1000,0.0,0.0
+29,LR (tuned + ensemble),35,0,1000,0.0,0.0
+29,FASTAI (default),36,0,1000,0.0,0.0
+29,XT (default),37,0,1000,0.0,0.0
+29,NN_TORCH (default),38,0,1000,0.0,0.0
+29,LR (tuned),39,0,1000,0.0,0.0
+29,RF (default),40,0,1000,0.0,0.0
+29,LR (default),41,0,1000,0.0,0.0
+29,KNN (default),42,0,1000,0.0,0.0
+29,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+29,KNN (tuned),44,0,1000,0.0,0.0
+30,REALMLP (tuned + ensemble),1,874,1000,0.874,87.4
+30,TABM (tuned + ensemble),2,35,1000,0.035,3.5000000000000004
+30,GBM (tuned + ensemble),3,20,1000,0.02,2.0
+30,TABPFNV2 (tuned + ensemble),4,67,1000,0.067,6.7
+30,CAT (tuned + ensemble),5,1,1000,0.001,0.1
+30,CAT (tuned),6,0,1000,0.0,0.0
+30,MNCA (tuned + ensemble),7,1,1000,0.001,0.1
+30,CAT (default),8,0,1000,0.0,0.0
+30,GBM (tuned),9,0,1000,0.0,0.0
+30,TABICL (default),10,2,1000,0.002,0.2
+30,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+30,TABM (tuned),12,0,1000,0.0,0.0
+30,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+30,XGB (tuned),14,0,1000,0.0,0.0
+30,TABPFNV2 (default),15,0,1000,0.0,0.0
+30,MNCA (tuned),16,0,1000,0.0,0.0
+30,TABDPT (default),17,0,1000,0.0,0.0
+30,TABM (default),18,0,1000,0.0,0.0
+30,REALMLP (tuned),19,0,1000,0.0,0.0
+30,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+30,MNCA (default),21,0,1000,0.0,0.0
+30,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+30,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+30,EBM (tuned),24,0,1000,0.0,0.0
+30,EBM (default),25,0,1000,0.0,0.0
+30,XGB (default),26,0,1000,0.0,0.0
+30,XT (tuned + ensemble),27,0,1000,0.0,0.0
+30,NN_TORCH (tuned),28,0,1000,0.0,0.0
+30,REALMLP (default),29,0,1000,0.0,0.0
+30,RF (tuned + ensemble),30,0,1000,0.0,0.0
+30,GBM (default),31,0,1000,0.0,0.0
+30,XT (tuned),32,0,1000,0.0,0.0
+30,RF (tuned),33,0,1000,0.0,0.0
+30,FASTAI (tuned),34,0,1000,0.0,0.0
+30,LR (tuned + ensemble),35,0,1000,0.0,0.0
+30,FASTAI (default),36,0,1000,0.0,0.0
+30,XT (default),37,0,1000,0.0,0.0
+30,NN_TORCH (default),38,0,1000,0.0,0.0
+30,LR (tuned),39,0,1000,0.0,0.0
+30,RF (default),40,0,1000,0.0,0.0
+30,LR (default),41,0,1000,0.0,0.0
+30,KNN (default),42,0,1000,0.0,0.0
+30,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+30,KNN (tuned),44,0,1000,0.0,0.0
+31,REALMLP (tuned + ensemble),1,899,1000,0.899,89.9
+31,TABM (tuned + ensemble),2,34,1000,0.034,3.4000000000000004
+31,GBM (tuned + ensemble),3,12,1000,0.012,1.2
+31,TABPFNV2 (tuned + ensemble),4,55,1000,0.055,5.5
+31,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+31,CAT (tuned),6,0,1000,0.0,0.0
+31,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+31,CAT (default),8,0,1000,0.0,0.0
+31,GBM (tuned),9,0,1000,0.0,0.0
+31,TABICL (default),10,0,1000,0.0,0.0
+31,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+31,TABM (tuned),12,0,1000,0.0,0.0
+31,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+31,XGB (tuned),14,0,1000,0.0,0.0
+31,TABPFNV2 (default),15,0,1000,0.0,0.0
+31,MNCA (tuned),16,0,1000,0.0,0.0
+31,TABDPT (default),17,0,1000,0.0,0.0
+31,TABM (default),18,0,1000,0.0,0.0
+31,REALMLP (tuned),19,0,1000,0.0,0.0
+31,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+31,MNCA (default),21,0,1000,0.0,0.0
+31,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+31,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+31,EBM (tuned),24,0,1000,0.0,0.0
+31,EBM (default),25,0,1000,0.0,0.0
+31,XGB (default),26,0,1000,0.0,0.0
+31,XT (tuned + ensemble),27,0,1000,0.0,0.0
+31,NN_TORCH (tuned),28,0,1000,0.0,0.0
+31,REALMLP (default),29,0,1000,0.0,0.0
+31,RF (tuned + ensemble),30,0,1000,0.0,0.0
+31,GBM (default),31,0,1000,0.0,0.0
+31,XT (tuned),32,0,1000,0.0,0.0
+31,RF (tuned),33,0,1000,0.0,0.0
+31,FASTAI (tuned),34,0,1000,0.0,0.0
+31,LR (tuned + ensemble),35,0,1000,0.0,0.0
+31,FASTAI (default),36,0,1000,0.0,0.0
+31,XT (default),37,0,1000,0.0,0.0
+31,NN_TORCH (default),38,0,1000,0.0,0.0
+31,LR (tuned),39,0,1000,0.0,0.0
+31,RF (default),40,0,1000,0.0,0.0
+31,LR (default),41,0,1000,0.0,0.0
+31,KNN (default),42,0,1000,0.0,0.0
+31,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+31,KNN (tuned),44,0,1000,0.0,0.0
+32,REALMLP (tuned + ensemble),1,912,1000,0.912,91.2
+32,TABM (tuned + ensemble),2,25,1000,0.025,2.5
+32,GBM (tuned + ensemble),3,11,1000,0.011,1.0999999999999999
+32,TABPFNV2 (tuned + ensemble),4,50,1000,0.05,5.0
+32,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+32,CAT (tuned),6,0,1000,0.0,0.0
+32,MNCA (tuned + ensemble),7,1,1000,0.001,0.1
+32,CAT (default),8,0,1000,0.0,0.0
+32,GBM (tuned),9,0,1000,0.0,0.0
+32,TABICL (default),10,1,1000,0.001,0.1
+32,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+32,TABM (tuned),12,0,1000,0.0,0.0
+32,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+32,XGB (tuned),14,0,1000,0.0,0.0
+32,TABPFNV2 (default),15,0,1000,0.0,0.0
+32,MNCA (tuned),16,0,1000,0.0,0.0
+32,TABDPT (default),17,0,1000,0.0,0.0
+32,TABM (default),18,0,1000,0.0,0.0
+32,REALMLP (tuned),19,0,1000,0.0,0.0
+32,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+32,MNCA (default),21,0,1000,0.0,0.0
+32,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+32,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+32,EBM (tuned),24,0,1000,0.0,0.0
+32,EBM (default),25,0,1000,0.0,0.0
+32,XGB (default),26,0,1000,0.0,0.0
+32,XT (tuned + ensemble),27,0,1000,0.0,0.0
+32,NN_TORCH (tuned),28,0,1000,0.0,0.0
+32,REALMLP (default),29,0,1000,0.0,0.0
+32,RF (tuned + ensemble),30,0,1000,0.0,0.0
+32,GBM (default),31,0,1000,0.0,0.0
+32,XT (tuned),32,0,1000,0.0,0.0
+32,RF (tuned),33,0,1000,0.0,0.0
+32,FASTAI (tuned),34,0,1000,0.0,0.0
+32,LR (tuned + ensemble),35,0,1000,0.0,0.0
+32,FASTAI (default),36,0,1000,0.0,0.0
+32,XT (default),37,0,1000,0.0,0.0
+32,NN_TORCH (default),38,0,1000,0.0,0.0
+32,LR (tuned),39,0,1000,0.0,0.0
+32,RF (default),40,0,1000,0.0,0.0
+32,LR (default),41,0,1000,0.0,0.0
+32,KNN (default),42,0,1000,0.0,0.0
+32,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+32,KNN (tuned),44,0,1000,0.0,0.0
+33,REALMLP (tuned + ensemble),1,943,1000,0.943,94.3
+33,TABM (tuned + ensemble),2,13,1000,0.013,1.3
+33,GBM (tuned + ensemble),3,10,1000,0.01,1.0
+33,TABPFNV2 (tuned + ensemble),4,33,1000,0.033,3.3000000000000003
+33,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+33,CAT (tuned),6,0,1000,0.0,0.0
+33,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+33,CAT (default),8,0,1000,0.0,0.0
+33,GBM (tuned),9,0,1000,0.0,0.0
+33,TABICL (default),10,1,1000,0.001,0.1
+33,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+33,TABM (tuned),12,0,1000,0.0,0.0
+33,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+33,XGB (tuned),14,0,1000,0.0,0.0
+33,TABPFNV2 (default),15,0,1000,0.0,0.0
+33,MNCA (tuned),16,0,1000,0.0,0.0
+33,TABDPT (default),17,0,1000,0.0,0.0
+33,TABM (default),18,0,1000,0.0,0.0
+33,REALMLP (tuned),19,0,1000,0.0,0.0
+33,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+33,MNCA (default),21,0,1000,0.0,0.0
+33,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+33,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+33,EBM (tuned),24,0,1000,0.0,0.0
+33,EBM (default),25,0,1000,0.0,0.0
+33,XGB (default),26,0,1000,0.0,0.0
+33,XT (tuned + ensemble),27,0,1000,0.0,0.0
+33,NN_TORCH (tuned),28,0,1000,0.0,0.0
+33,REALMLP (default),29,0,1000,0.0,0.0
+33,RF (tuned + ensemble),30,0,1000,0.0,0.0
+33,GBM (default),31,0,1000,0.0,0.0
+33,XT (tuned),32,0,1000,0.0,0.0
+33,RF (tuned),33,0,1000,0.0,0.0
+33,FASTAI (tuned),34,0,1000,0.0,0.0
+33,LR (tuned + ensemble),35,0,1000,0.0,0.0
+33,FASTAI (default),36,0,1000,0.0,0.0
+33,XT (default),37,0,1000,0.0,0.0
+33,NN_TORCH (default),38,0,1000,0.0,0.0
+33,LR (tuned),39,0,1000,0.0,0.0
+33,RF (default),40,0,1000,0.0,0.0
+33,LR (default),41,0,1000,0.0,0.0
+33,KNN (default),42,0,1000,0.0,0.0
+33,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+33,KNN (tuned),44,0,1000,0.0,0.0
+34,REALMLP (tuned + ensemble),1,946,1000,0.946,94.6
+34,TABM (tuned + ensemble),2,15,1000,0.015,1.5
+34,GBM (tuned + ensemble),3,5,1000,0.005,0.5
+34,TABPFNV2 (tuned + ensemble),4,34,1000,0.034,3.4000000000000004
+34,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+34,CAT (tuned),6,0,1000,0.0,0.0
+34,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+34,CAT (default),8,0,1000,0.0,0.0
+34,GBM (tuned),9,0,1000,0.0,0.0
+34,TABICL (default),10,0,1000,0.0,0.0
+34,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+34,TABM (tuned),12,0,1000,0.0,0.0
+34,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+34,XGB (tuned),14,0,1000,0.0,0.0
+34,TABPFNV2 (default),15,0,1000,0.0,0.0
+34,MNCA (tuned),16,0,1000,0.0,0.0
+34,TABDPT (default),17,0,1000,0.0,0.0
+34,TABM (default),18,0,1000,0.0,0.0
+34,REALMLP (tuned),19,0,1000,0.0,0.0
+34,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+34,MNCA (default),21,0,1000,0.0,0.0
+34,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+34,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+34,EBM (tuned),24,0,1000,0.0,0.0
+34,EBM (default),25,0,1000,0.0,0.0
+34,XGB (default),26,0,1000,0.0,0.0
+34,XT (tuned + ensemble),27,0,1000,0.0,0.0
+34,NN_TORCH (tuned),28,0,1000,0.0,0.0
+34,REALMLP (default),29,0,1000,0.0,0.0
+34,RF (tuned + ensemble),30,0,1000,0.0,0.0
+34,GBM (default),31,0,1000,0.0,0.0
+34,XT (tuned),32,0,1000,0.0,0.0
+34,RF (tuned),33,0,1000,0.0,0.0
+34,FASTAI (tuned),34,0,1000,0.0,0.0
+34,LR (tuned + ensemble),35,0,1000,0.0,0.0
+34,FASTAI (default),36,0,1000,0.0,0.0
+34,XT (default),37,0,1000,0.0,0.0
+34,NN_TORCH (default),38,0,1000,0.0,0.0
+34,LR (tuned),39,0,1000,0.0,0.0
+34,RF (default),40,0,1000,0.0,0.0
+34,LR (default),41,0,1000,0.0,0.0
+34,KNN (default),42,0,1000,0.0,0.0
+34,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+34,KNN (tuned),44,0,1000,0.0,0.0
+35,REALMLP (tuned + ensemble),1,955,1000,0.955,95.5
+35,TABM (tuned + ensemble),2,8,1000,0.008,0.8
+35,GBM (tuned + ensemble),3,2,1000,0.002,0.2
+35,TABPFNV2 (tuned + ensemble),4,35,1000,0.035,3.5000000000000004
+35,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+35,CAT (tuned),6,0,1000,0.0,0.0
+35,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+35,CAT (default),8,0,1000,0.0,0.0
+35,GBM (tuned),9,0,1000,0.0,0.0
+35,TABICL (default),10,0,1000,0.0,0.0
+35,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+35,TABM (tuned),12,0,1000,0.0,0.0
+35,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+35,XGB (tuned),14,0,1000,0.0,0.0
+35,TABPFNV2 (default),15,0,1000,0.0,0.0
+35,MNCA (tuned),16,0,1000,0.0,0.0
+35,TABDPT (default),17,0,1000,0.0,0.0
+35,TABM (default),18,0,1000,0.0,0.0
+35,REALMLP (tuned),19,0,1000,0.0,0.0
+35,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+35,MNCA (default),21,0,1000,0.0,0.0
+35,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+35,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+35,EBM (tuned),24,0,1000,0.0,0.0
+35,EBM (default),25,0,1000,0.0,0.0
+35,XGB (default),26,0,1000,0.0,0.0
+35,XT (tuned + ensemble),27,0,1000,0.0,0.0
+35,NN_TORCH (tuned),28,0,1000,0.0,0.0
+35,REALMLP (default),29,0,1000,0.0,0.0
+35,RF (tuned + ensemble),30,0,1000,0.0,0.0
+35,GBM (default),31,0,1000,0.0,0.0
+35,XT (tuned),32,0,1000,0.0,0.0
+35,RF (tuned),33,0,1000,0.0,0.0
+35,FASTAI (tuned),34,0,1000,0.0,0.0
+35,LR (tuned + ensemble),35,0,1000,0.0,0.0
+35,FASTAI (default),36,0,1000,0.0,0.0
+35,XT (default),37,0,1000,0.0,0.0
+35,NN_TORCH (default),38,0,1000,0.0,0.0
+35,LR (tuned),39,0,1000,0.0,0.0
+35,RF (default),40,0,1000,0.0,0.0
+35,LR (default),41,0,1000,0.0,0.0
+35,KNN (default),42,0,1000,0.0,0.0
+35,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+35,KNN (tuned),44,0,1000,0.0,0.0
+36,REALMLP (tuned + ensemble),1,969,1000,0.969,96.89999999999999
+36,TABM (tuned + ensemble),2,11,1000,0.011,1.0999999999999999
+36,GBM (tuned + ensemble),3,2,1000,0.002,0.2
+36,TABPFNV2 (tuned + ensemble),4,18,1000,0.018,1.7999999999999998
+36,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+36,CAT (tuned),6,0,1000,0.0,0.0
+36,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+36,CAT (default),8,0,1000,0.0,0.0
+36,GBM (tuned),9,0,1000,0.0,0.0
+36,TABICL (default),10,0,1000,0.0,0.0
+36,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+36,TABM (tuned),12,0,1000,0.0,0.0
+36,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+36,XGB (tuned),14,0,1000,0.0,0.0
+36,TABPFNV2 (default),15,0,1000,0.0,0.0
+36,MNCA (tuned),16,0,1000,0.0,0.0
+36,TABDPT (default),17,0,1000,0.0,0.0
+36,TABM (default),18,0,1000,0.0,0.0
+36,REALMLP (tuned),19,0,1000,0.0,0.0
+36,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+36,MNCA (default),21,0,1000,0.0,0.0
+36,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+36,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+36,EBM (tuned),24,0,1000,0.0,0.0
+36,EBM (default),25,0,1000,0.0,0.0
+36,XGB (default),26,0,1000,0.0,0.0
+36,XT (tuned + ensemble),27,0,1000,0.0,0.0
+36,NN_TORCH (tuned),28,0,1000,0.0,0.0
+36,REALMLP (default),29,0,1000,0.0,0.0
+36,RF (tuned + ensemble),30,0,1000,0.0,0.0
+36,GBM (default),31,0,1000,0.0,0.0
+36,XT (tuned),32,0,1000,0.0,0.0
+36,RF (tuned),33,0,1000,0.0,0.0
+36,FASTAI (tuned),34,0,1000,0.0,0.0
+36,LR (tuned + ensemble),35,0,1000,0.0,0.0
+36,FASTAI (default),36,0,1000,0.0,0.0
+36,XT (default),37,0,1000,0.0,0.0
+36,NN_TORCH (default),38,0,1000,0.0,0.0
+36,LR (tuned),39,0,1000,0.0,0.0
+36,RF (default),40,0,1000,0.0,0.0
+36,LR (default),41,0,1000,0.0,0.0
+36,KNN (default),42,0,1000,0.0,0.0
+36,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+36,KNN (tuned),44,0,1000,0.0,0.0
+37,REALMLP (tuned + ensemble),1,971,1000,0.971,97.1
+37,TABM (tuned + ensemble),2,9,1000,0.009,0.8999999999999999
+37,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+37,TABPFNV2 (tuned + ensemble),4,20,1000,0.02,2.0
+37,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+37,CAT (tuned),6,0,1000,0.0,0.0
+37,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+37,CAT (default),8,0,1000,0.0,0.0
+37,GBM (tuned),9,0,1000,0.0,0.0
+37,TABICL (default),10,0,1000,0.0,0.0
+37,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+37,TABM (tuned),12,0,1000,0.0,0.0
+37,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+37,XGB (tuned),14,0,1000,0.0,0.0
+37,TABPFNV2 (default),15,0,1000,0.0,0.0
+37,MNCA (tuned),16,0,1000,0.0,0.0
+37,TABDPT (default),17,0,1000,0.0,0.0
+37,TABM (default),18,0,1000,0.0,0.0
+37,REALMLP (tuned),19,0,1000,0.0,0.0
+37,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+37,MNCA (default),21,0,1000,0.0,0.0
+37,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+37,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+37,EBM (tuned),24,0,1000,0.0,0.0
+37,EBM (default),25,0,1000,0.0,0.0
+37,XGB (default),26,0,1000,0.0,0.0
+37,XT (tuned + ensemble),27,0,1000,0.0,0.0
+37,NN_TORCH (tuned),28,0,1000,0.0,0.0
+37,REALMLP (default),29,0,1000,0.0,0.0
+37,RF (tuned + ensemble),30,0,1000,0.0,0.0
+37,GBM (default),31,0,1000,0.0,0.0
+37,XT (tuned),32,0,1000,0.0,0.0
+37,RF (tuned),33,0,1000,0.0,0.0
+37,FASTAI (tuned),34,0,1000,0.0,0.0
+37,LR (tuned + ensemble),35,0,1000,0.0,0.0
+37,FASTAI (default),36,0,1000,0.0,0.0
+37,XT (default),37,0,1000,0.0,0.0
+37,NN_TORCH (default),38,0,1000,0.0,0.0
+37,LR (tuned),39,0,1000,0.0,0.0
+37,RF (default),40,0,1000,0.0,0.0
+37,LR (default),41,0,1000,0.0,0.0
+37,KNN (default),42,0,1000,0.0,0.0
+37,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+37,KNN (tuned),44,0,1000,0.0,0.0
+38,REALMLP (tuned + ensemble),1,975,1000,0.975,97.5
+38,TABM (tuned + ensemble),2,4,1000,0.004,0.4
+38,GBM (tuned + ensemble),3,3,1000,0.003,0.3
+38,TABPFNV2 (tuned + ensemble),4,18,1000,0.018,1.7999999999999998
+38,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+38,CAT (tuned),6,0,1000,0.0,0.0
+38,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+38,CAT (default),8,0,1000,0.0,0.0
+38,GBM (tuned),9,0,1000,0.0,0.0
+38,TABICL (default),10,0,1000,0.0,0.0
+38,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+38,TABM (tuned),12,0,1000,0.0,0.0
+38,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+38,XGB (tuned),14,0,1000,0.0,0.0
+38,TABPFNV2 (default),15,0,1000,0.0,0.0
+38,MNCA (tuned),16,0,1000,0.0,0.0
+38,TABDPT (default),17,0,1000,0.0,0.0
+38,TABM (default),18,0,1000,0.0,0.0
+38,REALMLP (tuned),19,0,1000,0.0,0.0
+38,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+38,MNCA (default),21,0,1000,0.0,0.0
+38,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+38,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+38,EBM (tuned),24,0,1000,0.0,0.0
+38,EBM (default),25,0,1000,0.0,0.0
+38,XGB (default),26,0,1000,0.0,0.0
+38,XT (tuned + ensemble),27,0,1000,0.0,0.0
+38,NN_TORCH (tuned),28,0,1000,0.0,0.0
+38,REALMLP (default),29,0,1000,0.0,0.0
+38,RF (tuned + ensemble),30,0,1000,0.0,0.0
+38,GBM (default),31,0,1000,0.0,0.0
+38,XT (tuned),32,0,1000,0.0,0.0
+38,RF (tuned),33,0,1000,0.0,0.0
+38,FASTAI (tuned),34,0,1000,0.0,0.0
+38,LR (tuned + ensemble),35,0,1000,0.0,0.0
+38,FASTAI (default),36,0,1000,0.0,0.0
+38,XT (default),37,0,1000,0.0,0.0
+38,NN_TORCH (default),38,0,1000,0.0,0.0
+38,LR (tuned),39,0,1000,0.0,0.0
+38,RF (default),40,0,1000,0.0,0.0
+38,LR (default),41,0,1000,0.0,0.0
+38,KNN (default),42,0,1000,0.0,0.0
+38,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+38,KNN (tuned),44,0,1000,0.0,0.0
+39,REALMLP (tuned + ensemble),1,983,1000,0.983,98.3
+39,TABM (tuned + ensemble),2,5,1000,0.005,0.5
+39,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+39,TABPFNV2 (tuned + ensemble),4,12,1000,0.012,1.2
+39,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+39,CAT (tuned),6,0,1000,0.0,0.0
+39,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+39,CAT (default),8,0,1000,0.0,0.0
+39,GBM (tuned),9,0,1000,0.0,0.0
+39,TABICL (default),10,0,1000,0.0,0.0
+39,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+39,TABM (tuned),12,0,1000,0.0,0.0
+39,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+39,XGB (tuned),14,0,1000,0.0,0.0
+39,TABPFNV2 (default),15,0,1000,0.0,0.0
+39,MNCA (tuned),16,0,1000,0.0,0.0
+39,TABDPT (default),17,0,1000,0.0,0.0
+39,TABM (default),18,0,1000,0.0,0.0
+39,REALMLP (tuned),19,0,1000,0.0,0.0
+39,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+39,MNCA (default),21,0,1000,0.0,0.0
+39,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+39,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+39,EBM (tuned),24,0,1000,0.0,0.0
+39,EBM (default),25,0,1000,0.0,0.0
+39,XGB (default),26,0,1000,0.0,0.0
+39,XT (tuned + ensemble),27,0,1000,0.0,0.0
+39,NN_TORCH (tuned),28,0,1000,0.0,0.0
+39,REALMLP (default),29,0,1000,0.0,0.0
+39,RF (tuned + ensemble),30,0,1000,0.0,0.0
+39,GBM (default),31,0,1000,0.0,0.0
+39,XT (tuned),32,0,1000,0.0,0.0
+39,RF (tuned),33,0,1000,0.0,0.0
+39,FASTAI (tuned),34,0,1000,0.0,0.0
+39,LR (tuned + ensemble),35,0,1000,0.0,0.0
+39,FASTAI (default),36,0,1000,0.0,0.0
+39,XT (default),37,0,1000,0.0,0.0
+39,NN_TORCH (default),38,0,1000,0.0,0.0
+39,LR (tuned),39,0,1000,0.0,0.0
+39,RF (default),40,0,1000,0.0,0.0
+39,LR (default),41,0,1000,0.0,0.0
+39,KNN (default),42,0,1000,0.0,0.0
+39,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+39,KNN (tuned),44,0,1000,0.0,0.0
+40,REALMLP (tuned + ensemble),1,990,1000,0.99,99.0
+40,TABM (tuned + ensemble),2,1,1000,0.001,0.1
+40,GBM (tuned + ensemble),3,2,1000,0.002,0.2
+40,TABPFNV2 (tuned + ensemble),4,7,1000,0.007,0.7000000000000001
+40,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+40,CAT (tuned),6,0,1000,0.0,0.0
+40,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+40,CAT (default),8,0,1000,0.0,0.0
+40,GBM (tuned),9,0,1000,0.0,0.0
+40,TABICL (default),10,0,1000,0.0,0.0
+40,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+40,TABM (tuned),12,0,1000,0.0,0.0
+40,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+40,XGB (tuned),14,0,1000,0.0,0.0
+40,TABPFNV2 (default),15,0,1000,0.0,0.0
+40,MNCA (tuned),16,0,1000,0.0,0.0
+40,TABDPT (default),17,0,1000,0.0,0.0
+40,TABM (default),18,0,1000,0.0,0.0
+40,REALMLP (tuned),19,0,1000,0.0,0.0
+40,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+40,MNCA (default),21,0,1000,0.0,0.0
+40,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+40,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+40,EBM (tuned),24,0,1000,0.0,0.0
+40,EBM (default),25,0,1000,0.0,0.0
+40,XGB (default),26,0,1000,0.0,0.0
+40,XT (tuned + ensemble),27,0,1000,0.0,0.0
+40,NN_TORCH (tuned),28,0,1000,0.0,0.0
+40,REALMLP (default),29,0,1000,0.0,0.0
+40,RF (tuned + ensemble),30,0,1000,0.0,0.0
+40,GBM (default),31,0,1000,0.0,0.0
+40,XT (tuned),32,0,1000,0.0,0.0
+40,RF (tuned),33,0,1000,0.0,0.0
+40,FASTAI (tuned),34,0,1000,0.0,0.0
+40,LR (tuned + ensemble),35,0,1000,0.0,0.0
+40,FASTAI (default),36,0,1000,0.0,0.0
+40,XT (default),37,0,1000,0.0,0.0
+40,NN_TORCH (default),38,0,1000,0.0,0.0
+40,LR (tuned),39,0,1000,0.0,0.0
+40,RF (default),40,0,1000,0.0,0.0
+40,LR (default),41,0,1000,0.0,0.0
+40,KNN (default),42,0,1000,0.0,0.0
+40,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+40,KNN (tuned),44,0,1000,0.0,0.0
+41,REALMLP (tuned + ensemble),1,994,1000,0.994,99.4
+41,TABM (tuned + ensemble),2,1,1000,0.001,0.1
+41,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+41,TABPFNV2 (tuned + ensemble),4,5,1000,0.005,0.5
+41,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+41,CAT (tuned),6,0,1000,0.0,0.0
+41,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+41,CAT (default),8,0,1000,0.0,0.0
+41,GBM (tuned),9,0,1000,0.0,0.0
+41,TABICL (default),10,0,1000,0.0,0.0
+41,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+41,TABM (tuned),12,0,1000,0.0,0.0
+41,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+41,XGB (tuned),14,0,1000,0.0,0.0
+41,TABPFNV2 (default),15,0,1000,0.0,0.0
+41,MNCA (tuned),16,0,1000,0.0,0.0
+41,TABDPT (default),17,0,1000,0.0,0.0
+41,TABM (default),18,0,1000,0.0,0.0
+41,REALMLP (tuned),19,0,1000,0.0,0.0
+41,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+41,MNCA (default),21,0,1000,0.0,0.0
+41,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+41,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+41,EBM (tuned),24,0,1000,0.0,0.0
+41,EBM (default),25,0,1000,0.0,0.0
+41,XGB (default),26,0,1000,0.0,0.0
+41,XT (tuned + ensemble),27,0,1000,0.0,0.0
+41,NN_TORCH (tuned),28,0,1000,0.0,0.0
+41,REALMLP (default),29,0,1000,0.0,0.0
+41,RF (tuned + ensemble),30,0,1000,0.0,0.0
+41,GBM (default),31,0,1000,0.0,0.0
+41,XT (tuned),32,0,1000,0.0,0.0
+41,RF (tuned),33,0,1000,0.0,0.0
+41,FASTAI (tuned),34,0,1000,0.0,0.0
+41,LR (tuned + ensemble),35,0,1000,0.0,0.0
+41,FASTAI (default),36,0,1000,0.0,0.0
+41,XT (default),37,0,1000,0.0,0.0
+41,NN_TORCH (default),38,0,1000,0.0,0.0
+41,LR (tuned),39,0,1000,0.0,0.0
+41,RF (default),40,0,1000,0.0,0.0
+41,LR (default),41,0,1000,0.0,0.0
+41,KNN (default),42,0,1000,0.0,0.0
+41,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+41,KNN (tuned),44,0,1000,0.0,0.0
+42,REALMLP (tuned + ensemble),1,995,1000,0.995,99.5
+42,TABM (tuned + ensemble),2,1,1000,0.001,0.1
+42,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+42,TABPFNV2 (tuned + ensemble),4,4,1000,0.004,0.4
+42,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+42,CAT (tuned),6,0,1000,0.0,0.0
+42,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+42,CAT (default),8,0,1000,0.0,0.0
+42,GBM (tuned),9,0,1000,0.0,0.0
+42,TABICL (default),10,0,1000,0.0,0.0
+42,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+42,TABM (tuned),12,0,1000,0.0,0.0
+42,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+42,XGB (tuned),14,0,1000,0.0,0.0
+42,TABPFNV2 (default),15,0,1000,0.0,0.0
+42,MNCA (tuned),16,0,1000,0.0,0.0
+42,TABDPT (default),17,0,1000,0.0,0.0
+42,TABM (default),18,0,1000,0.0,0.0
+42,REALMLP (tuned),19,0,1000,0.0,0.0
+42,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+42,MNCA (default),21,0,1000,0.0,0.0
+42,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+42,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+42,EBM (tuned),24,0,1000,0.0,0.0
+42,EBM (default),25,0,1000,0.0,0.0
+42,XGB (default),26,0,1000,0.0,0.0
+42,XT (tuned + ensemble),27,0,1000,0.0,0.0
+42,NN_TORCH (tuned),28,0,1000,0.0,0.0
+42,REALMLP (default),29,0,1000,0.0,0.0
+42,RF (tuned + ensemble),30,0,1000,0.0,0.0
+42,GBM (default),31,0,1000,0.0,0.0
+42,XT (tuned),32,0,1000,0.0,0.0
+42,RF (tuned),33,0,1000,0.0,0.0
+42,FASTAI (tuned),34,0,1000,0.0,0.0
+42,LR (tuned + ensemble),35,0,1000,0.0,0.0
+42,FASTAI (default),36,0,1000,0.0,0.0
+42,XT (default),37,0,1000,0.0,0.0
+42,NN_TORCH (default),38,0,1000,0.0,0.0
+42,LR (tuned),39,0,1000,0.0,0.0
+42,RF (default),40,0,1000,0.0,0.0
+42,LR (default),41,0,1000,0.0,0.0
+42,KNN (default),42,0,1000,0.0,0.0
+42,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+42,KNN (tuned),44,0,1000,0.0,0.0
+43,REALMLP (tuned + ensemble),1,997,1000,0.997,99.7
+43,TABM (tuned + ensemble),2,1,1000,0.001,0.1
+43,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+43,TABPFNV2 (tuned + ensemble),4,2,1000,0.002,0.2
+43,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+43,CAT (tuned),6,0,1000,0.0,0.0
+43,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+43,CAT (default),8,0,1000,0.0,0.0
+43,GBM (tuned),9,0,1000,0.0,0.0
+43,TABICL (default),10,0,1000,0.0,0.0
+43,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+43,TABM (tuned),12,0,1000,0.0,0.0
+43,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+43,XGB (tuned),14,0,1000,0.0,0.0
+43,TABPFNV2 (default),15,0,1000,0.0,0.0
+43,MNCA (tuned),16,0,1000,0.0,0.0
+43,TABDPT (default),17,0,1000,0.0,0.0
+43,TABM (default),18,0,1000,0.0,0.0
+43,REALMLP (tuned),19,0,1000,0.0,0.0
+43,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+43,MNCA (default),21,0,1000,0.0,0.0
+43,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+43,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+43,EBM (tuned),24,0,1000,0.0,0.0
+43,EBM (default),25,0,1000,0.0,0.0
+43,XGB (default),26,0,1000,0.0,0.0
+43,XT (tuned + ensemble),27,0,1000,0.0,0.0
+43,NN_TORCH (tuned),28,0,1000,0.0,0.0
+43,REALMLP (default),29,0,1000,0.0,0.0
+43,RF (tuned + ensemble),30,0,1000,0.0,0.0
+43,GBM (default),31,0,1000,0.0,0.0
+43,XT (tuned),32,0,1000,0.0,0.0
+43,RF (tuned),33,0,1000,0.0,0.0
+43,FASTAI (tuned),34,0,1000,0.0,0.0
+43,LR (tuned + ensemble),35,0,1000,0.0,0.0
+43,FASTAI (default),36,0,1000,0.0,0.0
+43,XT (default),37,0,1000,0.0,0.0
+43,NN_TORCH (default),38,0,1000,0.0,0.0
+43,LR (tuned),39,0,1000,0.0,0.0
+43,RF (default),40,0,1000,0.0,0.0
+43,LR (default),41,0,1000,0.0,0.0
+43,KNN (default),42,0,1000,0.0,0.0
+43,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+43,KNN (tuned),44,0,1000,0.0,0.0
+44,REALMLP (tuned + ensemble),1,997,1000,0.997,99.7
+44,TABM (tuned + ensemble),2,2,1000,0.002,0.2
+44,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+44,TABPFNV2 (tuned + ensemble),4,1,1000,0.001,0.1
+44,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+44,CAT (tuned),6,0,1000,0.0,0.0
+44,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+44,CAT (default),8,0,1000,0.0,0.0
+44,GBM (tuned),9,0,1000,0.0,0.0
+44,TABICL (default),10,0,1000,0.0,0.0
+44,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+44,TABM (tuned),12,0,1000,0.0,0.0
+44,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+44,XGB (tuned),14,0,1000,0.0,0.0
+44,TABPFNV2 (default),15,0,1000,0.0,0.0
+44,MNCA (tuned),16,0,1000,0.0,0.0
+44,TABDPT (default),17,0,1000,0.0,0.0
+44,TABM (default),18,0,1000,0.0,0.0
+44,REALMLP (tuned),19,0,1000,0.0,0.0
+44,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+44,MNCA (default),21,0,1000,0.0,0.0
+44,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+44,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+44,EBM (tuned),24,0,1000,0.0,0.0
+44,EBM (default),25,0,1000,0.0,0.0
+44,XGB (default),26,0,1000,0.0,0.0
+44,XT (tuned + ensemble),27,0,1000,0.0,0.0
+44,NN_TORCH (tuned),28,0,1000,0.0,0.0
+44,REALMLP (default),29,0,1000,0.0,0.0
+44,RF (tuned + ensemble),30,0,1000,0.0,0.0
+44,GBM (default),31,0,1000,0.0,0.0
+44,XT (tuned),32,0,1000,0.0,0.0
+44,RF (tuned),33,0,1000,0.0,0.0
+44,FASTAI (tuned),34,0,1000,0.0,0.0
+44,LR (tuned + ensemble),35,0,1000,0.0,0.0
+44,FASTAI (default),36,0,1000,0.0,0.0
+44,XT (default),37,0,1000,0.0,0.0
+44,NN_TORCH (default),38,0,1000,0.0,0.0
+44,LR (tuned),39,0,1000,0.0,0.0
+44,RF (default),40,0,1000,0.0,0.0
+44,LR (default),41,0,1000,0.0,0.0
+44,KNN (default),42,0,1000,0.0,0.0
+44,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+44,KNN (tuned),44,0,1000,0.0,0.0
+45,REALMLP (tuned + ensemble),1,998,1000,0.998,99.8
+45,TABM (tuned + ensemble),2,1,1000,0.001,0.1
+45,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+45,TABPFNV2 (tuned + ensemble),4,1,1000,0.001,0.1
+45,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+45,CAT (tuned),6,0,1000,0.0,0.0
+45,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+45,CAT (default),8,0,1000,0.0,0.0
+45,GBM (tuned),9,0,1000,0.0,0.0
+45,TABICL (default),10,0,1000,0.0,0.0
+45,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+45,TABM (tuned),12,0,1000,0.0,0.0
+45,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+45,XGB (tuned),14,0,1000,0.0,0.0
+45,TABPFNV2 (default),15,0,1000,0.0,0.0
+45,MNCA (tuned),16,0,1000,0.0,0.0
+45,TABDPT (default),17,0,1000,0.0,0.0
+45,TABM (default),18,0,1000,0.0,0.0
+45,REALMLP (tuned),19,0,1000,0.0,0.0
+45,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+45,MNCA (default),21,0,1000,0.0,0.0
+45,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+45,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+45,EBM (tuned),24,0,1000,0.0,0.0
+45,EBM (default),25,0,1000,0.0,0.0
+45,XGB (default),26,0,1000,0.0,0.0
+45,XT (tuned + ensemble),27,0,1000,0.0,0.0
+45,NN_TORCH (tuned),28,0,1000,0.0,0.0
+45,REALMLP (default),29,0,1000,0.0,0.0
+45,RF (tuned + ensemble),30,0,1000,0.0,0.0
+45,GBM (default),31,0,1000,0.0,0.0
+45,XT (tuned),32,0,1000,0.0,0.0
+45,RF (tuned),33,0,1000,0.0,0.0
+45,FASTAI (tuned),34,0,1000,0.0,0.0
+45,LR (tuned + ensemble),35,0,1000,0.0,0.0
+45,FASTAI (default),36,0,1000,0.0,0.0
+45,XT (default),37,0,1000,0.0,0.0
+45,NN_TORCH (default),38,0,1000,0.0,0.0
+45,LR (tuned),39,0,1000,0.0,0.0
+45,RF (default),40,0,1000,0.0,0.0
+45,LR (default),41,0,1000,0.0,0.0
+45,KNN (default),42,0,1000,0.0,0.0
+45,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+45,KNN (tuned),44,0,1000,0.0,0.0
+46,REALMLP (tuned + ensemble),1,1000,1000,1.0,100.0
+46,TABM (tuned + ensemble),2,0,1000,0.0,0.0
+46,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+46,TABPFNV2 (tuned + ensemble),4,0,1000,0.0,0.0
+46,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+46,CAT (tuned),6,0,1000,0.0,0.0
+46,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+46,CAT (default),8,0,1000,0.0,0.0
+46,GBM (tuned),9,0,1000,0.0,0.0
+46,TABICL (default),10,0,1000,0.0,0.0
+46,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+46,TABM (tuned),12,0,1000,0.0,0.0
+46,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+46,XGB (tuned),14,0,1000,0.0,0.0
+46,TABPFNV2 (default),15,0,1000,0.0,0.0
+46,MNCA (tuned),16,0,1000,0.0,0.0
+46,TABDPT (default),17,0,1000,0.0,0.0
+46,TABM (default),18,0,1000,0.0,0.0
+46,REALMLP (tuned),19,0,1000,0.0,0.0
+46,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+46,MNCA (default),21,0,1000,0.0,0.0
+46,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+46,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+46,EBM (tuned),24,0,1000,0.0,0.0
+46,EBM (default),25,0,1000,0.0,0.0
+46,XGB (default),26,0,1000,0.0,0.0
+46,XT (tuned + ensemble),27,0,1000,0.0,0.0
+46,NN_TORCH (tuned),28,0,1000,0.0,0.0
+46,REALMLP (default),29,0,1000,0.0,0.0
+46,RF (tuned + ensemble),30,0,1000,0.0,0.0
+46,GBM (default),31,0,1000,0.0,0.0
+46,XT (tuned),32,0,1000,0.0,0.0
+46,RF (tuned),33,0,1000,0.0,0.0
+46,FASTAI (tuned),34,0,1000,0.0,0.0
+46,LR (tuned + ensemble),35,0,1000,0.0,0.0
+46,FASTAI (default),36,0,1000,0.0,0.0
+46,XT (default),37,0,1000,0.0,0.0
+46,NN_TORCH (default),38,0,1000,0.0,0.0
+46,LR (tuned),39,0,1000,0.0,0.0
+46,RF (default),40,0,1000,0.0,0.0
+46,LR (default),41,0,1000,0.0,0.0
+46,KNN (default),42,0,1000,0.0,0.0
+46,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+46,KNN (tuned),44,0,1000,0.0,0.0
+47,REALMLP (tuned + ensemble),1,1000,1000,1.0,100.0
+47,TABM (tuned + ensemble),2,0,1000,0.0,0.0
+47,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+47,TABPFNV2 (tuned + ensemble),4,0,1000,0.0,0.0
+47,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+47,CAT (tuned),6,0,1000,0.0,0.0
+47,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+47,CAT (default),8,0,1000,0.0,0.0
+47,GBM (tuned),9,0,1000,0.0,0.0
+47,TABICL (default),10,0,1000,0.0,0.0
+47,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+47,TABM (tuned),12,0,1000,0.0,0.0
+47,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+47,XGB (tuned),14,0,1000,0.0,0.0
+47,TABPFNV2 (default),15,0,1000,0.0,0.0
+47,MNCA (tuned),16,0,1000,0.0,0.0
+47,TABDPT (default),17,0,1000,0.0,0.0
+47,TABM (default),18,0,1000,0.0,0.0
+47,REALMLP (tuned),19,0,1000,0.0,0.0
+47,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+47,MNCA (default),21,0,1000,0.0,0.0
+47,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+47,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+47,EBM (tuned),24,0,1000,0.0,0.0
+47,EBM (default),25,0,1000,0.0,0.0
+47,XGB (default),26,0,1000,0.0,0.0
+47,XT (tuned + ensemble),27,0,1000,0.0,0.0
+47,NN_TORCH (tuned),28,0,1000,0.0,0.0
+47,REALMLP (default),29,0,1000,0.0,0.0
+47,RF (tuned + ensemble),30,0,1000,0.0,0.0
+47,GBM (default),31,0,1000,0.0,0.0
+47,XT (tuned),32,0,1000,0.0,0.0
+47,RF (tuned),33,0,1000,0.0,0.0
+47,FASTAI (tuned),34,0,1000,0.0,0.0
+47,LR (tuned + ensemble),35,0,1000,0.0,0.0
+47,FASTAI (default),36,0,1000,0.0,0.0
+47,XT (default),37,0,1000,0.0,0.0
+47,NN_TORCH (default),38,0,1000,0.0,0.0
+47,LR (tuned),39,0,1000,0.0,0.0
+47,RF (default),40,0,1000,0.0,0.0
+47,LR (default),41,0,1000,0.0,0.0
+47,KNN (default),42,0,1000,0.0,0.0
+47,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+47,KNN (tuned),44,0,1000,0.0,0.0
+48,REALMLP (tuned + ensemble),1,1000,1000,1.0,100.0
+48,TABM (tuned + ensemble),2,0,1000,0.0,0.0
+48,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+48,TABPFNV2 (tuned + ensemble),4,0,1000,0.0,0.0
+48,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+48,CAT (tuned),6,0,1000,0.0,0.0
+48,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+48,CAT (default),8,0,1000,0.0,0.0
+48,GBM (tuned),9,0,1000,0.0,0.0
+48,TABICL (default),10,0,1000,0.0,0.0
+48,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+48,TABM (tuned),12,0,1000,0.0,0.0
+48,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+48,XGB (tuned),14,0,1000,0.0,0.0
+48,TABPFNV2 (default),15,0,1000,0.0,0.0
+48,MNCA (tuned),16,0,1000,0.0,0.0
+48,TABDPT (default),17,0,1000,0.0,0.0
+48,TABM (default),18,0,1000,0.0,0.0
+48,REALMLP (tuned),19,0,1000,0.0,0.0
+48,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+48,MNCA (default),21,0,1000,0.0,0.0
+48,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+48,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+48,EBM (tuned),24,0,1000,0.0,0.0
+48,EBM (default),25,0,1000,0.0,0.0
+48,XGB (default),26,0,1000,0.0,0.0
+48,XT (tuned + ensemble),27,0,1000,0.0,0.0
+48,NN_TORCH (tuned),28,0,1000,0.0,0.0
+48,REALMLP (default),29,0,1000,0.0,0.0
+48,RF (tuned + ensemble),30,0,1000,0.0,0.0
+48,GBM (default),31,0,1000,0.0,0.0
+48,XT (tuned),32,0,1000,0.0,0.0
+48,RF (tuned),33,0,1000,0.0,0.0
+48,FASTAI (tuned),34,0,1000,0.0,0.0
+48,LR (tuned + ensemble),35,0,1000,0.0,0.0
+48,FASTAI (default),36,0,1000,0.0,0.0
+48,XT (default),37,0,1000,0.0,0.0
+48,NN_TORCH (default),38,0,1000,0.0,0.0
+48,LR (tuned),39,0,1000,0.0,0.0
+48,RF (default),40,0,1000,0.0,0.0
+48,LR (default),41,0,1000,0.0,0.0
+48,KNN (default),42,0,1000,0.0,0.0
+48,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+48,KNN (tuned),44,0,1000,0.0,0.0
+49,REALMLP (tuned + ensemble),1,1000,1000,1.0,100.0
+49,TABM (tuned + ensemble),2,0,1000,0.0,0.0
+49,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+49,TABPFNV2 (tuned + ensemble),4,0,1000,0.0,0.0
+49,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+49,CAT (tuned),6,0,1000,0.0,0.0
+49,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+49,CAT (default),8,0,1000,0.0,0.0
+49,GBM (tuned),9,0,1000,0.0,0.0
+49,TABICL (default),10,0,1000,0.0,0.0
+49,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+49,TABM (tuned),12,0,1000,0.0,0.0
+49,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+49,XGB (tuned),14,0,1000,0.0,0.0
+49,TABPFNV2 (default),15,0,1000,0.0,0.0
+49,MNCA (tuned),16,0,1000,0.0,0.0
+49,TABDPT (default),17,0,1000,0.0,0.0
+49,TABM (default),18,0,1000,0.0,0.0
+49,REALMLP (tuned),19,0,1000,0.0,0.0
+49,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+49,MNCA (default),21,0,1000,0.0,0.0
+49,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+49,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+49,EBM (tuned),24,0,1000,0.0,0.0
+49,EBM (default),25,0,1000,0.0,0.0
+49,XGB (default),26,0,1000,0.0,0.0
+49,XT (tuned + ensemble),27,0,1000,0.0,0.0
+49,NN_TORCH (tuned),28,0,1000,0.0,0.0
+49,REALMLP (default),29,0,1000,0.0,0.0
+49,RF (tuned + ensemble),30,0,1000,0.0,0.0
+49,GBM (default),31,0,1000,0.0,0.0
+49,XT (tuned),32,0,1000,0.0,0.0
+49,RF (tuned),33,0,1000,0.0,0.0
+49,FASTAI (tuned),34,0,1000,0.0,0.0
+49,LR (tuned + ensemble),35,0,1000,0.0,0.0
+49,FASTAI (default),36,0,1000,0.0,0.0
+49,XT (default),37,0,1000,0.0,0.0
+49,NN_TORCH (default),38,0,1000,0.0,0.0
+49,LR (tuned),39,0,1000,0.0,0.0
+49,RF (default),40,0,1000,0.0,0.0
+49,LR (default),41,0,1000,0.0,0.0
+49,KNN (default),42,0,1000,0.0,0.0
+49,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+49,KNN (tuned),44,0,1000,0.0,0.0
+50,REALMLP (tuned + ensemble),1,1000,1000,1.0,100.0
+50,TABM (tuned + ensemble),2,0,1000,0.0,0.0
+50,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+50,TABPFNV2 (tuned + ensemble),4,0,1000,0.0,0.0
+50,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+50,CAT (tuned),6,0,1000,0.0,0.0
+50,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+50,CAT (default),8,0,1000,0.0,0.0
+50,GBM (tuned),9,0,1000,0.0,0.0
+50,TABICL (default),10,0,1000,0.0,0.0
+50,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+50,TABM (tuned),12,0,1000,0.0,0.0
+50,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+50,XGB (tuned),14,0,1000,0.0,0.0
+50,TABPFNV2 (default),15,0,1000,0.0,0.0
+50,MNCA (tuned),16,0,1000,0.0,0.0
+50,TABDPT (default),17,0,1000,0.0,0.0
+50,TABM (default),18,0,1000,0.0,0.0
+50,REALMLP (tuned),19,0,1000,0.0,0.0
+50,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+50,MNCA (default),21,0,1000,0.0,0.0
+50,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+50,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+50,EBM (tuned),24,0,1000,0.0,0.0
+50,EBM (default),25,0,1000,0.0,0.0
+50,XGB (default),26,0,1000,0.0,0.0
+50,XT (tuned + ensemble),27,0,1000,0.0,0.0
+50,NN_TORCH (tuned),28,0,1000,0.0,0.0
+50,REALMLP (default),29,0,1000,0.0,0.0
+50,RF (tuned + ensemble),30,0,1000,0.0,0.0
+50,GBM (default),31,0,1000,0.0,0.0
+50,XT (tuned),32,0,1000,0.0,0.0
+50,RF (tuned),33,0,1000,0.0,0.0
+50,FASTAI (tuned),34,0,1000,0.0,0.0
+50,LR (tuned + ensemble),35,0,1000,0.0,0.0
+50,FASTAI (default),36,0,1000,0.0,0.0
+50,XT (default),37,0,1000,0.0,0.0
+50,NN_TORCH (default),38,0,1000,0.0,0.0
+50,LR (tuned),39,0,1000,0.0,0.0
+50,RF (default),40,0,1000,0.0,0.0
+50,LR (default),41,0,1000,0.0,0.0
+50,KNN (default),42,0,1000,0.0,0.0
+50,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+50,KNN (tuned),44,0,1000,0.0,0.0
+51,REALMLP (tuned + ensemble),1,1000,1000,1.0,100.0
+51,TABM (tuned + ensemble),2,0,1000,0.0,0.0
+51,GBM (tuned + ensemble),3,0,1000,0.0,0.0
+51,TABPFNV2 (tuned + ensemble),4,0,1000,0.0,0.0
+51,CAT (tuned + ensemble),5,0,1000,0.0,0.0
+51,CAT (tuned),6,0,1000,0.0,0.0
+51,MNCA (tuned + ensemble),7,0,1000,0.0,0.0
+51,CAT (default),8,0,1000,0.0,0.0
+51,GBM (tuned),9,0,1000,0.0,0.0
+51,TABICL (default),10,0,1000,0.0,0.0
+51,XGB (tuned + ensemble),11,0,1000,0.0,0.0
+51,TABM (tuned),12,0,1000,0.0,0.0
+51,TABPFNV2 (tuned),13,0,1000,0.0,0.0
+51,XGB (tuned),14,0,1000,0.0,0.0
+51,TABPFNV2 (default),15,0,1000,0.0,0.0
+51,MNCA (tuned),16,0,1000,0.0,0.0
+51,TABDPT (default),17,0,1000,0.0,0.0
+51,TABM (default),18,0,1000,0.0,0.0
+51,REALMLP (tuned),19,0,1000,0.0,0.0
+51,NN_TORCH (tuned + ensemble),20,0,1000,0.0,0.0
+51,MNCA (default),21,0,1000,0.0,0.0
+51,EBM (tuned + ensemble),22,0,1000,0.0,0.0
+51,FASTAI (tuned + ensemble),23,0,1000,0.0,0.0
+51,EBM (tuned),24,0,1000,0.0,0.0
+51,EBM (default),25,0,1000,0.0,0.0
+51,XGB (default),26,0,1000,0.0,0.0
+51,XT (tuned + ensemble),27,0,1000,0.0,0.0
+51,NN_TORCH (tuned),28,0,1000,0.0,0.0
+51,REALMLP (default),29,0,1000,0.0,0.0
+51,RF (tuned + ensemble),30,0,1000,0.0,0.0
+51,GBM (default),31,0,1000,0.0,0.0
+51,XT (tuned),32,0,1000,0.0,0.0
+51,RF (tuned),33,0,1000,0.0,0.0
+51,FASTAI (tuned),34,0,1000,0.0,0.0
+51,LR (tuned + ensemble),35,0,1000,0.0,0.0
+51,FASTAI (default),36,0,1000,0.0,0.0
+51,XT (default),37,0,1000,0.0,0.0
+51,NN_TORCH (default),38,0,1000,0.0,0.0
+51,LR (tuned),39,0,1000,0.0,0.0
+51,RF (default),40,0,1000,0.0,0.0
+51,LR (default),41,0,1000,0.0,0.0
+51,KNN (default),42,0,1000,0.0,0.0
+51,KNN (tuned + ensemble),43,0,1000,0.0,0.0
+51,KNN (tuned),44,0,1000,0.0,0.0

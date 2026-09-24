@@ -1,0 +1,14 @@
+{
+  "run_benchbench": true,
+  "benchmarks": [
+    "TabArena",
+    "GLUE",
+    "OpenLLM",
+    "ImageNet"
+  ],
+  "openllm_unique_model_check": true,
+  "sensitivity_kwargs": {
+    "use_weighted_loss": null,
+    "return_weight": true
+  }
+}

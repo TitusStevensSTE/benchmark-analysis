@@ -1,0 +1,128 @@
+{
+  "created_at_utc": "2026-09-24T23:45:03.971919+00:00",
+  "benchmarks": [
+    "TabArena",
+    "GLUE",
+    "OpenLLM",
+    "ImageNet"
+  ],
+  "run_benchbench": true,
+  "openllm_unique_model_check": true,
+  "sensitivity_kwargs": {
+    "use_weighted_loss": null,
+    "return_weight": true
+  },
+  "methodology": {
+    "interface": "BenchBench cardinal measures",
+    "score_orientation": "higher_is_better",
+    "tabarena_source": "score_method_dataset.csv",
+    "tabarena_score": "dataset_score",
+    "tabarena_raw_metric_error_used": false,
+    "diversity_W_definition": "BenchBench complement of Kendall's W",
+    "diversity_MRC_definition": "mean pairwise normalized maximum rank change across task rankings",
+    "sensitivity_tau_definition": "BenchBench normalized Kendall rank distance: (1 - Kendall tau) / 2",
+    "sensitivity_MRC_definition": "maximum normalized rank displacement found by BenchBench sensitivity optimization",
+    "native_loaders_used": true,
+    "hardcoded_metric_values_used": false,
+    "synthetic_reference_values_used": false
+  },
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "benchbench_version": null
+  },
+  "records": [
+    {
+      "benchmark": "TabArena",
+      "representation": "score_matrix",
+      "num_models": 44,
+      "num_tasks": 51,
+      "model_column": "model",
+      "diversity_W": 0.6776286682268525,
+      "diversity_MRC": 0.7201367989056089,
+      "sensitivity_tau": 0.3467656415694592,
+      "sensitivity_MRC": 0.7441860465116279,
+      "metadata": {
+        "source": "results\\score_method_dataset.csv",
+        "score_column": "dataset_score",
+        "score_orientation": "higher_is_better",
+        "raw_metric_error_used": false,
+        "normalization": "precomputed TabArena dataset_score",
+        "duplicate_model_names": false
+      }
+    },
+    {
+      "benchmark": "GLUE",
+      "representation": "native",
+      "num_models": 87,
+      "num_tasks": 9,
+      "model_column": "Model",
+      "diversity_W": 0.1585062040714995,
+      "diversity_MRC": 0.7251291989664083,
+      "sensitivity_tau": 0.12112299465240645,
+      "sensitivity_MRC": 0.7325581395348837,
+      "metadata": {
+        "loader": "BenchBench native loader",
+        "score_orientation": "higher_is_better",
+        "duplicate_model_names": true,
+        "num_columns_total": 23
+      }
+    },
+    {
+      "benchmark": "OpenLLM",
+      "representation": "native",
+      "num_models": 100,
+      "num_tasks": 6,
+      "model_column": "Model",
+      "diversity_W": 0.8161215488215489,
+      "diversity_MRC": 0.9329966329966328,
+      "sensitivity_tau": 0.46237483391070744,
+      "sensitivity_MRC": 0.8939393939393939,
+      "metadata": {
+        "loader": "BenchBench native loader",
+        "score_orientation": "higher_is_better",
+        "duplicate_model_names": true,
+        "num_columns_total": 10
+      }
+    },
+    {
+      "benchmark": "OpenLLM",
+      "representation": "unique_model_mean",
+      "num_models": 87,
+      "num_tasks": 6,
+      "model_column": "Model",
+      "diversity_W": 0.8166672695300021,
+      "diversity_MRC": 0.934108527131783,
+      "sensitivity_tau": 0.45548128183109615,
+      "sensitivity_MRC": 0.8953488372093024,
+      "metadata": {
+        "loader": "BenchBench native loader",
+        "score_orientation": "higher_is_better",
+        "duplicate_model_names": true,
+        "num_columns_total": 10,
+        "deduplication": "mean task score across rows sharing the same model name",
+        "source_native_rows": 100,
+        "unique_models": 87
+      }
+    },
+    {
+      "benchmark": "ImageNet",
+      "representation": "native",
+      "num_models": 112,
+      "num_tasks": 20,
+      "model_column": "Model",
+      "diversity_W": 0.008201359962036858,
+      "diversity_MRC": 0.13854907539118064,
+      "sensitivity_tau": 0.021396396396396455,
+      "sensitivity_MRC": 0.09009009009009009,
+      "metadata": {
+        "loader": "BenchBench native loader",
+        "score_orientation": "higher_is_better",
+        "duplicate_model_names": true,
+        "num_columns_total": 1029
+      }
+    }
+  ]
+}

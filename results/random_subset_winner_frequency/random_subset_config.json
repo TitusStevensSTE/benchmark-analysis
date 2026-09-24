@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-24T23:03:49.165416+00:00",
+  "script": "current_random_subset_winner_frequency.py",
+  "score_file": "results\\score_method_dataset.csv",
+  "score_column": "dataset_score",
+  "score_orientation": "higher_is_better",
+  "seed": 42,
+  "repetitions_per_subset_size": 1000,
+  "min_subset_size": 1,
+  "max_subset_size": 51,
+  "n_methods": 44,
+  "n_datasets": 51,
+  "numpy_version": "2.5.2",
+  "pandas_version": "2.3.3",
+  "python_version": "3.12.13",
+  "experiment_definition": "For each subset size k, sample k distinct datasets without replacement. Average each method's dataset_score across the sampled datasets and record the method ranked first.",
+  "historical_note": "This reproduces the historical Colab random-subset winner-frequency experiment while using the current normalized dataset_score representation and a fixed random seed."
+}
