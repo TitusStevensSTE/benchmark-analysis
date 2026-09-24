@@ -23,9 +23,13 @@ from benchbench.data.glue import load_glue
 # ============================================================
 
 OUTPUT_DIR = (
-    BENCHBENCH_ROOT.parent
+    PROJECT_ROOT
     / "Code"
     / "analysis"
+    / "results"
+    / "phase1_crossbenchmark"
+    / "glue"
+    / "performance_gap"
 )
 
 OUTPUT_DIR.mkdir(

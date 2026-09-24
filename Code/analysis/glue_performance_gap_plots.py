@@ -34,7 +34,7 @@ BENCHBENCH_ROOT = PROJECT_ROOT / "benchbench"
 ANALYSIS_DIR = PROJECT_ROOT / "Code" / "analysis"
 
 # Final outputs: plots, figures, etc.
-RESULTS_DIR = PROJECT_ROOT / "Code" / "results"
+RESULTS_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "phase1_crossbenchmark" / "glue" / "performance_gap"
 
 RESULTS_DIR.mkdir(
     parents=True,

@@ -154,8 +154,8 @@ def validate_tasks(benchmark, returned_cols, expected_cols):
     """
     Check that the loader returned the expected tasks.
 
-    The order returned by BenchBench is allowed to differ; the analysis
-    then uses the explicit order in expected_cols.
+    The loader is the source of truth for task names and ordering.
+    expected_cols is used only to validate the task set.
     """
 
     returned = list(returned_cols)
@@ -509,6 +509,19 @@ def run_lodo_analysis(
         "mean_top5_overlap": results_df["top5_overlap"].mean(),
         "most_disruptive_task": results_df.loc[
             results_df["kendall_tau"].idxmin(),
+            "removed_task"
+        ],
+        "min_spearman_rho": results_df["spearman_rho"].min(),
+        "worst_spearman_task": results_df.loc[
+            results_df["spearman_rho"].idxmin(),
+            "removed_task"
+        ],
+        "max_rank_change_task": results_df.loc[
+            results_df["max_rank_change"].idxmax(),
+            "removed_task"
+        ],
+        "max_num_rank_changes_task": results_df.loc[
+            results_df["num_rank_changes"].idxmax(),
             "removed_task"
         ],
         "gap_pearson_r": pearson_r,

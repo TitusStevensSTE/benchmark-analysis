@@ -25,7 +25,8 @@ from bencheval.elo_utils import EloHelper
 # Repository root:
 #   <repo>
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parents[1]
+# Code/analysis/<script> -> repository root is two levels up.
+PROJECT_ROOT = SCRIPT_DIR.parents[1].parent
 
 INPUT_FILE = (
     PROJECT_ROOT

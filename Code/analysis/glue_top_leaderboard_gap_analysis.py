@@ -16,6 +16,9 @@ sys.path.insert(0, str(BENCHBENCH_ROOT))
 
 from benchbench.data.glue import load_glue
 
+PHASE1_OUTPUT_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "phase1_crossbenchmark" / "glue" / "performance_gap"
+PHASE1_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 
 # ============================================================
 # FUNCTIONS
@@ -317,12 +320,7 @@ print()
 # SAVE
 # ============================================================
 
-output_file = (
-    PROJECT_ROOT
-    / "Code"
-    / "results"
-    / "glue_top10_adjacent_gap_analysis.csv"
-)
+output_file = PHASE1_OUTPUT_DIR / "glue_top10_adjacent_gap_analysis.csv"
 
 results_df.to_csv(
     output_file,

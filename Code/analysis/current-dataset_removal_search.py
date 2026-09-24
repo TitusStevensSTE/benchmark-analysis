@@ -27,9 +27,9 @@ OUTPUT_DIR = PROJECT_ROOT / "Code" / "analysis" / "results" / "dataset_removal_s
 # ============================================================
 # DEFAULT SEARCH SETTINGS
 # ============================================================
-DEFAULT_EXACT_MAX_REMOVALS = 3
+DEFAULT_EXACT_MAX_REMOVALS = 5
 DEFAULT_BEAM_WIDTH = 50
-DEFAULT_MAX_REMOVALS = 10
+DEFAULT_MAX_REMOVALS = 8
 DEFAULT_TAU_THRESHOLD = 0.90
 DEFAULT_SEED = 42
 
