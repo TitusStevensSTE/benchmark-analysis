@@ -1,0 +1,2 @@
+benchmark,representation,n,pearson_r,pearson_p,spearman_rho,spearman_p,kendall_tau,kendall_p
+TabArena,official_mle_elo,51,-0.23196536177982655,0.10143785703444178,-0.24546861348336652,0.08252653769181653,-0.17193382894873696,0.09176993799535413

@@ -1,0 +1,15 @@
+{
+  "benchbench_git_commit": "1dbce6d655570c5095d62a68fa3430800df46ca8",
+  "benchmark": "OpenLLM",
+  "input_file_sha256": {},
+  "numpy_version": "2.5.3",
+  "pandas_version": "2.3.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "project_git_commit": "f8b72079ff81f16fed26405f4d8efe9a3a75c893",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "representation": "unique_model_mean",
+  "scipy_version": "1.18.1",
+  "tau_break_threshold": 0.9,
+  "timestamp_utc": "2026-09-22T21:16:56.821009+00:00",
+  "top_k": 5
+}

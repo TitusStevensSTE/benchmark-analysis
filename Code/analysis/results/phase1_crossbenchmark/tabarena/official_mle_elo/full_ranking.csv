@@ -1,0 +1,45 @@
+entity_id,model,full_metric,full_rank
+REALMLP (tuned + ensemble),REALMLP (tuned + ensemble),1294.9710296351059,1
+TABM (tuned + ensemble),TABM (tuned + ensemble),1256.10540868183,2
+GBM (tuned + ensemble),GBM (tuned + ensemble),1254.8002473603797,3
+CAT (tuned + ensemble),CAT (tuned + ensemble),1232.687164831482,4
+CAT (tuned),CAT (tuned),1219.8162229591746,5
+GBM (tuned),GBM (tuned),1203.8880694876545,6
+XGB (tuned + ensemble),XGB (tuned + ensemble),1190.4176322621302,7
+MNCA (tuned + ensemble),MNCA (tuned + ensemble),1188.975685375352,8
+TABM (tuned),TABM (tuned),1187.0943916948677,9
+CAT (default),CAT (default),1179.509541920133,10
+XGB (tuned),XGB (tuned),1165.7032231023982,11
+MNCA (tuned),MNCA (tuned),1153.6883178421278,12
+TABPFNV2 (tuned + ensemble),TABPFNV2 (tuned + ensemble),1145.913675167889,13
+TABICL (default),TABICL (default),1128.8156779374829,14
+REALMLP (tuned),REALMLP (tuned),1118.615903540392,15
+NN_TORCH (tuned + ensemble),NN_TORCH (tuned + ensemble),1105.4784635091276,16
+TABM (default),TABM (default),1098.2796829708486,17
+TABPFNV2 (tuned),TABPFNV2 (tuned),1092.787173133384,18
+MNCA (default),MNCA (default),1075.7611707799886,19
+TABDPT (default),TABDPT (default),1066.296092764569,20
+TABPFNV2 (default),TABPFNV2 (default),1064.60052876951,21
+EBM (tuned + ensemble),EBM (tuned + ensemble),1034.7948624400035,22
+REALMLP (default),REALMLP (default),1026.9975225824187,23
+NN_TORCH (tuned),NN_TORCH (tuned),1023.2322308469275,24
+XGB (default),XGB (default),1022.7188467444068,25
+FASTAI (tuned + ensemble),FASTAI (tuned + ensemble),1018.2360874162164,26
+XT (tuned + ensemble),XT (tuned + ensemble),1017.1226704582776,27
+EBM (tuned),EBM (tuned),1000.6783652683243,28
+GBM (default),GBM (default),999.6481404881822,29
+RF (tuned + ensemble),RF (tuned + ensemble),986.0438373047631,30
+XT (tuned),XT (tuned),977.1150659305758,31
+EBM (default),EBM (default),969.075159153449,32
+FASTAI (tuned),FASTAI (tuned),957.6757380593917,33
+RF (tuned),RF (tuned),945.629024929105,34
+NN_TORCH (default),NN_TORCH (default),880.9052939923746,35
+FASTAI (default),FASTAI (default),817.4161627871102,36
+RF (default),RF (default),809.6487262499869,37
+XT (default),XT (default),784.2602849323022,38
+LR (tuned + ensemble),LR (tuned + ensemble),723.2927085900315,39
+LR (tuned),LR (tuned),694.3512746515966,40
+LR (default),LR (default),659.3768845227037,41
+KNN (tuned + ensemble),KNN (tuned + ensemble),515.1987759526544,42
+KNN (tuned),KNN (tuned),436.2484034834049,43
+KNN (default),KNN (default),276.12862948996496,44

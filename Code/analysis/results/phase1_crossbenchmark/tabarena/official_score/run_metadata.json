@@ -1,0 +1,20 @@
+{
+  "benchbench_git_commit": "1dbce6d655570c5095d62a68fa3430800df46ca8",
+  "benchmark": "TabArena",
+  "expected_datasets": 51,
+  "expected_methods": 44,
+  "input_file_sha256": {
+    "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\data\\df_results_tabarena_2026_08_13.csv": "4898df9744183b5f6a36e46fc170eebf25b493f21bbf5c0f182204bbfef992a4"
+  },
+  "numpy_version": "2.5.3",
+  "pandas_version": "2.3.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "project_git_commit": "f8b72079ff81f16fed26405f4d8efe9a3a75c893",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "representation": "official_score",
+  "scipy_version": "1.18.1",
+  "score_definition": "Mean metric_error across folds per (dataset, method), best-to-median normalization per dataset, and equal mean across datasets.",
+  "tau_break_threshold": 0.9,
+  "timestamp_utc": "2026-09-22T21:16:19.925927+00:00",
+  "top_k": 5
+}

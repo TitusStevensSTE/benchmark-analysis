@@ -1,0 +1,2 @@
+benchmark,representation,n,pearson_r,pearson_p,spearman_rho,spearman_p,kendall_tau,kendall_p
+GLUE,row_level,9,0.6789772328599292,0.04430908476397109,0.5873670062235365,0.096306769323659,0.4714045207910316,0.08687763333951609
