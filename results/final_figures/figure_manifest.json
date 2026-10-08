@@ -1,0 +1,24 @@
+{
+  "output_directory": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\results\\final_figures",
+  "figures": [
+    "figure_01_pipeline.pdf",
+    "figure_01_pipeline.png",
+    "figure_02_lodo_score_vs_elo.pdf",
+    "figure_02_lodo_score_vs_elo.png",
+    "figure_03_lodo_rank_movement.pdf",
+    "figure_03_lodo_rank_movement.png",
+    "figure_04_random_subset_stability.pdf",
+    "figure_04_random_subset_stability.png",
+    "figure_05_joint_removal_boundary.pdf",
+    "figure_05_joint_removal_boundary.png",
+    "figure_06_dataset_influence.pdf",
+    "figure_06_dataset_influence.png",
+    "figure_07_performance_gap.pdf",
+    "figure_07_performance_gap.png",
+    "figure_08_crossbenchmark_lodo.pdf",
+    "figure_08_crossbenchmark_lodo.png",
+    "figure_09_diversity_vs_sensitivity.pdf",
+    "figure_09_diversity_vs_sensitivity.png",
+    "figure_manifest.json"
+  ]
+}
