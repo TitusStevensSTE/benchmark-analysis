@@ -1013,8 +1013,12 @@ def create_diagnostics(
             "removal subsets, not all possible perturbations."
         ),
         (
-            "Therefore percentages such as 58/93 must not be interpreted "
-            "as frequencies over the complete perturbation space."
+
+            "The shared subset set is obtained by independently selecting "
+            "representative subsets for Score and Elo and then taking their "
+            "intersection. It is therefore a diagnostic subset and not a "
+            "general sample of the complete perturbation space."
+
         ),
         "",
         "OVERALL",

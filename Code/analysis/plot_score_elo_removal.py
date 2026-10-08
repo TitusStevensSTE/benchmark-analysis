@@ -254,7 +254,7 @@ def plot_same_subsets() -> None:
     )
 
     ax.set_title(
-        "Aggregation sensitivity for identical dataset removals"
+        "Diagnostic: Score vs Elo on shared selected removals"
     )
 
     ax.grid(
@@ -499,7 +499,7 @@ def plot_tau_difference() -> None:
     )
 
     ax.set_title(
-        "Aggregation effect for identical dataset removals"
+        "Diagnostic: Score vs Elo on shared selected removals"
     )
 
     ax.grid(
