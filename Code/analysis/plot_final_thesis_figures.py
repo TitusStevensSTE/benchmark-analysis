@@ -467,63 +467,100 @@ def figure_06_dataset_influence() -> None:
 # ============================================================
 
 def figure_07_performance_gap() -> None:
-    df = read_csv(PERFORMANCE_GAP)
+    # RQ3 uses the GLUE pairwise performance-gap analysis, where each
+    # model-pair reversal rate is measured across LODO task removals.
+    path = (
+        RESULTS_DIR
+        / "phase1_crossbenchmark"
+        / "glue"
+        / "performance_gap"
+        / "glue_pairwise_performance_gap_lodo.csv"
+    )
+
+    df = read_csv(path)
     if df is None:
         return
 
     gap_col = find_column(
         df,
-        ["winner_runnerup_score_gap", "performance_gap", "winner_runnerup_gap", "gap"],
+        ["absolute_performance_gap", "performance_gap"],
     )
-    tau_col = find_column(df, ["kendall_tau"])
-    dataset_col = find_column(
+    reversal_col = find_column(
         df,
-        ["dataset", "dataset_removed", "removed_task"],
-        required=False,
+        ["lodo_reversal_rate", "reversal_rate"],
     )
 
-    plot_columns = [gap_col, tau_col] + ([dataset_col] if dataset_col else [])
-    plot_df = df[plot_columns].copy()
+    plot_df = df[[gap_col, reversal_col]].copy()
     plot_df[gap_col] = pd.to_numeric(plot_df[gap_col], errors="coerce")
-    plot_df[tau_col] = pd.to_numeric(plot_df[tau_col], errors="coerce")
-    plot_df = plot_df.dropna(subset=[gap_col, tau_col])
-    plot_df["instability"] = 1.0 - plot_df[tau_col]
-
-    fig, ax = plt.subplots(figsize=(9.5, 6.2))
-    ax.scatter(plot_df[gap_col], plot_df["instability"], alpha=0.75, s=45)
-
-    positive_gap = (plot_df[gap_col] > 0).all()
-    if positive_gap:
-        ax.set_xscale("log")
-
-    ax.set_xlabel(
-        "Winner–runner-up performance gap" + (" (log scale)" if positive_gap else "")
+    plot_df[reversal_col] = pd.to_numeric(
+        plot_df[reversal_col], errors="coerce"
     )
-    ax.set_ylabel("LODO instability (1 − Kendall's τ)")
-    ax.set_title("Performance gap is associated with ranking instability")
+    plot_df = plot_df.dropna()
+    plot_df = plot_df[plot_df[gap_col] > 0]
 
-    rho = plot_df[gap_col].corr(plot_df["instability"], method="spearman")
-    ax.text(0.02, 0.95, f"Spearman ρ = {rho:.3f}", transform=ax.transAxes, va="top", fontsize=10)
+    if plot_df.empty:
+        warnings.warn("No valid GLUE performance-gap rows available.")
+        return
 
-    if dataset_col is not None:
-        tight = plot_df.nsmallest(5, gap_col)
-        for _, row in tight.iterrows():
-            ax.annotate(
-                str(row[dataset_col]),
-                (row[gap_col], row["instability"]),
-                xytext=(5, 4),
-                textcoords="offset points",
-                fontsize=7.5,
-            )
+    rho = plot_df[gap_col].corr(plot_df[reversal_col], method="spearman")
+    tau = plot_df[gap_col].corr(plot_df[reversal_col], method="kendall")
 
-    ax.text(
+    # Quantile bins provide a second, easier-to-read view of the relationship.
+    plot_df["gap_bin"] = pd.qcut(
+        plot_df[gap_col],
+        q=5,
+        duplicates="drop",
+    )
+    bins = (
+        plot_df.groupby("gap_bin", observed=False)[reversal_col]
+        .mean()
+        .reset_index()
+    )
+
+    fig, axes = plt.subplots(1, 2, figsize=(12.5, 5.8))
+
+    axes[0].scatter(
+        plot_df[gap_col],
+        plot_df[reversal_col],
+        alpha=0.30,
+        s=18,
+    )
+    axes[0].set_xscale("log")
+    axes[0].set_xlabel("Absolute task-level performance gap (log scale)")
+    axes[0].set_ylabel("Pairwise LODO reversal rate")
+    axes[0].set_title("Performance gap versus pairwise reversals")
+    axes[0].text(
         0.02,
-        0.03,
-        "Association only: this analysis does not identify a causal effect of the performance gap.",
-        transform=ax.transAxes,
-        fontsize=8.8,
+        0.96,
+        f"Spearman ρ = {rho:.3f}\nKendall τ = {tau:.3f}",
+        transform=axes[0].transAxes,
+        va="top",
+        fontsize=9.5,
     )
 
+    centers = np.arange(len(bins))
+    axes[1].plot(
+        centers,
+        bins[reversal_col],
+        marker="o",
+        linewidth=1.8,
+    )
+    axes[1].set_xticks(centers)
+    axes[1].set_xticklabels(
+        [str(v) for v in bins["gap_bin"].tolist()],
+        rotation=35,
+        ha="right",
+        fontsize=8,
+    )
+    axes[1].set_xlabel("Performance-gap quintile")
+    axes[1].set_ylabel("Mean pairwise LODO reversal rate")
+    axes[1].set_title("Reversal rate across gap groups")
+
+    fig.suptitle(
+        "Smaller GLUE performance gaps are associated with more reversals",
+        fontsize=15,
+        fontweight="bold",
+    )
     fig.tight_layout()
     save_figure(fig, "figure_07_performance_gap")
 
