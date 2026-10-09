@@ -52,10 +52,6 @@ STAGES = {
     ),
 }
 
-
-REPORT_ORDER = []
-
-
 PLOT_ORDER = [
     "final_figures",
     "crossbenchmark_plots",
@@ -64,7 +60,7 @@ PLOT_ORDER = [
     "glue_gap_plots",
     "comparison",
 ]
-
+REPORT_ORDER = PLOT_ORDER
 
 REFRESH_ORDER = [
     "crossbenchmark",

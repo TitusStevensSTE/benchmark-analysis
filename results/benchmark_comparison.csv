@@ -1,5 +1,5 @@
 benchmark,tasks,competitors,worst_kendall_tau,worst_kendall_removed_task,worst_spearman_rho,worst_spearman_removed_task,max_rank_change,max_rank_change_removed_task,max_num_rank_changes,max_num_rank_changes_removed_task,winner_changed_removals,winner_changed,lodo_cases,mean_kendall_tau,mean_lodo_instability,tau_break_frequency
-TabArena (Score),51,44,0.970402,blood-transfusion-service-center,0.995631,blood-transfusion-service-center,5.000000,blood-transfusion-service-center,18,SDSS17,0,False,51,0.988103,0.011897,0.000000
+TabArena (Score),51,44,0.970308,blood-transfusion-service-center,0.995629,blood-transfusion-service-center,5.000000,blood-transfusion-service-center,18,SDSS17,0,False,51,0.988065,0.011935,0.000000
 GLUE (score),9,87,0.934242,RTE,0.990377,RTE,28.000000,QQP,70,WNLI,3,True,9,0.972259,0.027741,0.000000
 OpenLLM (row_level),6,100,0.303030,TruthfulQA,0.426631,TruthfulQA,90.000000,GSM8K,100,MMLU,2,True,6,0.699865,0.300135,1.000000
 OpenLLM (unique_model_mean),6,87,0.315156,TruthfulQA,0.440895,TruthfulQA,77.000000,GSM8K,87,MMLU,2,True,6,0.704357,0.295643,1.000000
