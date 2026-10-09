@@ -746,12 +746,19 @@ def main() -> None:
     full_winner = methods[int(np.argmax(full_scores))]
     print(f"Full benchmark winner: {full_winner}")
 
-    # Save the immutable mapping/config before any expensive search.
+    # Record repository-relative paths when inputs are inside the project.
+    resolved_input = args.input.resolve()
+    try:
+        input_file_record = resolved_input.relative_to(PROJECT_ROOT).as_posix()
+    except ValueError:
+        # An external input must retain its absolute path for identification.
+        input_file_record = resolved_input.as_posix()
+
     save_json(
         output_dir / "config.json",
         {
-            "input_file": str(args.input.resolve()),
-            "project_root": str(PROJECT_ROOT),
+            "input_file": input_file_record,
+            "project_root": ".",
             "n_methods": len(methods),
             "n_datasets": len(datasets),
             "methods": methods,
