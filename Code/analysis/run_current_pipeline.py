@@ -146,7 +146,7 @@ FINAL_FIGURE_STEMS = [
     "figure_06_dataset_influence",
     "figure_07_performance_gap",
     "figure_08_crossbenchmark_lodo",
-    "figure_09_diversity_vs_sensitivity",
+    "figure_09_benchbench_diversity_vs_sensitivity_two_panel",
 ]
 
 
