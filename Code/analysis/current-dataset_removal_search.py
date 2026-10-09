@@ -253,6 +253,85 @@ def best_rows(frame: pd.DataFrame, n: int = 10) -> pd.DataFrame:
     ).head(n)
 
 
+def load_depth_summary_cache(
+    path: Path, tau_threshold: float
+) -> dict[int, dict]:
+    """Summarize existing evaluations by depth using chunked reads."""
+    if not path.exists():
+        return {}
+
+    columns = [
+        "num_removed",
+        "kendall_tau",
+        "winner_changed",
+        "removed_datasets",
+    ]
+    summaries: dict[int, dict] = {}
+
+    for chunk in pd.read_csv(
+        path,
+        usecols=columns,
+        chunksize=100_000,
+    ):
+        chunk["num_removed"] = pd.to_numeric(
+            chunk["num_removed"], errors="coerce"
+        )
+        chunk["kendall_tau"] = pd.to_numeric(
+            chunk["kendall_tau"], errors="coerce"
+        )
+        chunk = chunk.dropna(
+            subset=["num_removed", "kendall_tau", "removed_datasets"]
+        )
+        if chunk.empty:
+            continue
+
+        chunk["_winner_flag"] = (
+            chunk["winner_changed"]
+            .astype(str).str.strip().str.lower()
+            .isin({"true", "1", "yes"})
+        )
+
+        for raw_depth, group in chunk.groupby("num_removed", sort=False):
+            depth = int(raw_depth)
+            state = summaries.setdefault(
+                depth,
+                {
+                    "best_row": None,
+                    "winner_change_row": None,
+                    "tau_row": None,
+                },
+            )
+
+            best = group.loc[
+                group["kendall_tau"].idxmin(), columns
+            ].to_dict()
+            previous_best = state["best_row"]
+            if (
+                previous_best is None
+                or float(best["kendall_tau"])
+                < float(previous_best["kendall_tau"])
+            ):
+                state["best_row"] = best
+
+            if state["winner_change_row"] is None:
+                winners = group[group["_winner_flag"]]
+                if not winners.empty:
+                    state["winner_change_row"] = (
+                        winners.iloc[0][columns].to_dict()
+                    )
+
+            if state["tau_row"] is None:
+                below_threshold = group[
+                    group["kendall_tau"] < tau_threshold
+                ]
+                if not below_threshold.empty:
+                    state["tau_row"] = (
+                        below_threshold.iloc[0][columns].to_dict()
+                    )
+
+    return summaries
+
+
 def run_exact_search(
     matrix: np.ndarray,
     methods: list[str],
@@ -268,16 +347,24 @@ def run_exact_search(
     evaluations_file = output_dir / "evaluations.csv"
     summaries: dict[int, dict] = {}
     n = len(datasets)
+    cached_depth_summaries = load_depth_summary_cache(
+        evaluations_file, tau_threshold
+    )
 
     for depth in range(1, exact_max_removals + 1):
         total = math.comb(n, depth)
         print(f"\nEXACT SEARCH — remove {depth} dataset(s): {total:,} combinations")
         depth_start = time.perf_counter()
         rows: list[dict] = []
-        best_tau = float("inf")
-        best_row = None
-        winner_change_row = None
-        tau_row = None
+        cached_depth = cached_depth_summaries.get(depth, {})
+        best_row = cached_depth.get("best_row")
+        best_tau = (
+            float(best_row["kendall_tau"])
+            if best_row is not None
+            else float("inf")
+        )
+        winner_change_row = cached_depth.get("winner_change_row")
+        tau_row = cached_depth.get("tau_row")
         evaluated_this_depth = 0
 
         for combo in itertools.combinations(range(n), depth):
@@ -308,29 +395,6 @@ def run_exact_search(
         append_rows(evaluations_file, rows)
 
         elapsed = time.perf_counter() - depth_start
-        # If this depth was already fully evaluated before, derive the summary
-        # from the checkpoint cache instead of printing misleading None values.
-        if best_row is None:
-            cached_depth_rows = []
-            for mask, cached in load_evaluation_cache(evaluations_file).items():
-                try:
-                    if int(cached["num_removed"]) == depth:
-                        cached_depth_rows.append(cached)
-                except (KeyError, TypeError, ValueError):
-                    pass
-            if cached_depth_rows:
-                best_cached = min(cached_depth_rows, key=lambda r: float(r["kendall_tau"]))
-                best_row = best_cached
-                winner_cached = next(
-                    (r for r in cached_depth_rows if str(r["winner_changed"]).lower() == "true"),
-                    None,
-                )
-                tau_cached = next(
-                    (r for r in cached_depth_rows if float(r["kendall_tau"]) < tau_threshold),
-                    None,
-                )
-                winner_change_row = winner_change_row or winner_cached
-                tau_row = tau_row or tau_cached
 
         depth_summary = {
             "depth": depth,

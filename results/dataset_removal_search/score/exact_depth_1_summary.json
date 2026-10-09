@@ -1,12 +1,12 @@
 {
+  "depth": 1,
+  "total_combinations": 51,
+  "evaluated_new": 0,
+  "elapsed_seconds": 5.5900000006658956e-05,
   "best_kendall_tau": 0.970307529162248,
   "best_removed_datasets": "blood-transfusion-service-center",
-  "depth": 1,
-  "elapsed_seconds": 5.5900000006658956e-05,
-  "evaluated_new": 0,
-  "tau_threshold_datasets": null,
-  "tau_threshold_found": false,
-  "total_combinations": 51,
+  "winner_change_found": false,
   "winner_change_datasets": null,
-  "winner_change_found": false
+  "tau_threshold_found": false,
+  "tau_threshold_datasets": null
 }

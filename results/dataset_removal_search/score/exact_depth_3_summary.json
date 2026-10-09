@@ -1,12 +1,12 @@
 {
+  "depth": 3,
+  "total_combinations": 20825,
+  "evaluated_new": 0,
+  "elapsed_seconds": 0.016668500000378117,
   "best_kendall_tau": 0.9321314952279957,
   "best_removed_datasets": "E-CommereShippingData|Is-this-a-good-customer|blood-transfusion-service-center",
-  "depth": 3,
-  "elapsed_seconds": 0.016668500000378117,
-  "evaluated_new": 0,
-  "tau_threshold_datasets": null,
-  "tau_threshold_found": false,
-  "total_combinations": 20825,
+  "winner_change_found": false,
   "winner_change_datasets": null,
-  "winner_change_found": false
+  "tau_threshold_found": false,
+  "tau_threshold_datasets": null
 }

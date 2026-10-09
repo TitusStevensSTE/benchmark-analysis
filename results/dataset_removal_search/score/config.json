@@ -55,7 +55,7 @@
   ],
   "exact_max_removals": 5,
   "full_winner": "REALMLP (tuned + ensemble)",
-  "input_file": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\Code\\analysis\\results\\score_method_dataset.csv",
+  "input_file": "D:\\Users\\titus\\Informatik-DO\\benchmark-analysis\\results\\score_method_dataset.csv",
   "max_removals": 10,
   "methods": [
     "CAT (default)",

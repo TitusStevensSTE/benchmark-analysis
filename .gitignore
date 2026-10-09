@@ -24,3 +24,6 @@ Thumbs.db
 Code/analysis/results/dataset_removal_search/score/evaluations.csv
 Code/analysis/results/dataset_removal_search/elo/
 Code/analysis/results/dataset_removal_elo/
+
+# Large generated joint-removal cache (keep local)
+/results/dataset_removal_search/score/evaluations.csv

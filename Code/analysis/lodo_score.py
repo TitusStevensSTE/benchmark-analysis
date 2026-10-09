@@ -548,9 +548,9 @@ def aggregate_score(
         kind="mergesort",
     ).reset_index(drop=True)
 
-    aggregate["rank"] = (
-        np.arange(len(aggregate))
-        + 1
+    aggregate["rank"] = aggregate["score"].rank(
+        ascending=False,
+        method="average",
     )
 
     return aggregate

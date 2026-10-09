@@ -1,12 +1,12 @@
 {
-  "best_kendall_tau": 0.9533404029692469,
-  "best_removed_datasets": "jm1|maternal_health_risk|physiochemical_protein|wine_quality",
   "depth": 4,
-  "elapsed_seconds": 3.593963199999962,
-  "evaluated_new": 2766,
-  "tau_threshold_datasets": null,
-  "tau_threshold_found": false,
   "total_combinations": 249900,
+  "evaluated_new": 2766,
+  "elapsed_seconds": 3.593963199999962,
+  "best_kendall_tau": 0.9151643690349944,
+  "best_removed_datasets": "Food_Delivery_Time|Is-this-a-good-customer|blood-transfusion-service-center|healthcare_insurance_expenses",
+  "winner_change_found": false,
   "winner_change_datasets": null,
-  "winner_change_found": false
+  "tau_threshold_found": false,
+  "tau_threshold_datasets": null
 }
