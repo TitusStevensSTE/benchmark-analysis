@@ -27,3 +27,6 @@ Code/analysis/results/dataset_removal_elo/
 
 # Large generated joint-removal cache (keep local)
 /results/dataset_removal_search/score/evaluations.csv
+/results/dataset_removal_search/elo/evaluations.csv
+/results/dataset_removal_search/elo/beam_states.csv
+/results/dataset_removal_search/elo/beam_checkpoint.json
