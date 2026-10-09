@@ -17,8 +17,8 @@
     "figure_07_performance_gap.png",
     "figure_08_crossbenchmark_lodo.pdf",
     "figure_08_crossbenchmark_lodo.png",
-    "figure_09_diversity_vs_sensitivity.pdf",
-    "figure_09_diversity_vs_sensitivity.png",
+    "figure_09_benchbench_diversity_vs_sensitivity_two_panel.pdf",
+    "figure_09_benchbench_diversity_vs_sensitivity_two_panel.png",
     "figure_manifest.json"
   ]
 }

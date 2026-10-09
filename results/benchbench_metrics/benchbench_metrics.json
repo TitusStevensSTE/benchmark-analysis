@@ -1,61 +1,40 @@
 {
-  "created_at_utc": "2026-09-24T23:45:03.971919+00:00",
-  "benchmarks": [
-    "TabArena",
+  "created_at_utc": "2026-10-09T20:38:34.539988+00:00",
+  "benchbench_version": "not reported",
+  "reference_benchmarks": [
     "GLUE",
+    "SuperGLUE",
+    "BIG-Bench-Hard",
+    "MTEB",
     "OpenLLM",
+    "MMLU",
+    "VTAB",
     "ImageNet"
   ],
-  "run_benchbench": true,
-  "openllm_unique_model_check": true,
-  "sensitivity_kwargs": {
-    "use_weighted_loss": null,
-    "return_weight": true
-  },
-  "methodology": {
-    "interface": "BenchBench cardinal measures",
-    "score_orientation": "higher_is_better",
-    "tabarena_source": "score_method_dataset.csv",
-    "tabarena_score": "dataset_score",
-    "tabarena_raw_metric_error_used": false,
-    "diversity_W_definition": "BenchBench complement of Kendall's W",
-    "diversity_MRC_definition": "mean pairwise normalized maximum rank change across task rankings",
-    "sensitivity_tau_definition": "BenchBench normalized Kendall rank distance: (1 - Kendall tau) / 2",
-    "sensitivity_MRC_definition": "maximum normalized rank displacement found by BenchBench sensitivity optimization",
-    "native_loaders_used": true,
-    "hardcoded_metric_values_used": false,
-    "synthetic_reference_values_used": false
-  },
+  "method": "BenchBench load_cardinal_benchmark + native get_diversity/get_sensitivity defaults",
+  "tabarena_source": "results/score_method_dataset.csv; dataset_score is higher-is-better",
+  "note": "Dimensions are checked as diagnostics only; dimension match is not a numerical comparison with the historical notebook.",
   "environment": {
-    "python": "3.12.13",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "numpy": "2.5.2",
-    "pandas": "2.3.3",
-    "benchbench_version": null
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3"
   },
-  "records": [
+  "results": [
     {
       "benchmark": "TabArena",
       "representation": "score_matrix",
       "num_models": 44,
       "num_tasks": 51,
-      "model_column": "model",
+      "model_column": "Model",
       "diversity_W": 0.6776286682268525,
       "diversity_MRC": 0.7201367989056089,
       "sensitivity_tau": 0.3467656415694592,
       "sensitivity_MRC": 0.7441860465116279,
-      "metadata": {
-        "source": "results\\score_method_dataset.csv",
-        "score_column": "dataset_score",
-        "score_orientation": "higher_is_better",
-        "raw_metric_error_used": false,
-        "normalization": "precomputed TabArena dataset_score",
-        "duplicate_model_names": false
-      }
+      "snapshot_status": "not checked"
     },
     {
       "benchmark": "GLUE",
-      "representation": "native",
+      "representation": "native_loader",
       "num_models": 87,
       "num_tasks": 9,
       "model_column": "Model",
@@ -63,16 +42,47 @@
       "diversity_MRC": 0.7251291989664083,
       "sensitivity_tau": 0.12112299465240645,
       "sensitivity_MRC": 0.7325581395348837,
-      "metadata": {
-        "loader": "BenchBench native loader",
-        "score_orientation": "higher_is_better",
-        "duplicate_model_names": true,
-        "num_columns_total": 23
-      }
+      "snapshot_status": "dimensions match"
+    },
+    {
+      "benchmark": "SuperGLUE",
+      "representation": "native_loader",
+      "num_models": 28,
+      "num_tasks": 8,
+      "model_column": "Model",
+      "diversity_W": 0.1339227681014934,
+      "diversity_MRC": 0.47222222222222227,
+      "sensitivity_tau": 0.11111111111111116,
+      "sensitivity_MRC": 0.2962962962962963,
+      "snapshot_status": "dimensions match"
+    },
+    {
+      "benchmark": "BIG-Bench-Hard",
+      "representation": "native_loader",
+      "num_models": 107,
+      "num_tasks": 27,
+      "model_column": "Model",
+      "diversity_W": 0.32288681569786026,
+      "diversity_MRC": 0.7333628984572381,
+      "sensitivity_tau": 0.24528301886792453,
+      "sensitivity_MRC": 0.8018867924528302,
+      "snapshot_status": "dimensions match"
+    },
+    {
+      "benchmark": "MTEB",
+      "representation": "native_loader",
+      "num_models": 83,
+      "num_tasks": 112,
+      "model_column": "Model",
+      "diversity_W": 0.08271182563079049,
+      "diversity_MRC": 0.2740263128982641,
+      "sensitivity_tau": 0.18131060828680579,
+      "sensitivity_MRC": 0.6097560975609756,
+      "snapshot_status": "dimension mismatch; expected 83x56"
     },
     {
       "benchmark": "OpenLLM",
-      "representation": "native",
+      "representation": "native_loader",
       "num_models": 100,
       "num_tasks": 6,
       "model_column": "Model",
@@ -80,12 +90,43 @@
       "diversity_MRC": 0.9329966329966328,
       "sensitivity_tau": 0.46237483391070744,
       "sensitivity_MRC": 0.8939393939393939,
-      "metadata": {
-        "loader": "BenchBench native loader",
-        "score_orientation": "higher_is_better",
-        "duplicate_model_names": true,
-        "num_columns_total": 10
-      }
+      "snapshot_status": "dimensions match"
+    },
+    {
+      "benchmark": "MMLU",
+      "representation": "native_loader",
+      "num_models": 98,
+      "num_tasks": 57,
+      "model_column": "model_name",
+      "diversity_W": 0.5329838958117468,
+      "diversity_MRC": 0.7911273027930651,
+      "sensitivity_tau": 0.34288121314237574,
+      "sensitivity_MRC": 0.9278350515463918,
+      "snapshot_status": "dimension mismatch; expected 100x57"
+    },
+    {
+      "benchmark": "VTAB",
+      "representation": "native_loader",
+      "num_models": 16,
+      "num_tasks": 19,
+      "model_column": "not required by metrics",
+      "diversity_W": 0.189747128075607,
+      "diversity_MRC": 0.3783625730994151,
+      "sensitivity_tau": 0.06666666666666665,
+      "sensitivity_MRC": 0.26666666666666666,
+      "snapshot_status": "dimensions match"
+    },
+    {
+      "benchmark": "ImageNet",
+      "representation": "native_loader",
+      "num_models": 112,
+      "num_tasks": 20,
+      "model_column": "Model",
+      "diversity_W": 0.008201359962036858,
+      "diversity_MRC": 0.13854907539118064,
+      "sensitivity_tau": 0.021396396396396455,
+      "sensitivity_MRC": 0.09009009009009009,
+      "snapshot_status": "dimensions match"
     },
     {
       "benchmark": "OpenLLM",
@@ -97,32 +138,31 @@
       "diversity_MRC": 0.934108527131783,
       "sensitivity_tau": 0.45548128183109615,
       "sensitivity_MRC": 0.8953488372093024,
-      "metadata": {
-        "loader": "BenchBench native loader",
-        "score_orientation": "higher_is_better",
-        "duplicate_model_names": true,
-        "num_columns_total": 10,
-        "deduplication": "mean task score across rows sharing the same model name",
-        "source_native_rows": 100,
-        "unique_models": 87
-      }
+      "snapshot_status": "not checked"
     },
     {
-      "benchmark": "ImageNet",
-      "representation": "native",
-      "num_models": 112,
-      "num_tasks": 20,
-      "model_column": "Model",
-      "diversity_W": 0.008201359962036858,
-      "diversity_MRC": 0.13854907539118064,
-      "sensitivity_tau": 0.021396396396396455,
-      "sensitivity_MRC": 0.09009009009009009,
-      "metadata": {
-        "loader": "BenchBench native loader",
-        "score_orientation": "higher_is_better",
-        "duplicate_model_names": true,
-        "num_columns_total": 1029
-      }
+      "benchmark": "Random",
+      "representation": "generated_control",
+      "num_models": 100,
+      "num_tasks": 100,
+      "model_column": "not required by metrics",
+      "diversity_W": 0.9910829762976298,
+      "diversity_MRC": 0.9240832568105295,
+      "sensitivity_tau": 0.5040404040404041,
+      "sensitivity_MRC": 0.9292929292929293,
+      "snapshot_status": "not checked"
+    },
+    {
+      "benchmark": "Constant",
+      "representation": "generated_control",
+      "num_models": 100,
+      "num_tasks": 100,
+      "model_column": "not required by metrics",
+      "diversity_W": 0.0,
+      "diversity_MRC": 0.0,
+      "sensitivity_tau": 0.0,
+      "sensitivity_MRC": 0.0,
+      "snapshot_status": "not checked"
     }
   ]
 }

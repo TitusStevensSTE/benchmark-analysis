@@ -1,14 +1,16 @@
 {
   "run_benchbench": true,
-  "benchmarks": [
-    "TabArena",
+  "include_random_constant": true,
+  "control_seed": 42,
+  "reference_benchmarks": [
     "GLUE",
+    "SuperGLUE",
+    "BIG-Bench-Hard",
+    "MTEB",
     "OpenLLM",
+    "MMLU",
+    "VTAB",
     "ImageNet"
   ],
-  "openllm_unique_model_check": true,
-  "sensitivity_kwargs": {
-    "use_weighted_loss": null,
-    "return_weight": true
-  }
+  "sensitivity_parameters": "BenchBench defaults; no custom parameters"
 }
