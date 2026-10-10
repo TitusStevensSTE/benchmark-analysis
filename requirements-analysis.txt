@@ -1,0 +1,9 @@
+# Direct dependency pins from the audited Python 3.12.10 environment.
+# This is not a complete transitive lockfile.
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.11.1
+scikit-learn==1.9.0
+torch==2.14.0
+joblib==1.6.0

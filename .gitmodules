@@ -1,0 +1,3 @@
+[submodule "Code/tabarena"]
+    path = Code/tabarena
+    url = https://github.com/autogluon/tabarena.git

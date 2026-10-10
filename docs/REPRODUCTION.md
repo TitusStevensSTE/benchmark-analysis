@@ -4,6 +4,42 @@
 
 All commands below assume the working directory is the repository root.
 
+### Restore required source checkouts on a fresh clone
+
+Initialize the TabArena submodule at the revision recorded by the main repository:
+
+```powershell
+git submodule update --init --recursive
+```
+
+BenchBench is a separate checkout ignored by the main repository. The validated revision is `1dbce6d655570c5095d62a68fa3430800df46ca8` from `https://github.com/socialfoundations/benchbench.git`.
+
+If `benchbench/` does not exist, clone it from the repository root:
+
+```powershell
+git clone https://github.com/socialfoundations/benchbench.git benchbench
+git -C benchbench checkout 1dbce6d655570c5095d62a68fa3430800df46ca8
+```
+
+
+### Create a fresh Python environment (optional)
+
+The audited environment used Python 3.12.10. From the repository root:
+
+```powershell
+py -3.12 -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements-analysis.txt
+python -m pip install -e .\Code\tabarena\packages\bencheval
+python -m pip install -e .\benchbench
+```
+
+The requirements file pins the direct numerical and plotting dependencies from the audited environment; it is not a complete transitive lockfile. The local `bencheval` and BenchBench checkouts are installed separately.
+
+Alternatively, activate the existing thesis environment as described below.
+
 Activate the project environment used for the thesis:
 
 ```powershell
@@ -20,7 +56,7 @@ python -c "import sys; print(sys.executable)"
 
 The active analysis code uses repository-relative paths via `Code/analysis/analysis_config.py`.
 
-## 2. Read-only report validation
+## 2. Report and figure validation
 
 Use this before submission:
 
@@ -35,7 +71,7 @@ Report validation passed: required saved outputs are present.
 Pipeline complete.
 ```
 
-The report mode checks the presence of the canonical result tables and the nine consolidated thesis figures. It does not run the expensive benchmark searches.
+Report mode regenerates configured report and figure outputs under `results/`, including the nine consolidated thesis figures and the benchmark-comparison CSV/Markdown files. It then validates the canonical result tables and final figure pairs. It does not rerun the expensive benchmark searches. Because generated files can be overwritten, this is not a read-only operation.
 
 ## 3. Regenerate derived analyses
 

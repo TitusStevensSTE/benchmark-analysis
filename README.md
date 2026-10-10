@@ -2,6 +2,10 @@
 
 This repository contains the analysis code, saved results, and final figures for the bachelor's thesis on ranking robustness, diversity, and stability in multi-task benchmarks.
 
+## Reproducibility setup
+
+A fresh clone requires initializing the pinned `Code/tabarena` Git submodule and checking out the documented BenchBench revision. See `docs/REPRODUCTION.md` for setup and execution instructions.
+
 ## Research focus
 
 The project studies how benchmark rankings change when benchmark composition is perturbed. The repository contains analyses based on:
@@ -39,7 +43,7 @@ results/
 
 Do not treat files under `docs/original_scripts/` as the current execution path. They are preserved historical versions.
 
-## Safe report check
+## Report and figure validation
 
 For a final consistency check, run:
 
@@ -47,7 +51,7 @@ For a final consistency check, run:
 python Code/analysis/run_current_pipeline.py --report
 ```
 
-The report mode is intended to be read-only with respect to the analysis outputs: it validates the saved result tables and checks that all nine final thesis figures are present. It does not launch the expensive benchmark searches.
+Report mode regenerates configured report plots and figures, refreshes `results/benchmark_comparison.csv` and `results/benchmark_comparison.md`, and validates the canonical result tables and all nine final thesis figure pairs. It does not launch the expensive benchmark searches. This mode is not read-only: generated files under `results/` can be overwritten.
 
 Running without arguments currently has the same report behavior:
 
@@ -85,7 +89,7 @@ The current report output records the following cross-benchmark LODO summaries:
 
 | Benchmark | Tasks | Competitors | Mean Kendall tau | Worst Kendall tau | Winner-changing removals |
 |---|---:|---:|---:|---:|---:|
-| TabArena (Score) | 51 | 44 | 0.988103 | 0.970402 | 0 |
+| TabArena (Score) | 51 | 44 | 0.988065 | 0.970308 | 0 |
 | GLUE | 9 | 87 | 0.972259 | 0.934242 | 3 |
 | OpenLLM (unique-model mean) | 6 | 87 | 0.704357 | 0.315156 | 2 |
 | ImageNet | 1000 | 112 | 0.999560 | 0.997748 | 0 |
