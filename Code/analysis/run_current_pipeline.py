@@ -15,6 +15,10 @@ from analysis_config import ANALYSIS_DIR, PROJECT_ROOT, RESULTS_DIR
 
 STAGES = {
     # Report-only stages. These consume existing saved results.
+    "random_subset_diagnostics": (
+        "plot_random_subset_rank_diagnostics.py",
+        "report",
+    ),
     "final_figures": ("plot_final_thesis_figures.py", "report"),
     "crossbenchmark_plots": ("plot_crossbenchmark_lodo.py", "report"),
     "fold_plots": ("plot_fold_stability_figures.py", "report"),
@@ -53,6 +57,7 @@ STAGES = {
 }
 
 PLOT_ORDER = [
+    "random_subset_diagnostics",
     "final_figures",
     "crossbenchmark_plots",
     "fold_plots",
@@ -130,6 +135,22 @@ REQUIRED_REPORT_FILES = [
         / "score"
         / "depth_summary.csv"
     ),
+        RESULTS_DIR / "score_method_dataset.csv",
+    (
+        RESULTS_DIR
+        / "random_subset_winner_frequency"
+        / "baseline_ranking.csv"
+    ),
+    (
+        RESULTS_DIR
+        / "random_subset_winner_frequency"
+        / "random_subset_rank_diagnostics_repetitions.csv"
+    ),
+    (
+        RESULTS_DIR
+        / "random_subset_winner_frequency"
+        / "random_subset_rank_diagnostics_summary.csv"
+    ),
 ]
 
 
@@ -143,6 +164,8 @@ FINAL_FIGURE_STEMS = [
     "figure_07_performance_gap",
     "figure_08_crossbenchmark_lodo",
     "figure_09_benchbench_diversity_vs_sensitivity_two_panel",
+    "figure_10_random_subset_top10_rank_distributions",
+    "figure_11_random_subset_global_stability",
 ]
 
 

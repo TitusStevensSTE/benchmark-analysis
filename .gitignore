@@ -30,3 +30,6 @@ Code/analysis/results/dataset_removal_elo/
 /results/dataset_removal_search/elo/evaluations.csv
 /results/dataset_removal_search/elo/beam_states.csv
 /results/dataset_removal_search/elo/beam_checkpoint.json
+
+# Generated random-subset rank diagnostics
+/results/random_subset_winner_frequency/random_subset_rank_diagnostics_repetitions.csv

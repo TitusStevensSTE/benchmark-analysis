@@ -51,7 +51,7 @@ For a final consistency check, run:
 python Code/analysis/run_current_pipeline.py --report
 ```
 
-Report mode regenerates configured report plots and figures, refreshes `results/benchmark_comparison.csv` and `results/benchmark_comparison.md`, and validates the canonical result tables and all nine final thesis figure pairs. It does not launch the expensive benchmark searches. This mode is not read-only: generated files under `results/` can be overwritten.
+Report mode regenerates configured report plots and figures, refreshes `results/benchmark_comparison.csv` and `results/benchmark_comparison.md`, and validates the canonical result tables and all eleven final thesis figure pairs. It does not launch the expensive benchmark searches. This mode is not read-only: generated files under `results/` can be overwritten.
 
 Running without arguments currently has the same report behavior:
 

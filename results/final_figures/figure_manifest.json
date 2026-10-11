@@ -19,6 +19,10 @@
     "figure_08_crossbenchmark_lodo.png",
     "figure_09_benchbench_diversity_vs_sensitivity_two_panel.pdf",
     "figure_09_benchbench_diversity_vs_sensitivity_two_panel.png",
+    "figure_10_random_subset_top10_rank_distributions.pdf",
+    "figure_10_random_subset_top10_rank_distributions.png",
+    "figure_11_random_subset_global_stability.pdf",
+    "figure_11_random_subset_global_stability.png",
     "figure_manifest.json"
   ]
 }

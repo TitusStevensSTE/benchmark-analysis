@@ -94,6 +94,30 @@ Purpose: connect the stability analysis with the saved BenchBench diversity/sens
 
 Interpretation: this is a descriptive cross-benchmark synthesis and should not be used to claim a universal causal trade-off from a small number of benchmark observations.
 
+## Figure 10 — Random-subset rank distributions
+
+**File:** `figure_10_random_subset_top10_rank_distributions`
+
+**Purpose:** Show how the ranks of the ten highest-ranked methods in the full TabArena benchmark vary when only subsets of the datasets are used.
+
+**Interpretation:** Each distribution describes rank variation across 1,000 random subsets at the selected subset size. All 44 methods are ranked in each repetition. A narrow distribution indicates relatively stable ranks, while a wider distribution indicates greater sensitivity to benchmark composition. The full-benchmark rank provides a reference point.
+
+**Important:** The violin plots use smoothed density estimates for discrete ranks. Their shape is a visualization of the observed rank distribution, not a claim that fractional ranks were observed.
+
+## Figure 11 — Global ranking stability by subset size
+
+**File:** `figure_11_random_subset_global_stability`
+
+**Purpose:** Examine how the number of evaluated datasets relates to agreement with the full TabArena ranking.
+
+**Key measures:** Kendall's tau for the complete ranking and top-five overlap for the leading methods.
+
+**Interpretation:** Lines show median values across random subsets of each size. Shaded regions show the 10th–90th percentile range across the 1,000 repetitions. The figure distinguishes overall ranking agreement from stability among the leading methods.
+
+**Important:** The shaded regions describe variation across random benchmark compositions. They are not confidence intervals. At 51 datasets, both measures equal 1 by construction because the full benchmark is the reference ranking.
+
+
+
 ## Supporting plots
 
 Additional diagnostics remain under their analysis-specific result directories, including:
@@ -107,4 +131,4 @@ results/score_vs_elo/plots/
 results/dataset_influence/plots/
 ```
 
-These are not part of the nine-figure consolidated thesis set unless explicitly selected as supplementary material.
+These are not part of the eleven-figure consolidated thesis set unless explicitly selected as supplementary material.
