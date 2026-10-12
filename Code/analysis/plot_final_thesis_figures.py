@@ -266,7 +266,7 @@ def figure_02_lodo_score_vs_elo() -> None:
         label="τ = 0.90",
     )
 
-    ax.set_xlabel("Datasets removed (ordered by Score Kendall's τ)")
+    ax.set_xlabel("Subset size")
     ax.set_ylabel("Kendall's τ")
     ax.set_ylim(
         max(
